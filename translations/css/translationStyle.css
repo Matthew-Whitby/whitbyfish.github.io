@@ -2,6 +2,10 @@
     margin:auto;
     text-align: center;
 }
+.visible{
+  text-align:center;
+  margin: auto;
+}
 h1{
   text-align: center;
 }
