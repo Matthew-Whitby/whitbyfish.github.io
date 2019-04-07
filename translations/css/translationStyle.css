@@ -5,6 +5,9 @@ body{
     margin:auto;
     text-align: center;
 }
+.description{
+  text-align: center;
+}
 .visible{
   background-color: #e3e9ec;
   border-radius: 5px;
