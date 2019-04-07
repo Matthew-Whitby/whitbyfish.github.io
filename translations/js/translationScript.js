@@ -21,6 +21,7 @@ function openTab(evt,tabName){
     console.log("ENTERED");
     var hiragana=document.getElementById(tabName);
     console.log(hiragana.id);
+    console.log(hiragana);
     var childNodes=hiragana.childNodes[1].childNodes;
     console.log(hiragana.childnodes[1].id);
     for(i=0;i<childNodes.length;i++){
