@@ -38,9 +38,6 @@ h3{
     border-top: none;
     margin:auto;
     width:70%;
-  }
-
-  .tabcontent {
     animation: fadeEffect 0.75s;
   }
   
