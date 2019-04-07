@@ -33,6 +33,7 @@ function openTab(evt,tabName){
   }
 
   function ToggleVisibility(btn){
+    console.log(btn);
     console.log("Entered");
     var node=btn.parentElement.children[0];
     console.log(node);
