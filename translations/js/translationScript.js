@@ -27,7 +27,7 @@ function openTab(evt,tabName){
         button.innerHTML="Toggle Visibility";
         button.className="visible";
         button.addEventListener("click",ToggleVisibility,this);
-        childNodes[i].children[1].appendChild(button);
+        childNodes[i].children[0].appendChild(button);
       }
   }
 
