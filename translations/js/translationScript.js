@@ -22,7 +22,7 @@ function openTab(evt,tabName){
     var childNodes=hiragana.children;
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className=="line"){
-        childNodes[i].children[1].children[0].style.opacity="0.0";
+        childNodes[i].children[1].children[0].style.opacity="0";
       }
     }
   }
@@ -32,5 +32,5 @@ function openTab(evt,tabName){
     var node=btn.parentElement.children[0];
     console.log(node);
     console.log(node.style.opacity);
-    node.style.opacity=(node.style.opacity=="0.0")?"1.0":"0.0";
+    node.style.opacity=(node.style.opacity=="0")?"1":"0";
   }
