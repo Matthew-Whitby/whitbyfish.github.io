@@ -14,7 +14,7 @@ h3{
   background-color: #f1f1f1;
 }
   
-.tab button {
+.tabbtn{
   width: 25%;
   background-color: inherit;
   float: left;
@@ -25,11 +25,11 @@ h3{
   transition: 0.3s;
 }
   
-.tab button:hover {
+.tabbtn:hover {
   background-color: #ddd;
 }
   
-.tab button.active {
+.tabbtn.active {
   background-color: #ccc;
 }
 .line{
