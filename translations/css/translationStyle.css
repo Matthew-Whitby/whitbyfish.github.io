@@ -3,6 +3,9 @@
     margin:auto;
     text-align: center;
 }
+h3{
+  text-align: center;
+}
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
