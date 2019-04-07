@@ -6,8 +6,6 @@ body{
     text-align: center;
 }
 .visible{
-  text-align:center;
-  margin: auto;
   background-color: #e3e9ec;
   border-radius: 5px;
 }
