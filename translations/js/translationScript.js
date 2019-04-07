@@ -27,3 +27,8 @@ function openTab(evt,tabName){
       }
     }
   }
+
+  function ToggleVisibility(btn){
+    var node=btn.parentElement.children[0];
+    node.style.opacity=(node.style.opacity=="0.0")?"1.0":"0.0";
+  }
