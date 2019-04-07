@@ -22,7 +22,7 @@ function openTab(evt,tabName){
     let childNodes=hiragana.children;
     for(i=0;i<childNodes.length;i++)
       if(childNodes[i].className=="line"){
-        childNodes[i].children[1].children[0].style.opacity="0";
+        childNodes[i].children[0].children[0].style.opacity="0";
         let button=document.createElement("BUTTON");
         button.innerHTML="Toggle Visibility";
         button.className="visible";
@@ -42,7 +42,7 @@ function openTab(evt,tabName){
     let opacityVal;
     for(i=0;i<childNodes.length;i++)
       if(childNodes[i].className=="line"){
-        var node=childNodes[i].children[1].children[0];
+        var node=childNodes[i].children[0].children[0];
         if(!i){
           node.style.opacity=(node.style.opacity=="0")?"1":0;
           opacityVal=node.style.opacity;
