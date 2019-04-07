@@ -22,8 +22,8 @@ function openTab(evt,tabName){
     var hiragana=document.getElementById(tabName+"lyrics");
     console.log(hiragana.id);
     console.log(hiragana);
-    var childNodes=hiragana.childNodes;
-    console.log(hiragana.childnodes[1].id);
+    var childNodes=hiragana.children;
+    console.log(hiragana.children[1].id);
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className=="line"){
         console.log(childNodes[i].lastChild.firstChild.textContent);
