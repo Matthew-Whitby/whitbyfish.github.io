@@ -8,6 +8,7 @@ body{
 .visible{
   background-color: #e3e9ec;
   border-radius: 5px;
+  border-color: #555;
 }
 h1{
   text-align: center;
