@@ -1,4 +1,4 @@
-function openTab(evt,tabName,buttonsShown){
+function openTab(evt,tabName){
     let i,tabcontent,tablinks;
   
     // Hide tabs
@@ -11,26 +11,25 @@ function openTab(evt,tabName,buttonsShown){
     for(i=0;i<tablinks.length;i++)
       tablinks[i].className=tablinks[i].className.replace(" active", "");
   
-    if(tabName=="hiragana")HideRomaji(tabName,buttonsShown);
+    if(tabName=="hiragana")HideRomaji(tabName);
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display="block";
     evt.currentTarget.className+=" active";
   } 
 
-  function HideRomaji(tabName,buttonsShown){
-    if(!buttonsShown){
-      buttonsShown=true;
-      let hiragana=document.getElementById(tabName+"lyrics");
-      let childNodes=hiragana.children;
+  function HideRomaji(tabName){
+    let hiragana=document.getElementById(tabName+"lyrics");
+    let childNodes=hiragana.children;
+    if(childNodes[0].children[0].children.length==1){
       for(i=0;i<childNodes.length;i++)
-        if(childNodes[i].className=="line"){
-          childNodes[i].children[0].children[0].style.opacity="0";
-          let button=document.createElement("BUTTON");
-          button.innerHTML="Toggle Visibility";
-          button.className="visible";
-          button.addEventListener("click",ToggleVisibility,this);
-          childNodes[i].children[0].appendChild(button);
-        }
+      if(childNodes[i].className=="line"){
+        childNodes[i].children[0].children[0].style.opacity="0";
+        let button=document.createElement("BUTTON");
+        button.innerHTML="Toggle Visibility";
+        button.className="visible";
+        button.addEventListener("click",ToggleVisibility,this);
+        childNodes[i].children[0].appendChild(button);
+      }
     }
   }
 
