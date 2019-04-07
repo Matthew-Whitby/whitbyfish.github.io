@@ -45,11 +45,3 @@ text{
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
   color:#FF91A4;
 }
-.tabcontent {
-  animation: fadeEffect 0.75s; 
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
