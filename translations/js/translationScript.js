@@ -18,7 +18,6 @@ function openTab(evt,tabName){
   } 
 
   function HideRomaji(tabName){
-    console.log("ENTERED");
     var hiragana=document.getElementById(tabName+"lyrics");
     var childNodes=hiragana.children;
     for(i=0;i<childNodes.length;i++){
@@ -29,6 +28,9 @@ function openTab(evt,tabName){
   }
 
   function ToggleVisibility(btn){
+    console.log("Entered");
     var node=btn.parentElement.children[0];
+    console.log(node);
+    console.log(node.style.opacity);
     node.style.opacity=(node.style.opacity=="0.0")?"1.0":"0.0";
   }
