@@ -26,7 +26,7 @@ function openTab(evt,tabName){
     console.log(hiragana.children[1].id);
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className=="line"){
-        console.log(childNodes[i].lastChild.firstChild.textContent);
+        console.log(childNodes[i].children[1].children[0].innerHTML);
       }
     }
   }
