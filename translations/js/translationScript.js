@@ -1,5 +1,4 @@
-var buttonsShown=false;
-function openTab(evt,tabName){
+function openTab(evt,tabName,buttonsShown){
     let i,tabcontent,tablinks;
   
     // Hide tabs
@@ -12,14 +11,15 @@ function openTab(evt,tabName){
     for(i=0;i<tablinks.length;i++)
       tablinks[i].className=tablinks[i].className.replace(" active", "");
   
-    if(tabName=="hiragana")HideRomaji(tabName);
+    if(tabName=="hiragana")HideRomaji(tabName,buttonsShown);
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display="block";
     evt.currentTarget.className+=" active";
   } 
 
-  function HideRomaji(tabName){
+  function HideRomaji(tabName,buttonsShown){
     if(!buttonsShown){
+      buttonsShown=true;
       let hiragana=document.getElementById(tabName+"lyrics");
       let childNodes=hiragana.children;
       for(i=0;i<childNodes.length;i++)
