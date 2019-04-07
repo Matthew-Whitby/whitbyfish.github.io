@@ -23,6 +23,11 @@ function openTab(evt,tabName){
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className=="line"){
         childNodes[i].children[1].children[0].style.opacity="0";
+        var button=document.createElement("BUTTON");
+        button.innerHTML="Toggle Visibility";
+        button.className="visible";
+        button.addEventListener("click",ToggleVisibility(this));
+        childNodes[i].children[1].appendChild(button);
       }
     }
   }
