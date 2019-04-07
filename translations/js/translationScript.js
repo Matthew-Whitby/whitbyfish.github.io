@@ -35,7 +35,7 @@ function openTab(evt,tabName){
   function ToggleVisibility(btn){
     console.log(btn);
     console.log("Entered");
-    var node=btn.parentElement.children[0];
+    var node=btn.currentTarget.parentElement.children[0];
     console.log(node);
     console.log(node.style.opacity);
     node.style.opacity=(node.style.opacity=="0")?"1":"0";
