@@ -8,10 +8,13 @@
 <body style="background-color: #e3e9ec;">
     <h1 style="text-align:center">Hashire!</h1>
 <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'full')">Full</button>
+    <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'full')">Full</button>
     <button class="tablinks" onclick="openTab(event, 'literal')">Literal</button>
     <button class="tablinks" onclick="openTab(event, 'explained')">Explained</button>
   </div>
+  <script>
+    document.getElementById("defaultOpen").click();
+    </script>
   
   <!--Taberinos-->
   <div id="full" class="tabcontent">
