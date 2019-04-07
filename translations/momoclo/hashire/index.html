@@ -1,78 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Hashire</title>
-<meta charset="UTF-8">
-<link rel=StyleSheet href="https://whitbyfish.net/translations/css/translationStyle.css" type="text/css">
-<script src="https://whitbyfish.net/translations/js/translationScript.js"></script>
+  <title>Hashire</title>
+  <meta charset="UTF-8">
+  <link rel=StyleSheet href="https://whitbyfish.net/translations/css/translationStyle.css" type="text/css">
+  <script src="https://whitbyfish.net/translations/js/translationScript.js"></script>
 </head>
+
 <body style="background-color: #e3e9ec;">
-    <h1>Hashire!</h1>
-<div class="tab">
+  <h1>Hashire!</h1>
+  <div class="tab">
     <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'full')">Full</button>
     <button class="tablinks" onclick="openTab(event, 'literal')">Literal</button>
     <button class="tablinks" onclick="openTab(event, 'explained')">Explained</button>
     <button class="tablinks" onclick="openTab(event,'kanji')">Kanji</button>
   </div>
-  
+
   <!--Taberinos-->
   <div id="full" class="tabcontent">
-      <h3>Full</h3>
-      <div id="lyrics">
-        <div class="line">
-          <div class="romaji">
-              <p>Egao ga tomaranai</p>
-          </div>
-          <div class="english">
-            <p>I can't stop smiling</p>
-          </div>
+    <h3>Full</h3>
+    <div id="lyrics">
+      <div class="line">
+        <div class="romaji">
+          <p>Egao ga tomaranai</p>
+        </div>
+        <div class="english">
+          <p>I can't stop smiling</p>
         </div>
       </div>
+    </div>
   </div>
-  
+
   <div id="literal" class="tabcontent">
     <h3>Literal</h3>
     <div id="lyrics">
       <div class="line">
         <div class="romaji">
-            <p>Egao ga tomaranai</p>
+          <p>Egao ga tomaranai</p>
         </div>
-       <div class="english">
-         <p>smile <- stop not</p>
-       </div>
+        <div class="english">
+          <p>smile <- stop not</p>
+        </div>
       </div>
     </div>
   </div>
-  
   <div id="explained" class="tabcontent">
     <h3>Explained</h3>
     <div id="lyrics">
       <div class="line">
         <div class="romaji">
-            <p>Egao ga tomaranai</p>
+          <p>Egao ga tomaranai</p>
         </div>
         <div class="english">
-          <p>smile |ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)| negative form of stop (tomaru=to stop, nai=negative part placed at end)</p>
+          <p>smile |ga - used as a maker for the word before it, similar to wa but with more emphasis on the
+            subject (it's complicated)| negative form of stop (tomaru=to stop, nai=negative part placed at
+            end)</p>
         </div>
       </div>
     </div>
-  </div> 
-  
+  </div>
+
   <div id="kanji" class="tabcontent">
     <h3>Kanji</h3>
     <div id="lyrics">
       <div class="line">
         <div class="romaji">
-            <p>Egao ga tomaranai</p>
+          <p>Egao ga tomaranai</p>
         </div>
         <div class="kanji">
           <p>笑顔が止まらない!</p>
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <script>
     document.getElementById("defaultOpen").click();
-    </script>
+  </script>
 </body>
+
 </html>
