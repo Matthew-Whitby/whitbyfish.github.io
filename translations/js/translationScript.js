@@ -1,3 +1,4 @@
+var buttonsShown=false;
 function openTab(evt,tabName){
     let i,tabcontent,tablinks;
   
@@ -18,17 +19,19 @@ function openTab(evt,tabName){
   } 
 
   function HideRomaji(tabName){
-    let hiragana=document.getElementById(tabName+"lyrics");
-    let childNodes=hiragana.children;
-    for(i=0;i<childNodes.length;i++)
-      if(childNodes[i].className=="line"){
-        childNodes[i].children[0].children[0].style.opacity="0";
-        let button=document.createElement("BUTTON");
-        button.innerHTML="Toggle Visibility";
-        button.className="visible";
-        button.addEventListener("click",ToggleVisibility,this);
-        childNodes[i].children[0].appendChild(button);
-      }
+    if(!buttonsShown){
+      let hiragana=document.getElementById(tabName+"lyrics");
+      let childNodes=hiragana.children;
+      for(i=0;i<childNodes.length;i++)
+        if(childNodes[i].className=="line"){
+          childNodes[i].children[0].children[0].style.opacity="0";
+          let button=document.createElement("BUTTON");
+          button.innerHTML="Toggle Visibility";
+          button.className="visible";
+          button.addEventListener("click",ToggleVisibility,this);
+          childNodes[i].children[0].appendChild(button);
+        }
+    }
   }
 
   function ToggleVisibility(btn){
