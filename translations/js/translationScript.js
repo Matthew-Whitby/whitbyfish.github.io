@@ -40,13 +40,12 @@ function openTab(evt,tabName){
     var hiragana=document.getElementById("hiraganalyrics");
     var childNodes=hiragana.children;
     var opacityVal;
-    for(i=0;i<childNodes.length;i++){
+    for(i=0;i<childNodes.length;i++)
       if(childNodes[i].className=="line"){
         var node=childNodes[i].children[1].children[0];
-        if(i==0){
+        if(!i){
           node.style.opacity=(node.style.opacity=="0")?"1":0;
           opacityVal=node.style.opacity;
         }else node.style.opacity=opacityVal;
       }
-    }
   }
