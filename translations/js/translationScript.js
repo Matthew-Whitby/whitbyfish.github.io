@@ -19,10 +19,10 @@ function openTab(evt,tabName){
 
   function HideRomaji(tabName){
     console.log("ENTERED");
-    var hiragana=document.getElementById(tabName);
+    var hiragana=document.getElementById(tabName+"lyrics");
     console.log(hiragana.id);
     console.log(hiragana);
-    var childNodes=hiragana.childNodes[1].childNodes;
+    var childNodes=hiragana.childNodes;
     console.log(hiragana.childnodes[1].id);
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className=="line"){
