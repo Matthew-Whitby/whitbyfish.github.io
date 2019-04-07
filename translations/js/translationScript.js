@@ -1,5 +1,5 @@
 function openTab(evt,tabName){
-    var i,tabcontent,tablinks;
+    let i,tabcontent,tablinks;
   
     // Hide tabs
     tabcontent=document.getElementsByClassName("tabcontent");
@@ -18,12 +18,12 @@ function openTab(evt,tabName){
   } 
 
   function HideRomaji(tabName){
-    var hiragana=document.getElementById(tabName+"lyrics");
-    var childNodes=hiragana.children;
+    let hiragana=document.getElementById(tabName+"lyrics");
+    let childNodes=hiragana.children;
     for(i=0;i<childNodes.length;i++)
       if(childNodes[i].className=="line"){
         childNodes[i].children[1].children[0].style.opacity="0";
-        var button=document.createElement("BUTTON");
+        let button=document.createElement("BUTTON");
         button.innerHTML="Toggle Visibility";
         button.className="visible";
         button.addEventListener("click",ToggleVisibility,this);
@@ -32,14 +32,14 @@ function openTab(evt,tabName){
   }
 
   function ToggleVisibility(btn){
-    var node=btn.currentTarget.parentElement.children[0];
+    let node=btn.currentTarget.parentElement.children[0];
     node.style.opacity=(node.style.opacity=="0")?"1":"0";
   }
 
   function ToggleAllVisibility(){
-    var hiragana=document.getElementById("hiraganalyrics");
-    var childNodes=hiragana.children;
-    var opacityVal;
+    let hiragana=document.getElementById("hiraganalyrics");
+    let childNodes=hiragana.children;
+    let opacityVal;
     for(i=0;i<childNodes.length;i++)
       if(childNodes[i].className=="line"){
         var node=childNodes[i].children[1].children[0];
