@@ -17,14 +17,10 @@ function openTab(evt, tabName) {
 function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
-  console.log(childNodes.length);
-  for (i = 0; i < 5; i++) {
-    console.log(i);
-    console.log(childNodes[i].className);
+  let length = childNodes.length;
+  for (i = 0; i < length; i++) {
     let node = FindNodeByClass(childNodes[i].children, "romaji", true);
-    console.log(node.className);
     if (node.parentElement.children.length == 1) {
-      console.log("No button");
       node.style.opacity = "0";
       let button = document.createElement("BUTTON");
       button.innerHTML = "Toggle Visibility";
