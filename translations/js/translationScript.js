@@ -41,7 +41,7 @@ function openTab(evt,tabName){
   function FindNode(childNodes,classId){
     for(i=0;i<childNodes.length;i++){
       if(childNodes[i].className==classId)return childNodes[i].children[0];
-      return FindNode(childNodes[i],classId);
+      if(childNodes[i].children.length>0)return FindNode(childNodes[i].children,classId);
     }
   }
 
