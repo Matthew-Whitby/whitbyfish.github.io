@@ -72,5 +72,9 @@ function ToggleAllVisibility() {
 
 function SetFirst(){
   let lines=document.getElementsByClassName("line");
-  for(i=0;i<lines.length;i++)lines[i].firstChild.classList.add("first");
+  for(i=0;i<lines.length;i++){
+    console.log(lines[i]);
+    lines[i].firstChild.classList.add("first");
+  }
+  
 }
