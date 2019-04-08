@@ -18,7 +18,7 @@ function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
   for (i = 0; i < childNodes.length; i++) {
-    let node = FindNode(childNodes[i], "romaji");
+    let node = FindNodeByClass(childNodes[i], "romaji",true);
     if (node.parentElement.children.length == 1) {
       node.style.opacity = "0";
       let button = document.createElement("BUTTON");
@@ -30,9 +30,11 @@ function HideRomaji(tabName) {
   }
 }
 
-function FindNode(childNodes, classId) {
+function FindNodeByClass(childNodes, classId,getChild) {
   for (i = 0; i < childNodes.length; i++) {
-    if (childNodes[i].className == classId) return childNodes[i].children[0];
+    if (childNodes[i].className == classId)
+      if(getChild) return childNodes[i].children[0];
+      else return childNodes[i];
     if (childNodes[i].children.length > 0) return FindNode(childNodes[i].children, classId);
   }
 }
@@ -48,9 +50,9 @@ function ToggleAllVisibility() {
   let opacityVal;
   for (i = 0; i < childNodes.length; i++)
   {
-    let romajiNode = FindNode(childNodes, "romaji");
+    let romajiNode = FindNodeByClass(childNodes, "romaji",true);
       if (!i) {
-        romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : 0;
+        romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : "0";
         opacityVal = romajiNode.style.opacity;
       } else romajiNode.style.opacity = opacityVal;
   }
