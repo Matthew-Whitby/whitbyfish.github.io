@@ -35,9 +35,12 @@ function HideRomaji(tabName) {
 function FindNodeByClass(childNodes, classId, getChild) {
   console.log(childNodes);
   for (j = 0; j < childNodes.length; j++) {
+    console.log(j);
+    console.log(childNodes[j]);
     if (childNodes[j].className == classId)
-      if (getChild) return childNodes[j].children[0];
+      if (getChild){console.log("found"); return childNodes[j].children[0];}
       else return childNodes[j];
+    console.log("not found");
     if (childNodes[j].children.length > 0)
       FindNodeByClass(childNodes[j].children, classId, getChild);
   }
