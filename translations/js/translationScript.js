@@ -19,8 +19,9 @@ function HideRomaji(tabName) {
   let childNodes = hiragana.children;
   console.log(childNodes.length);
   for (i = 0; i < childNodes.length; i++) {
+    console.log(i);
     console.log(childNodes[i].className);
-    let node = FindNodeByClass(childNodes[i].children, "romaji",true);
+    let node = FindNodeByClass(childNodes[i].children, "romaji", true);
     if (node.parentElement.children.length == 1) {
       node.style.opacity = "0";
       let button = document.createElement("BUTTON");
@@ -32,12 +33,12 @@ function HideRomaji(tabName) {
   }
 }
 
-function FindNodeByClass(childNodes, classId,getChild) {
+function FindNodeByClass(childNodes, classId, getChild) {
   for (i = 0; i < childNodes.length; i++) {
     if (childNodes[i].className == classId)
-      if(getChild) return childNodes[i].children[0];
+      if (getChild) return childNodes[i].children[0];
       else return childNodes[i];
-    if (childNodes[i].children.length > 0) return FindNodeByClass(childNodes[i].children, classId,getChild);
+    if (childNodes[i].children.length > 0) return FindNodeByClass(childNodes[i].children, classId, getChild);
   }
 }
 
@@ -50,12 +51,11 @@ function ToggleAllVisibility() {
   let hiragana = document.getElementById("hiraganalyrics");
   let childNodes = hiragana.children;
   let opacityVal;
-  for (i = 0; i < childNodes.length; i++)
-  {
-    let romajiNode = FindNodeByClass(childNodes[i].children, "romaji",true);
-      if (!i) {
-        romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : "0";
-        opacityVal = romajiNode.style.opacity;
-      } else romajiNode.style.opacity = opacityVal;
+  for (i = 0; i < childNodes.length; i++) {
+    let romajiNode = FindNodeByClass(childNodes[i].children, "romaji", true);
+    if (!i) {
+      romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : "0";
+      opacityVal = romajiNode.style.opacity;
+    } else romajiNode.style.opacity = opacityVal;
   }
 }
