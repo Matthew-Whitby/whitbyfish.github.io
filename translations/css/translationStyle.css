@@ -7,24 +7,24 @@ body{
 }
 .description{
   text-align: center;
-  margin-bottom: 5px;
+  padding-bottom: 5px;/*mar*/
 }
 .visible{
   background-color: #e3e9ec;
   border-radius: 5px;
   border-color: #ccc;
-  margin-bottom: 5px;
+  padding-bottom: 5px;/*mar*/
 }
 h1{
   text-align: center;
 }
 h3{
   text-align: center;
-  margin-bottom: 5px;
+  padding-bottom: 5px;/*mar*/
 }
 p{
-  margin-top:10px;
-  margin-bottom: 10px;
+  padding-top:10px;/*mar*/
+  padding-bottom: 10px;
 }
 .tab {
   overflow: hidden;
