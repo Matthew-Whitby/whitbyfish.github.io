@@ -39,8 +39,8 @@ function FindNodeByClass(childNodes, classId, getChild) {
       else return childNodes[j];
     if (childNodes[j].children.length > 0)
       return FindNodeByClass(childNodes[j].children, classId, getChild);
-    else return;
   }
+  return;
 }
 
 function ToggleVisibility(btn) {
