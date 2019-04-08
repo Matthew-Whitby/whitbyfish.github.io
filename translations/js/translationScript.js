@@ -74,7 +74,7 @@ function SetFirst(){
   let lines=document.getElementsByClassName("line");
   for(i=0;i<lines.length;i++){
     console.log(lines[i]);
-    lines[i].firstChild.classList.add("first");
+    lines[i].children[0].classList.add("first");
   }
   
 }
