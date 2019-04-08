@@ -33,7 +33,7 @@
     for (var i = 0; i < rows; i++)
       table += '<tr><td><a href="' + array[i][0] + '">' + array[i][1] + '</a></td></tr>';
     var div = document.getElementById('contentBackground');
-    div.innerHTML = '<table id="ctable" style="border:1px solid black; text-align:center;" align="center">' + table + '</table>';
+    div.innerHTML = '<table id="ctable" style="border:1px solid black; text-align:center; align:center;">' + table + '</table>';
     var marginset = (window.innerWidth / 2) - (250 / 2);
     div.style.marginLeft = marginset;
   </script>
