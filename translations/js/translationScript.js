@@ -18,6 +18,8 @@ function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
   for (i = 0; i < childNodes.length; i++) {
+    console.log(childNodes[i].className);
+    console.log(childNodes[i]);
     let node = FindNodeByClass(childNodes[i].children, "romaji", true);
     if (node.parentElement.children.length == 1) {
       node.style.opacity = "0";
