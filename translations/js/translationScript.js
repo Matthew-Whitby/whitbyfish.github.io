@@ -32,13 +32,10 @@ function HideRomaji(tabName) {
 }
 
 function FindNodeByClass(childNodes, classId, getChild) {
-  console.log("finding node");
   for (j = 0; j < childNodes.length; j++) {
-    if (childNodes[j].className == classId){
-      console.log("found node");
+    if (childNodes[j].className == classId)
       if (getChild) return childNodes[j].children[0];
       else return childNodes[j];
-    }
     if (childNodes[j].children.length > 0) return FindNodeByClass(childNodes[j].children, classId, getChild);
   }
 }
