@@ -41,8 +41,8 @@ function FindNodeByClass(childNodes, classId, getChild) {
       if (getChild){console.log("found"); return childNodes[j].children[0];}
       else return childNodes[j];
     console.log("not found");
-    if (childNodes[j].children.length > 0)
-      FindNodeByClass(childNodes[j].children, classId, getChild);
+    if (childNodes[j].children.length > 1)
+      return FindNodeByClass(childNodes[j].children, classId, getChild);
   }
 }
 
