@@ -45,6 +45,9 @@ p{
   padding: 14px 16px;
   transition: 0.3s;
 }
+.section:hover{
+  background-color: #ddd;
+}
 .tabbtn:hover {
   background-color: #ddd;
 }

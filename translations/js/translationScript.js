@@ -72,7 +72,10 @@ function ToggleAllVisibility() {
 
 function SetUnderline(){
   let lines=document.getElementsByClassName("line");
-  for(i=0;i<lines.length;i++)
+  for(i=0;i<lines.length;i++){
     for(j=0;j<lines[i].children.length-1;j++)
       lines[i].children[j].classList.add("underline");
+    for(j=0;j<lines[i].children.length;j++)
+      lines[i].children[j].classList.add("section");
+  }
 }
