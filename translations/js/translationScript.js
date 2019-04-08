@@ -18,11 +18,13 @@ function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
   console.log(childNodes.length);
-  for (i = 0; i < 5; i=i+1) {
+  for (i = 0; i < 5; i++) {
     console.log(i);
     console.log(childNodes[i].className);
     let node = FindNodeByClass(childNodes[i].children, "romaji", true);
+    console.log(node.className);
     if (node.parentElement.children.length == 1) {
+      console.log("No button");
       node.style.opacity = "0";
       let button = document.createElement("BUTTON");
       button.innerHTML = "Toggle Visibility";
@@ -34,11 +36,14 @@ function HideRomaji(tabName) {
 }
 
 function FindNodeByClass(childNodes, classId, getChild) {
-  for (i = 0; i < childNodes.length; i++) {
-    if (childNodes[i].className == classId)
-      if (getChild) return childNodes[i].children[0];
-      else return childNodes[i];
-    if (childNodes[i].children.length > 0) return FindNodeByClass(childNodes[i].children, classId, getChild);
+  console.log("finding node");
+  for (j = 0; j < childNodes.length; j++) {
+    if (childNodes[j].className == classId){
+      console.log("found node");
+      if (getChild) return childNodes[j].children[0];
+      else return childNodes[j];
+    }
+    if (childNodes[j].children.length > 0) return FindNodeByClass(childNodes[j].children, classId, getChild);
   }
 }
 
