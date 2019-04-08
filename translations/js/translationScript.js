@@ -35,7 +35,7 @@ function FindNodeByClass(childNodes, classId,getChild) {
     if (childNodes[i].className == classId)
       if(getChild) return childNodes[i].children[0];
       else return childNodes[i];
-    if (childNodes[i].children.length > 0) return FindNode(childNodes[i].children, classId,getChild);
+    if (childNodes[i].children.length > 0) return FindNodeByClass(childNodes[i].children, classId,getChild);
   }
 }
 
