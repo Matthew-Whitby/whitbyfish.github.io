@@ -25,6 +25,7 @@ h3{
 p{
   margin-top:10px;
   margin-bottom: 10px;
+  animation: fadeEffect 0.75s;
 }
 .tab {
   overflow: hidden;
