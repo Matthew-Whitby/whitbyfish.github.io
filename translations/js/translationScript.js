@@ -18,7 +18,7 @@ function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
   for (i = 0; i < childNodes.length; i++) {
-    let node = FindNodeByClass(childNodes[i], "romaji",true);
+    let node = FindNodeByClass(childNodes[i].children, "romaji",true);
     if (node.parentElement.children.length == 1) {
       node.style.opacity = "0";
       let button = document.createElement("BUTTON");
@@ -50,7 +50,7 @@ function ToggleAllVisibility() {
   let opacityVal;
   for (i = 0; i < childNodes.length; i++)
   {
-    let romajiNode = FindNodeByClass(childNodes, "romaji",true);
+    let romajiNode = FindNodeByClass(childNodes[i].children, "romaji",true);
       if (!i) {
         romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : "0";
         opacityVal = romajiNode.style.opacity;
