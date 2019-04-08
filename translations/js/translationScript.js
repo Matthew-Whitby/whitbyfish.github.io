@@ -37,13 +37,19 @@ function FindNodeByClass(childNodes, classId, getChild) {
   for (j = 0; j < childNodes.length; j++) {
     console.log(j);
     console.log(childNodes[j]);
-    if (childNodes[j].className == classId)
+    if (ContainsClass(childNodes[j],classId))
       if (getChild){console.log("found"); return childNodes[j].children[0];}
       else return childNodes[j];
     console.log("not found");
     if (childNodes[j].children.length > 1)
       return FindNodeByClass(childNodes[j].children, classId, getChild);
   }
+}
+
+function ContainsClass(node,search){
+  for(z=0;z<node.classList.length;z++)
+    if(node.classList[z]==search)return true;
+  return false;
 }
 
 function ToggleVisibility(btn) {
@@ -62,4 +68,9 @@ function ToggleAllVisibility() {
       opacityVal = romajiNode.style.opacity;
     } else romajiNode.style.opacity = opacityVal;
   }
+}
+
+function SetFirst(){
+  let lines=document.getElementsByClassName("line");
+  for(i=0;i<lines.length;i++)lines[i].firstChild.classList.add("first");
 }
