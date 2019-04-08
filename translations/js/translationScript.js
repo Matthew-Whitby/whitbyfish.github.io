@@ -70,8 +70,9 @@ function ToggleAllVisibility() {
   }
 }
 
-function SetFirst(){
+function SetUnderline(){
   let lines=document.getElementsByClassName("line");
   for(i=0;i<lines.length;i++)
-    lines[i].children[0].classList.add("first");
+    for(j=0;j<lines[i].children.length-1;j++)
+      lines[i].children[j].classList.add("underline");
 }
