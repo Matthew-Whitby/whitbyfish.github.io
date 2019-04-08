@@ -47,10 +47,11 @@ function ToggleAllVisibility() {
   let childNodes = hiragana.children;
   let opacityVal;
   for (i = 0; i < childNodes.length; i++)
+  {
     let romajiNode = FindNode(childNodes, "romaji");
       if (!i) {
         romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : 0;
         opacityVal = romajiNode.style.opacity;
       } else romajiNode.style.opacity = opacityVal;
-    
+  }
 }
