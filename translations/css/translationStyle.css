@@ -35,7 +35,6 @@ p{
   padding-left: 12px;
   padding-right: 12px;
 }
-  
 .tabbtn{
   width: 20%;
   background-color: inherit;
@@ -46,11 +45,9 @@ p{
   padding: 14px 16px;
   transition: 0.3s;
 }
-  
 .tabbtn:hover {
   background-color: #ddd;
 }
-  
 .tabbtn.active {
   background-color: #ccc;
 }
@@ -60,7 +57,6 @@ p{
 .romaji{
   border-bottom:1px solid #bbb;
 }
-
 .tabcontent {
   width:80%;
   display: none;
@@ -70,7 +66,6 @@ p{
   margin:auto;
   animation: fadeEffect 0.75s;
 }
-
 @keyframes fadeEffect {
   from {opacity: .25;}
   to {opacity: 1;}

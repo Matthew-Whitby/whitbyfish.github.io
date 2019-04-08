@@ -17,8 +17,17 @@ function openTab(evt,tabName){
   function HideRomaji(tabName){
     let hiragana=document.getElementById(tabName+"lyrics");
     let childNodes=hiragana.children;
-    if(childNodes[0].children[0].children.length==1)
-      for(i=0;i<childNodes.length;i++)
+    let node=FindNode(childNodes,"Romaji");
+    if(node.parentElement.children.length==1)
+    {
+      node.style.opacity="0";
+      let button=document.createElement("BUTTON");
+          button.innerHTML="Toggle Visibility";
+          button.className="visible";
+          button.addEventListener("click",ToggleVisibility,this);
+          node.parentElement.appendChild(button);
+    }
+      /*for(i=0;i<childNodes.length;i++)
         if(childNodes[i].className=="line"){
           childNodes[i].children[0].children[0].style.opacity="0";
           let button=document.createElement("BUTTON");
@@ -26,7 +35,14 @@ function openTab(evt,tabName){
           button.className="visible";
           button.addEventListener("click",ToggleVisibility,this);
           childNodes[i].children[0].appendChild(button);
-        }
+        }*/
+  }
+
+  function FindNode(childNodes,classId){
+    for(i=0;i<childNodes.length;i++){
+      if(childNodes[i].className==classId)return childNodes[i].children[0];
+      return FindNode(childNodes[i],classId);
+    }
   }
 
   function ToggleVisibility(btn){
