@@ -18,8 +18,6 @@ function HideRomaji(tabName) {
   let hiragana = document.getElementById(tabName + "lyrics");
   let childNodes = hiragana.children;
   for (i = 0; i < childNodes.length; i++) {
-    console.log(childNodes[i].className);
-    console.log(childNodes[i]);
     let node = FindNodeByClass(childNodes[i].children, "romaji", true);
     if (node.parentElement.children.length == 1) {
       node.style.opacity = "0";
@@ -33,14 +31,10 @@ function HideRomaji(tabName) {
 }
 
 function FindNodeByClass(childNodes, classId, getChild) {
-  console.log(childNodes);
   for (j = 0; j < childNodes.length; j++) {
-    console.log(j);
-    console.log(childNodes[j]);
     if (ContainsClass(childNodes[j],classId))
-      if (getChild){console.log("found"); return childNodes[j].children[0];}
+      if (getChild)return childNodes[j].children[0];
       else return childNodes[j];
-    console.log("not found");
     if (childNodes[j].children.length > 1)
       return FindNodeByClass(childNodes[j].children, classId, getChild);
   }
