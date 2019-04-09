@@ -1,28 +1,21 @@
-body{
+body,.visible{
   background-color: #e3e9ec;
 }
 .lyrics{
     margin:auto;
-    text-align: center;
 }
 .description{
-  text-align: center;
   margin-bottom: 5px;/*mar*/
 }
 .visible{
-  background-color: #e3e9ec;
   border-radius: 5px;
   border-color: #ccc;
   margin-bottom: 5px;/*mar*/
 }
-h1{
-  text-align: center;
-}
-h2{
+h1,h2,h3,.description,.lyrics,#footer #links{
   text-align: center;
 }
 h3{
-  text-align: center;
   margin-bottom: 5px;/*mar*/
 }
 p{
@@ -73,7 +66,6 @@ p{
   animation: fadeEffect 0.75s;
 }
 #footer #links{
-  text-align: center;
   orientation: landscape;
 }
 @keyframes fadeEffect {
