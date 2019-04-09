@@ -60,7 +60,7 @@ p{
 .line{
   border-top:1px solid #555;
 }
-.line.underline{
+.line .underline{
   color:green;
 }
 .underline{
