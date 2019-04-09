@@ -72,6 +72,10 @@ p{
   margin:auto;
   animation: fadeEffect 0.75s;
 }
+#footer #links{
+  text-align: center;
+  orientation: landscape;
+}
 @keyframes fadeEffect {
   from {opacity: .25;}
   to {opacity: 1;}
