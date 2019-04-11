@@ -97,8 +97,10 @@ function HideKanji(element,overwriteSticky){
   let classes = element.classList;
   console.log(classes);
   let hide=true;
-  for (z = 0; z < classes; z++)
+  for (z = 0; z < classes; z++){
+    console.log(classes[z]);
     if (classes[z] == "stickied") hide=false;
+  }
   console.log(hide);
   if(hide||overwriteSticky){
     let classname;
