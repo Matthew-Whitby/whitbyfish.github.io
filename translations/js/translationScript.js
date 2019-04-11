@@ -72,6 +72,11 @@ function SetClasses(){
     for(j=0;j<lines[i].children.length;j++)
       lines[i].children[j].classList.add("section");
   }
+  let kanji=document.getElementsByClassName("kanji-info");
+  for(i=0;i<kanji.length;i++){
+    kanji[i].addEventListener('onmouseover',ShowKanji,this);
+    kanji[i].addEventListener('onmouseout',HideKanji,this);
+  }
 }
 
 function ShowKanji(element){
@@ -83,7 +88,6 @@ function ShowKanji(element){
     }
   }
   document.getElementById(classname+"-display").style.display="block";
-
 }
 
 function HideKanji(element){
