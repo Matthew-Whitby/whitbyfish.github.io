@@ -50,6 +50,7 @@ p{
   left: -webkit-calc(25% - 18px);
   left: -o-calc(25% - 18px);
   left: calc(25% - 18px);
+  z-index: 2;
 }
 .kanji-display{
   position: fixed;
