@@ -95,3 +95,17 @@ function HideKanji(element){
   }
   document.getElementById(classname + "-display").style.display = "none";
 }
+
+function StickKanji(element){
+  let stucks=document.getElementsByClassName("stickied");
+  if(stucks!=null&&stucks.length>0){
+    HideKanji(sstucks[0]);
+  }
+  ShowKanji(element);
+}
+
+function IsStickied(){
+  let stucks = document.getElementsByClassName("stickied");
+  if (stucks != null && stucks.length > 0)return true;
+  return false;
+}
