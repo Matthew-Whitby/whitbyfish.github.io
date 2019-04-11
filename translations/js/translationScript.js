@@ -144,10 +144,6 @@ function CloseKanji(){
   }
 }
 
-function GetInnerHTML(){
-  console.log(document.getElementById("hashiru-display"));
-}
-
 function IncludeHTML() {
   let z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
