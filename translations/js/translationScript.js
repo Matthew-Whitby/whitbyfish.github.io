@@ -146,7 +146,7 @@ function CloseKanji(){
 
 function IncludeHTML() {
   var z, i, elmnt, file, xhttp;
-  z = document.getElementsByTagName("*");
+  z = document.getElementsByClassName("kanji-tab");
   console.log(z.length);
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
