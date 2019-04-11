@@ -118,7 +118,7 @@ function StickKanji(element){
   let stucks=document.getElementsByClassName("stickied");
   if(stucks!=null&&stucks.length>0){
     HideKanji(stucks[0], true);
-    stucks[0].classList.replace(" stickied", "");
+    stucks[0].classList.remove("stickied");
   }
   ShowKanji(element,true);
   let classes=element.classList;
@@ -126,7 +126,7 @@ function StickKanji(element){
   for(x=0;x<classes;x++)
     if (classes[x] == "stickied"){
       alreadyStuck = true;
-      element.classList.replace(" stickied","");
+      element.classList.remove("stickied");
       HideKanji(element,true);
     } 
   if(!alreadyStuck)element.classList.add("stickied");
