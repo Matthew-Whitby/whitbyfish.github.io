@@ -143,3 +143,7 @@ function CloseKanji(){
     stucks[0].classList.remove("stickied");
   }
 }
+
+function GetInnerHTML(){
+  console.log(document.getElementById("hashiru-display").innerHTML);
+}
