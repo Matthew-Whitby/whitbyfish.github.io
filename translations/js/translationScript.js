@@ -126,6 +126,7 @@ function StickKanji(element){
   for(x=0;x<classes;x++)
     if (classes[x] == "stickied"){
       alreadyStuck = true;
+      console.log(element);
       element.classList.remove("stickied");
       HideKanji(element,true);
     } 
