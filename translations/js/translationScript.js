@@ -162,7 +162,8 @@ function IncludeHTML(callback) {
       }
       xhttp.open("GET", file, true);
       xhttp.send();
-      return;
+      callback();
+      //return;
     }
   }
   callback();
