@@ -74,8 +74,8 @@ function SetClasses(){
   }
   let kanji=document.getElementsByClassName("kanji-info");
   for(z=0;z<kanji.length;z++){
-    kanji[z].addEventListener('onmouseover',ShowKanji,this);
-    kanji[z].addEventListener('onmouseout',HideKanji,this);
+    kanji[z].addEventListener("onmouseover",ShowKanji,this);
+    kanji[z].addEventListener("onmouseout",HideKanji,this);
   }
 }
 
