@@ -94,15 +94,14 @@ function ShowKanji(element,overwriteSticky){
 }
 
 function HideKanji(element,overwriteSticky){
-  let classes = element.classList;
-  console.log(classes);
-  let hide=true;
-  for (z = 0; z < classes.length; z++){
-    console.log(classes[z]);
-    if (classes[z] == "stickied") hide=false;
+  let hide = true;
+  if(!overwriteSticky){
+    let classes = element.classList;
+    for (z = 0; z < classes.length; z++) {
+      if (classes[z] == "stickied") hide = false;
+    }
   }
-  console.log(hide);
-  if(hide||overwriteSticky){
+  if(hide){
     let classname;
     for (i = 0; i < element.classList.length; i++) {
       if (element.classList[i].includes("-")) {
@@ -126,6 +125,7 @@ function StickKanji(element){
     if (classes[i] == "stickied"){
       alreadyStuck = true;
       element.classList.replace(" stickied","");
+      HideKanji(element,true);
     } 
   if(!alreadyStuck)element.classList.add("stickied");
 }
