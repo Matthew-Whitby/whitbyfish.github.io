@@ -160,8 +160,8 @@ function IncludeHTML() {
           IncludeHTML();
         }
       }
-      if (i == z.length - 1) xhttp.open("GET", file, false);
-      else xhttp.open("GET", file, true);
+      if (i == z.length - 1) {xhttp.open("GET", file, false);console.log("Sync");}
+      else {xhttp.open("GET", file, true);console.log("Async");}
       xhttp.send();
       return;
     }
