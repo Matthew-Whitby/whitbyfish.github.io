@@ -143,6 +143,7 @@ function CloseKanji(){
   console.log(stucks);
   if (stucks != null && stucks.length > 0) {
     stucks[0].classList.remove("stickied");
+    console.log(stucks[0]);
     HideKanji(stucks[0], true);
   }
 }
