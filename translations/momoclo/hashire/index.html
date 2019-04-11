@@ -2665,12 +2665,7 @@
         </div>
       </div>
 
-      <!--<object id="hashiru-display" onclick="CloseKanji()" class="kanji-display"
-        data="https://whitbyfish.net/translations/kanji/走.html">
-        File Not Found.
-      </object>-->
-
-      <div class="kanji-tab" id="hashiru-display" include-html="https://whitbyfish.net/translations/kanji/走.html"></div>
+      <div class="kanji-tab" id="hashiru-display" setbold="kun" include-html="https://whitbyfish.net/translations/kanji/走.html"></div>
       
       <object id="warau-display" class="kanji-display" data="https://whitbyfish.net/translations/kanji/笑.html">
         File Not Found.
@@ -2752,6 +2747,7 @@
     document.getElementById("defaultOpen").click();
     SetClasses();
     IncludeHTML();
+    SetKanji();
   </script>
 </body>
 

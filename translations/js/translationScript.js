@@ -166,3 +166,17 @@ function IncludeHTML() {
     }
   }
 }
+
+function SetKanji(){
+  let bolds=document.getElementsByClassName("setbold");
+  for(i=0;i<bolds.length;i++){
+    let bold=bolds[i].getAttribute("setbold");
+    let kanjibolds=bold.getElementsByClassName("bold");
+    for(j=0;j<kanjibolds.length;j++){
+      if(kanjibolds[j].getAttribute("bold")==bold){
+        let text=kanjibolds[j].innerHTML;
+        kanjibolds.innerHTML="<b>"+text+"</b>";
+      }
+    }
+  }
+}
