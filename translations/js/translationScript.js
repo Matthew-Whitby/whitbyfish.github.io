@@ -113,10 +113,16 @@ function HideKanji(element,overwriteSticky){
 }
 
 function StickKanji(element){
+  console.log("Stick called");
   let stucks=document.getElementsByClassName("stickied");
   if(stucks!=null&&stucks.length>0)
     HideKanji(sstucks[0],true);
   ShowKanji(element,true);
+  let classes=element.classList;
+  let alreadyStuck=false;
+  for(x=0;x<classes;x++)
+    if (classes[i] == "stickied") alreadyStuck=true;
+  if(!alreadyStuck)element.classList.add("stickied");
 }
 
 function IsStickied(){
