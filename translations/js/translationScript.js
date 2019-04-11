@@ -73,9 +73,27 @@ function SetClasses(){
       lines[i].children[j].classList.add("section");
   }
 }
+
 function ShowKanji(element){
-  element.style.color="red";
+  let classname;
+  for(i=0;i<element.classList.length;i++){
+    if(element.classList[i].contains("-")){
+      if(element.classList[i].split('-')[1]=="show")
+       classname=element.classList[i].split("-")[0];
+    }
+  }
+  let kanji = document.getElementById(classname+"-display");
+  kanji.style.display="fixed";
 }
+
 function HideKanji(element){
-  element.style.color = "black";
+  let classname;
+  for (i = 0; i < element.classList.length; i++) {
+    if (element.classList[i].contains("-")) {
+      if (element.classList[i].split('-')[1] == "show")
+        classname = element.classList[i].split("-")[0];
+    }
+  }
+  let kanji = document.getElementById(classname + "-display");
+  kanji.style.display = "none";
 }
