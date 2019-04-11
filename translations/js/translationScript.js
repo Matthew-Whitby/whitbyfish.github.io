@@ -144,7 +144,12 @@ function CloseKanji(){
   }
 }
 
-function IncludeHTML(callback) {
+function GetEmbeddedHTML(callback){
+  IncludeHTML();
+  callback();
+}
+
+function IncludeHTML() {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
@@ -157,7 +162,7 @@ function IncludeHTML(callback) {
           if (this.status == 200) { elmnt.innerHTML = this.responseText; }
           if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
           elmnt.removeAttribute("include-html");
-          IncludeHTML(()=>{});
+          IncludeHTML();
         }
       }
       xhttp.open("GET", file, true);
@@ -165,7 +170,6 @@ function IncludeHTML(callback) {
       return;
     }
   }
-  callback();
 }
 
 function SetKanji(){
