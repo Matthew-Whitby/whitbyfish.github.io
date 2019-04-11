@@ -167,7 +167,7 @@ function IncludeHTML() {
   }
 }
 
-function SetKanji(){
+function SetKanji(callback){
   let bolds=document.getElementsByClassName("kanji-tab");
   console.log(bolds);
   for(i=0;i<bolds.length;i++){
@@ -188,4 +188,5 @@ function SetKanji(){
       }
     }
   }
+  callback();
 }
