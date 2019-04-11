@@ -83,12 +83,10 @@ function ShowKanji(element,overwriteSticky){
     if (IsStickied()) hide = true;
   if(hide||overwriteSticky){
     let classname;
-    for (i = 0; i < element.classList.length; i++) {
-      if (element.classList[i].includes("-")) {
+    for (i = 0; i < element.classList.length; i++)
+      if (element.classList[i].includes("-"))
         if (element.classList[i].split('-')[1] == "show")
           classname = element.classList[i].split("-")[0];
-      }
-    }
     document.getElementById(classname + "-display").style.display = "block";
   }
 }
@@ -97,9 +95,8 @@ function HideKanji(element,overwriteSticky){
   let hide = true;
   if(!overwriteSticky){
     let classes = element.classList;
-    for (z = 0; z < classes.length; z++) {
+    for (z = 0; z < classes.length; z++)
       if (classes[z] == "stickied") hide = false;
-    }
   }
   if(hide){
     let classname;
@@ -122,14 +119,12 @@ function StickKanji(element){
   ShowKanji(element,true);
   let classes=element.classList;
   let alreadyStuck=false;
-  for(x=0;x<classes.length;x++){
+  for(x=0;x<classes.length;x++)
     if (classes[x] == "stickied") {
       alreadyStuck = true;
       element.classList.remove("stickied");
       HideKanji(element, true);
-    } 
-  }
-    
+    }
   if(!alreadyStuck)element.classList.add("stickied");
 }
 
