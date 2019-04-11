@@ -144,11 +144,6 @@ function CloseKanji(){
   }
 }
 
-/*function GetEmbeddedHTML(callback){
-  IncludeHTML();
-  callback();
-}*/
-
 function IncludeHTML() {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
@@ -174,24 +169,13 @@ function IncludeHTML() {
 
 function SetKanji(){
   let bolds=document.getElementsByClassName("kanji-tab");
-  console.log(bolds);
   for(i=0;i<bolds.length;i++){
-    console.log("enetered first loop");
     let bold=bolds[i].getAttribute("setbold");
-    console.log(bold);
     let kanjibolds=bolds[i].getElementsByClassName("bold");
-    console.log(kanjibolds);
-    console.log("reached");
-    console.log(kanjibolds.length);
     for(j=0;j<kanjibolds.length;j++){
-      console.log("enetered second for");
-      console.log(kanjibolds[j]);
       if(kanjibolds[j].getAttribute("bold")==bold){
-        
         let text=kanjibolds[j].innerHTML;
-        console.log(text);
         kanjibolds[j].innerHTML="<b>"+text+"</b>";
-        
       }
     }
   }
