@@ -54,6 +54,7 @@ p{
   bottom: 0;
   border: black;
   border-width: 2px;
+  background: white;
   z-index: 2;
 }
 .tabbtn.active {
