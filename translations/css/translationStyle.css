@@ -43,6 +43,14 @@ p{
 .section:hover,.tabbtn:hover{
   background-color: #ddd;
 }
+#hide-button{
+  position: fixed;
+  display: none;
+  left: -moz-calc(25% - 18px);
+  left: -webkit-calc(25% - 18px);
+  left: -o-calc(25% - 18px);
+  left: calc(25% - 18px);
+}
 .kanji-display{
   position: fixed;
   display: none;

@@ -88,6 +88,7 @@ function ShowKanji(element,overwriteSticky){
         if (element.classList[i].split('-')[1] == "show")
           classname = element.classList[i].split("-")[0];
     document.getElementById(classname + "-display").style.display = "block";
+    document.getElementById("hide-button").style.display="block";
   }
 }
 
@@ -107,6 +108,7 @@ function HideKanji(element,overwriteSticky){
       }
     }
     document.getElementById(classname + "-display").style.display = "none";
+    document.getElementById("hide-button").style.display = "none";
   }
 }
 
