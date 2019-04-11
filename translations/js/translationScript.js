@@ -160,7 +160,8 @@ function IncludeHTML() {
           IncludeHTML();
         }
       }
-      xhttp.open("GET", file, false);
+      if (i == z.length - 1) xhttp.open("GET", file, false);
+      else xhttp.open("GET", file, true);
       xhttp.send();
       return;
     }
