@@ -115,7 +115,6 @@ function HideKanji(element,overwriteSticky){
 function StickKanji(element){
   let stucks=document.getElementsByClassName("stickied");
   if(stucks!=null&&stucks.length>0){
-    
     HideKanji(stucks[0], true);
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
@@ -138,13 +137,9 @@ function IsStickied(){
 }
 
 function CloseKanji(){
-  console.log("Close called");
   let stucks = document.getElementsByClassName("stickied");
-  console.log(stucks);
   if (stucks != null && stucks.length > 0) {
-    console.log(stucks[0]);
-    stucks[0].classList.remove("stickied");
-    console.log(stucks[0]);
     HideKanji(stucks[0], true);
+    stucks[0].classList.remove("stickied");
   }
 }
