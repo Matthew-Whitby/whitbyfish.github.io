@@ -47,10 +47,10 @@ p{
   position: fixed;
   display: none;
   top:0;
-  left: -moz-calc(25% - 47px);
-  left: -webkit-calc(25% - 47px);
-  left: -o-calc(25% - 47px);
-  left: calc(25% - 47px);
+  left: -moz-calc(25% - 53px);
+  left: -webkit-calc(25% - 53px);
+  left: -o-calc(25% - 53px);
+  left: calc(25% - 53px);
   z-index: 3;
 }
 .kanji-display{
