@@ -145,5 +145,5 @@ function CloseKanji(){
 }
 
 function GetInnerHTML(){
-  console.log(document.getElementById("hashiru-display").innerHTML);
+  console.log(document.getElementById("hashiru-display"));
 }
