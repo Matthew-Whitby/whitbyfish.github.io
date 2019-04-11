@@ -46,6 +46,7 @@ p{
 #hide-button{
   position: fixed;
   display: none;
+  top:0;
   left: -moz-calc(25% - 18px);
   left: -webkit-calc(25% - 18px);
   left: -o-calc(25% - 18px);
