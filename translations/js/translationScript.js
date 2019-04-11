@@ -160,8 +160,10 @@ function IncludeHTML() {
           IncludeHTML();
         }
       }
-      if (i > z.length - 3) { console.log("Sync");xhttp.open("GET", file, false);}
-      else {xhttp.open("GET", file, true);console.log("Async");}
+      let sync=(i>z.length-3)?false:true;
+      if(sync)console.log("Async");
+      else console.log("sync");
+      xhttp.open("GET", file, sync);
       xhttp.send();
       return;
     }
