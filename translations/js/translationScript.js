@@ -124,7 +124,7 @@ function StickKanji(element){
   let classes=element.classList;
   console.log(classes);
   let alreadyStuck=false;
-  for(x=0;x<classes;x++){
+  for(x=0;x<classes.length;x++){
     console.log(classes[x]);
     if (classes[x] == "stickied") {
       alreadyStuck = true;
