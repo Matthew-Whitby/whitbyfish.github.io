@@ -56,7 +56,6 @@ p{
   border-width: 2px;
   background: white;
   z-index: 2;
-  animation: fadeEffect 0.75s;
 }
 .tabbtn.active {
   background-color: #ccc;
