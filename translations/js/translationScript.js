@@ -76,3 +76,6 @@ function SetClasses(){
 function ShowKanji(element){
   element.style.color="red";
 }
+function HideKanji(element){
+  element.style.color = "black";
+}
