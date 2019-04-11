@@ -122,8 +122,11 @@ function StickKanji(element){
   ShowKanji(element,true);
   let classes=element.classList;
   let alreadyStuck=false;
-  for(x=0;x<classes.length;x++)
-    if (classes[i] == "stickied") alreadyStuck=true;
+  for(x=0;x<classes;x++)
+    if (classes[i] == "stickied"){
+      alreadyStuck = true;
+      element.classList.replace(" stickied","");
+    } 
   if(!alreadyStuck)element.classList.add("stickied");
 }
 
