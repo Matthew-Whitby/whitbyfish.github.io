@@ -2747,7 +2747,10 @@
     document.getElementById("defaultOpen").click();
     SetClasses();
     IncludeHTML();
-    SetKanji();
+    document.addEventListener("DOMContentLoaded",()=>{
+      SetKanji();
+    });
+    
   </script>
 </body>
 
