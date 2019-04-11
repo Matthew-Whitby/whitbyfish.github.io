@@ -77,7 +77,7 @@ function SetClasses(){
 function ShowKanji(element){
   let classname;
   for(i=0;i<element.classList.length;i++){
-    if(element.classList[i].contains("-")){
+    if(element.classList[i].includes("-")){
       if(element.classList[i].split('-')[1]=="show")
        classname=element.classList[i].split("-")[0];
     }
@@ -89,7 +89,7 @@ function ShowKanji(element){
 function HideKanji(element){
   let classname;
   for (i = 0; i < element.classList.length; i++) {
-    if (element.classList[i].contains("-")) {
+    if (element.classList[i].includes("-")) {
       if (element.classList[i].split('-')[1] == "show")
         classname = element.classList[i].split("-")[0];
     }
