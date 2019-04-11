@@ -176,7 +176,9 @@ function SetKanji(){
     console.log(bold);
     let kanjibolds=bolds[i].getElementsByClassName("bold");
     console.log(kanjibolds);
+    console.log("reached");
     for(j=0;j<kanjibolds.length;j++){
+      console.log("enetered second for");
       console.log(kanjibolds[j]);
       if(kanjibolds[j].getAttribute("bold")==bold){
         console.log("Match");
