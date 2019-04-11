@@ -79,8 +79,8 @@ function ShowKanji(element,overwriteSticky){
   let hide = true;
   for (z = 0; z < classes.length; z++)
     if (classes[z] == "stickied") hide = false;
-  if (!hide)
-    if (IsStickied()) hide = true;
+  if (hide)
+    if (IsStickied()) hide = false;
   if(hide||overwriteSticky){
     let classname;
     for (i = 0; i < element.classList.length; i++)
