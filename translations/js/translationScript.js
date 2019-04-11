@@ -142,6 +142,7 @@ function CloseKanji(){
   let stucks = document.getElementsByClassName("stickied");
   console.log(stucks);
   if (stucks != null && stucks.length > 0) {
+    console.log(stucks[0]);
     stucks[0].classList.remove("stickied");
     console.log(stucks[0]);
     HideKanji(stucks[0], true);
