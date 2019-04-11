@@ -169,13 +169,13 @@ function IncludeHTML() {
 
 function SetKanji(){
   let bolds=document.getElementsByClassName("kanji-tab");
-  console.log("bolds: " + bolds);
+  console.log(bolds);
   for(i=0;i<bolds.length;i++){
     console.log("enetered first loop");
     let bold=bolds[i].getAttribute("setbold");
-    console.log("bold: "+bold);
-    let kanjibolds=bold.getElementsByClassName("bold");
-    console.log("kanjibolds: " +kanjibolds);
+    console.log(bold);
+    let kanjibolds=bolds[i].getElementsByClassName("bold");
+    console.log(kanjibolds);
     for(j=0;j<kanjibolds.length;j++){
       console.log(kanjibolds[j]);
       if(kanjibolds[j].getAttribute("bold")==bold){
