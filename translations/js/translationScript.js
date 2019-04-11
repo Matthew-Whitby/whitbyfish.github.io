@@ -168,12 +168,12 @@ function IncludeHTML() {
 }
 
 function SetKanji(){
-  let bolds=document.getElementsByClassName("setbold");
+  let bolds=document.getElementsByTagName("setbold");
   console.log("bolds: " + bolds);
   for(i=0;i<bolds.length;i++){
     let bold=bolds[i].getAttribute("setbold");
     console.log("bold: "+bold);
-    let kanjibolds=bold.getElementsByClassName("bold");
+    let kanjibolds=bold.getElementsByTagName("bold");
     console.log("kanjibolds: " +kanjibolds);
     for(j=0;j<kanjibolds.length;j++){
       console.log(kanjibolds[j]);
