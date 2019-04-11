@@ -95,9 +95,11 @@ function ShowKanji(element,overwriteSticky){
 
 function HideKanji(element,overwriteSticky){
   let classes = element.classList;
+  console.log(classes);
   let hide=true;
   for (z = 0; z < classes; z++)
-    if (classes[i] == "stickied") hide=false;
+    if (classes[z] == "stickied") hide=false;
+  console.log(hide);
   if(hide||overwriteSticky){
     let classname;
     for (i = 0; i < element.classList.length; i++) {
