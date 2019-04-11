@@ -82,8 +82,8 @@ function ShowKanji(element){
        classname=element.classList[i].split("-")[0];
     }
   }
-  let kanji = document.getElementById(classname+"-display");
-  kanji.style.display="fixed";
+  document.getElementById(classname+"-display").style.display="block";
+
 }
 
 function HideKanji(element){
@@ -94,6 +94,5 @@ function HideKanji(element){
         classname = element.classList[i].split("-")[0];
     }
   }
-  let kanji = document.getElementById(classname + "-display");
-  kanji.style.display = "none";
+  document.getElementById(classname + "-display").style.display = "none";
 }
