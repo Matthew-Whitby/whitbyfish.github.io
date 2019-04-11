@@ -148,7 +148,7 @@ function GetInnerHTML(){
   console.log(document.getElementById("hashiru-display"));
 }
 
-function includeHTML() {
+function IncludeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
   z = document.getElementsByTagName("*");
@@ -165,7 +165,7 @@ function includeHTML() {
           if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
           /* Remove the attribute, and call this function once more: */
           elmnt.removeAttribute("include-html");
-          includeHTML();
+          IncludeHTML();
         }
       }
       xhttp.open("GET", file, true);
