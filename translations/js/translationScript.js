@@ -147,7 +147,6 @@ function CloseKanji(){
 function IncludeHTML() {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByClassName("kanji-tab");
-  console.log(z.length);
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
     file = elmnt.getAttribute("include-html");
@@ -161,7 +160,6 @@ function IncludeHTML() {
           IncludeHTML();
         }
       }
-      console.log("i: "+i);
       if (i == z.length - 1) { console.log("Sync");xhttp.open("GET", file, false);}
       else {xhttp.open("GET", file, true);console.log("Async");}
       xhttp.send();
