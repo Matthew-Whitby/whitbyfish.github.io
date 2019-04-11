@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <div id="loading"></div>
   <h1>Hashire!</h1>
   <div class="tab">
     <button class="tabbtn" id="defaultOpen" onclick="openTab(event,'full')">Full Translation</button>
@@ -2731,7 +2732,9 @@
   <script>
     document.getElementById("defaultOpen").click();
     SetClasses();
+    document.getElementById("loading").innerHTML="Loading...";
     IncludeHTML();
+    document.getElementById("loading").innerHTML="";
     SetKanji();
   </script>
 </body>
