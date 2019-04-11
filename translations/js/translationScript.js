@@ -74,34 +74,49 @@ function SetClasses(){
   }
 }
 
-function ShowKanji(element){
-  let classname;
-  for(i=0;i<element.classList.length;i++){
-    if(element.classList[i].includes("-")){
-      if(element.classList[i].split('-')[1]=="show")
-       classname=element.classList[i].split("-")[0];
+function ShowKanji(element,overwriteSticky){
+  let classes = element.classList;
+  let hide = true;
+  for (z = 0; z < classes; z++)
+    if (classes[i] == "stickied") hide = false;
+  if (!hide)
+    if (IsStickied()) hide = true;
+  if(hide||overwriteSticky){
+    let classname;
+    for (i = 0; i < element.classList.length; i++) {
+      if (element.classList[i].includes("-")) {
+        if (element.classList[i].split('-')[1] == "show")
+          classname = element.classList[i].split("-")[0];
+      }
     }
+    document.getElementById(classname + "-display").style.display = "block";
   }
-  document.getElementById(classname+"-display").style.display="block";
 }
 
-function HideKanji(element){
-  let classname;
-  for (i = 0; i < element.classList.length; i++) {
-    if (element.classList[i].includes("-")) {
-      if (element.classList[i].split('-')[1] == "show")
-        classname = element.classList[i].split("-")[0];
+function HideKanji(element,overwriteSticky){
+  let classes = element.classList;
+  let hide=true;
+  for (z = 0; z < classes; z++)
+    if (classes[i] == "stickied") hide=false;
+  if(!hide)
+    if(IsStickied())hide=true;
+  if(hide||overwriteSticky){
+    let classname;
+    for (i = 0; i < element.classList.length; i++) {
+      if (element.classList[i].includes("-")) {
+        if (element.classList[i].split('-')[1] == "show")
+          classname = element.classList[i].split("-")[0];
+      }
     }
+    document.getElementById(classname + "-display").style.display = "none";
   }
-  document.getElementById(classname + "-display").style.display = "none";
 }
 
 function StickKanji(element){
   let stucks=document.getElementsByClassName("stickied");
-  if(stucks!=null&&stucks.length>0){
-    HideKanji(sstucks[0]);
-  }
-  ShowKanji(element);
+  if(stucks!=null&&stucks.length>0)
+    HideKanji(sstucks[0],true);
+  ShowKanji(element,true);
 }
 
 function IsStickied(){
