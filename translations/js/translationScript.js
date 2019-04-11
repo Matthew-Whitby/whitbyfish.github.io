@@ -144,7 +144,7 @@ function CloseKanji(){
   }
 }
 
-function IncludeHTML() {
+function IncludeHTML(callback) {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
@@ -165,9 +165,10 @@ function IncludeHTML() {
       return;
     }
   }
+  callback();
 }
 
-function SetKanji(callback){
+function SetKanji(){
   let bolds=document.getElementsByClassName("kanji-tab");
   console.log(bolds);
   for(i=0;i<bolds.length;i++){
@@ -188,5 +189,4 @@ function SetKanji(callback){
       }
     }
   }
-  callback();
 }
