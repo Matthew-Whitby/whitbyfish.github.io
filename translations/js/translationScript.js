@@ -73,3 +73,20 @@ function SetClasses(){
       lines[i].children[j].classList.add("section");
   }
 }
+function ImportHTML(){
+  let imports=document.getElementsByClassName("import");
+  for(i=0;i<imports.length;i++){
+    let file=imports[i].getAttribute("kanji-html");
+    if(file){
+      xhttp=new XMLHttpRequest();
+      xhttp.onreadystatechange=()=>{
+        if(this.readyState=4){
+          if(this.status=200)imports[i].innerHTML=this.responseText;
+          if(this.status==404)imports[i].innerHTML="Page not found";
+          imports[i].removeAttribute("kanji-html");
+          imports[i].classList.remove("import");
+        }
+      }
+    }
+  }
+}
