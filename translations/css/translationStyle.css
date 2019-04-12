@@ -32,21 +32,6 @@ h3{
   background: white;
   z-index: 2;
 }
-#loading{
-  color: red;
-  position: fixed;
-  display: none;
-  width: 25%;
-  height: 25%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: black;
-  border-width: 2px;
-  background: white;
-  z-index: 2;
-}
 p{
   margin-top:10px;/*mar*/
   margin-bottom: 10px;
