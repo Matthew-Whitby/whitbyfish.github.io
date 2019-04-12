@@ -32,6 +32,9 @@ h3{
   background: white;
   z-index: 2;
 }
+#loading{
+  color: red;
+}
 p{
   margin-top:10px;/*mar*/
   margin-bottom: 10px;
