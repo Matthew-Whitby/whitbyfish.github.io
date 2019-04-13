@@ -182,5 +182,16 @@ function SetKanji(){
 }
 
 function DisplayText(value){
-  console.log(value);
+  let linelist=document.getElementById("englishlyrics").children;
+  for(i=0;i<linelist.length;i++){
+    for(j=0;j<linelist[i].children.length;j++){
+      if(linelist[i].children[j].className=="japanese-display"){
+        let displayTypes=linelist[i].children[j];
+        for(z=0;z<displayTypes.children.length;z++){
+          if(displayTypes[z].class==value)displayTypes[z].style.display=="block";
+          else displayTypes[z].style.display="none";
+        }
+      }
+    }
+  }
 }
