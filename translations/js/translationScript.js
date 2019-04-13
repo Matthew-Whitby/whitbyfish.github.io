@@ -187,7 +187,7 @@ function DisplayText(value){
   for(i=0;i<linelist.length;i++){
     for(j=0;j<linelist[i].children.length;j++){
       
-      if(linelist[i].children[j].className=="japanese-display"){
+      if(linelist[i].children[j].classList[0]=="japanese-display"){
         let displayTypes=linelist[i].children[j];
         console.log(displayTypes);
         for(z=0;z<displayTypes.children.length;z++){
