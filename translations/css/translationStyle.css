@@ -114,10 +114,10 @@ td{
   border: 1px solid black;
   padding: 2px 5px;
 }
-table tr:first-child{
+table tr:first-child td{
   border-top: 0;
 }
-table tr:last-child{
+table tr:last-child td{
   border-bottom: 0;
 }
 table tr td:first-child{
