@@ -198,18 +198,10 @@ function DisplayText(id,value){
 
 function DisplayTextTable(id, value) {
   let linelist = document.getElementById(id).children;
-  console.log(linelist);
-  console.log(linelist[0].children[0]);
-  console.log(linelist[0].children[0].children[0]);
-  console.log(linelist[0].children[0].children[0].children[0]);
-  console.log(linelist[0].children[0].children.length);
   for (i = 0; i < linelist.length; i++) {
     for (j = 0; j < linelist[i].children[0].children[0].children.length; j++) {
       if (linelist[i].children[0].children[0].children[j].classList[0] == "japanese-display") {
-        console.log("FOUND");
         let displayTypes = linelist[i].children[0].children[0].children[j].children;
-        console.log(displayTypes);
-        console.log(displayTypes.children);
         for (z = 0; z < displayTypes.length; z++) {
           for(x=0;x<displayTypes[z].children.length;x++){
             if (displayTypes[z].children[x].classList[0] == value) displayTypes[z].children[x].style.display = "block";
