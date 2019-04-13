@@ -190,7 +190,7 @@ function DisplayText(value){
       if(linelist[i].children[j].classList[0]=="japanese-display"){
         let displayTypes=linelist[i].children[j].children;
         console.log(displayTypes);
-        for(z=0;z<displayTypes.children.length;z++){
+        for(z=0;z<displayTypes.length;z++){
           if(displayTypes[z].class==value)displayTypes[z].style.display=="block";
           else displayTypes[z].style.display="none";
         }
