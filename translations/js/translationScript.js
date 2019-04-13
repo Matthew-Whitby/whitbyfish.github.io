@@ -182,8 +182,8 @@ function SetKanji(){
 }
 
 function DisplayText(value){
+  console.log(value);
   let linelist=document.getElementById("englishlyrics").children;
-  console.log(linelist);
   for(i=0;i<linelist.length;i++){
     for(j=0;j<linelist[i].children.length;j++){
       
