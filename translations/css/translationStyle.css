@@ -12,7 +12,7 @@ body,.visible{
   border-color: #ccc;
   margin-bottom: 5px;/*mar*/
 }
-h1,h2,h3,.description,.lyrics,#footer #links{
+h1,h2,h3,.description,.lyrics,#footer #links,select{
   text-align: center;
 }
 h3{
