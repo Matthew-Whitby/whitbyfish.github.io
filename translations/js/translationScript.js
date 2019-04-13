@@ -183,8 +183,10 @@ function SetKanji(){
 
 function DisplayText(value){
   let linelist=document.getElementById("englishlyrics").children;
+  console.log(linelist);
   for(i=0;i<linelist.length;i++){
     for(j=0;j<linelist[i].children.length;j++){
+      console.log(linelist[i].children[j]);
       if(linelist[i].children[j].className=="japanese-display"){
         let displayTypes=linelist[i].children[j];
         for(z=0;z<displayTypes.children.length;z++){
