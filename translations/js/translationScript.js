@@ -202,11 +202,12 @@ function DisplayTextTable(id, value) {
   console.log(linelist[0].children[0]);
   console.log(linelist[0].children[0].children[0]);
   console.log(linelist[0].children[0].children[0].children[0]);
+  console.log(linelist[0].children[0].children.length);
   for (i = 0; i < linelist.length; i++) {
-    for (j = 0; j < linelist[i].children[0].children.length; j++) {
-      if (linelist[i].children[0].children[j].classList[0] == "japanese-display") {
+    for (j = 0; j < linelist[i].children[0].children[0].children.length; j++) {
+      if (linelist[i].children[0].children[0].children[j].classList[0] == "japanese-display") {
         console.log("FOUND");
-        let displayTypes = linelist[i].children[0].children[j].children;
+        let displayTypes = linelist[i].children[0].children[0].children[j].children;
         console.log(displayTypes);
         for (z = 0; z < displayTypes.length; z++) {
           if (displayTypes[z].classList[0] == value) displayTypes[z].style.display = "block";
