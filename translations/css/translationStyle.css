@@ -114,7 +114,7 @@ table td, table {
   border: 1px solid black;
 }
 td{
-  margin: 2px 5px;
+  padding: 2px 5px;
 }
 table tr:first-child{
   border-top: 0;
