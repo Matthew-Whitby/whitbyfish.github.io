@@ -1,7 +1,7 @@
 body,.visible{
   background-color: #e3e9ec;
 }
-.lyrics,.tab,.tabcontent{
+.lyrics,.tab,.tabcontent,select{
     margin:auto;
 }
 .description{
