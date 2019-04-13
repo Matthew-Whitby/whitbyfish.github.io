@@ -199,9 +199,11 @@ function DisplayText(id,value){
 function DisplayTextTable(id, value) {
   let linelist = document.getElementById(id).children;
   for (i = 0; i < linelist.length; i++) {
-    for (j = 0; j < linelist[i].children.length; j++) {
-      if (linelist[i].children[j].classList[0] == "japanese-display") {
-        let displayTypes = linelist[i].children[j].children;
+    for (j = 0; j < linelist[i].children[0].children.length; j++) {
+      if (linelist[i].children[0].children[j].classList[0] == "japanese-display") {
+        
+        let displayTypes = linelist[i].children[0].children[j].children;
+        console.log(displayTypes);
         for (z = 0; z < displayTypes.length; z++) {
           if (displayTypes[z].classList[0] == value) displayTypes[z].style.display = "block";
           else displayTypes[z].style.display = "none";

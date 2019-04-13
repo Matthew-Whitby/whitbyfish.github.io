@@ -628,7 +628,7 @@
     <div class="description">Here, the lyrics are translated word for word in the order they're in in Japanese. Brackets
       are used when the english meaning is more than just one word or to make it clear where each word is, arrows show
       where particles point to.</div>
-      <select onchange="DisplayText('literallyrics',this.value)" style="display:block;margin:0 auto 2px auto;">
+      <select onchange="DisplayTextTable('literallyrics',this.value)" style="display:block;margin:0 auto 2px auto;">
         <option value="romaji">Romaji</option>
         <option value="hiragana">Hiragana</option>
         <option value="kanji">Kanji</option>
@@ -637,7 +637,10 @@
       <div class="line">
         <table>
           <tr class="japanese-display">
-            <td><div class="romaji">Egao</div><div style="display: none;" class="hiragana">えがお</div></td>
+            <td>
+              <div class="romaji">Egao</div>
+              <div style="display: none;" class="hiragana">えがお</div>
+            </td>
             <td>
               <div class="romaji">ga</div>
               <div style="display: none;" class="hiragana">が</div>
@@ -657,17 +660,6 @@
             </td>
           </tr>
         </table>
-        <!--<div class="japanese-display">
-          <div class="romaji">
-            <p>Egao ga tomaranai</p>
-          </div>
-          <div style="display: none;" class="hiragana">
-            <p>えがおがとまらない</p>
-          </div>
-        </div>
-        <div class="english">
-          <p>smile &larr; (stop not)</p>
-        </div>-->
       </div>
 
       <div class="line">
