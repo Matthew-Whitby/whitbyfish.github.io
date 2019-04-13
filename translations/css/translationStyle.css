@@ -108,7 +108,7 @@ p{
 
 table {
   border-collapse: collapse;
-  margin: 0 auto;
+  padding: 0 100%;
 }
 td{
   border: 1px solid black;
