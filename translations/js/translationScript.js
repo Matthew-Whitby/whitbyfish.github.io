@@ -180,3 +180,7 @@ function SetKanji(){
     }
   }
 }
+
+function DisplayText(value){
+  console.log(value);
+}
