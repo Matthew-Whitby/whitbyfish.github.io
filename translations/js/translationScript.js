@@ -181,8 +181,8 @@ function SetKanji(){
   }
 }
 
-function DisplayText(value){
-  let linelist=document.getElementById("englishlyrics").children;
+function DisplayText(id,value){
+  let linelist=document.getElementById(id).children;
   for(i=0;i<linelist.length;i++){
     for(j=0;j<linelist[i].children.length;j++){
       if(linelist[i].children[j].classList[0]=="japanese-display"){
