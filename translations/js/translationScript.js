@@ -186,9 +186,10 @@ function DisplayText(value){
   console.log(linelist);
   for(i=0;i<linelist.length;i++){
     for(j=0;j<linelist[i].children.length;j++){
-      console.log(linelist[i].children[j]);
+      
       if(linelist[i].children[j].className=="japanese-display"){
         let displayTypes=linelist[i].children[j];
+        console.log(displayTypes);
         for(z=0;z<displayTypes.children.length;z++){
           if(displayTypes[z].class==value)displayTypes[z].style.display=="block";
           else displayTypes[z].style.display="none";
