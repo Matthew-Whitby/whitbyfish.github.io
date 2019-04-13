@@ -12,10 +12,10 @@ body,.visible{
   border-color: #ccc;
   margin-bottom: 5px;/*mar*/
 }
-h1,h2,h3,.description,.lyrics,#footer #links,select,option{
+h1,h2,h3,.description,.lyrics,#footer #links,select{
   text-align: center;
 }
-h3,select{
+h3{
   margin-bottom: 5px;/*mar*/
 }
 .kanji-tab{
