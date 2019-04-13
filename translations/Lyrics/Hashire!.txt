@@ -1,0 +1,14 @@
+﻿ID:0
+ROMAJI:Egao ga tomaranai
+HIRAGANA:えがお|が|とまらない
+KANJI:笑顔|が|止まらない
+ENGLISH:I can't stop smiling
+LITERAL:smile|←|stop not
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
+ID:1
+ROMAJI:Odoru kokoro tomaranai
+HIRAGANA:おどる|こころ|とまらない
+KANJI:踊る|ココロ|止まらない
+ENGLISH:My heart won't stop beating
+LITERAL:pounding|heart|stop not
+EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
