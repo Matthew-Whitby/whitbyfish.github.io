@@ -209,9 +209,12 @@ function DisplayTextTable(id, value) {
         console.log("FOUND");
         let displayTypes = linelist[i].children[0].children[0].children[j].children;
         console.log(displayTypes);
+        console.log(displayTypes.children);
         for (z = 0; z < displayTypes.length; z++) {
-          if (displayTypes[z].classList[0] == value) displayTypes[z].style.display = "block";
-          else displayTypes[z].style.display = "none";
+          for(x=0;x<displayTypes[z].children.length;x++){
+            if (displayTypes[z].children[x].classList[0] == value) displayTypes[z].children[x].style.display = "block";
+            else displayTypes[z].children[x].style.display = "none";
+          }
         }
       }
     }
