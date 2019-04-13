@@ -205,7 +205,7 @@ function DisplayTextTable(id, value) {
   for (i = 0; i < linelist.length; i++) {
     for (j = 0; j < linelist[i].children[0].children.length; j++) {
       if (linelist[i].children[0].children[j].classList[0] == "japanese-display") {
-        
+        console.log("FOUND");
         let displayTypes = linelist[i].children[0].children[j].children;
         console.log(displayTypes);
         for (z = 0; z < displayTypes.length; z++) {
