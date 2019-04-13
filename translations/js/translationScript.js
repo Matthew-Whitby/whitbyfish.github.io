@@ -190,7 +190,7 @@ function DisplayText(value){
         let displayTypes=linelist[i].children[j].children;
         console.log(displayTypes);
         for(z=0;z<displayTypes.length;z++){
-          if(displayTypes[z].classList[0]==value)displayTypes[z].style.display=="block";
+          if(displayTypes[z].classList[0]==value)displayTypes[z].style.display="block";
           else displayTypes[z].style.display="none";
         }
       }
