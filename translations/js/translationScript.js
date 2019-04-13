@@ -198,6 +198,10 @@ function DisplayText(id,value){
 
 function DisplayTextTable(id, value) {
   let linelist = document.getElementById(id).children;
+  console.log(linelist);
+  console.log(linelist[0].children[0]);
+  console.log(linelist[0].children[0].children[0]);
+  console.log(linelist[0].children[0].children[0].children[0]);
   for (i = 0; i < linelist.length; i++) {
     for (j = 0; j < linelist[i].children[0].children.length; j++) {
       if (linelist[i].children[0].children[j].classList[0] == "japanese-display") {
