@@ -112,11 +112,11 @@ td {
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
 }
 
 td {
+  border-collapse: collapse;
   height: auto;
   vertical-align: bottom;
 }
