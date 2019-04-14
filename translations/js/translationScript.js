@@ -200,13 +200,17 @@ function UnsetKanji(element){
       kanjiName=element.classList[z].split('-')[0];
     }
   }
+  console.log(kanjiName);
   let displaySections=document.getElementsByClassName("kanji-tab");
   for(z=0;z<displaySections.length;z++){
     let id=displaySections[z].id;
+    console.log(id);
     if(id.split('-')[0]==kanjiName){
       let bolds=displaySections[z].getElementsByClassName("bold");
+      console.log(bolds);
       for(c=0;c<bolds.length;c++){
         if(bolds[c].innerHTML.includes("<b>")){
+          console.log("REACHED END");
           bolds[c].innerHTML.replace("<b>","");
           bolds[c].innerHTML.replace("</b>","");
         }
