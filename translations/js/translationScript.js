@@ -171,44 +171,26 @@ function IncludeHTML() {
 }
 
 function SetKanji(element){
-  console.log("CALLED");
   bold=element.getAttribute("setbold");
-  console.log(bold);
   let kanjiName;
   for (z = 0; z < element.classList.length; z++) {
     if (element.classList[z].split('-')[1] == "show") {
       kanjiName = element.classList[z].split('-')[0];
     }
   }
-  console.log(kanjiName);
   let displaySections = document.getElementsByClassName("kanji-tab");
   for (z = 0; z < displaySections.length; z++) {
     let id = displaySections[z].id;
-    console.log(id);
     if (id.split('-')[0] == kanjiName) {
       let bolds = displaySections[z].getElementsByClassName("bold");
-      console.log(displaySections[z]);
       for (c = 0; c < bolds.length; c++) {
         if (bolds[c].getAttribute("bold") == bold) {
-          console.log("REACHED END");
           let text = bolds[c].innerHTML;
           bolds[c].innerHTML = "<b>" + text + "</b>";
         }
       }
     }
   }
-  /*
-  let bolds=document.getElementsByClassName("kanji-info");
-  for(i=0;i<bolds.length;i++){
-    let bold=bolds[i].getAttribute("setbold");
-    let kanjibolds=bolds[i].getElementsByClassName("bold");
-    for(j=0;j<kanjibolds.length;j++){
-      if(kanjibolds[j].getAttribute("bold")==bold){
-        let text=kanjibolds[j].innerHTML;
-        kanjibolds[j].innerHTML="<b>"+text+"</b>";
-      }
-    }
-  }*/
 }
 
 function UnsetKanji(element){
@@ -220,15 +202,13 @@ function UnsetKanji(element){
   }
   let displaySections=document.getElementsByClassName("kanji-tab");
   for(z=0;z<displaySections.length;z++){
-    let kanjiClasses=displaySections[z].classList;
-    for(m=0;m<kanjiClasses.length;m++){
-      if(kanjiClasses[m].split('-')[0]==kanjiName){
-        let bolds=displaySections[z].getElementsByClassName("bold");
-        for(c=0;c<bolds.length;c++){
-          if(bolds[c].innerHTML.includes("<b>")){
-            bolds[c].innerHTML.replace("<b>","");
-            bolds[c].innerHTML.replace("</b>","");
-          }
+    let id=displaySections[z].id;
+    if(id.split('-')[0]==kanjiName){
+      let bolds=displaySections[z].getElementsByClassName("bold");
+      for(c=0;c<bolds.length;c++){
+        if(bolds[c].innerHTML.includes("<b>")){
+          bolds[c].innerHTML.replace("<b>","");
+          bolds[c].innerHTML.replace("</b>","");
         }
       }
     }
