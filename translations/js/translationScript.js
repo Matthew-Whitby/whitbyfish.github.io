@@ -184,6 +184,7 @@ function SetKanji(element){
   let displaySections = document.getElementsByClassName("kanji-tab");
   for (z = 0; z < displaySections.length; z++) {
     let kanjiClasses = displaySections[z].classList;
+    console.log(kanjiClasses);
     for (m = 0; m < kanjiClasses.length; m++) {
       if (kanjiClasses[m].split('-')[0] == kanjiName) {
         let bolds = displaySections[z].getElementsByClassName("bold");
