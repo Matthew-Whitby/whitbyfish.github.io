@@ -91,12 +91,17 @@ function ShowKanji(element,overwriteSticky,show){
 
 function StickKanji(element){
   if(IsStickied()){
+    console.log("IS STICKIED");
     let stuck=document.getElementsByClassName("stickied");
+    console.log(stuck);
     ShowKanji(stuck[0],true,false);
     stuck.classList.remove("stickied");
+    console.log(stuck);
   }
+  console.log(element);
   ShowKanji(element,true,true);
   element.classList.add("stickied");
+  console.log(element);
   /*let stucks=document.getElementsByClassName("stickied");
   if(stucks.length==1){
     ShowKanji(stucks[0], true,false);
