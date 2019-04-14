@@ -74,7 +74,7 @@ function SetClasses(){
   }
 }
 
-function ShowKanji(element,overwriteSticky){
+/*function ShowKanji(element,overwriteSticky){
   if(!IsStickied()||overwriteSticky){
     let classname;
     SetKanji(element);
@@ -85,35 +85,37 @@ function ShowKanji(element,overwriteSticky){
     document.getElementById(classname + "-display").style.display = "block";
     document.getElementById("hide-button").style.display="block";
   }
-}
+}*/
 
-function HideKanji(element,overwriteSticky){
+function ShowKanji(element,overwriteSticky,show){
   if(!IsStickied()||overwriteSticky){
-    UnsetKanji(element);
+    if(show)SetKanji(element);
+    else UnsetKanji(element);
     let classname;
+    let displayType=(show)?"block":"none";
     for (i = 0; i < element.classList.length; i++)
       if (element.classList[i].includes("-"))
         if (element.classList[i].split('-')[1] == "show")
           classname = element.classList[i].split("-")[0];
-    document.getElementById(classname + "-display").style.display = "none";
-    document.getElementById("hide-button").style.display = "none";
+    document.getElementById(classname + "-display").style.display = displayType;
+    document.getElementById("hide-button").style.display = displayType;
   }
 }
 
 function StickKanji(element){
   let stucks=document.getElementsByClassName("stickied");
   if(stucks!=null&&stucks.length>0){
-    HideKanji(stucks[0], true);
+    ShowKanji(stucks[0], true,false);
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
-  ShowKanji(element,true);
+  ShowKanji(element,true,true);
   let classes=element.classList;
   let alreadyStuck=false;
   for(x=0;x<classes.length;x++)
     if (classes[x] == "stickied") {
       alreadyStuck = true;
       element.classList.remove("stickied");
-      HideKanji(element, true);
+      ShowKanji(element, true,false);
     }
   if(!alreadyStuck)element.classList.add("stickied");
 }
@@ -127,7 +129,7 @@ function IsStickied(){
 function CloseKanji(){
   let stucks = document.getElementsByClassName("stickied");
   if (stucks != null && stucks.length > 0) {
-    HideKanji(stucks[0], true);
+    ShowKanji(stucks[0], true,false);
     stucks[0].classList.remove("stickied");
   }
 }
