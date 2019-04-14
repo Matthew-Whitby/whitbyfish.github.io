@@ -95,7 +95,7 @@ function StickKanji(element){
     let stuck=document.getElementsByClassName("stickied");
     console.log(stuck);
     ShowKanji(stuck[0],true,false);
-    stuck.classList.remove("stickied");
+    stuck[0].classList.remove("stickied");
     console.log(stuck);
   }
   console.log(element);
