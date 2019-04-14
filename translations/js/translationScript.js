@@ -77,9 +77,7 @@ function SetClasses(){
 function ShowKanji(element,overwriteSticky){
   let classes = document.getElementsByClassName("stickied");
   let hide = true;
-  
-  //for (z = 0; z < classes.length; z++)
-    if (classes.length>0) hide = false;
+  if (classes.length>0) hide = false;
   if (hide)
     if (IsStickied()) hide = false;
   if(hide||overwriteSticky){
@@ -98,12 +96,7 @@ function HideKanji(element,overwriteSticky){
   let hide = true;
   if(!overwriteSticky){
     let stickied=document.getElementsByClassName("stickied");
-    if(stickied.length>0){
-      hide=false;
-    }
-    //let classes = element.classList;
-    //for (z = 0; z < classes.length; z++)
-     // if (classes[z] == "stickied") hide = false;
+    if(stickied.length>0)hide=false;
   }
   if(hide){
     UnsetKanji(element);
@@ -125,6 +118,7 @@ function StickKanji(element){
     HideKanji(stucks[0], true);
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
+
   ShowKanji(element,true);
   //SetKanji(element);
   let classes=element.classList;
@@ -201,8 +195,10 @@ function SetKanji(element){
 function UnsetKanji(element){
   let kanjiName;
   for(z=0;z<element.classList.length;z++){
-    if(element.classList[z].split('-')[1]=="show"){
-      kanjiName=element.classList[z].split('-')[0];
+    if(element.classList[z].includes('-')){
+      if (element.classList[z].split('-')[1] == "show") {
+        kanjiName = element.classList[z].split('-')[0];
+      }
     }
   }
   let displaySections=document.getElementsByClassName("kanji-tab");
