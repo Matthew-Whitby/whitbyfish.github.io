@@ -183,18 +183,16 @@ function SetKanji(element){
   console.log(kanjiName);
   let displaySections = document.getElementsByClassName("kanji-tab");
   for (z = 0; z < displaySections.length; z++) {
-    let kanjiClasses = displaySections[z].classList;
+    let id = displaySections[z].id;
     console.log(kanjiClasses);
-    for (m = 0; m < kanjiClasses.length; m++) {
-      if (kanjiClasses[m].split('-')[0] == kanjiName) {
-        let bolds = displaySections[z].getElementsByClassName("bold");
-        console.log(displaySections[z]);
-        for (c = 0; c < bolds.length; c++) {
-          if (bolds[c].getAttribute("bold") == bold) {
-            console.log("REACHED END");
-            let text = bolds[c].innerHTML;
-            bolds[c].innerHTML = "<b>" + text + "</b>";
-          }
+    if (id.split('-')[0] == kanjiName) {
+      let bolds = displaySections[z].getElementsByClassName("bold");
+      console.log(displaySections[z]);
+      for (c = 0; c < bolds.length; c++) {
+        if (bolds[c].getAttribute("bold") == bold) {
+          console.log("REACHED END");
+          let text = bolds[c].innerHTML;
+          bolds[c].innerHTML = "<b>" + text + "</b>";
         }
       }
     }
