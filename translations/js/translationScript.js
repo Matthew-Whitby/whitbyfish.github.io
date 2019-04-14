@@ -171,13 +171,16 @@ function IncludeHTML() {
 }
 
 function SetKanji(element){
+  console.log("CALLED");
   bold=element.getAttribute("setbold");
+  console.log(bold);
   let kanjiName;
   for (z = 0; z < element.classList.length; z++) {
     if (element.classList[z].split('-')[1] == "show") {
       kanjiName = element.classList[z].split('-')[0];
     }
   }
+  console.log(kanjiName);
   let displaySections = document.getElementsByClassName("kanji-tab");
   for (z = 0; z < displaySections.length; z++) {
     let kanjiClasses = displaySections[z].classList;
