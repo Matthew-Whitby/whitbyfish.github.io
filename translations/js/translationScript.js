@@ -101,12 +101,10 @@ function HideKanji(element,overwriteSticky){
   if(hide){
     UnsetKanji(element);
     let classname;
-    for (i = 0; i < element.classList.length; i++) {
-      if (element.classList[i].includes("-")) {
+    for (i = 0; i < element.classList.length; i++)
+      if (element.classList[i].includes("-"))
         if (element.classList[i].split('-')[1] == "show")
           classname = element.classList[i].split("-")[0];
-      }
-    }
     document.getElementById(classname + "-display").style.display = "none";
     document.getElementById("hide-button").style.display = "none";
   }
@@ -114,8 +112,6 @@ function HideKanji(element,overwriteSticky){
 
 function StickKanji(element){
   let stucks=document.getElementsByClassName("stickied");
-  console.log(element);
-  console.log(stucks);
   if(stucks!=null&&stucks.length>0){
     HideKanji(stucks[0], true);
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
@@ -172,11 +168,9 @@ function IncludeHTML() {
 function SetKanji(element){
   bold=element.getAttribute("setbold");
   let kanjiName;
-  for (z = 0; z < element.classList.length; z++) {
-    if (element.classList[z].split('-')[1] == "show") {
+  for (z = 0; z < element.classList.length; z++)
+    if (element.classList[z].split('-')[1] == "show")
       kanjiName = element.classList[z].split('-')[0];
-    }
-  }
   let displaySections = document.getElementsByClassName("kanji-tab");
   for (z = 0; z < displaySections.length; z++) {
     let id = displaySections[z].id;
@@ -194,13 +188,10 @@ function SetKanji(element){
 
 function UnsetKanji(element){
   let kanjiName;
-  for(z=0;z<element.classList.length;z++){
-    if(element.classList[z].includes('-')){
-      if (element.classList[z].split('-')[1] == "show") {
+  for(z=0;z<element.classList.length;z++)
+    if(element.classList[z].includes('-'))
+      if (element.classList[z].split('-')[1] == "show")
         kanjiName = element.classList[z].split('-')[0];
-      }
-    }
-  }
   let displaySections=document.getElementsByClassName("kanji-tab");
   for(z=0;z<displaySections.length;z++){
     let id=displaySections[z].id;
@@ -219,8 +210,8 @@ function UnsetKanji(element){
 
 function DisplayText(id,value){
   let linelist=document.getElementById(id).children;
-  for(i=0;i<linelist.length;i++){
-    for(j=0;j<linelist[i].children.length;j++){
+  for(i=0;i<linelist.length;i++)
+    for(j=0;j<linelist[i].children.length;j++)
       if(linelist[i].children[j].classList[0]=="japanese-display"){
         let displayTypes=linelist[i].children[j].children;
         for(z=0;z<displayTypes.length;z++){
@@ -228,14 +219,12 @@ function DisplayText(id,value){
           else displayTypes[z].style.display="none";
         }
       }
-    }
-  }
 }
 
 function DisplayTextTable(id, value) {
   let linelist = document.getElementById(id).children;
-  for (i = 0; i < linelist.length; i++) {
-    for (j = 0; j < linelist[i].children[0].children[0].children.length; j++) {
+  for (i = 0; i < linelist.length; i++)
+    for (j = 0; j < linelist[i].children[0].children[0].children.length; j++)
       if (linelist[i].children[0].children[0].children[j].classList[0] == "japanese-display") {
         let displayTypes = linelist[i].children[0].children[0].children[j].children;
         for (z = 0; z < displayTypes.length; z++) {
@@ -245,6 +234,4 @@ function DisplayTextTable(id, value) {
           }
         }
       }
-    }
-  }
 }
