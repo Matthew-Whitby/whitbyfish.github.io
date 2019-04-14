@@ -101,21 +101,6 @@ function StickKanji(element){
   ShowKanji(element,true,true);
   element.classList.add("stickied");
   console.log(element);
-  /*let stucks=document.getElementsByClassName("stickied");
-  if(stucks.length==1){
-    ShowKanji(stucks[0], true,false);
-    if (stucks[0] != element) stucks[0].classList.remove("stickied");
-  }
-  ShowKanji(element,true,true);
-  let classes=element.classList;
-  let alreadyStuck=false;
-  for(x=0;x<classes.length;x++)
-    if (classes[x] == "stickied") {
-      alreadyStuck = true;
-      element.classList.remove("stickied");
-      ShowKanji(element, true,false);
-    }
-  if(!alreadyStuck)element.classList.add("stickied");*/
 }
 
 function IsStickied(){
