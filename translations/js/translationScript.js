@@ -121,7 +121,7 @@ function StickKanji(element){
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
   ShowKanji(element,true);
-  SetKanji(element);
+  //SetKanji(element);
   let classes=element.classList;
   let alreadyStuck=false;
   for(x=0;x<classes.length;x++)
