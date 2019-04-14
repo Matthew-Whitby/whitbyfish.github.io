@@ -75,10 +75,11 @@ function SetClasses(){
 }
 
 function ShowKanji(element,overwriteSticky){
-  let classes = element.classList;
+  let classes = document.getElementsByClassName("stickied");
   let hide = true;
-  for (z = 0; z < classes.length; z++)
-    if (classes[z] == "stickied") hide = false;
+  
+  //for (z = 0; z < classes.length; z++)
+    if (classes.length>0) hide = false;
   if (hide)
     if (IsStickied()) hide = false;
   if(hide||overwriteSticky){
@@ -94,12 +95,15 @@ function ShowKanji(element,overwriteSticky){
 }
 
 function HideKanji(element,overwriteSticky){
-  
   let hide = true;
   if(!overwriteSticky){
-    let classes = element.classList;
-    for (z = 0; z < classes.length; z++)
-      if (classes[z] == "stickied") hide = false;
+    let stickied=document.getElementsByClassName("stickied");
+    if(stickied.length>0){
+      hide=false;
+    }
+    //let classes = element.classList;
+    //for (z = 0; z < classes.length; z++)
+     // if (classes[z] == "stickied") hide = false;
   }
   if(hide){
     UnsetKanji(element);
