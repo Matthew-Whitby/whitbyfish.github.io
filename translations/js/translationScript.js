@@ -212,8 +212,9 @@ function UnsetKanji(element){
         if(bolds[c].innerHTML.includes("<b>")){
           let text=bolds[c].innerHTML;
           console.log(text);
-          text.replace("<b>","");
-          text.replace("</b>","");
+          text=text.substring(3,text.length-4);
+          //text.replace("<b>","");
+          //text.replace("</b>","");
           console.log(text);
           bolds[c].innerHTML=text;
         }
