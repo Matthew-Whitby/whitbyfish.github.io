@@ -75,6 +75,7 @@ function SetClasses(){
 }
 
 function ShowKanji(element,overwriteSticky){
+  SetKanji(element);
   let classes = element.classList;
   let hide = true;
   for (z = 0; z < classes.length; z++)
@@ -93,6 +94,7 @@ function ShowKanji(element,overwriteSticky){
 }
 
 function HideKanji(element,overwriteSticky){
+  UnsetKanji(element);
   let hide = true;
   if(!overwriteSticky){
     let classes = element.classList;
@@ -119,6 +121,7 @@ function StickKanji(element){
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
   ShowKanji(element,true);
+  SetKanji(element);
   let classes=element.classList;
   let alreadyStuck=false;
   for(x=0;x<classes.length;x++)
@@ -167,8 +170,31 @@ function IncludeHTML() {
   }
 }
 
-function SetKanji(){
-  let bolds=document.getElementsByClassName("kanji-tab");
+function SetKanji(element){
+  bold=element.getAttribute("setbold");
+  let kanjiName;
+  for (z = 0; z < element.classList.length; z++) {
+    if (element.classList[z].split('-')[1] == "show") {
+      kanjiName = element.classList[z].split('-')[0];
+    }
+  }
+  let displaySections = document.getElementsByClassName("kanji-tab");
+  for (z = 0; z < displaySections.length; z++) {
+    let kanjiClasses = displaySections[z].classList;
+    for (m = 0; m < kanjiClasses.length; m++) {
+      if (kanjiClasses[m].split('-')[0] == kanjiName) {
+        let bolds = displaySections[z].getElementsByClassName("bold");
+        for (c = 0; c < bolds.length; c++) {
+          if (bolds[c].getAttribute("bold") == bold) {
+            let text = bolds[c].innerHTML;
+            bolds[c].innerHTML = "<b>" + text + "</b>";
+          }
+        }
+      }
+    }
+  }
+  /*
+  let bolds=document.getElementsByClassName("kanji-info");
   for(i=0;i<bolds.length;i++){
     let bold=bolds[i].getAttribute("setbold");
     let kanjibolds=bolds[i].getElementsByClassName("bold");
@@ -176,6 +202,30 @@ function SetKanji(){
       if(kanjibolds[j].getAttribute("bold")==bold){
         let text=kanjibolds[j].innerHTML;
         kanjibolds[j].innerHTML="<b>"+text+"</b>";
+      }
+    }
+  }*/
+}
+
+function UnsetKanji(element){
+  let kanjiName;
+  for(z=0;z<element.classList.length;z++){
+    if(element.classList[z].split('-')[1]=="show"){
+      kanjiName=element.classList[z].split('-')[0];
+    }
+  }
+  let displaySections=document.getElementsByClassName("kanji-tab");
+  for(z=0;z<displaySections.length;z++){
+    let kanjiClasses=displaySections[z].classList;
+    for(m=0;m<kanjiClasses.length;m++){
+      if(kanjiClasses[m].split('-')[0]==kanjiName){
+        let bolds=displaySections[z].getElementsByClassName("bold");
+        for(c=0;c<bolds.length;c++){
+          if(bolds[c].innerHTML.includes("<b>")){
+            bolds[c].innerHTML.replace("<b>","");
+            bolds[c].innerHTML.replace("</b>","");
+          }
+        }
       }
     }
   }
