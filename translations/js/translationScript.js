@@ -74,19 +74,6 @@ function SetClasses(){
   }
 }
 
-/*function ShowKanji(element,overwriteSticky){
-  if(!IsStickied()||overwriteSticky){
-    let classname;
-    SetKanji(element);
-    for (i = 0; i < element.classList.length; i++)
-      if (element.classList[i].includes("-"))
-        if (element.classList[i].split('-')[1] == "show")
-          classname = element.classList[i].split("-")[0];
-    document.getElementById(classname + "-display").style.display = "block";
-    document.getElementById("hide-button").style.display="block";
-  }
-}*/
-
 function ShowKanji(element,overwriteSticky,show){
   if(!IsStickied()||overwriteSticky){
     if(show)SetKanji(element);
@@ -103,8 +90,15 @@ function ShowKanji(element,overwriteSticky,show){
 }
 
 function StickKanji(element){
-  let stucks=document.getElementsByClassName("stickied");
-  if(stucks!=null&&stucks.length>0){
+  if(IsStickied()){
+    let stuck=document.getElementsByClassName("stickied");
+    ShowKanji(stuck[0],true,false);
+    stuck.classList.remove("stickied");
+  }
+  ShowKanji(element,true,true);
+  element.classList.add("stickied");
+  /*let stucks=document.getElementsByClassName("stickied");
+  if(stucks.length==1){
     ShowKanji(stucks[0], true,false);
     if (stucks[0] != element) stucks[0].classList.remove("stickied");
   }
@@ -117,7 +111,7 @@ function StickKanji(element){
       element.classList.remove("stickied");
       ShowKanji(element, true,false);
     }
-  if(!alreadyStuck)element.classList.add("stickied");
+  if(!alreadyStuck)element.classList.add("stickied");*/
 }
 
 function IsStickied(){
