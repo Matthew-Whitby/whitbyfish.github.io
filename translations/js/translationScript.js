@@ -187,8 +187,10 @@ function SetKanji(element){
     for (m = 0; m < kanjiClasses.length; m++) {
       if (kanjiClasses[m].split('-')[0] == kanjiName) {
         let bolds = displaySections[z].getElementsByClassName("bold");
+        console.log(displaySections[z]);
         for (c = 0; c < bolds.length; c++) {
           if (bolds[c].getAttribute("bold") == bold) {
+            console.log("REACHED END");
             let text = bolds[c].innerHTML;
             bolds[c].innerHTML = "<b>" + text + "</b>";
           }
