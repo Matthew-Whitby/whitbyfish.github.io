@@ -54,21 +54,21 @@ KANJI:話しかける|こと|も|出来なくて|いつも
 READING:k,k,k
 ENGLISH:unable to ever start a conversation
 LITERAL:start a conversation|thing|also|unable|always
-EXPLAINED:
+EXPLAINED:hanashi - conversation, kakeru - make a call|thing|also/too|to do (dekiru) made negative|always
 ROMAJI:tomodachi to issho ni shabetteru furi de
 HIRAGANA:ともだち|と|いっしょ|に|しゃべってる|ふり|で
 KANJI:友達|と|一緒|に|喋ってる|ふり|で
 READING:k,k,o,o,k
 ENGLISH:I always pretended to talk with my friends
 LITERAL:friends|with|together|←|talk|pretend|←
-EXPLAINED:
+EXPLAINED:friends|with|together|ni as in to|talk|pretend|marks where they were for next line
 ROMAJI:yokome de miteta boku dakedo
 HIRAGANA:よこめ|で|みてた|ぼく|だけど
 KANJI:横目|で|見てた|僕|だけど
 READING:k,k,k,o
 ENGLISH:whilst watching you from the corner of my eye
 LITERAL:glance from corner of eye|←|looked|I|though
-EXPLAINED:
+EXPLAINED:glance from corner of eye|points to where they looked from|looked|I|though
 ROMAJI:kidzuita kono kanjou ni
 HIRAGANA:きづいた|この|かんじょう|に
 KANJI:気付いた|この|感情|に
