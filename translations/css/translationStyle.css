@@ -21,10 +21,7 @@ h3{
 .kanji-tab{
   position: fixed;
   display: none;
-  width: calc(auto + 25px);
-  width: -moz-calc(auto + 25px);
-  width: -webkit-calc(auto + 25px);
-  width: -o-calc(auto + 25px);
+  width: 25%;
   height: auto;
   top: 0;
   left: 0;
