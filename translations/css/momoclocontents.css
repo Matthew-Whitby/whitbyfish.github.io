@@ -17,7 +17,7 @@ table{
 .notdone{
    color: red;
 }
-td,th,h1,h2,u,a,text {
+td,th,h1,h2,u,a {
   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   border: 1px solid #FF91A4;
   color: #FF91A4;
@@ -37,4 +37,8 @@ h2{
 }
 a{
   font-size: 30px;
+}
+text{
+   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
+   color: #FF91A4;
 }
