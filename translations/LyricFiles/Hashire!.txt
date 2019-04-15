@@ -1,4 +1,4 @@
-ROMAJI:Egao ga tomaranai
+﻿ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない
 READING:k,k,k
@@ -50,14 +50,14 @@ EXPLAINED:I|no - particle meaning possession turning I to my in this case|heart/
 ROMAJI:hanashikakeru koto mo dekinakute itsumo
 HIRAGANA:はなしかける|こと|も|できなくて|いつも
 KANJI:話しかける|こと|も|出来なくて|いつも
-READING:
+READING:k,k,k
 ENGLISH:unable to ever start a conversation
 LITERAL:start a conversation|thing|also|unable|always
 EXPLAINED:
 ROMAJI:tomodachi to issho ni shabetteru furi de
 HIRAGANA:ともだち|と|いっしょ|に|しゃべってる|ふり|で
 KANJI:友達|と|一緒|に|喋ってる|ふり|で
-READING:
+READING:k,k,o,o,k
 ENGLISH:I always pretended to talk with my friends
 LITERAL:friends|with|together|←|talk|pretend|←
 EXPLAINED:
