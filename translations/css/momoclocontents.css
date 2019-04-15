@@ -6,9 +6,54 @@ table{
    margin-right: auto;
    margin-bottom: 20px;
    width:auto;
-   border:1px solid black;
    text-align:center;
 }
 .notdone{
    color: red;
+}
+td {
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  border: 1px solid #FF91A4;
+  color: #FF91A4;
+  border-radius: 5px;
+}
+th{
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  border: 1px solid #FF91A4;
+  color: #FF91A4;
+  font-size: 30px;
+  border-radius: 5px;
+}
+table{
+  border: 1px solid #FF91A4;
+  border-radius: 5px;
+}
+.table{
+  background-color: rgba(200,255,200,0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+h1{
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  color: #FF91A4;
+  font-size: 40;
+}
+h2{
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  color:#FF91A4;
+  font-size: 35;
+}
+u{
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  color: #FF91A4;
+}
+a{
+  font-size: 30px;
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  color:#FF91A4;
+}
+text{
+  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  color:#FF91A4;
 }
