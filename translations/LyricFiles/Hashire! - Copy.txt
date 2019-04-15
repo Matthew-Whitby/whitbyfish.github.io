@@ -1,3 +1,4 @@
+﻿ID:0
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない
@@ -5,6 +6,7 @@ READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
 EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
+ID:1
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない
@@ -12,6 +14,7 @@ READING:k,k
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not
 EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
+ID:2
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
@@ -19,6 +22,7 @@ READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards
+ID:3
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
@@ -26,6 +30,7 @@ READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
+ID:4
 ROMAJI:Zutto kimi wo onaji densha de miru tabi ni
 HIRAGANA:ずっと|キミ|を|おなじ|でんしゃ|で|みる|たび|に
 KANJI:ずっと|キミ|を|同じ|電車|で|見る|たび|に
@@ -33,416 +38,396 @@ READING:k,o,o,k
 ENGLISH:I always see you on the same train as me
 LITERAL:always|you|←|same|train|at|see|journey|on
 EXPLAINED:always|you|wo - marks you as the one being looked at, more generally marks the word before it as the destination of the following action|same|train|de - particle that can be translated as 'at'|see|journey|ni - particle that can be translated as 'on'
+ID:5
 ROMAJI:Istu kara darou?
 HIRAGANA:いつ|から|だろう?
 KANJI:いつ|から|だろう?
-READING:
 ENGLISH:I wonder when it began,
 LITERAL:when|from|wonder
 EXPLAINED:when|from|wonder - as in 'I wonder', means 'think' generally
+ID:6
 ROMAJI:Boku no kokoro no naka de ookiku natteita omoi
 HIRAGANA:ぼく|の|ココロ|の|なか|で|おおきく|なっていた|おもい
 KANJI:僕|の|ココロ|の|中|で|大きく|なっていた|想い
-READING:
 ENGLISH:when these feelings inside my heart became so big
 LITERAL:I|←|heart|←|inside|←|big|became|feelings
 EXPLAINED:I|no - particle meaning possession turning I to my in this case|heart/soul|'no' again. Sentence so far reads "my heart's"|inside|de - at/in (points to location of action)|big/large|form of naru (to become), - tteita = past progressive conjugation of verb (for most -ru verbs)|feelings, can also mean thoughts or love
+ID:7
 ROMAJI:hanashikakeru koto mo dekinakute itsumo
 HIRAGANA:はなしかける|こと|も|できなくて|いつも
 KANJI:話しかける|こと|も|出来なくて|いつも
-READING:
 ENGLISH:unable to ever start a conversation
 LITERAL:start a conversation|thing|also|unable|always
 EXPLAINED:
+ID:8
 ROMAJI:tomodachi to issho ni shabetteru furi de
 HIRAGANA:ともだち|と|いっしょ|に|しゃべってる|ふり|で
 KANJI:友達|と|一緒|に|喋ってる|ふり|で
-READING:
 ENGLISH:I always pretended to talk with my friends
 LITERAL:friends|with|together|←|talk|pretend|←
 EXPLAINED:
+ID:9
 ROMAJI:yokome de miteta boku dakedo
 HIRAGANA:よこめ|で|みてた|ぼく|だけど
 KANJI:横目|で|見てた|僕|だけど
-READING:
 ENGLISH:whilst watching you from the corner of my eye
 LITERAL:glance from corner of eye|←|looked|I|though
 EXPLAINED:
+ID:10
 ROMAJI:kidzuita kono kanjou ni
 HIRAGANA:きづいた|この|かんじょう|に
 KANJI:気付いた|この|感情|に
-READING:
 ENGLISH:now that I've noticed these feelings
 LITERAL:noticed|these|feelings|←
 EXPLAINED:
+ID:11
 ROMAJI:mou koukai nante shitakunai
 HIRAGANA:もう|こうかい|なんて|したくない
 KANJI:もう|後悔|なんて|したくない
-READING:
 ENGLISH:I don't want to regret anything anymore
 LITERAL:now|regret|things like|don't want to
 EXPLAINED:
+ID:12
 ROMAJI:boku wa boku ni uso tsuite nigetaku mo nai
 HIRAGANA:ぼく|は|ぼく|に|ウソ|ついて|にげたく|も|ない
 KANJI:僕|は|僕|に|ウソ|ついて|逃げたく|も|ない
-READING:
 ENGLISH:I don't want to lie to myself or run away from it
 LITERAL:I|←|me|←|lie|about|run away|also|not
 EXPLAINED:
+ID:13
 ROMAJI:afuredashi sou na kimochi wo hitotsu nokorazu
 HIRAGANA:あふれだし|そう|な|キモチ|を|ひとつ|のこらず
 KANJI:溢れ出し|そう|な|キモチ|を|一つ|残らず
-READING:
 ENGLISH:I'll gather up all my overflowing feelings
 LITERAL:overflowing|like|←|feelings|←|one|all
 EXPLAINED:
+ID:14
 ROMAJI:kotoba ni zenbu tsumekomou
 HIRAGANA:ことば|に|ぜんぶ|つめこもう
 KANJI:言葉|に|全部|詰め込もう
-READING:
 ENGLISH:and put them all into words
 LITERAL:words|←|all|cram
 EXPLAINED:
+ID:15
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
-READING:
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
 EXPLAINED:
+ID:16
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
-READING:
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not
 EXPLAINED:
+ID:17
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
-READING:
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:
+ID:18
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
+ID:19
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
-READING:
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|enough not
 EXPLAINED:
+ID:20
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
-READING:
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|enough not
 EXPLAINED:
+ID:21
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
-READING:
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
 EXPLAINED:
+ID:22
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
+ID:23
 ROMAJI:itsudatte fumidasu mae ni
 HIRAGANA:いつだって|ふみだす|まえ|に
 KANJI:いつだって|踏み出す|前|に
-READING:
 ENGLISH:Before stepping forwards I'm always
 LITERAL:always|step forward|before|←
 EXPLAINED:
+ID:24
 ROMAJI:iiwake bakkari kangaete
 HIRAGANA:いいわけ|ばっかり|かんがえて
 KANJI:言い訳|ばっかり|考えて
-READING:
 ENGLISH:thinking of excuses
 LITERAL:excuse|always|think
 EXPLAINED:
+ID:25
 ROMAJI:kekkyoku nannimo dekinakute
 HIRAGANA:けっきょく|なんにも|できなくて
 KANJI:結局|何も|出来なくて
-READING:
 ENGLISH:In the end I was unable to do anything
 LITERAL:in the end|nothing|not able to be done~*Note - in Japanese double negatives in sentances result in negatives e.g. nothing (not able to be done) ← nothing able to be done (instead of nothing that can't be done)
 EXPLAINED:
+ID:26
 ROMAJI:jikan ga sugite
 HIRAGANA:じかん|が|すぎて
 KANJI:時間|が|過ぎて
-READING:
 ENGLISH:as time passes by me
 LITERAL:time|←|passes
 EXPLAINED:
+ID:27
 ROMAJI:wasureteiku koto ni nareteta
 HIRAGANA:わすれていく|こと|に|なれてた
 KANJI:忘れていく|こと|に|慣れてた
-READING:
 ENGLISH:now so familiar with forgetting,
 LITERAL:forget about|thing|←|familiarized
 EXPLAINED:
+ID:28
 ROMAJI:boku no kokoro ga hashiridashita
 HIRAGANA:ぼく|の|ココロ|が|はしりだした
 KANJI:僕|の|ココロ|が|走り出した
-READING:
 ENGLISH:my heart begins to race
 LITERAL:me|←|heart|←|started running
 EXPLAINED:
 ROMAJI:konna ni hiroi sekai kara sureba
 HIRAGANA:こんな|に|ひろい|せかい|から|すれば
 KANJI:こんな|に|広い|世界|から|すれば
-READING:
 ENGLISH:Compared to this vast world
 LITERAL:like this|←|vast|world|from|in that case
 EXPLAINED:
 ROMAJI:boku nante chippoke darou na
 HIRAGANA:ぼく|なんて|ちっぽけ|だろう|な
 KANJI:僕|なんて|ちっぽけ|だろう|な
-READING:
 ENGLISH:someone like me seems so small
 LITERAL:me|like|small|seems|*emphasis*
 EXPLAINED:
 ROMAJI:demo kimi (h)e no boku no omoi wa
 HIRAGANA:でも|キミ|へ|の|ぼく|の|おもい|は
 KANJI:でも|キミ|へ|の|僕|の|想い|は
-READING:
 ENGLISH:but my feelings towards you
 LITERAL:but|you|←|to|me|←|feelings|←~'to' as in directional
 EXPLAINED:
 ROMAJI:kono sora yori mo ookii kara
 HIRAGANA:この|そら|より|も|おおきい|から
 KANJI:この|空|より|も|大きい|から
-READING:
 ENGLISH:are far greater than the sky
 LITERAL:this|sky|than|also|big|since
 EXPLAINED:
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
-READING:
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
 EXPLAINED:
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
-READING:
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not|
 EXPLAINED:
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
-READING:
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
-READING:
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|enough not
 EXPLAINED:
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
-READING:
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|enough not
 EXPLAINED:
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
-READING:
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
 ROMAJI:mattete mo hajimannai
 HIRAGANA:まっていて|も|はじまんない
 KANJI:待っていて|も|始まんない
-READING:
 ENGLISH:nothing will start if you wait
 LITERAL:waiting|←|begin not
 EXPLAINED:
 ROMAJI:kimi to zenryoku de mukiaitai
 HIRAGANA:キミ|と|ぜんりょく|で|むきあいたい
 KANJI:キミ|と|全力|で|向き合いたい
-READING:
 ENGLISH:I want to face you with all my strength
 LITERAL:you|with|all one's power|←|to face
 EXPLAINED:
+ID:
 ROMAJI:onaji kono hoshi ni umarete
 HIRAGANA:おなじ|この|ほし|に|うまれて
 KANJI:同じ|この|星|に|生まれて
-READING:
 ENGLISH:We were born on this same planet
 LITERAL:same|this|planet|on|born
 EXPLAINED:
+ID:
 ROMAJI:onaji kono jidai ni umaretekorete
 HIRAGANA:おなじ|この|きだい|に|うまれてこれて
 KANJI:同じ|この|時代|に|生まれてこれて
-READING:
 ENGLISH:We were born in the same period of time
 LITERAL:same|this|period|on|come to be born
 EXPLAINED:
+ID:
 ROMAJI:guuzen nante kantan na kotoba de
 HIRAGANA:ぐうぜん|なんて|かんたん|な|ことば|で
 KANJI:偶然|なんて|簡単|な|言葉|で
-READING:
 ENGLISH:words like chance are such simple words
 LITERAL:chance|things like|simple|←|word|←
 EXPLAINED:
+ID:
 ROMAJI:surechigai hanarete shimau nante
 HIRAGANA:すれちがい|はなれて|しまう|なんて
 KANJI:すれ|違い|離れて|しまう|なんて
-READING:
 ENGLISH:disagreeing and accidentally distancing ourselves
 LITERAL:having discrepancies|distance|do accidentally|things like
 EXPLAINED:
+ID:
 ROMAJI:kangaeru dake de mune no oku ga itakute
 HIRAGANA:かんがえる|だけ|で|むね|の|おく|が|いたくて
 KANJI:考える|だけ|で|胸|の|奥|が|痛くて
-READING:
 ENGLISH:just thinking of it hurts my chest
 LITERAL:think about|only|←|chest|'s|inside|←|painful
 EXPLAINED:
+ID:
 ROMAJI:junsui ni kimi to tsunagatteitai yo ima mo
 HIRAGANA:じゅんすい|に|キミ|と|つながっていたい|よ|いま|も
 KANJI:純粋|に|キミ|と|繋がっていたい|よ|今|も
-READING:
 ENGLISH:I want to get to know the real you, even now
 LITERAL:genuine|←|you|←|want to be connected to|*emphasis*|now|too
 EXPLAINED:
+ID:
 ROMAJI:nan nen mo nan juunen mo kono-saki mo mirai mo
 HIRAGANA:なん|ねん|も|なん|じゅうねん|も|この|さき|も|みらい|も
 KANJI:何|年|も|何|十|年|も|この|先|の|未来|も
-READING:
 ENGLISH:however many years, however many decades, from now unto forever
 LITERAL:|however many|years|too|however many|decades|too|from now|too|future|too
 EXPLAINED:
+ID:
 ROMAJI:ichidokiri no jinsei dakara
 HIRAGANA:いちどきり|の|じねい|だから
 KANJI:一度きり|の|人生|だから
-READING:
 ENGLISH:because we only have one chance to live
 LITERAL:one chance|of|life|because
 EXPLAINED:
+ID:
 ROMAJI:kimi no mae ja sunao de itainda
 HIRAGANA:キミ|の|まえ|じゃ|すなお|で|いたいんだ
 KANJI:キミ|の|前|じゃ|素直|で|いたいんだ
-READING:
 ENGLISH:I want to be honest when I'm with you
 LITERAL:you|r|front|←|honest|←|want to be
 EXPLAINED:
+ID:
 ROMAJI:soredemo kotae wa dasenai yo
 HIRAGANA:それでも|こたえ|は|だせない|よ
 KANJI:それでも|答え|は|出せない|よ
-READING:
 ENGLISH:even so I still can't give you an answer
 LITERAL:but still|reply|←|give not|*emphasis*
 EXPLAINED:
+ID:
 ROMAJI:sukoshi no kotoba dasenai yo
 HIRAGANA:すこし|の|ことば|だせない|よ
 KANJI:少し|の|言葉|出せない|よ
-READING:
 ENGLISH:I can't even say the smallest of words
 LITERAL:small|←|words|give not|*emphasis*
 EXPLAINED:
+ID:
 ROMAJI:kimi ga suki
 HIRAGANA:きみ|が|すき
 KANJI:「君|が|好き」
-READING:
 ENGLISH:I love you
 LITERAL:you|←|like
 EXPLAINED:
+ID:
 ROMAJI:sore dake de sekai wo kaeru? kawaru?
 HIRAGANA:それ|だけ|で|せかい|を|かえる？|かわる？
 KANJI:それ|だけ|で|世界|を|変える?|変わる?
-READING:
 ENGLISH:will those words alone change the world, will they?
 LITERAL:that|alone|←|world|←|change|be changed
 EXPLAINED:
+ID:
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
-READING:
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
 EXPLAINED:
+ID:
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
-READING:
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not
 EXPLAINED:
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
-READING:
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
-READING:
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|not enough
 EXPLAINED:
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
-READING:
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|not enough
 EXPLAINED:
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
-READING:
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
