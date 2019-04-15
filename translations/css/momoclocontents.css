@@ -27,10 +27,8 @@ th{
 table{
   border: 1px solid #FF91A4;
   border-radius: 5px;
-}
-.table{
   background-color: rgba(200,255,200,0.5);
-  padding-top: 5px;
+   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
 }
