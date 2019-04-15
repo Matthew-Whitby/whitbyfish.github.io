@@ -17,39 +17,24 @@ table{
 .notdone{
    color: red;
 }
-td {
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+td,th,h1,h2,u,a,text {
+  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   border: 1px solid #FF91A4;
   color: #FF91A4;
   border-radius: 5px;
 }
 th{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
   border: 1px solid #FF91A4;
   color: #FF91A4;
   font-size: 30px;
   border-radius: 5px;
 }
 h1{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color: #FF91A4;
   font-size: 40;
 }
 h2{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color:#FF91A4;
   font-size: 35;
-}
-u{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color: #FF91A4;
 }
 a{
   font-size: 30px;
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color:#FF91A4;
-}
-text{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color:#FF91A4;
 }
