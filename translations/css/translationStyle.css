@@ -29,7 +29,7 @@ h3{
   bottom: 0;
   border: black;
   border-width: 2px;
-  background: white;
+  background: lightgray;
   z-index: 2;
 }
 p{
