@@ -138,42 +138,42 @@ KANJI:今|は|まだ|勇気|が|足りない!
 READING:k,o,o,k
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|enough not
-EXPLAINED:
+EXPLAINED:now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
 READING:k,k
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|enough not
-EXPLAINED:
+EXPLAINED:little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
 READING:k,k,o,k
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
-EXPLAINED:
+EXPLAINED:start to move|me|turns me into my (like 's)|body
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:run!|run!|run!
 ROMAJI:itsudatte fumidasu mae ni
 HIRAGANA:いつだって|ふみだす|まえ|に
 KANJI:いつだって|踏み出す|前|に
 READING:k,k,k
 ENGLISH:Before stepping forwards I'm always
 LITERAL:always|step forward|before|←
-EXPLAINED:
+EXPLAINED:always|stepforward|before|points to sentence in preperation for next part
 ROMAJI:iiwake bakkari kangaete
 HIRAGANA:いいわけ|ばっかり|かんがえて
 KANJI:言い訳|ばっかり|考えて
 READING:k,k,k
 ENGLISH:thinking of excuses
 LITERAL:excuse|always|think
-EXPLAINED:
+EXPLAINED:excuse|always|thinking/making up
 ROMAJI:kekkyoku nannimo dekinakute
 HIRAGANA:けっきょく|なんにも|できなくて
 KANJI:結局|何も|出来なくて
