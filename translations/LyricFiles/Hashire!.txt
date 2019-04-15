@@ -75,63 +75,63 @@ KANJI:気付いた|この|感情|に
 READING:o,k,o,o
 ENGLISH:now that I've noticed these feelings
 LITERAL:noticed|these|feelings|←
-EXPLAINED:
+EXPLAINED:Noticed|these|feelings|points to this phrase in preperation for the next line
 ROMAJI:mou koukai nante shitakunai
 HIRAGANA:もう|こうかい|なんて|したくない
 KANJI:もう|後悔|なんて|したくない
 READING:o,o
 ENGLISH:I don't want to regret anything anymore
 LITERAL:now|regret|things like|don't want to
-EXPLAINED:
+EXPLAINED:now, in this case better represented as 'no more'|regret|things like|to do (suru) but negative
 ROMAJI:boku wa boku ni uso tsuite nigetaku mo nai
 HIRAGANA:ぼく|は|ぼく|に|ウソ|ついて|にげたく|も|ない
 KANJI:僕|は|僕|に|ウソ|ついて|逃げたく|も|ない
 READING:o,o,k
 ENGLISH:I don't want to lie to myself or run away from it
 LITERAL:I|←|me|←|lie|about|run away|also|not
-EXPLAINED:
+EXPLAINED:I|points to I (me)|I (so far, I to I)|lie|about|to run (nigeru) past tense|also|not (also don't want to run away)
 ROMAJI:afuredashi sou na kimochi wo hitotsu nokorazu
 HIRAGANA:あふれだし|そう|な|キモチ|を|ひとつ|のこらず
 KANJI:溢れ出し|そう|な|キモチ|を|一つ|残らず
 READING:k,k,k,k
 ENGLISH:I'll gather up all my overflowing feelings
 LITERAL:overflowing|like|←|feelings|←|one|all
-EXPLAINED:
+EXPLAINED:overflowing|like|points to overflowing like|feelings|points to overflowing feelings|one|all, as in gather overflowing feelings into one
 ROMAJI:kotoba ni zenbu tsumekomou
 HIRAGANA:ことば|に|ぜんぶ|つめこもう
 KANJI:言葉|に|全部|詰め込もう
 READING:k,k,o,o,k,k
 ENGLISH:and put them all into words
 LITERAL:words|←|all|cram
-EXPLAINED:
+EXPLAINED:words|points to words|all|cram
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not
-EXPLAINED:
+EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
 READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
-EXPLAINED:
+EXPLAINED:begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
