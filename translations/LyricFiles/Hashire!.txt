@@ -218,119 +218,119 @@ EXPLAINED:
 ROMAJI:demo kimi (h)e no boku no omoi wa
 HIRAGANA:でも|キミ|へ|の|ぼく|の|おもい|は
 KANJI:でも|キミ|へ|の|僕|の|想い|は
-READING:
+READING:o,k
 ENGLISH:but my feelings towards you
 LITERAL:but|you|←|to|me|←|feelings|←~'to' as in directional
 EXPLAINED:
 ROMAJI:kono sora yori mo ookii kara
 HIRAGANA:この|そら|より|も|おおきい|から
 KANJI:この|空|より|も|大きい|から
-READING:
+READING:k,k
 ENGLISH:are far greater than the sky
 LITERAL:this|sky|than|also|big|since
 EXPLAINED:
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
-READING:
+READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
 EXPLAINED:
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
-READING:
+READING:k,k
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not|
 EXPLAINED:
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
-READING:
+READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
+READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
-READING:
+READING:k,o,o,k
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|enough not
 EXPLAINED:
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
-READING:
+READING:k,k
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|enough not
 EXPLAINED:
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
-READING:
+READING:k,k,o,k
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
 EXPLAINED:
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
-READING:
+READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
 EXPLAINED:
 ROMAJI:mattete mo hajimannai
 HIRAGANA:まっていて|も|はじまんない
 KANJI:待っていて|も|始まんない
-READING:
+READING:k,k
 ENGLISH:nothing will start if you wait
 LITERAL:waiting|←|begin not
 EXPLAINED:
 ROMAJI:kimi to zenryoku de mukiaitai
 HIRAGANA:キミ|と|ぜんりょく|で|むきあいたい
 KANJI:キミ|と|全力|で|向き合いたい
-READING:
+READING:o,o,k
 ENGLISH:I want to face you with all my strength
 LITERAL:you|with|all one's power|←|to face
 EXPLAINED:
 ROMAJI:onaji kono hoshi ni umarete
 HIRAGANA:おなじ|この|ほし|に|うまれて
 KANJI:同じ|この|星|に|生まれて
-READING:
+READING:k,k,k
 ENGLISH:We were born on this same planet
 LITERAL:same|this|planet|on|born
 EXPLAINED:
 ROMAJI:onaji kono jidai ni umaretekorete
 HIRAGANA:おなじ|この|きだい|に|うまれてこれて
 KANJI:同じ|この|時代|に|生まれてこれて
-READING:
+READING:k,o,o,k
 ENGLISH:We were born in the same period of time
 LITERAL:same|this|period|on|come to be born
 EXPLAINED:
 ROMAJI:guuzen nante kantan na kotoba de
 HIRAGANA:ぐうぜん|なんて|かんたん|な|ことば|で
 KANJI:偶然|なんて|簡単|な|言葉|で
-READING:
+READING:o,o,o,o,k,k
 ENGLISH:words like chance are such simple words
 LITERAL:chance|things like|simple|←|word|←
 EXPLAINED:
 ROMAJI:surechigai hanarete shimau nante
 HIRAGANA:すれちがい|はなれて|しまう|なんて
 KANJI:すれ|違い|離れて|しまう|なんて
-READING:
+READING:k,k,
 ENGLISH:disagreeing and accidentally distancing ourselves
 LITERAL:having discrepancies|distance|do accidentally|things like
 EXPLAINED:
 ROMAJI:kangaeru dake de mune no oku ga itakute
 HIRAGANA:かんがえる|だけ|で|むね|の|おく|が|いたくて
 KANJI:考える|だけ|で|胸|の|奥|が|痛くて
-READING:
+READING:k,k,k,k
 ENGLISH:just thinking of it hurts my chest
 LITERAL:think about|only|←|chest|'s|inside|←|painful
 EXPLAINED:
