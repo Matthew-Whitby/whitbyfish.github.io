@@ -43,7 +43,7 @@ EXPLAINED:when|from|wonder - as in 'I wonder', means 'think' generally
 ROMAJI:Boku no kokoro no naka de ookiku natteita omoi
 HIRAGANA:ぼく|の|ココロ|の|なか|で|おおきく|なっていた|おもい
 KANJI:僕|の|ココロ|の|中|で|大きく|なっていた|想い
-READING:
+READING:o,k,k,k
 ENGLISH:when these feelings inside my heart became so big
 LITERAL:I|←|heart|←|inside|←|big|became|feelings
 EXPLAINED:I|no - particle meaning possession turning I to my in this case|heart/soul|'no' again. Sentence so far reads "my heart's"|inside|de - at/in (points to location of action)|big/large|form of naru (to become), - tteita = past progressive conjugation of verb (for most -ru verbs)|feelings, can also mean thoughts or love
