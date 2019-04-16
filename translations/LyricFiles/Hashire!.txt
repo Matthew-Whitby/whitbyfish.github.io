@@ -5,7 +5,7 @@ KANJI:笑顔|が|止まらない
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない
@@ -110,7 +110,7 @@ KANJI:笑顔|が|止まらない!
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (it's complicated)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
@@ -229,221 +229,221 @@ KANJI:この|空|より|も|大きい|から
 READING:k,k
 ENGLISH:are far greater than the sky
 LITERAL:this|sky|than|also|big|since
-EXPLAINED:
+EXPLAINED:this|sky|than - means more than (more than this sky)|also|big|because/since (sentence reads 'because they are bigger than the sky'
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not|
-EXPLAINED:
+EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
 READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
-EXPLAINED:
+EXPLAINED:begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
 READING:k,o,o,k
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|enough not
-EXPLAINED:
+EXPLAINED:now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
 READING:k,k
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|enough not
-EXPLAINED:
+EXPLAINED:little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
 READING:k,k,o,k
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
-EXPLAINED:
+EXPLAINED:start to move|me|turns me into my (like 's)|body
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
 ROMAJI:mattete mo hajimannai
 HIRAGANA:まっていて|も|はじまんない
 KANJI:待っていて|も|始まんない
 READING:k,k
 ENGLISH:nothing will start if you wait
 LITERAL:waiting|←|begin not
-EXPLAINED:
+EXPLAINED:to wait (matsu) progressive form|points to waiting|begin (hajimaru) negative, not begin
 ROMAJI:kimi to zenryoku de mukiaitai
 HIRAGANA:キミ|と|ぜんりょく|で|むきあいたい
 KANJI:キミ|と|全力|で|向き合いたい
 READING:o,o,k
 ENGLISH:I want to face you with all my strength
 LITERAL:you|with|all one's power|←|to face
-EXPLAINED:
+EXPLAINED:you|with/and|full power/all your strength|with|to face (mukau) -tai version means to want to; want to face
 ROMAJI:onaji kono hoshi ni umarete
 HIRAGANA:おなじ|この|ほし|に|うまれて
 KANJI:同じ|この|星|に|生まれて
 READING:k,k,k
 ENGLISH:We were born on this same planet
 LITERAL:same|this|planet|on|born
-EXPLAINED:
+EXPLAINED:same|this|planet|on|born
 ROMAJI:onaji kono jidai ni umaretekorete
 HIRAGANA:おなじ|この|きだい|に|うまれてこれて
 KANJI:同じ|この|時代|に|生まれてこれて
 READING:k,o,o,k
 ENGLISH:We were born in the same period of time
 LITERAL:same|this|period|on|come to be born
-EXPLAINED:
+EXPLAINED:same|this|period of time|on|come to be borm
 ROMAJI:guuzen nante kantan na kotoba de
 HIRAGANA:ぐうぜん|なんて|かんたん|な|ことば|で
 KANJI:偶然|なんて|簡単|な|言葉|で
 READING:o,o,o,o,k,k
 ENGLISH:words like chance are such simple words
 LITERAL:chance|things like|simple|←|word|←
-EXPLAINED:
+EXPLAINED:chance|things like|simple|points to things like simple chances|words|points to sentence in preperation for next line
 ROMAJI:surechigai hanarete shimau nante
 HIRAGANA:すれちがい|はなれて|しまう|なんて
-KANJI:すれ|違い|離れて|しまう|なんて
+KANJI:すれ違い|離れて|しまう|なんて
 READING:k,k
 ENGLISH:disagreeing and accidentally distancing ourselves
 LITERAL:having discrepancies|distance|do accidentally|things like
-EXPLAINED:
+EXPLAINED:disagreeing/having differences|distance|accidentally do/without meaning to|things like (sentence reads as having differences and accidentally distancing ourselves because of it)
 ROMAJI:kangaeru dake de mune no oku ga itakute
 HIRAGANA:かんがえる|だけ|で|むね|の|おく|が|いたくて
 KANJI:考える|だけ|で|胸|の|奥|が|痛くて
 READING:k,k,k,k
 ENGLISH:just thinking of it hurts my chest
 LITERAL:think about|only|←|chest|'s|inside|←|painful
-EXPLAINED:
+EXPLAINED:thinking about|only|points to thinking about it|chest|chest's|inside|points to inside of chest|painful
 ROMAJI:junsui ni kimi to tsunagatteitai yo ima mo
 HIRAGANA:じゅんすい|に|キミ|と|つながっていたい|よ|いま|も
 KANJI:純粋|に|キミ|と|繋がっていたい|よ|今|も
 READING:o,o,k,k
 ENGLISH:I want to get to know the real you, even now
 LITERAL:genuine|←|you|←|want to be connected to|*emphasis*|now|too
-EXPLAINED:
+EXPLAINED:genuine/authentic/real|points to real|you|points to the real you|to be connected/tied together/linked to (tsunagaru) -tai makes it a wish (to want to)|*emphasis*|now|too/also
 ROMAJI:nan nen mo nan juunen mo kono-saki mo mirai mo
 HIRAGANA:なん|ねん|も|なん|じゅうねん|も|この|さき|も|みらい|も
 KANJI:何|年|も|何|十|年|も|この|先|の|未来|も
 READING:k,o,k,o,o,k,o,o
 ENGLISH:however many years, however many decades, from now unto forever
-LITERAL:|however many|years|too|however many|decades|too|from now|too|future|too
-EXPLAINED:
+LITERAL:however many|years|too|however many|decades|too|from now|too|future|too
+EXPLAINED:however many|years|too/also|however many|tens of years (decades)|too/also|from now|too/also|future|too/also
 ROMAJI:ichidokiri no jinsei dakara
 HIRAGANA:いちどきり|の|じねい|だから
 KANJI:一度きり|の|人生|だから
 READING:o,o,o,o
 ENGLISH:because we only have one chance to live
 LITERAL:one chance|of|life|because
-EXPLAINED:
+EXPLAINED:once chance/one shot|of|life|because (sentence reads because there's only one shot at life)
 ROMAJI:kimi no mae ja sunao de itainda
 HIRAGANA:キミ|の|まえ|じゃ|すなお|で|いたいんだ
 KANJI:キミ|の|前|じゃ|素直|で|いたいんだ
 READING:k,o,k
 ENGLISH:I want to be honest when I'm with you
 LITERAL:you|r|front|←|honest|←|want to be
-EXPLAINED:
+EXPLAINED:you|your|front|points to your front|honest|points to honest in front of you|want to be
 ROMAJI:soredemo kotae wa dasenai yo
 HIRAGANA:それでも|こたえ|は|だせない|よ
 KANJI:それでも|答え|は|出せない|よ
 READING:k,k
 ENGLISH:even so I still can't give you an answer
 LITERAL:but still|reply|←|give not|*emphasis*
-EXPLAINED:
+EXPLAINED:although|reply|points to 'but the reply'|negative of to give/let out|*emphasis*
 ROMAJI:sukoshi no kotoba dasenai yo
 HIRAGANA:すこし|の|ことば|だせない|よ
 KANJI:少し|の|言葉|出せない|よ
 READING:k,k,k,k
 ENGLISH:I can't even say the smallest of words
 LITERAL:small|←|words|give not|*emphasis*
-EXPLAINED:
+EXPLAINED:small|points to small|words|negative of to give/let out
 ROMAJI:kimi ga suki
 HIRAGANA:きみ|が|すき
 KANJI:「君|が|好き」
 READING:k,k
 ENGLISH:I love you
 LITERAL:you|←|like
-EXPLAINED:
+EXPLAINED:you|points to you|like (meant as in I love you)
 ROMAJI:sore dake de sekai wo kaeru? kawaru?
 HIRAGANA:それ|だけ|で|せかい|を|かえる？|かわる？
 KANJI:それ|だけ|で|世界|を|変える?|変わる?
 READING:o,o,k,k
 ENGLISH:will those words alone change the world, will they?
 LITERAL:that|alone|←|world|←|change|be changed
-EXPLAINED:
+EXPLAINED:that|alone|points to that alone|world|points to [blank] alone the world [blank]|will change?|will it change?
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない!
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
 ENGLISH:My heart won't stop beating
 LITERAL:pounding|heart|stop not
-EXPLAINED:
+EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
 HIRAGANA:うごきだす|よ|きみ|の|もと|へ
 KANJI:動き出す|よ|君|の|元|へ
 READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
-EXPLAINED:
+EXPLAINED:begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
 ROMAJI:ima wa mada yuuki ga tarinai!
 HIRAGANA:いま|は|まだ|ゆうき|が|たりない
 KANJI:今|は|まだ|勇気|が|足りない!
 READING:k,o,o,k
 ENGLISH:Right now I don't have the courage!
 LITERAL:now|←|yet|courage|←|not enough
-EXPLAINED:
+EXPLAINED:now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:sukoshi no kikkake ga tarinai!
 HIRAGANA:すこし|の|きっかけ|が|たりない
 KANJI:少し|の|きっかけ|が|足りない!
 READING:k,k
 ENGLISH:There aren't enough little chances
 LITERAL:little|←|chances|←|not enough
-EXPLAINED:
+EXPLAINED:little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough
 ROMAJI:ugokidashite boku no karada
 HIRAGANA:うごきだして|ぼく|の|からだ
 KANJI:動き出して|僕|の|体
 READING:k,k,o,k
 ENGLISH:and so I start to move my body
 LITERAL:start to move|me|←|body
-EXPLAINED:
+EXPLAINED:start to move|me|turns me into my (like 's)|body
 ROMAJI:Hashire! hashire! hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
 ENGLISH:and run! Run! Run!
 LITERAL:run!|run!|run!
-EXPLAINED:
+EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru
