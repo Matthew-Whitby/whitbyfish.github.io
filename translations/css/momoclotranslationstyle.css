@@ -1,4 +1,4 @@
 h1{
-   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
+   text-shadow: -1px -1px black,1px -1px black, -1px 1px black,1px 1px black;
    color: #FF91A4;
 }
