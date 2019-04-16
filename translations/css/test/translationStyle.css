@@ -95,6 +95,7 @@ p{
   left: -o-calc(25% - 53px);
   left: calc(25% - 53px);
   z-index: 3;
+  cursor: pointer;
 }
 .kanji-display{
   position: fixed;
