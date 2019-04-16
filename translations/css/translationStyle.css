@@ -21,6 +21,9 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   orientation:landscape;
   z-index: 1;
 }
+#menu a{
+  margin:0 10px;
+}
 #topNav{
   padding:0 10px;
   position:fixed;
