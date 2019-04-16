@@ -179,50 +179,50 @@ HIRAGANA:けっきょく|なんにも|できなくて
 KANJI:結局|何も|出来なくて
 READING:o,o,k,k,k
 ENGLISH:In the end I was unable to do anything
-LITERAL:in the end|nothing|not able to be done~*Note - in Japanese double negatives in sentances result in negatives e.g. nothing (not able to be done) ← nothing able to be done (instead of nothing that can't be done)
-EXPLAINED:
+LITERAL:in the end|nothing|not able to be done
+EXPLAINED:after all/in the end|nothing|to do (dekiru) not, negative form, *Note - in Japanese double negatives in sentances result in negatives e.g. nothing (not able to be done) ← nothing able to be done (instead of nothing that can't be done)
 ROMAJI:jikan ga sugite
 HIRAGANA:じかん|が|すぎて
 KANJI:時間|が|過ぎて
 READING:o,o,k
 ENGLISH:as time passes by me
 LITERAL:time|←|passes
-EXPLAINED:
+EXPLAINED:time|points to time|to pass (sugiru) progressive conjugation
 ROMAJI:wasureteiku koto ni nareteta
 HIRAGANA:わすれていく|こと|に|なれてた
 KANJI:忘れていく|こと|に|慣れてた
 READING:k,k
 ENGLISH:now so familiar with forgetting,
 LITERAL:forget about|thing|←|familiarized
-EXPLAINED:
+EXPLAINED:forget about|things|points to things forgotten about|get used to (sentence reads as 'getting used to forgetting things'
 ROMAJI:boku no kokoro ga hashiridashita
 HIRAGANA:ぼく|の|ココロ|が|はしりだした
 KANJI:僕|の|ココロ|が|走り出した
 READING:o,k,k
 ENGLISH:my heart begins to race
 LITERAL:me|←|heart|←|started running
-EXPLAINED:
+EXPLAINED:me/I|turns me to my (possessive particle)|heart|points to my heart|form of hashiru (to run), means to start running
 ROMAJI:konna ni hiroi sekai kara sureba
 HIRAGANA:こんな|に|ひろい|せかい|から|すれば
 KANJI:こんな|に|広い|世界|から|すれば
 READING:k,o,o
 ENGLISH:Compared to this vast world
 LITERAL:like this|←|vast|world|from|in that case
-EXPLAINED:
+EXPLAINED:similar to this|points to similar to this|vast/wide|world|from|in that case (sentence means 'when comparing to this vast world...'
 ROMAJI:boku nante chippoke darou na
 HIRAGANA:ぼく|なんて|ちっぽけ|だろう|な
 KANJI:僕|なんて|ちっぽけ|だろう|な
 READING:o
 ENGLISH:someone like me seems so small
 LITERAL:me|like|small|seems|*emphasis*
-EXPLAINED:
+EXPLAINED:me|like (someone like me)|small|seems|yo is used to emphasize a point and doesn't really have a meaning on it's own
 ROMAJI:demo kimi (h)e no boku no omoi wa
 HIRAGANA:でも|キミ|へ|の|ぼく|の|おもい|は
 KANJI:でも|キミ|へ|の|僕|の|想い|は
 READING:o,k
 ENGLISH:but my feelings towards you
-LITERAL:but|you|←|to|me|←|feelings|←~'to' as in directional
-EXPLAINED:
+LITERAL:but|you|←|to|me|←|feelings|←
+EXPLAINED:but|you|indicates direction (to you)|indicates possession (my [blank] towards you|me|indicates possession (my)|feelings|points to feelings towards you in preperation for next line
 ROMAJI:kono sora yori mo ookii kara
 HIRAGANA:この|そら|より|も|おおきい|から
 KANJI:この|空|より|も|大きい|から
