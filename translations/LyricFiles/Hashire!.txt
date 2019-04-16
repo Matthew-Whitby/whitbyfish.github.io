@@ -5,7 +5,7 @@ KANJI:笑顔|が|止まらない
 READING:k,k,k
 ENGLISH:I can't stop smiling
 LITERAL:smile|←|stop not
-EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
+EXPLAINED:smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (also if the subject is unknown to the speaker) (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)
 ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない
