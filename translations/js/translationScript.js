@@ -185,7 +185,7 @@ function DisplayTextTable(id, value) {
       }
 }
 
-$("#contents").on("click", ".account", function () {
+$("#topNav").on("click", function () {
   window.scroll({
     top: 0,
     left: 0,
