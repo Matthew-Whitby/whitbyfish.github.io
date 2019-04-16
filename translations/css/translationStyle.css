@@ -15,14 +15,14 @@ body,.visible{
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   text-align: center;
 }
-.menu{
+#menu{
   position: fixed;
   top:0;
   left:0;
   orientation:landscape;
   z-index: 1;
 }
-.topNav{
+#topNav{
   position:fixed;
   top:50%;
   right:0;
