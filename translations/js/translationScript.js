@@ -185,9 +185,10 @@ function DisplayTextTable(id, value) {
       }
 }
 
-$("#topNav").on("click", function () {
+function ScrollToTop(){
   window.scroll({
     top: 0,
     left: 0,
     behavior: 'smooth'
-  })});
+  });
+}
