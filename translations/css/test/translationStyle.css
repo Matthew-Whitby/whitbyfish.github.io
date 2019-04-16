@@ -30,6 +30,9 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   top:50%;
   right:5px;
 }
+.sub-line{
+
+}
 h3{
   margin-bottom: 5px;
 }
@@ -45,10 +48,10 @@ h3{
   background: #E3E3E3;
   z-index: 2;
 }
-p{
+/*p{
   margin-top:10px;
   margin-bottom: 10px;
-}
+}*/
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
