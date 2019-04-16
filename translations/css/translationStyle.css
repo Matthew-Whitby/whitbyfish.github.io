@@ -16,7 +16,6 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   text-align: center;
 }
 #menu{
-  position: fixed;
   top:0;
   left:0;
   orientation:landscape;
