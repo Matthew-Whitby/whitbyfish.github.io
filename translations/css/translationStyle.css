@@ -22,6 +22,7 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   z-index: 1;
 }
 #topNav{
+  padding:0 10px;
   position:fixed;
   top:50%;
   right:5px;
