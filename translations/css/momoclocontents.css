@@ -1,6 +1,6 @@
 body{
    /*background: #ffd3ff;*/
-   background:linear-gradient(#ffd3ff,#ffdeff)
+   background-image:linear-gradient(#ffd3ff,#fddffd)
 }
 table{
    margin-left: auto;
