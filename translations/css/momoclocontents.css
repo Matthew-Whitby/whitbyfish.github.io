@@ -22,7 +22,7 @@ td,th{
   border-radius: 5px;
 }
 td,th,h1,h2,u,a {
-  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
+  text-shadow: -0.25px -0.25px black,0.25px -0.25px black, -0.25px 0.25px black,0.25px 0.25px black;
   color: #FF91A4;
 }
 th{
@@ -42,6 +42,6 @@ a{
   font-size: 30px;
 }
 text{
-   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
+   text-shadow: -0.25px -0.25px black,0.25px -0.25px black, -0.25px 0.25px black,0.25px 0.25px black;
    color: #FF91A4;
 }
