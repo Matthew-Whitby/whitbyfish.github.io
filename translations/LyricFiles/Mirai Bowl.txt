@@ -1,7 +1,7 @@
 Mirai Bowl
 ROMAJI:
 HIRAGANA:
-KANJI:おじゃまします!(ハイハイ)
+KANJI:おじゃまします!|(ハイ|ハイ)
 READING:
 ENGLISH:
 LITERAL:

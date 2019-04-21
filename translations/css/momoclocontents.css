@@ -21,16 +21,15 @@ table{
   color:orange;
 }
 td,th{
-   border: 1px solid #FF91A4;
+   border: 1px solid #db6f81;
   border-radius: 5px;
 }
 td,th,h1,h2,u,a {
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color: #FF91A4;
+  color: #db6f81;
 }
 th{
   border: 1px solid #FF91A4;
-  color: #FF91A4;
   font-size: 30px;
   border-radius: 5px;
 }
