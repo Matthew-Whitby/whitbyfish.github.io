@@ -21,12 +21,12 @@ table{
   color:orange;
 }
 td,th{
-   border: 1px solid #db6f81;
+   border: 1px solid #ff8095;
   border-radius: 5px;
 }
 td,th,h1,h2,u,a {
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color: #db6f81;
+  color: #ff8095;
 }
 th{
   border: 1px solid #FF91A4;
