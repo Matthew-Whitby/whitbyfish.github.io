@@ -20,11 +20,11 @@ table{
 .inprogress{
   color:orange;
 }
-td,th{
+td{
    border: 1px solid #ff8095;
   border-radius: 5px;
 }
-td,th,h1,h2,u,a {
+td,th,h1,h2,u,a,text {
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
   color: #ff8095;
 }
@@ -42,8 +42,4 @@ h2{
 }
 a{
   font-size: 30px;
-}
-text{
-   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-   color: #FF91A4;
 }
