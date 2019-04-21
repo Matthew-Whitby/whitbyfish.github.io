@@ -17,6 +17,9 @@ table{
 .notdone{
    color: red;
 }
+.inprogress{
+  color:yellow;
+}
 td,th{
    border: 1px solid #FF91A4;
   border-radius: 5px;
