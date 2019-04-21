@@ -1,5 +1,6 @@
 body{
-   background: #ffd3ff;
+   /*background: #ffd3ff;*/
+   background:linear-gradient(#ffd3ff,#ffdeff)
 }
 table{
    margin-left: auto;
@@ -9,7 +10,7 @@ table{
    text-align:center;
    border: 1px solid #FF91A4;
   border-radius: 5px;
-  background-color: rgba(200,255,200,0.5);
+  background-color: #c8ffc880;
    padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
