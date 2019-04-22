@@ -1,292 +1,292 @@
 Mirai Bowl
 ROMAJI:
-HIRAGANA:
+HIRAGANA:おじゃまします!|(ハイ|ハイ)
 KANJI:おじゃまします!|(ハイ|ハイ)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
-HIRAGANA:
+ROMAJI:itsunoma ni yara hitomebore horebore sa (baka!!)
+HIRAGANA:いつのまにやら ひとめぼれ ホレボレさ(バカ!!)
 KANJI:いつのまにやら ひとめぼれ ホレボレさ(バカ!!)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:chanto mite yo! anaga aichau kurai ni
 HIRAGANA:
 KANJI:ちゃんと見てよ! 穴があいちゃうくらぃに
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:insupire-shon wo shinji masho "ne"
 HIRAGANA:
 KANJI:インスピレーションを 信じましょ"ね"
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:romantikku dake janai nomo shouchi dayo
 HIRAGANA:
 KANJI:ロマンティック だけじゃないのも 承知だよ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:karada juu! (zokuzoku!!)
 HIRAGANA:
 KANJI:カラダじゅう! (ゾクゾク!)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kirabiya kana myu-jikku abi nagara sa (soune)
 HIRAGANA:
 KANJI:きらびやかな ミュージック浴びながらさ (そうね)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:chotto amae chattara jira sukeredo
 HIRAGANA:
 KANJI:ちょっと甘えちゃったら ジラすけれど
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:nido to shisen wa hazusanai souyo kimi ni muchuu nano
 HIRAGANA:
 KANJI:二度と視線は はずさない そうよ キミに夢中なの
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:yume miteta kazu dake takanaru mune odoru
 HIRAGANA:
 KANJI:夢見てた数だけ 高鳴る胸おどる
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:dame dame dadadadame yo ima ima mama ima yo kono koi hajimemasu!!
 HIRAGANA:
 KANJI:ダメダメダダダメよ イマイマママイマよ この恋はじめます!
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:koi wa giragira kokoro kirakira dounimo tomara nai
 HIRAGANA:
 KANJI:恋はギラギラ 心キラキラ どうにも止まらない
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:koi ga hajikeru kokoro wa dakeru kimi to tsunagatte tai
 HIRAGANA:
 KANJI:恋がはじける 心はだける キミと繋がってたい
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:maware giragira hikare kirakira unmei no rizumu de
 HIRAGANA:
 KANJI:まわれギラギラ 光れキラキラ 運命のリズムで
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:rekishi kizamou maware maware koi no mirai bouru
 HIRAGANA:
 KANJI:歴史刻もう まわれまわれ 恋のミライボウル
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:pinku no haato (honto?)
 HIRAGANA:
 KANJI:ピンクのハート (ホント?)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:makka nimou suri muite mo ii no yo (oh no!)
 HIRAGANA:
 KANJI:真っ赤にもぅ すりむいて もいいのよ (oh no!)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:seishun no aza murasaki ni nokotte temo
 HIRAGANA:
 KANJI:青春のアザ 紫に残ってても
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kiiroi koe dene kokuhaku wo "ne"
 HIRAGANA:
 KANJI:黄色い声でね 告白を"ね"
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:yumemi doriimu iroiro joshi hane taihen da
 HIRAGANA:
 KANJI:ユメミドリーム 色々女子はね 大変だ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:futari dato (sousou!)
 HIRAGANA:
 KANJI:ふたりだと (そうそう!)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:sekai ga iro duite ikun dayo (horahora!)
 HIRAGANA:
 KANJI:世界が 色づいていくんだよ (ほらほら!)
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:yume ga saku no te wa aseban deru yo
 HIRAGANA:
 KANJI:夢が咲くの 手はあせばんでるよ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kimi no ondo gane iri komu
 HIRAGANA:
 KANJI:キミの温度がね 入りこむ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:mune no tenpo hayaku naru yo
 HIRAGANA:
 KANJI:胸の テンポ速くなるよ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:sakibashiru fun dake dogimagi me ga oyogu
 HIRAGANA:
 KANJI:先走る分だけ ドギマギ目が泳ぐ
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:dame dame dadadadame yo ima ima mama ima yo kono koi kanae masu!
 HIRAGANA:
 KANJI:ダメダメダダダメよ イマイマママイマよ この恋叶えます!
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:koi wa giragira kokoro kirakira kimochi wa tomaranai
 HIRAGANA:
 KANJI:恋はギラギラ 心キラキラ 気持ちは止まらない
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:koi ga hazunde kokoro fukuramu kimi wo mitsume nagara
 HIRAGANA:
 KANJI:恋がはずんで 心ふくらむ キミを見つめながら
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:maware giragira hikare kirakira densetsu no rizumu de
 HIRAGANA:
 KANJI:まわれギラギラ 光れキラキラ 伝説のリズムで
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:rekishi kae you maware maware koi no mirai bouru
 HIRAGANA:
 KANJI:歴史変えよう まわれまわれ 恋のミライボウル
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kimi no haato Yes, goudatsu tamashii kome Bang Bang Bang ren'ai moodo taizen kai
 HIRAGANA:
 KANJI:キミのハート yes 強奪 魂込め bang, bang, bang 恋愛モード大全開
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:toriko nisuruwa kanzen furimawasu no Boon Boon
 HIRAGANA:
 KANJI:虜にするわ完全 振り回すの boon boon
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:ka moon ka moon kou ki na no
 HIRAGANA:
 KANJI:カ・モーン カ・モーン 好・き・な・の
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:nee ichioku nanzenman fun no ichi no deai dane
 HIRAGANA:
 KANJI:ねえ 一億何千万分の 一の出逢ぃだね
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:nee kimi to iki tain dayo ima toiu toki wo
 HIRAGANA:
 KANJI:ねえ キミと生きたいんだよ 今という時代を
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kimi ni arigatou honto arigatou isshoni itekurete
 HIRAGANA:
 KANJI:キミにありがとう ほんとありがとう 一緒にいてくれて
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:kimi to yumemiru kimi to ashita he itsumo tsunaga tteruno
 HIRAGANA:
 KANJI:キミと夢見る キミと明日へ いつも繋がってるの
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:maware giragira hikare kirakira unmei no rizumu de
 HIRAGANA:
 KANJI:まわれギラギラ 光れキラキラ 運命のリズムで
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:rekishi kizamou maware maware koi no mirai bouru
 HIRAGANA:
 KANJI:歴史刻もう まわれまわれ 恋のミライボウル
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:koi wa densetsu sa nazomeite imishin de kagayaite
 HIRAGANA:
 KANJI:恋は 伝説さ・謎めいて・意味深で・輝いて
 READING:
 ENGLISH:
 LITERAL:
 EXPLAINED:
-ROMAJI:
+ROMAJI:girari . kirari . kirari . girari koi no mirai bouru!
 HIRAGANA:
 KANJI:ギラリ・キラリ・キラリ・ギラリ 恋のミライボウル!
 READING:
