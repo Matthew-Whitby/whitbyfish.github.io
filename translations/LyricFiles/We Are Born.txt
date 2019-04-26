@@ -123,7 +123,7 @@ HIRAGANA:だきしめて|Mother!
 KANJI:抱きしめて|Mother!
 READING:
 ENGLISH:Hug me, Mother!
-LITERAL:
+LITERAL:Hug me|Mother!
 EXPLAINED:
 ROMAJI:Naki tsura ni hachi
 HIRAGANA:なき|つら|に|はち
