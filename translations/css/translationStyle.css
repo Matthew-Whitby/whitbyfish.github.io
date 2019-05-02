@@ -123,6 +123,7 @@ p{
 }
 .line{
   border-top:1px solid #555;
+  overflow-x: auto;
 }
 .underline{
   border-bottom:1px solid #bbb;
