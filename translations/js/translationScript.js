@@ -38,8 +38,8 @@ function FindNodeByClass(childNodes, classId, getChild) {
 }
 
 function ContainsClass(node,search){
-  for(m=0;m<node.classList.length;m++)
-    if(node.classList[m]==search)return true;
+  for(i=0;i<node.classList.length;i++)
+    if(node.classList[i]==search)return true;
   return false;
 }
 
