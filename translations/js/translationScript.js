@@ -1,11 +1,11 @@
 function openTab(evt,tabName) {
-  let i,tabcontent,tablinks;
+  let m,tabcontent,tablinks;
   tabcontent=document.getElementsByClassName("tabcontent");
-  for(i=0;i<tabcontent.length;i++)
-    tabcontent[i].style.display="none";
+  for(m=0;m<tabcontent.length;m++)
+    tabcontent[m].style.display="none";
   tablinks=document.getElementsByClassName("tabbtn");
-  for(i=0;i<tablinks.length;i++)
-    tablinks[i].className=tablinks[i].className.replace(" active","");
+  for(m=0;m<tablinks.length;m++)
+    tablinks[m].className=tablinks[m].className.replace(" active","");
   if(tabName=="hiragana")HideRomaji(tabName);
   document.getElementById(tabName).style.display="block";
   evt.currentTarget.className+=" active";
@@ -14,8 +14,8 @@ function openTab(evt,tabName) {
 function HideRomaji(tabName) {
   let hiragana=document.getElementById(tabName+"lyrics");
   let childNodes=hiragana.children;
-  for(i=0;i<childNodes.length;i++){
-    let node=FindNodeByClass(childNodes[i].children,"romaji",true);
+  for(m=0;m<childNodes.length;m++){
+    let node=FindNodeByClass(childNodes[m].children,"romaji",true);
     if(node.parentElement.children.length==1){
       node.style.opacity="0";
       let button=document.createElement("BUTTON");
@@ -28,18 +28,18 @@ function HideRomaji(tabName) {
 }
 
 function FindNodeByClass(childNodes, classId, getChild) {
-  for (j = 0; j < childNodes.length; j++) {
-    if (ContainsClass(childNodes[j],classId))
-      if (getChild)return childNodes[j].children[0];
-      else return childNodes[j];
-    if (childNodes[j].children.length > 1)
-      return FindNodeByClass(childNodes[j].children, classId, getChild);
+  for (c = 0; c < childNodes.length; c++) {
+    if (ContainsClass(childNodes[c],classId))
+      if (getChild) return childNodes[c].children[0];
+      else return childNodes[c];
+    if (childNodes[c].children.length > 1)
+      return FindNodeByClass(childNodes[c].children, classId, getChild);
   }
 }
 
 function ContainsClass(node,search){
-  for(z=0;z<node.classList.length;z++)
-    if(node.classList[z]==search)return true;
+  for(m=0;m<node.classList.length;m++)
+    if(node.classList[m]==search)return true;
   return false;
 }
 
@@ -52,9 +52,9 @@ function ToggleAllVisibility() {
   let hiragana = document.getElementById("hiraganalyrics");
   let childNodes = hiragana.children;
   let opacityVal;
-  for (i = 0; i < childNodes.length; i++) {
-    let romajiNode = FindNodeByClass(childNodes[i].children, "romaji", true);
-    if (!i) {
+  for (m = 0; m < childNodes.length; m++) {
+    let romajiNode = FindNodeByClass(childNodes[m].children, "romaji", true);
+    if (!m) {
       romajiNode.style.opacity = (romajiNode.style.opacity == "0") ? "1" : "0";
       opacityVal = romajiNode.style.opacity;
     } else romajiNode.style.opacity = opacityVal;
@@ -63,11 +63,11 @@ function ToggleAllVisibility() {
 
 function SetClasses(){
   let lines=document.getElementsByClassName("line");
-  for(i=0;i<lines.length;i++){
-    for(j=0;j<lines[i].children.length-1;j++)
-      lines[i].children[j].classList.add("underline");
-    for(j=0;j<lines[i].children.length;j++)
-      lines[i].children[j].classList.add("section");
+  for(m=0;m<lines.length;m++){
+    for(c=0;c<lines[m].children.length-1;c++)
+      lines[m].children[c].classList.add("underline");
+    for(c=0;c<lines[m].children.length;c++)
+      lines[m].children[c].classList.add("section");
   }
 }
 
@@ -77,10 +77,10 @@ function ShowKanji(element,overwriteSticky,show){
     else UnsetKanji(element);
     let classname;
     let displayType=(show)?"block":"none";
-    for (i = 0; i < element.classList.length; i++)
-      if (element.classList[i].includes("-"))
-        if (element.classList[i].split('-')[1] == "show")
-          classname = element.classList[i].split("-")[0];
+    for (m = 0; m < element.classList.length; m++)
+      if (element.classList[m].includes("-"))
+        if (element.classList[m].split('-')[1] == "show")
+          classname = element.classList[m].split("-")[0];
     document.getElementById(classname + "-display").style.display = displayType;
     document.getElementById("hide-button").style.display = displayType;
   }
@@ -117,14 +117,14 @@ function CloseKanji(){
 function SetKanji(element){
   bold=element.getAttribute("setbold");
   let kanjiName;
-  for (z = 0; z < element.classList.length; z++)
-    if (element.classList[z].split('-')[1] == "show")
-      kanjiName = element.classList[z].split('-')[0];
+  for (m = 0; m < element.classList.length; m++)
+    if (element.classList[m].split('-')[1] == "show")
+      kanjiName = element.classList[m].split('-')[0];
   let displaySections = document.getElementsByClassName("kanji-tab");
-  for (z = 0; z < displaySections.length; z++) {
-    let id = displaySections[z].id;
+  for (m = 0; m < displaySections.length; m++) {
+    let id = displaySections[m].id;
     if (id.split('-')[0] == kanjiName) {
-      let bolds = displaySections[z].getElementsByClassName("bold");
+      let bolds = displaySections[m].getElementsByClassName("bold");
       for (c = 0; c < bolds.length; c++) {
         if (bolds[c].getAttribute("bold") == bold) {
           let text = bolds[c].innerHTML;
@@ -137,15 +137,15 @@ function SetKanji(element){
 
 function UnsetKanji(element){
   let kanjiName;
-  for(z=0;z<element.classList.length;z++)
-    if(element.classList[z].includes('-'))
-      if (element.classList[z].split('-')[1] == "show")
-        kanjiName = element.classList[z].split('-')[0];
+  for(m=0;m<element.classList.length;m++)
+    if(element.classList[m].includes('-'))
+      if (element.classList[m].split('-')[1] == "show")
+        kanjiName = element.classList[m].split('-')[0];
   let displaySections=document.getElementsByClassName("kanji-tab");
-  for(z=0;z<displaySections.length;z++){
-    let id=displaySections[z].id;
+  for(m=0;m<displaySections.length;m++){
+    let id=displaySections[m].id;
     if(id.split('-')[0]==kanjiName){
-      let bolds=displaySections[z].getElementsByClassName("bold");
+      let bolds=displaySections[m].getElementsByClassName("bold");
       for(c=0;c<bolds.length;c++){
         if(bolds[c].innerHTML.includes("<b>")){
           let text=bolds[c].innerHTML;
@@ -159,10 +159,10 @@ function UnsetKanji(element){
 
 function DisplayText(id,value){
   let linelist=document.getElementById(id).children;
-  for(i=0;i<linelist.length;i++)
-    for(j=0;j<linelist[i].children.length;j++)
-      if(linelist[i].children[j].classList[0]=="japanese-display"){
-        let displayTypes=linelist[i].children[j].children;
+  for(m=0;m<linelist.length;m++)
+    for(c=0;c<linelist[m].children.length;c++)
+      if(linelist[m].children[c].classList[0]=="japanese-display"){
+        let displayTypes=linelist[m].children[c].children;
         for(z=0;z<displayTypes.length;z++){
           if(displayTypes[z].classList[0]==value)displayTypes[z].style.display="block";
           else displayTypes[z].style.display="none";
@@ -172,10 +172,10 @@ function DisplayText(id,value){
 
 function DisplayTextTable(id, value) {
   let linelist = document.getElementById(id).children;
-  for (i = 0; i < linelist.length; i++)
-    for (j = 0; j < linelist[i].children[0].children[0].children.length; j++)
-      if (linelist[i].children[0].children[0].children[j].classList[0] == "japanese-display") {
-        let displayTypes = linelist[i].children[0].children[0].children[j].children;
+  for (m = 0; m < linelist.length; m++)
+    for (c = 0; c < linelist[m].children[0].children[0].children.length; c++)
+      if (linelist[m].children[0].children[0].children[c].classList[0] == "japanese-display") {
+        let displayTypes = linelist[m].children[0].children[0].children[c].children;
         for (z = 0; z < displayTypes.length; z++) {
           for(x=0;x<displayTypes[z].children.length;x++){
             if (displayTypes[z].children[x].classList[0] == value) displayTypes[z].children[x].style.display = "block";
@@ -183,6 +183,13 @@ function DisplayTextTable(id, value) {
           }
         }
       }
+}
+
+function SetTableWidth(){
+  let segments=document.getElementsByClassName("tablesegment");
+  for(m=0;m<segments;m++){
+
+  }
 }
 
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
