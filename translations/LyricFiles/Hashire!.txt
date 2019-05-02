@@ -10,7 +10,7 @@ ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない
 READING:k,k
-ENGLISH:My heart won't stop beating
+ENGLISH:My heart won't stop dancing
 LITERAL:pounding|heart|stop not
 EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
@@ -115,7 +115,7 @@ ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
-ENGLISH:My heart won't stop beating
+ENGLISH:My heart won't stop dancing
 LITERAL:pounding|heart|stop not
 EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
@@ -241,7 +241,7 @@ ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
-ENGLISH:My heart won't stop beating
+ENGLISH:My heart won't stop dancing
 LITERAL:pounding|heart|stop not|
 EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
@@ -402,7 +402,7 @@ ROMAJI:Odoru kokoro tomaranai
 HIRAGANA:おどる|ココロ|とまらない
 KANJI:踊る|ココロ|止まらない!
 READING:k,k
-ENGLISH:My heart won't stop beating
+ENGLISH:My heart won't stop dancing
 LITERAL:pounding|heart|stop not
 EXPLAINED:pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again
 ROMAJI:Ugokidasu yo kimi no moto (h)e
