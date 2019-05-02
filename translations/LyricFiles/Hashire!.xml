@@ -1,0 +1,582 @@
+<translation-info>
+  <title>Hashire!</title>
+  <lines>
+    <line>
+      <romaji>Egao ga tomaranai</romaji>
+      <hiragana>えがお|が|とまらない</hiragana>
+      <kanji>笑顔|が|止まらない</kanji>
+      <reading>k,k,k</reading>
+      <english>I can't stop smiling</english>
+      <literal>smile|←|stop not</literal>
+      <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (also if the subject is unknown to the speaker) (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
+    </line>
+    <line>
+      <romaji>Odoru kokoro tomaranai</romaji>
+      <hiragana>おどる|ココロ|とまらない</hiragana>
+      <kanji>踊る|ココロ|止まらない</kanji>
+      <reading>k,k</reading>
+      <english>My heart won't stop dancing</english>
+      <literal>pounding|heart|stop not</literal>
+      <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
+    </line>
+    <line>
+      <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
+      <hiragana>うごきだす|よ|きみ|の|もと|へ</hiragana>
+      <kanji>動き出す|よ|君|の|元|へ</kanji>
+      <reading>k,k,k,k</reading>
+      <english>and so I start to move towards you</english>
+      <literal>start to move|*emphasis*|you|'re|location|←</literal>
+      <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+    <line>
+      <romaji>Zutto kimi wo onaji densha de miru tabi ni</romaji>
+      <hiragana>ずっと|キミ|を|おなじ|でんしゃ|で|みる|たび|に</hiragana>
+      <kanji>ずっと|キミ|を|同じ|電車|で|見る|たび|に</kanji>
+      <reading>k,o,o,k</reading>
+      <english>I always see you on the same train as me</english>
+      <literal>always|you|←|same|train|at|see|journey|on</literal>
+      <explained>always|you|wo - marks you as the one being looked at, more generally marks the word before it as the destination of the following action|same|train|de - particle that can be translated as 'at'|see|journey|ni - particle that can be translated as 'on'</explained>
+    </line>
+    <line>
+      <romaji>Istu kara darou?</romaji>
+      <hiragana>いつ|から|だろう?</hiragana>
+      <kanji>いつ|から|だろう?</kanji>
+      <reading>
+      </reading>
+      <english>I wonder when it began,</english>
+      <literal>when|from|wonder</literal>
+      <explained>when|from|wonder - as in 'I wonder', means 'think' generally</explained>
+    </line>
+    <line>
+      <romaji>Boku no kokoro no naka de ookiku natteita omoi</romaji>
+      <hiragana>ぼく|の|ココロ|の|なか|で|おおきく|なっていた|おもい</hiragana>
+      <kanji>僕|の|ココロ|の|中|で|大きく|なっていた|想い</kanji>
+      <reading>o,k,k,k</reading>
+      <english>when these feelings inside my heart became so big</english>
+      <literal>I|←|heart|←|inside|←|big|became|feelings</literal>
+      <explained>I|no - particle meaning possession turning I to my in this case|heart/soul|'no' again. Sentence so far reads "my heart's"|inside|de - at/in (points to location of action)|big/large|form of naru (to become), - tteita = past progressive conjugation of verb (for most -ru verbs)|feelings, can also mean thoughts or love</explained>
+    </line>
+    <line>
+      <romaji>hanashikakeru koto mo dekinakute itsumo</romaji>
+      <hiragana>はなしかける|こと|も|できなくて|いつも</hiragana>
+      <kanji>話しかける|こと|も|出来なくて|いつも</kanji>
+      <reading>k,k,k</reading>
+      <english>unable to ever start a conversation</english>
+      <literal>start a conversation|thing|also|unable|always</literal>
+      <explained>hanashi - conversation, kakeru - make a call|thing|also/too|to do (dekiru) made negative|always</explained>
+    </line>
+    <line>
+      <romaji>tomodachi to issho ni shabetteru furi de</romaji>
+      <hiragana>ともだち|と|いっしょ|に|しゃべってる|ふり|で</hiragana>
+      <kanji>友達|と|一緒|に|喋ってる|ふり|で</kanji>
+      <reading>k,k,o,o,k</reading>
+      <english>I always pretended to talk with my friends</english>
+      <literal>friends|with|together|←|talk|pretend|←</literal>
+      <explained>friends|with|together|ni as in to|talk|pretend|marks where they were for next line</explained>
+    </line>
+    <line>
+      <romaji>yokome de miteta boku dakedo</romaji>
+      <hiragana>よこめ|で|みてた|ぼく|だけど</hiragana>
+      <kanji>横目|で|見てた|僕|だけど</kanji>
+      <reading>k,k,k,o</reading>
+      <english>whilst watching you from the corner of my eye</english>
+      <literal>glance from corner of eye|←|looked|I|though</literal>
+      <explained>glance from corner of eye|points to where they looked from|looked|I|though</explained>
+    </line>
+    <line>
+      <romaji>kidzuita kono kanjou ni</romaji>
+      <hiragana>きづいた|この|かんじょう|に</hiragana>
+      <kanji>気付いた|この|感情|に</kanji>
+      <reading>o,k,o,o</reading>
+      <english>now that I've noticed these feelings</english>
+      <literal>noticed|these|feelings|←</literal>
+      <explained>Noticed|these|feelings|points to this phrase in preperation for the next line</explained>
+    </line>
+    <line>
+      <romaji>mou koukai nante shitakunai</romaji>
+      <hiragana>もう|こうかい|なんて|したくない</hiragana>
+      <kanji>もう|後悔|なんて|したくない</kanji>
+      <reading>o,o</reading>
+      <english>I don't want to regret anything anymore</english>
+      <literal>now|regret|things like|don't want to</literal>
+      <explained>now, in this case better represented as 'no more'|regret|things like|to do (suru) but negative</explained>
+    </line>
+    <line>
+      <romaji>boku wa boku ni uso tsuite nigetaku mo nai</romaji>
+      <hiragana>ぼく|は|ぼく|に|ウソ|ついて|にげたく|も|ない</hiragana>
+      <kanji>僕|は|僕|に|ウソ|ついて|逃げたく|も|ない</kanji>
+      <reading>o,o,k</reading>
+      <english>I don't want to lie to myself or run away from it</english>
+      <literal>I|←|me|←|lie|about|run away|also|not</literal>
+      <explained>I|points to I (me)|I (so far, I to I)|points to *I to myself*|lie|about|to run (nigeru) past tense|also|not (also don't want to run away)</explained>
+    </line>
+    <line>
+      <romaji>afuredashi sou na kimochi wo hitotsu nokorazu</romaji>
+      <hiragana>あふれだし|そう|な|キモチ|を|ひとつ|のこらず</hiragana>
+      <kanji>溢れ出し|そう|な|キモチ|を|一つ|残らず</kanji>
+      <reading>k,k,k,k</reading>
+      <english>I'll gather up all my overflowing feelings</english>
+      <literal>overflowing|like|←|feelings|←|one|all</literal>
+      <explained>overflowing|like|points to overflowing like|feelings|points to overflowing feelings|one|all, as in gather overflowing feelings into one</explained>
+    </line>
+    <line>
+      <romaji>kotoba ni zenbu tsumekomou</romaji>
+      <hiragana>ことば|に|ぜんぶ|つめこもう</hiragana>
+      <kanji>言葉|に|全部|詰め込もう</kanji>
+      <reading>k,k,o,o,k,k</reading>
+      <english>and put them all into words</english>
+      <literal>words|←|all|cram</literal>
+      <explained>words|points to words|all|cram</explained>
+    </line>
+    <line>
+      <romaji>Egao ga tomaranai</romaji>
+      <hiragana>えがお|が|とまらない</hiragana>
+      <kanji>笑顔|が|止まらない!</kanji>
+      <reading>k,k,k</reading>
+      <english>I can't stop smiling</english>
+      <literal>smile|←|stop not</literal>
+      <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
+    </line>
+    <line>
+      <romaji>Odoru kokoro tomaranai</romaji>
+      <hiragana>おどる|ココロ|とまらない</hiragana>
+      <kanji>踊る|ココロ|止まらない!</kanji>
+      <reading>k,k</reading>
+      <english>My heart won't stop dancing</english>
+      <literal>pounding|heart|stop not</literal>
+      <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
+    </line>
+    <line>
+      <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
+      <hiragana>うごきだす|よ|きみ|の|もと|へ</hiragana>
+      <kanji>動き出す|よ|君|の|元|へ</kanji>
+      <reading>k,k,k,k</reading>
+      <english>and so I start to move towards you</english>
+      <literal>start to move|*emphasis*|you|'re|location|←</literal>
+      <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+    <line>
+      <romaji>ima wa mada yuuki ga tarinai!</romaji>
+      <hiragana>いま|は|まだ|ゆうき|が|たりない</hiragana>
+      <kanji>今|は|まだ|勇気|が|足りない!</kanji>
+      <reading>k,o,o,k</reading>
+      <english>Right now I don't have the courage!</english>
+      <literal>now|←|yet|courage|←|enough not</literal>
+      <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>sukoshi no kikkake ga tarinai!</romaji>
+      <hiragana>すこし|の|きっかけ|が|たりない</hiragana>
+      <kanji>少し|の|きっかけ|が|足りない!</kanji>
+      <reading>k,k</reading>
+      <english>There aren't enough little chances</english>
+      <literal>little|←|chances|←|enough not</literal>
+      <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>ugokidashite boku no karada</romaji>
+      <hiragana>うごきだして|ぼく|の|からだ</hiragana>
+      <kanji>動き出して|僕|の|体</kanji>
+      <reading>k,k,o,k</reading>
+      <english>and so I start to move my body</english>
+      <literal>start to move|me|←|body</literal>
+      <explained>start to move|me|turns me into my (like 's)|body</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>run!|run!|run!</explained>
+    </line>
+    <line>
+      <romaji>itsudatte fumidasu mae ni</romaji>
+      <hiragana>いつだって|ふみだす|まえ|に</hiragana>
+      <kanji>いつだって|踏み出す|前|に</kanji>
+      <reading>k,k,k</reading>
+      <english>Before stepping forwards I'm always</english>
+      <literal>always|step forward|before|←</literal>
+      <explained>always|stepforward|before|points to sentence in preperation for next part</explained>
+    </line>
+    <line>
+      <romaji>iiwake bakkari kangaete</romaji>
+      <hiragana>いいわけ|ばっかり|かんがえて</hiragana>
+      <kanji>言い訳|ばっかり|考えて</kanji>
+      <reading>k,k,k</reading>
+      <english>thinking of excuses</english>
+      <literal>excuse|always|think</literal>
+      <explained>excuse|always|thinking/making up</explained>
+    </line>
+    <line>
+      <romaji>kekkyoku nannimo dekinakute</romaji>
+      <hiragana>けっきょく|なんにも|できなくて</hiragana>
+      <kanji>結局|何も|出来なくて</kanji>
+      <reading>o,o,k,k,k</reading>
+      <english>In the end I was unable to do anything</english>
+      <literal>in the end|nothing|not able to be done</literal>
+      <explained>after all/in the end|nothing|to do (dekiru) not, negative form, *Note - in Japanese double negatives in sentances result in negatives e.g. nothing (not able to be done) ← nothing able to be done (instead of nothing that can't be done)</explained>
+    </line>
+    <line>
+      <romaji>jikan ga sugite</romaji>
+      <hiragana>じかん|が|すぎて</hiragana>
+      <kanji>時間|が|過ぎて</kanji>
+      <reading>o,o,k</reading>
+      <english>as time passes by me</english>
+      <literal>time|←|passes</literal>
+      <explained>time|points to time|to pass (sugiru) progressive conjugation</explained>
+    </line>
+    <line>
+      <romaji>wasureteiku koto ni nareteta</romaji>
+      <hiragana>わすれていく|こと|に|なれてた</hiragana>
+      <kanji>忘れていく|こと|に|慣れてた</kanji>
+      <reading>k,k</reading>
+      <english>now so familiar with forgetting,</english>
+      <literal>forget about|thing|←|familiarized</literal>
+      <explained>forget about|things|points to things forgotten about|get used to (sentence reads as 'getting used to forgetting things'</explained>
+    </line>
+    <line>
+      <romaji>boku no kokoro ga hashiridashita</romaji>
+      <hiragana>ぼく|の|ココロ|が|はしりだした</hiragana>
+      <kanji>僕|の|ココロ|が|走り出した</kanji>
+      <reading>o,k,k</reading>
+      <english>my heart begins to race</english>
+      <literal>me|←|heart|←|started running</literal>
+      <explained>me/I|turns me to my (possessive particle)|heart|points to my heart|form of hashiru (to run), means to start running</explained>
+    </line>
+    <line>
+      <romaji>konna ni hiroi sekai kara sureba</romaji>
+      <hiragana>こんな|に|ひろい|せかい|から|すれば</hiragana>
+      <kanji>こんな|に|広い|世界|から|すれば</kanji>
+      <reading>k,o,o</reading>
+      <english>Compared to this vast world</english>
+      <literal>like this|←|vast|world|from|in that case</literal>
+      <explained>similar to this|points to similar to this|vast/wide|world|from|in that case (sentence means 'when comparing to this vast world...'</explained>
+    </line>
+    <line>
+      <romaji>boku nante chippoke darou na</romaji>
+      <hiragana>ぼく|なんて|ちっぽけ|だろう|な</hiragana>
+      <kanji>僕|なんて|ちっぽけ|だろう|な</kanji>
+      <reading>o</reading>
+      <english>someone like me seems so small</english>
+      <literal>me|like|small|seems|*emphasis*</literal>
+      <explained>me|like (someone like me)|small|seems|yo is used to emphasize a point and doesn't really have a meaning on it's own</explained>
+    </line>
+    <line>
+      <romaji>demo kimi (h)e no boku no omoi wa</romaji>
+      <hiragana>でも|キミ|へ|の|ぼく|の|おもい|は</hiragana>
+      <kanji>でも|キミ|へ|の|僕|の|想い|は</kanji>
+      <reading>o,k</reading>
+      <english>but my feelings towards you</english>
+      <literal>but|you|←|to|me|←|feelings|←</literal>
+      <explained>but|you|indicates direction (to you)|indicates possession (my [blank] towards you|me|indicates possession (my)|feelings|points to feelings towards you in preperation for next line</explained>
+    </line>
+    <line>
+      <romaji>kono sora yori mo ookii kara</romaji>
+      <hiragana>この|そら|より|も|おおきい|から</hiragana>
+      <kanji>この|空|より|も|大きい|から</kanji>
+      <reading>k,k</reading>
+      <english>are far greater than the sky</english>
+      <literal>this|sky|than|also|big|since</literal>
+      <explained>this|sky|than - means more than (more than this sky)|also|big|because/since (sentence reads 'because they are bigger than the sky'</explained>
+    </line>
+    <line>
+      <romaji>Egao ga tomaranai</romaji>
+      <hiragana>えがお|が|とまらない</hiragana>
+      <kanji>笑顔|が|止まらない!</kanji>
+      <reading>k,k,k</reading>
+      <english>I can't stop smiling</english>
+      <literal>smile|←|stop not</literal>
+      <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
+    </line>
+    <line>
+      <romaji>Odoru kokoro tomaranai</romaji>
+      <hiragana>おどる|ココロ|とまらない</hiragana>
+      <kanji>踊る|ココロ|止まらない!</kanji>
+      <reading>k,k</reading>
+      <english>My heart won't stop dancing</english>
+      <literal>pounding|heart|stop not|</literal>
+      <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
+    </line>
+    <line>
+      <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
+      <hiragana>うごきだす|よ|きみ|の|もと|へ</hiragana>
+      <kanji>動き出す|よ|君|の|元|へ</kanji>
+      <reading>k,k,k,k</reading>
+      <english>and so I start to move towards you</english>
+      <literal>start to move|*emphasis*|you|'re|location|←</literal>
+      <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+    <line>
+      <romaji>ima wa mada yuuki ga tarinai!</romaji>
+      <hiragana>いま|は|まだ|ゆうき|が|たりない</hiragana>
+      <kanji>今|は|まだ|勇気|が|足りない!</kanji>
+      <reading>k,o,o,k</reading>
+      <english>Right now I don't have the courage!</english>
+      <literal>now|←|yet|courage|←|enough not</literal>
+      <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>sukoshi no kikkake ga tarinai!</romaji>
+      <hiragana>すこし|の|きっかけ|が|たりない</hiragana>
+      <kanji>少し|の|きっかけ|が|足りない!</kanji>
+      <reading>k,k</reading>
+      <english>There aren't enough little chances</english>
+      <literal>little|←|chances|←|enough not</literal>
+      <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>ugokidashite boku no karada</romaji>
+      <hiragana>うごきだして|ぼく|の|からだ</hiragana>
+      <kanji>動き出して|僕|の|体</kanji>
+      <reading>k,k,o,k</reading>
+      <english>and so I start to move my body</english>
+      <literal>start to move|me|←|body</literal>
+      <explained>start to move|me|turns me into my (like 's)|body</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+    <line>
+      <romaji>mattete mo hajimannai</romaji>
+      <hiragana>まっていて|も|はじまんない</hiragana>
+      <kanji>待っていて|も|始まんない</kanji>
+      <reading>k,k</reading>
+      <english>nothing will start if you wait</english>
+      <literal>waiting|←|begin not</literal>
+      <explained>to wait (matsu) progressive form|points to waiting|begin (hajimaru) negative, not begin</explained>
+    </line>
+    <line>
+      <romaji>kimi to zenryoku de mukiaitai</romaji>
+      <hiragana>キミ|と|ぜんりょく|で|むきあいたい</hiragana>
+      <kanji>キミ|と|全力|で|向き合いたい</kanji>
+      <reading>o,o,k</reading>
+      <english>I want to face you with all my strength</english>
+      <literal>you|with|all one's power|←|to face</literal>
+      <explained>you|with/and|full power/all your strength|with|to face (mukau) -tai version means to want to; want to face</explained>
+    </line>
+    <line>
+      <romaji>onaji kono hoshi ni umarete</romaji>
+      <hiragana>おなじ|この|ほし|に|うまれて</hiragana>
+      <kanji>同じ|この|星|に|生まれて</kanji>
+      <reading>k,k,k</reading>
+      <english>We were born on this same planet</english>
+      <literal>same|this|planet|on|born</literal>
+      <explained>same|this|planet|on|born</explained>
+    </line>
+    <line>
+      <romaji>onaji kono jidai ni umaretekorete</romaji>
+      <hiragana>おなじ|この|きだい|に|うまれてこれて</hiragana>
+      <kanji>同じ|この|時代|に|生まれてこれて</kanji>
+      <reading>k,o,o,k</reading>
+      <english>We were born in the same period of time</english>
+      <literal>same|this|period|on|come to be born</literal>
+      <explained>same|this|period of time|on|come to be borm</explained>
+    </line>
+    <line>
+      <romaji>guuzen nante kantan na kotoba de</romaji>
+      <hiragana>ぐうぜん|なんて|かんたん|な|ことば|で</hiragana>
+      <kanji>偶然|なんて|簡単|な|言葉|で</kanji>
+      <reading>o,o,o,o,k,k</reading>
+      <english>words like chance are such simple words</english>
+      <literal>chance|things like|simple|←|word|←</literal>
+      <explained>chance|things like|simple|points to things like simple chances|words|points to sentence in preperation for next line</explained>
+    </line>
+    <line>
+      <romaji>surechigai hanarete shimau nante</romaji>
+      <hiragana>すれちがい|はなれて|しまう|なんて</hiragana>
+      <kanji>すれ違い|離れて|しまう|なんて</kanji>
+      <reading>k,k</reading>
+      <english>disagreeing and accidentally distancing ourselves</english>
+      <literal>having discrepancies|distance|do accidentally|things like</literal>
+      <explained>disagreeing/having differences|distance|accidentally do/without meaning to|things like (sentence reads as having differences and accidentally distancing ourselves because of it)</explained>
+    </line>
+    <line>
+      <romaji>kangaeru dake de mune no oku ga itakute</romaji>
+      <hiragana>かんがえる|だけ|で|むね|の|おく|が|いたくて</hiragana>
+      <kanji>考える|だけ|で|胸|の|奥|が|痛くて</kanji>
+      <reading>k,k,k,k</reading>
+      <english>just thinking of it hurts my chest</english>
+      <literal>think about|only|←|chest|'s|inside|←|painful</literal>
+      <explained>thinking about|only|points to thinking about it|chest|chest's|inside|points to inside of chest|painful</explained>
+    </line>
+    <line>
+      <romaji>junsui ni kimi to tsunagatteitai yo ima mo</romaji>
+      <hiragana>じゅんすい|に|キミ|と|つながっていたい|よ|いま|も</hiragana>
+      <kanji>純粋|に|キミ|と|繋がっていたい|よ|今|も</kanji>
+      <reading>o,o,k,k</reading>
+      <english>I want to get to know the real you, even now</english>
+      <literal>genuine|←|you|←|want to be connected to|*emphasis*|now|too</literal>
+      <explained>genuine/authentic/real|points to real|you|points to the real you|to be connected/tied together/linked to (tsunagaru) -tai makes it a wish (to want to)|*emphasis*|now|too/also</explained>
+    </line>
+    <line>
+      <romaji>nan nen mo nan juunen mo kono-saki mo mirai mo</romaji>
+      <hiragana>なん|ねん|も|なん|じゅうねん|も|この|さき|も|みらい|も</hiragana>
+      <kanji>何|年|も|何|十|年|も|この|先|の|未来|も</kanji>
+      <reading>k,o,k,o,o,k,o,o</reading>
+      <english>however many years, however many decades, from now unto forever</english>
+      <literal>however many|years|too|however many|decades|too|from now|too|future|too</literal>
+      <explained>however many|years|too/also|however many|tens of years (decades)|too/also|from now|too/also|future|too/also</explained>
+    </line>
+    <line>
+      <romaji>ichidokiri no jinsei dakara</romaji>
+      <hiragana>いちどきり|の|じねい|だから</hiragana>
+      <kanji>一度きり|の|人生|だから</kanji>
+      <reading>o,o,o,o</reading>
+      <english>because we only have one chance to live</english>
+      <literal>one chance|of|life|because</literal>
+      <explained>once chance/one shot|of|life|because (sentence reads because there's only one shot at life)</explained>
+    </line>
+    <line>
+      <romaji>kimi no mae ja sunao de itainda</romaji>
+      <hiragana>キミ|の|まえ|じゃ|すなお|で|いたいんだ</hiragana>
+      <kanji>キミ|の|前|じゃ|素直|で|いたいんだ</kanji>
+      <reading>k,o,k</reading>
+      <english>I want to be honest when I'm with you</english>
+      <literal>you|r|front|←|honest|←|want to be</literal>
+      <explained>you|your|front|points to your front|honest|points to honest in front of you|want to be</explained>
+    </line>
+    <line>
+      <romaji>soredemo kotae wa dasenai yo</romaji>
+      <hiragana>それでも|こたえ|は|だせない|よ</hiragana>
+      <kanji>それでも|答え|は|出せない|よ</kanji>
+      <reading>k,k</reading>
+      <english>even so I still can't give you an answer</english>
+      <literal>but still|reply|←|give not|*emphasis*</literal>
+      <explained>although|reply|points to 'but the reply'|negative of to give/let out|*emphasis*</explained>
+    </line>
+    <line>
+      <romaji>sukoshi no kotoba dasenai yo</romaji>
+      <hiragana>すこし|の|ことば|だせない|よ</hiragana>
+      <kanji>少し|の|言葉|出せない|よ</kanji>
+      <reading>k,k,k,k</reading>
+      <english>I can't even say the smallest of words</english>
+      <literal>small|←|words|give not|*emphasis*</literal>
+      <explained>small|points to small|words|negative of to give/let out</explained>
+    </line>
+    <line>
+      <romaji>kimi ga suki</romaji>
+      <hiragana>きみ|が|すき</hiragana>
+      <kanji>「君|が|好き」</kanji>
+      <reading>k,k</reading>
+      <english>I love you</english>
+      <literal>you|←|like</literal>
+      <explained>you|points to you|like (meant as in I love you)</explained>
+    </line>
+    <line>
+      <romaji>sore dake de sekai wo kaeru? kawaru?</romaji>
+      <hiragana>それ|だけ|で|せかい|を|かえる？|かわる？</hiragana>
+      <kanji>それ|だけ|で|世界|を|変える?|変わる?</kanji>
+      <reading>o,o,k,k</reading>
+      <english>will those words alone change the world, will they?</english>
+      <literal>that|alone|←|world|←|change|be changed</literal>
+      <explained>that|alone|points to that alone|world|points to [blank] alone the world [blank]|will change?|will it change?</explained>
+    </line>
+    <line>
+      <romaji>Egao ga tomaranai</romaji>
+      <hiragana>えがお|が|とまらない</hiragana>
+      <kanji>笑顔|が|止まらない!</kanji>
+      <reading>k,k,k</reading>
+      <english>I can't stop smiling</english>
+      <literal>smile|←|stop not</literal>
+      <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
+    </line>
+    <line>
+      <romaji>Odoru kokoro tomaranai</romaji>
+      <hiragana>おどる|ココロ|とまらない</hiragana>
+      <kanji>踊る|ココロ|止まらない!</kanji>
+      <reading>k,k</reading>
+      <english>My heart won't stop dancing</english>
+      <literal>pounding|heart|stop not</literal>
+      <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
+    </line>
+    <line>
+      <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
+      <hiragana>うごきだす|よ|きみ|の|もと|へ</hiragana>
+      <kanji>動き出す|よ|君|の|元|へ</kanji>
+      <reading>k,k,k,k</reading>
+      <english>and so I start to move towards you</english>
+      <literal>start to move|*emphasis*|you|'re|location|←</literal>
+      <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+    <line>
+      <romaji>ima wa mada yuuki ga tarinai!</romaji>
+      <hiragana>いま|は|まだ|ゆうき|が|たりない</hiragana>
+      <kanji>今|は|まだ|勇気|が|足りない!</kanji>
+      <reading>k,o,o,k</reading>
+      <english>Right now I don't have the courage!</english>
+      <literal>now|←|yet|courage|←|not enough</literal>
+      <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>sukoshi no kikkake ga tarinai!</romaji>
+      <hiragana>すこし|の|きっかけ|が|たりない</hiragana>
+      <kanji>少し|の|きっかけ|が|足りない!</kanji>
+      <reading>k,k</reading>
+      <english>There aren't enough little chances</english>
+      <literal>little|←|chances|←|not enough</literal>
+      <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
+    </line>
+    <line>
+      <romaji>ugokidashite boku no karada</romaji>
+      <hiragana>うごきだして|ぼく|の|からだ</hiragana>
+      <kanji>動き出して|僕|の|体</kanji>
+      <reading>k,k,o,k</reading>
+      <english>and so I start to move my body</english>
+      <literal>start to move|me|←|body</literal>
+      <explained>start to move|me|turns me into my (like 's)|body</explained>
+    </line>
+    <line>
+      <romaji>Hashire! Hashire! Hashire!</romaji>
+      <hiragana>はしれ！|はしれ！|はしれ！</hiragana>
+      <kanji>走れ!|走れ!|走れ!</kanji>
+      <reading>k,k,k</reading>
+      <english>and run! Run! Run!</english>
+      <literal>run!|run!|run!</literal>
+      <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
+    </line>
+  </lines>
+</translation-info>
