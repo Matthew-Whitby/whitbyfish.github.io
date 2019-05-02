@@ -89,7 +89,7 @@ KANJI:僕|は|僕|に|ウソ|ついて|逃げたく|も|ない
 READING:o,o,k
 ENGLISH:I don't want to lie to myself or run away from it
 LITERAL:I|←|me|←|lie|about|run away|also|not
-EXPLAINED:I|points to I (me)|I (so far, I to I)|lie|about|to run (nigeru) past tense|also|not (also don't want to run away)
+EXPLAINED:I|points to I (me)|I (so far, I to I)|points to *I to myself*|lie|about|to run (nigeru) past tense|also|not (also don't want to run away)
 ROMAJI:afuredashi sou na kimochi wo hitotsu nokorazu
 HIRAGANA:あふれだし|そう|な|キモチ|を|ひとつ|のこらず
 KANJI:溢れ出し|そう|な|キモチ|を|一つ|残らず
