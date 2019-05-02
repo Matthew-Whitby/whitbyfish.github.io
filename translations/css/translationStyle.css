@@ -167,7 +167,7 @@ table tr td:last-child{
     min-width: 100%!important;
   }
 }
-@media all and (max-width:500px){
+@media all and (max-width:499px){
   #topNav{
     top:10%;
   }
