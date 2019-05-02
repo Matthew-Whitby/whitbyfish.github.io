@@ -18,6 +18,9 @@ body,.visible{
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   text-align: center;
 }
+#explainedlyrics .line{
+  min-width: 25%;
+}
 #menu{
   top:0;
   left:0;
