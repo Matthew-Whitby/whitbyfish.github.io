@@ -14,7 +14,7 @@ function openTab(evt,tabName) {
 function HideRomaji(tabName) {
   let hiragana=document.getElementById(tabName+"lyrics");
   let childNodes=hiragana.children;
-  for (c = 0; c < childNodes.length; c++){
+  for(c=0;c<childNodes.length;c++){
     let node = FindNodeByClass(childNodes[c].children,"romaji",true);
     if(node.parentElement.children.length==1){
       node.style.opacity="0";
@@ -28,12 +28,12 @@ function HideRomaji(tabName) {
 }
 
 function FindNodeByClass(childNodes, classId, getChild) {
-  for (c = 0; c < childNodes.length; c++) {
-    if (ContainsClass(childNodes[c],classId))
-      if (getChild) return childNodes[c].children[0];
-      else return childNodes[c];
-    if (childNodes[c].children.length > 1)
-      return FindNodeByClass(childNodes[c].children, classId, getChild);
+  for (z = 0; z < childNodes.length; z++) {
+    if (ContainsClass(childNodes[z],classId))
+      if (getChild) return childNodes[z].children[0];
+      else return childNodes[z];
+    if (childNodes[z].children.length > 1)
+      return FindNodeByClass(childNodes[z].children, classId, getChild);
   }
 }
 
