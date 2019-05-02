@@ -161,6 +161,6 @@ table tr td:last-child{
 }
 @media all and (min-width:500px){
   .tablesegment{
-    min-width: 100%;
+    min-width: 100%!important;
   }
 }
