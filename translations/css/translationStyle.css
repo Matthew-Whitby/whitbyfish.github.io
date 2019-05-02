@@ -21,6 +21,9 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
 .tablesegment{
   min-width: 50%;
 }
+.kanji-info{
+  cursor: pointer;
+}
 #menu{
   top:0;
   left:0;
