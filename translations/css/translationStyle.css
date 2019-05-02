@@ -18,7 +18,7 @@ body,.visible{
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
   text-align: center;
 }
-#explainedlyrics .line .tablesegment{
+.tablesegment{
   min-width: 25%;
 }
 #menu{
