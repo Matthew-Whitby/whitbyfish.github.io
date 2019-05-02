@@ -87,7 +87,6 @@ p{
   border: none;
   outline: none;
   cursor: pointer;
-  /*padding: 14px 16px;*/
   padding:14px 0px;
   transition: 0.3s;
 }
@@ -126,7 +125,7 @@ p{
   margin-bottom: 5px;
   overflow-x: auto;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   width: auto;
   background: whitesmoke;
   overflow-x: auto;
