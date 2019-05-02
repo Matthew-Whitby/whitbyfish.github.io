@@ -1,4 +1,4 @@
-Hashire!
+﻿Hashire!
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない
@@ -30,7 +30,7 @@ EXPLAINED:hashire - form of to run (hashiru) exchanging ru to re is the imperati
 ROMAJI:Zutto kimi wo onaji densha de miru tabi ni
 HIRAGANA:ずっと|キミ|を|おなじ|でんしゃ|で|みる|たび|に
 KANJI:ずっと|キミ|を|同じ|電車|で|見る|たび|に
-READING:k,k,o,k
+READING:k,o,o,k
 ENGLISH:I always see you on the same train as me
 LITERAL:always|you|←|same|train|at|see|journey|on
 EXPLAINED:always|you|wo - marks you as the one being looked at, more generally marks the word before it as the destination of the following action|same|train|de - particle that can be translated as 'at'|see|journey|ni - particle that can be translated as 'on'
