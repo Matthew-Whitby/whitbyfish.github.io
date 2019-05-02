@@ -107,7 +107,7 @@ p{
 .kanji-display{
   position: fixed;
   display: none;
-  width: 50%;
+  width: 25%;
   height: 25%;
   top: 0;
   left: 0;
@@ -170,5 +170,8 @@ table tr td:last-child{
 @media all and (max-width:499px){
   #topNav{
     top:6%;
+  }
+  .kanji-tab{
+    width:50%;
   }
 }
