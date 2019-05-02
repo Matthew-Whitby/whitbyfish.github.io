@@ -68,7 +68,7 @@ p{
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.tab {
+.tab{
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
@@ -114,8 +114,8 @@ p{
   background: white;
   z-index: 2;
 }
-.tabbtn.active {
-  background-color: #ccc;
+.tabbtn.active{
+  background-color:#ccc;
 }
 .line{
   border-top:1px solid #555;
@@ -123,7 +123,7 @@ p{
 .underline{
   border-bottom:1px solid #bbb;
 }
-.tabcontent {
+.tabcontent{
   width:90%;
   display: none;
   padding: 6px 12px;
@@ -138,7 +138,7 @@ p{
   from {opacity: .25;}
   to {opacity: 1;}
 }
-table {
+table{
   border-collapse: collapse;
   margin: 5px auto;
 }
