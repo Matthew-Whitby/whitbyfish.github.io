@@ -175,9 +175,9 @@ table tr td:last-child{
     width:50%;
   }
   #hide-button{
-    left: -moz-calc(25% - 53px);
-    left: -webkit-calc(25% - 53px);
-    left: -o-calc(25% - 53px);
-    left: calc(25% - 53px);
+    left: -moz-calc(50% - 53px);
+    left: -webkit-calc(50% - 53px);
+    left: -o-calc(50% - 53px);
+    left: calc(50% - 53px);
   }
 }
