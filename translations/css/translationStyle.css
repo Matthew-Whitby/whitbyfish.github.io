@@ -169,6 +169,6 @@ table tr td:last-child{
 }
 @media all and (max-width:499px){
   #topNav{
-    top:10%;
+    top:6%;
   }
 }
