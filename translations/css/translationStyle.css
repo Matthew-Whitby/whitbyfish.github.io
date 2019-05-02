@@ -163,4 +163,7 @@ table tr td:last-child{
   .tablesegment{
     min-width: 100%!important;
   }
+  #topNav{
+    top:10%;
+  }
 }
