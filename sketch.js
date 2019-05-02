@@ -2,7 +2,7 @@ let bldrimg;
 let builders = [];
 
 function preload(){
-  bldrimg = loadImage('Resources/builder.png');
+  bldrimg = loadImage('resources/builder.png');
 }
 
 function setup(){
