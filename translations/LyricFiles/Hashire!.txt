@@ -1,4 +1,4 @@
-﻿Hashire!
+Hashire!
 ROMAJI:Egao ga tomaranai
 HIRAGANA:えがお|が|とまらない
 KANJI:笑顔|が|止まらない
@@ -20,7 +20,7 @@ READING:k,k,k,k
 ENGLISH:and so I start to move towards you
 LITERAL:start to move|*emphasis*|you|'re|location|←
 EXPLAINED:begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards
-ROMAJI:Hashire! hashire! hashire!
+ROMAJI:Hashire! Hashire! Hashire!
 HIRAGANA:はしれ！|はしれ！|はしれ！
 KANJI:走れ!|走れ!|走れ!
 READING:k,k,k
