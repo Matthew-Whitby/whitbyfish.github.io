@@ -4,12 +4,8 @@ body,.visible{background-color:#e3e9ec;}
 .description{margin-bottom:5px;}
 .visible{border-radius:5px;border-color:#ccc;margin-bottom:5px;}
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-align:center;}
-.tablesegment{
-  min-width: 50%;
-}
-.kanji-info{
-  cursor: pointer;
-}
+.tablesegment{min-width:50%;}
+.kanji-info,#topNav,#menu a,.tabbtn,#hide-button{cursor:pointer;}
 #menu{
   top:0;
   left:0;
@@ -18,7 +14,6 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-ali
 }
 #menu a{
   padding:2px 10px;
-  cursor: pointer;
   transition: 0.3s;
   background-color: #f1f1f1;
   color: black;
@@ -32,7 +27,6 @@ h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-ali
   position:fixed;
   top:50%;
   right:5px;
-  cursor: pointer;
   background-color: #f1f1f1;
   border-radius: 5px;
 }
@@ -72,7 +66,6 @@ p{
   float: left;
   border: none;
   outline: none;
-  cursor: pointer;
   padding:14px 0px;
   transition: 0.3s;
 }
@@ -88,7 +81,6 @@ p{
   left: -o-calc(25% - 53px);
   left: calc(25% - 53px);
   z-index: 3;
-  cursor: pointer;
 }
 .kanji-display{
   position: fixed;
