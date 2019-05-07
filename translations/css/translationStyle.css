@@ -1,23 +1,9 @@
-body{
-  margin: 0;
-}
-body,.visible{
-  background-color: #e3e9ec;
-}
-.lyrics,.tab,.tabcontent{
-    margin:auto;
-}
-.description{
-  margin-bottom: 5px;
-}
-.visible{
-  border-radius: 5px;
-  border-color: #ccc;
-  margin-bottom: 5px;
-}
-h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{
-  text-align: center;
-}
+body{margin:0;}
+body,.visible{background-color:#e3e9ec;}
+.lyrics,.tab,.tabcontent{margin:auto;}
+.description{margin-bottom:5px;}
+.visible{border-radius:5px;border-color:#ccc;margin-bottom:5px;}
+h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-align:center;}
 .tablesegment{
   min-width: 50%;
 }
