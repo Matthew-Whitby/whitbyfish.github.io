@@ -6,12 +6,7 @@ body,.visible{background-color:#e3e9ec;}
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-align:center;}
 .tablesegment{min-width:50%;}
 .kanji-info,#topNav,#menu a,.tabbtn,#hide-button{cursor:pointer;}
-#menu{
-  top:0;
-  left:0;
-  orientation:landscape;
-  z-index:1;
-}
+#menu{top:0;left:0;orientation:landscape;z-index:1;}
 #menu a{
   padding:2px 10px;
   transition:0.3s;
