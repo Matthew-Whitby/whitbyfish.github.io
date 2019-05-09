@@ -185,21 +185,4 @@ function DisplayTextTable(id, value) {
       }
 }
 
-/*function SetTableWidth(){
-  let segments=document.getElementsByClassName("tablesegment");
-  for(m=0;m<segments.length;m++){
-    let segment=segments[m];
-    let text=segment.innerHTML;
-    let width=0;
-    if(text.includes("<br/>")){
-      let bits=text.split("<br/>");
-      for(c=0;c<bits.length;c++){
-        if (bits[c].length > width) width=bits[c].length;
-      }
-    }else width=text.length;
-
-    segment.style.minWidth=width;
-  }
-}*/
-
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}

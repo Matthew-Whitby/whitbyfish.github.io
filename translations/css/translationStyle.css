@@ -122,10 +122,5 @@ table tr td:last-child{border-right:0;}
 @media all and(max-width:499px){
   #topNav{top:6%;}
   .kanji-tab{width:50%;}
-  #hide-button{
-    left:-moz-calc(50% - 53px);
-    left:-webkit-calc(50% - 53px);
-    left:-o-calc(50% - 53px);
-    left:calc(50% - 53px);
-  }
+  #hide-button{left:-moz-calc(50% - 53px);left:-webkit-calc(50% - 53px);left:-o-calc(50% - 53px);left:calc(50% - 53px);}
 }
