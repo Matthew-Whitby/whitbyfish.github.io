@@ -1,0 +1,446 @@
+<translation-info>
+  <title>Roadshow</title>
+  <lines>
+    <line>
+      <romaji>Ladies &amp; gents</romaji>
+      <hiragana>Ladies &amp; gents</hiragana>
+      <kanji>Ladies &amp; gents</kanji>
+      <reading />
+      <english>Ladies &amp; gents</english>
+      <literal>Ladies &amp; gents</literal>
+      <explained>Ladies &amp; gents</explained>
+    </line>
+    <line>
+      <romaji>okao wo age joushou ni osonae kudasai</romaji>
+      <hiragana>おかお|を|あげ|じょうしょう|に|おそなえ|ください</hiragana>
+      <kanji>お顔|を|あげ|上昇|に|お備え|ください</kanji>
+      <reading />
+      <english>Please raise your heads and get ready</english>
+      <literal>head|←|rise|ascend|←|prepare|please</literal>
+      <explained />
+    </line>
+    <line>
+      <romaji>kasokuya kyuuysenkai kyuukouka mo ariemasu</romaji>
+      <hiragana>かそくや|きゅうせんかい|きゅうこうか|も|ありえない</hiragana>
+      <kanji>加速や|急旋回|急降下|も|あり得ます</kanji>
+      <reading />
+      <english>Accelerate, swoop up and dive</english>
+      <literal>accelerate|sharp turn|nose dive|too|</literal>
+      <explained />
+    </line>
+    <line>
+      <romaji>Be careful, Now</romaji>
+      <hiragana>Be careful, Now</hiragana>
+      <kanji>Be careful, Now</kanji>
+      <reading />
+      <english>Be careful, Now</english>
+      <literal>Be careful, Now</literal>
+      <explained>Be careful, Now</explained>
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>予期せぬ事が起こる可能性もございます</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>その際はぜひお楽しみください</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>これから皆様はこの Show の一部になります</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>この出逢いに深く感謝申し上げて開幕！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>はじまれ！　ここは自分に還る場所</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>さあ新しいトビラをひらいて</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>止まるな！　現実なんて裏切って</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>夢の手を引いて走り出せ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>この日ぼくら出逢えたから</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>混ざりあって Show が生まれる</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>そうさ　はじまりはいつもここからだね</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>キミがいてこの Show が動き出すのさ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>Ladies &amp; gents！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>Show must go on！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>動き出せば最後まで決して止まらない</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>人生とか　まあみんなそうだよね</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>Are you ready？</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>ここからはお待ちかね　ずっと MCZ のターン！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>流れに身をまかせてみてごらん</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>産まれた以上生きねばならぬ　なんて大袈裟かな？</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>生きる以上　今日もまた訪れるアツい舞台！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>ようこそ！　色とりどりの世界へ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>不可能だって可能になりそう</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>飛びこめ！　おたがい虜になって</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>目に映るすべてを彩れ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>ほら前を向けばキミが</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>いてくれるからぼくら</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>もっと繋いでいけるんだ　まだまだ足りない</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>開幕のベル鳴れば　走り続けろ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>Show must go on！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>物語はさらに佳境へと　突入いたします</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>さあここからキミのその手でトビラひらくんだ！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>はじまれ！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>ここは誰もがひとつになれる場所</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>だから飛び込んで</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>止まるな！　現実なんて裏切って</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>夢の手を引いて走り出せ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>あの日ぼくら出逢えたから</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>混ざりあって Show が生まれる</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>そうさ　はじまりはいつもここからだね</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>あの日ぼくら出逢えたから</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>キミと巡りあえたから</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>歩き続けてきたから</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>はじまるんだ</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji>Let's start the show！</kanji>
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+  </lines>
+</translation-info>
