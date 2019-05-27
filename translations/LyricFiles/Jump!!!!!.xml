@@ -5,79 +5,103 @@
       <romaji>Aru hi uta ga kikoetanda</romaji>
       <hiragana>ある|ひ|うた|が|きこえたんだ</hiragana>
       <kanji>ある|日|歌|が|聞こえたんだ</kanji>
-      <reading />
+      <reading>
+      </reading>
       <english>On that day I heard a song</english>
       <literal>a certain|day|song|←|heard</literal>
-      <explained />
+      <explained>a certain/on that|day|song|points to song|heard</explained>
     </line>
     <line>
       <romaji>Hirahira no hane wo tsukete</romaji>
       <hiragana>ひらひら|の|はね|を|つけて</hiragana>
       <kanji>ひらひら|の|羽根|を|つけて</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Put on your fluttering feathers</english>
+      <literal>fluttering|←|feather|←|put on</literal>
+      <explained>Onomatopoeic word for fluttering|points to fluttering|feather|points to fluttering feather|put on or attach</explained>
     </line>
     <line>
       <romaji>Fuwafuwa no doresu kiteita</romaji>
       <hiragana>ふわふわ|の|ドレス|きていた</hiragana>
       <kanji>ふわふわ|の|ドレス|着ていた</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>wearing that fluffy dress</english>
+      <literal>fluffy|←|dress|wear</literal>
+      <explained>Onomatopoeic word for fluffy or lightly (floating/drifiting etc.)|points to fluffy|dress|past tense of to wear (kiru)</explained>
     </line>
     <line>
       <romaji>Chijou ni matataita kirakira no hoshi</romaji>
       <hiragana>ちじょう|に|またたいた|きらきら|の|ほし</hiragana>
       <kanji>地上|に|瞬いた|キラキラ|の|星</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Doji na tenshi no kanchigai hagare ochita</romaji>
       <hiragana>どじ|な|てんし|の|かんちがい|はがれ|おちた</hiragana>
       <kanji>ドジ|な|天使|の|かん違い|はがれ|落ちた</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Mekki no egao wa kitto usotsuki datta ne</romaji>
       <hiragana>メッキ|の|えがお|は|きっと|うそつき|だった|ね</hiragana>
       <kanji>メッキ|の|笑顔|は|きっと|嘘つき|だった|ね</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Tenshi janai watashitachi itsuwari no tsubasa</romaji>
       <hiragana>てんし|じゃない|わたしたち|いつわり|の|つばさ</hiragana>
       <kanji>天使|じゃない|私たち|いつわり|の|翼</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Dakedo akirame kirenai</romaji>
       <hiragana>だけど|あきらめ|きれない</hiragana>
       <kanji>だけど|あきらめ|きれない</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kimochi wa nani?</romaji>
       <hiragana>きもち|は|なに</hiragana>
       <kanji>気持ち|は|なに?</kanji>
-      <reading />
+      <reading>
+      </reading>
       <english>What are these feelings?</english>
       <literal>feelings|←|what</literal>
       <explained>feelings|points to feelings|what? asking what the feelings are</explained>
@@ -86,388 +110,560 @@
       <romaji>Koshi kudake ka ikuji nashi hone nashi ka</romaji>
       <hiragana>こし|くだけ|か|いくじ|なし|ほね|なし|か</hiragana>
       <kanji>腰|くだけ|か|意気地|なし|骨|なし|か</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kore de ii no ka yada chikin na watashi</romaji>
       <hiragana>これ|で|いい|の|か|やだ|チキン|な|わたし</hiragana>
       <kanji>これ|で|いい|の|か|やだ|チキン|な|私</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Aisatsu wo saretemo buaisou</romaji>
       <hiragana>あいさつ|を|されても|ぶあいそう</hiragana>
       <kanji>あいさつ|を|されても|無愛想</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Ai saretai no ni bukkirabou</romaji>
       <hiragana>あい|されたい|の|に|ぶっきらぼう</hiragana>
       <kanji>愛|されたい|の|に|ぶっきらぼう</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kokoro wa kara mawari karappo karakara ni karakkaze</romaji>
       <hiragana>こころ|は|から|まわり|からっぽ|からから|に|からっかぜ</hiragana>
       <kanji>こころ|は|空|回り|空っぽ|カラカラ|に|空っ風</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Ready Go! Ready Go! Kakkou kakkou</romaji>
       <hiragana>Ready Go! Ready Go! カッコウ カッコウ</hiragana>
       <kanji>Ready Go! Ready Go! カッコウ カッコウ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Steady Go! Kodama no you ni sutakkaato suru</romaji>
       <hiragana>Steady Go! こだまのように スタッカートする</hiragana>
       <kanji>Steady Go! こだまのように スタッカートする</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Furui tatasero kono te nobashite</romaji>
       <hiragana>ふるい|たたせろ|この|て|のばして</hiragana>
       <kanji>奮い|たたせろ|この|手|のばして</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Ashi wo funbare assanburu</romaji>
       <hiragana>あし|を|ふんばれ|アッサンブレ</hiragana>
       <kanji>足|を|ふん|ばれ|アッサンブレ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Pa dyu sha pa do buuru</romaji>
       <hiragana>パ・デュ・シャ パ・ド・ブーレ</hiragana>
       <kanji>パ・デュ・シャ パ・ド・ブーレ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>An, du, torowa JUMP!</romaji>
       <hiragana>アン、ドゥ、トロワ JUMP!</hiragana>
       <kanji>アン、ドゥ、トロワ JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Hora dekiru jan nanka dekiru jan</romaji>
       <hiragana>ほらできるじゃん なんかできるじゃん</hiragana>
       <kanji>ほらできるじゃん なんかできるじゃん</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Hontou wa mienai tsubasa kimi mo motteiru desho</romaji>
       <hiragana>ほんとう|は|みえない|つばさ|きみ|も|もっている|でしょ</hiragana>
       <kanji>本当|は|見えない|翼|きみ|も|持っている|でしょ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Niatte iru jan kirekkire da JUMP!</romaji>
       <hiragana>にあって|いる|じゃん|キレッキレ|だ|JUMP!</hiragana>
       <kanji>似合って|いる|じゃん|キレッキレ|だ|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kusari ga tsuita mitai na shuuzu nugisute jump!</romaji>
       <hiragana>くさり|が|ついた|みたい|な|シューズ|ぬぎすて|JUMP!</hiragana>
       <kanji>鎖|が|ついた|みたい|な|シューズ|ぬぎすて|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Atarashii kikkake ga, koyoi no kimi he no purezento</romaji>
       <hiragana>あたらしい|きっかけ|が、|こよい|の|きみ|へ|の|プレゼント</hiragana>
       <kanji>新しい|きっかけ|が、|今宵|の|きみ|へ|の|プレゼント</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Sentou ni tatte sento, merii kurisumasu</romaji>
       <hiragana>セントウ|に|たって|セント|メリー|クリスマス</hiragana>
       <kanji>セントウ|に|立って|セント|メリー|クリスマス</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Ninki futto nippon rettou</romaji>
       <hiragana>にんき|ふっと|にっぽん|れっとう</hiragana>
       <kanji>人気|沸騰|日本|列島</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Keeki ga ii neee</romaji>
       <hiragana>ケーキがイイネエー</hiragana>
       <kanji>ケーキがイイネエー</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Tenshi tsuu ka, doushi daa ne</romaji>
       <hiragana>てんし|つう|か、|どうし|だあ|ね</hiragana>
       <kanji>天使|つう|か、|同士|だあ|ね</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Winku ando kikku da!</romaji>
       <hiragana>ウィンク・アンド・キックだ!</hiragana>
       <kanji>ウィンク・アンド・キックだ!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Shabada dabada dabada dabada</romaji>
       <hiragana>シャバダ ダバダ ダバダ ダバダ</hiragana>
       <kanji>シャバダ ダバダ ダバダ ダバダ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Dotabata demo iei!</romaji>
       <hiragana>ドタバタデモ イエイ!</hiragana>
       <kanji>ドタバタデモ イエイ!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Furui tatasero kono te nobashite</romaji>
       <hiragana>ふるい|たたせろ|この|て|のばして</hiragana>
       <kanji>奮い|たたせろ|この|手|のばして</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Ashi wo funbare assanburu</romaji>
       <hiragana>あし|を|ふんばれ|アッサンブレ</hiragana>
       <kanji>足|を|ふんばれ|アッサンブレ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Iku yo minna de</romaji>
       <hiragana>行くよ みんなで</hiragana>
       <kanji>行くよ みんなで</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>3, 2, 1, JUMP!</romaji>
       <hiragana>3、2、1、JUMP!</hiragana>
       <kanji>3、2、1、JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Hora dekiru jan yappa dekiru jan</romaji>
       <hiragana>ほらできるじゃん やっぱできるじゃん</hiragana>
       <kanji>ほらできるじゃん やっぱできるじゃん</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Hontou wa mienai tsubasa kimi mo motteiru desho</romaji>
       <hiragana>ほんとう|は|みえない|つばさ|きみ|も|持っている|でしょ</hiragana>
       <kanji>本当|は|見えない|翼|きみ|も|持っている|でしょ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Niatte iru jan kirekkire da JUMP!</romaji>
       <hiragana>にあって|いる|じゃん|キレッキレ|だ|JUMP!</hiragana>
       <kanji>似合って|いる|じゃん|キレッキレ|だ|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kusari ga tsuita mitai na shuuzu nugisute JUMP!</romaji>
       <hiragana>くさり|が|ついた|みたい|な|シューズ|ぬぎすて|JUMP!</hiragana>
       <kanji>鎖|が|ついた|みたい|な|シューズ|ぬぎすて|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Fushigi da ne nandatte dekisou na ki ga suru</romaji>
       <hiragana>ふしぎ|だ|ね|なんだって|できそう|な|き|が|する</hiragana>
       <kanji>不思議|だ|ね|なんだって|出来そう|な|気|が|する</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kawaritai to negatta toki ni</romaji>
       <hiragana>かわりたい|と|ねがった|とき|に</hiragana>
       <kanji>変わりたい|と|願った|時|に</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Umare kawaru junbi wa mou hajimatteiru</romaji>
       <hiragana>うまれ|かわる|じゅんび|は|もう|はじまっている</hiragana>
       <kanji>生まれ|変わる|準備|は|もう|始まっている</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Dareka miteru santa mo miteru</romaji>
       <hiragana>だれか|みてる|サンタ|も|みてる</hiragana>
       <kanji>誰か|見てる|サンタ|も|見てる</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Kossori purezento no kutsu mo youi shite JUMP!</romaji>
       <hiragana>こっそり|プレゼント|の|クツ|も|ようい|して|JUMP!</hiragana>
       <kanji>こっそり|プレゼント|の|クツ|も|用意|して|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Mezametara janjan ganbatte ne no yume tsumatteru yo</romaji>
       <hiragana>めざめたら|ジャンジャン|がんばって|ね|の|ゆめ|つまってる|よ</hiragana>
       <kanji>目覚めたら|ジャンジャン|頑張って|ね|の|夢|つまってるよ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>La La La La La…</romaji>
       <hiragana>La La La La La…</hiragana>
       <kanji>La La La La La…</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Seeno de JUMP da!</romaji>
       <hiragana>せーのでJUMPだ!</hiragana>
       <kanji>せーのでJUMPだ!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Seeno de JUMP da!</romaji>
       <hiragana>せーのでJUMPだ!</hiragana>
       <kanji>せーのでJUMPだ!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Seeno de JUMP da!</romaji>
       <hiragana>せーのでJUMPだ!</hiragana>
       <kanji>せーのでJUMPだ!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>JUMP! JUMP! JUMP!</romaji>
       <hiragana>JUMP!|JUMP!|JUMP!</hiragana>
       <kanji>JUMP!|JUMP!|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>JUMP! JUMP! JUMP!</romaji>
       <hiragana>JUMP!|JUMP!|JUMP!</hiragana>
       <kanji>JUMP!|JUMP!|JUMP!</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
   </lines>
 </translation-info>
