@@ -1,5 +1,6 @@
 <translation-info>
   <title>Jump!!!!!</title>
+  <Description />
   <lines>
     <line>
       <romaji>Aru hi uta ga kikoetanda</romaji>
@@ -47,11 +48,9 @@
       <kanji>ドジ|な|天使|の|かん違い|はがれ|落ちた</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>clumsiness|←|angel|←|</literal>
-      <explained>
-      </explained>
+      <english>A clumsy angel accidentally fell from heaven</english>
+      <literal>clumsiness|←|angel|←|misunderstanding|to come unstuck from|fell</literal>
+      <explained>clumsiness|points to clumsiness|angel|points to clumsy angel|misunderstanding|to come unstuck from|fell</explained>
     </line>
     <line>
       <romaji>Mekki no egao wa kitto usotsuki datta ne</romaji>

@@ -1,5 +1,6 @@
 <translation-info>
   <title>We Are Born</title>
+  <Description />
   <lines>
     <line>
       <romaji>ogyaa</romaji>
@@ -208,294 +209,505 @@
       </explained>
     </line>
     <line>
+      <romaji />
+      <hiragana />
+      <kanji />
+      <reading />
+      <english>yo</english>
+      <literal />
+      <explained />
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji />
+      <reading />
+      <english>hi</english>
+      <literal />
+      <explained />
+    </line>
+    <line>
       <romaji>Naki tsura ni hachi</romaji>
       <hiragana>なき|つら|に|はち</hiragana>
       <kanji>泣き|面|に|蜂</kanji>
       <reading>
       </reading>
-      <english>like a bee to a crying face</english>
+      <english>Like a bee to a crying face</english>
       <literal>cry|face|←|bee</literal>
       <explained>cry|face|to the crying face|bee - this is a Japanese idiom meaning that bad things usually come in groups, on top of crying a bee stings you in the face</explained>
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji />
+      <reading />
+      <english>no</english>
+      <literal />
+      <explained />
     </line>
     <line>
       <romaji>no voice, doko ni umarete</romaji>
       <hiragana>
       </hiragana>
-      <kanji />
-      <reading />
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>No voice, where we were born</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>no choice, who we'll meet</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>In the end, we don't get to decide</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We still don't know who we are</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Baby, to a cutie like you</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We have to search for an identity</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Baby, Let's give you a name</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>An unlucky rollercoaster of fate</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>It's too late to get off!</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We are born now, we always have</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>tears in our eyes</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We can't stop ourselves from stepping into the new world</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Born now, over and over we're hurt and betrayed</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>But don't lose hope</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Like love, it's ironic, We are born</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>In the darkness, in the distance we found (a shining light)</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Yearning for it</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We've begun to crawl out of our comfortable world</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Along a dark, narrow path</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Onwards, onwards</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>All alone</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Onto the next world</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We are born now, we always have</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>tears in our eyes</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>We search this new world for a reason to live</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Born now, we have nothing to lose</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>So there's nothing to fear</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Born now, born now</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>in order to be born again</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>forget your fears, raise your head, let's go</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji />
-      <reading />
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
       <english>Even so, powerlessly and ironically, we are born</english>
-      <literal />
-      <explained />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
   </lines>
 </translation-info>
