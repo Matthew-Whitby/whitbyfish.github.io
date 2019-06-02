@@ -5,16 +5,8 @@ body,.visible{background-color:#e3e9ec;}
 .visible{border-radius:5px;border-color:#ccc;margin-bottom:5px;}
 h1,h2,h3,.description,.lyrics,#footer #links,select,.kanji-tab,#contact{text-align:center;}
 .tablesegment{min-width:50%;}
-.kanji-info,#topNav,#menu a,.tabbtn,#hide-button{cursor:pointer;}
-#menu{top:0;left:0;orientation:landscape;z-index:1;}
-#menu a{
-  padding:2px 10px;
-  transition:0.3s;
-  background-color:#f1f1f1;
-  color:black;
-  text-decoration:none;
-}
-#menu a:hover,#topNav:hover{background-color:lightgray;}
+.kanji-info,#topNav,.tabbtn,#hide-button{cursor:pointer;}
+#topNav:hover{background-color:lightgray;}
 #topNav{
   padding:0 10px;
   position:fixed;
