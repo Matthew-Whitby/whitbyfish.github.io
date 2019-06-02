@@ -11,6 +11,4 @@ body{margin: 0;}
   background-color:#f1f1f1;
   border-radius:5px;
 }
-@media all and(max-width:499px){
-  #topNav{top:6%;}
-}
+@media all and(max-width:499px){#topNav{top:6%;}}
