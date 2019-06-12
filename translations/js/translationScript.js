@@ -29,9 +29,9 @@ function HideRomaji(tabName){
 
 function FindNodeByClass(childNodes,classId,getChild){
   for(z=0;z<childNodes.length;z++){
-    if(ContainsClass(childNodes[z],classId))
+    if(ContainsClass(childNodes[z],classId)){
       if(getChild)return childNodes[z].children[0];
-      else return childNodes[z];
+      return childNodes[z];}
     if(childNodes[z].children.length>1)
       return FindNodeByClass(childNodes[z].children,classId,getChild);
   }
