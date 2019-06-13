@@ -115,7 +115,5 @@ function SHA256(s){
 }
 
 function Load(){
-   let pw=document.getElementById("passwordText").value;
-   if(SHA256(pw)=="1f47b6b1ec58916f4061b03531311753284425a3625fd316eccba5e4888eee59")return true;
-   return false;
+   return SHA256(document.getElementById("passwordText").value)=="1f47b6b1ec58916f4061b03531311753284425a3625fd316eccba5e4888eee59";
 }
