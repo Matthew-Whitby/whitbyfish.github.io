@@ -115,5 +115,9 @@ function SHA256(s){
 }
 
 function Load(){
-   return SHA256(document.getElementById("passwordText").value)=="1f47b6b1ec58916f4061b03531311753284425a3625fd316eccba5e4888eee59";
+   if(SHA256(document.getElementById("passwordText").value)=="1f47b6b1ec58916f4061b03531311753284425a3625fd316eccba5e4888eee59"){
+
+   }else{
+      alert("Incorrect Password");
+   }
 }
