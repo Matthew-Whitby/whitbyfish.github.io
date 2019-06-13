@@ -427,10 +427,8 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
+      <romaji>nee namae nan dakke</romaji>
+      <hiragana>ねえ|なまえ|なん|だっけ</hiragana>
       <kanji>ねえ|名前|なん|だっけ</kanji>
       <reading>
       </reading>
@@ -441,10 +439,8 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
+      <romaji>doko de attakke</romaji>
+      <hiragana>どこ|で|あったっけ</hiragana>
       <kanji>どこ|で|会ったっけ</kanji>
       <reading>
       </reading>
@@ -455,86 +451,68 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
+      <romaji>itsu no koto dakke</romaji>
+      <hiragana>いつ|の|こと|だっけ</hiragana>
       <kanji>いつ|の|こと|だっけ</kanji>
       <reading>
       </reading>
       <english>When was it again?</english>
-      <literal>
-      </literal>
+      <literal>when|←|thing|was it?</literal>
       <explained>
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>なにをしてたっけ</kanji>
+      <romaji>nani wo shite dakke</romaji>
+      <hiragana>なに|を|して|たっけ</hiragana>
+      <kanji>なに|を|して|たっけ</kanji>
       <reading>
       </reading>
       <english>What were we doing again?</english>
-      <literal>
-      </literal>
+      <literal>what|←|doing|was it?</literal>
       <explained>
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>どんな顔だっけ</kanji>
+      <romaji>donna kao datte</romaji>
+      <hiragana>どんな|かお|だっけ</hiragana>
+      <kanji>どんな|顔|だっけ</kanji>
       <reading>
       </reading>
       <english>What was your face like again?</english>
-      <literal>
-      </literal>
+      <literal>what kind of|face|was it?</literal>
       <explained>
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>どんな声だっけ</kanji>
+      <romaji>donna koe datte</romaji>
+      <hiragana>どんな|こえ|だっけ</hiragana>
+      <kanji>どんな|声|だっけ</kanji>
       <reading>
       </reading>
       <english>What was your voice like again?</english>
-      <literal>
-      </literal>
+      <literal>what kind of|voice|was it?</literal>
       <explained>
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>どんな人だっけ</kanji>
+      <romaji>donna hito datte</romaji>
+      <hiragana>どんな|ひと|だっけ</hiragana>
+      <kanji>どんな|人|だっけ</kanji>
       <reading>
       </reading>
       <english>What kind of person where you again?</english>
-      <literal>
-      </literal>
+      <literal>what kind of|person|was it?</literal>
       <explained>
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>どこが好きだっけ</kanji>
+      <romaji>doko ga suki dakke</romaji>
+      <hiragana>どこ|が|すき|だっけ</hiragana>
+      <kanji>どこ|が|好き|だっけ</kanji>
       <reading>
       </reading>
       <english>Where was your favourite place again?</english>
-      <literal>
-      </literal>
+      <literal>where|←|love|was it?</literal>
       <explained>
       </explained>
     </line>
@@ -543,7 +521,7 @@
       </romaji>
       <hiragana>
       </hiragana>
-      <kanji>忘れないように忘れないように</kanji>
+      <kanji>忘れないように|忘れないように</kanji>
       <reading>
       </reading>
       <english>I don't want to forget, I don't want to forget</english>
@@ -553,8 +531,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>ashita mo aou ne</romaji>
       <hiragana>
       </hiragana>
       <kanji>明日も会おうね</kanji>
@@ -567,38 +544,30 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>約束しようね</kanji>
+      <romaji>yakusoku shiyou ne</romaji>
+      <hiragana>やくそく|しよう|ね</hiragana>
+      <kanji>約束|しよう|ね</kanji>
       <reading>
       </reading>
       <english>Let's make it a promise</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>promise|make|emphasis</literal>
+      <explained>promise|</explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>生まれかわっても生まれかわっても</kanji>
+      <romaji>umarekawatte mo umarekawatte mo</romaji>
+      <hiragana>うまれかわって|も|うまれかわって|も</hiragana>
+      <kanji>生まれかわって|も|生まれかわって|も</kanji>
       <reading>
       </reading>
       <english>Even if we're reborn, even if we're reborn</english>
-      <literal>
-      </literal>
+      <literal>even if reborn|also|even if reborn|also</literal>
       <explained>
       </explained>
     </line>
     <line>
       <romaji>
       </romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>かわらないでいて</hiragana>
       <kanji>かわらないでいて</kanji>
       <reading>
       </reading>
@@ -609,11 +578,9 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>見つけてあげるね</kanji>
+      <romaji>mitsukete ageru ne</romaji>
+      <hiragana>みつけて|あげる|ね</hiragana>
+      <kanji>見つけて|あげる|ね</kanji>
       <reading>
       </reading>
       <english>I'll always find you again</english>
