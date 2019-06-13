@@ -102,8 +102,7 @@ function StickKanji(element){
 
 function IsStickied(){
   let stucks=document.getElementsByClassName("stickied");
-  if(stucks!=null&&stucks.length>0)return true;
-  return false;
+  return(stucks!=null&&stucks.length>0);
 }
 
 function CloseKanji(){
