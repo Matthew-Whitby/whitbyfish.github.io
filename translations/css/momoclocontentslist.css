@@ -53,8 +53,8 @@ a{
    text-align:center;
 }
 #topNav{
-   top:-moz-calc(50% - 25px);
-   top:-webkit-calc(50% - 25px);
-   top:-o-calc(50% - 25px);
-   top:calc(50% - 25px);
+   top:-moz-calc(50% - 90px);
+   top:-webkit-calc(50% - 90px);
+   top:-o-calc(50% - 90px);
+   top:calc(50% - 90px);
 }
