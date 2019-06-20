@@ -52,3 +52,9 @@ a{
    display:block;
    text-align:center;
 }
+#topNav{
+   top:-moz-calc(50% - height/2);
+   top:-webkit-calc(50% - height/2);
+   top:-o-calc(50% - height/2);
+   top:calc(50% - height/2);
+}
