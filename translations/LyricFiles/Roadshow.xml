@@ -1,446 +1,639 @@
 <translation-info>
   <title>Roadshow</title>
+  <description>-only romaji, hiragana and kanji done so far-</description>
+  <wordListLink />
   <lines>
     <line>
       <romaji>Ladies &amp; gents</romaji>
-      <hiragana>Ladies &amp; gents</hiragana>
-      <kanji>Ladies &amp; gents</kanji>
-      <reading />
+      <hiragana>Ladies|&amp;|gents</hiragana>
+      <kanji>Ladies|&amp;|gents</kanji>
+      <reading>
+      </reading>
       <english>Ladies &amp; gents</english>
-      <literal>Ladies &amp; gents</literal>
-      <explained>Ladies &amp; gents</explained>
+      <literal>Ladies|&amp;|gents</literal>
+      <explained>Ladies|&amp;|gents</explained>
     </line>
     <line>
       <romaji>okao wo age joushou ni osonae kudasai</romaji>
       <hiragana>おかお|を|あげ|じょうしょう|に|おそなえ|ください</hiragana>
       <kanji>お顔|を|あげ|上昇|に|お備え|ください</kanji>
-      <reading />
-      <english>Please raise your heads and get ready</english>
+      <reading>
+      </reading>
+      <english>Raise your heads and get ready</english>
       <literal>head|←|rise|ascend|←|prepare|please</literal>
-      <explained />
+      <explained>head is kao, the o in front indicates 'your'|wo is the direct object marker, marks the</explained>
     </line>
     <line>
       <romaji>kasokuya kyuuysenkai kyuukouka mo ariemasu</romaji>
       <hiragana>かそくや|きゅうせんかい|きゅうこうか|も|ありえない</hiragana>
       <kanji>加速や|急旋回|急降下|も|あり得ます</kanji>
-      <reading />
+      <reading>
+      </reading>
       <english>Accelerate, swoop up and dive</english>
       <literal>accelerate|sharp turn|nose dive|too|</literal>
-      <explained />
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Be careful, Now</romaji>
       <hiragana>Be careful, Now</hiragana>
       <kanji>Be careful, Now</kanji>
-      <reading />
+      <reading>
+      </reading>
       <english>Be careful, Now</english>
       <literal>Be careful, Now</literal>
       <explained>Be careful, Now</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Yokisenu koto ga okoru kanousei mo gozaimasu</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>予期せぬ事が起こる可能性もございます</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>sono sai wa zehi otanoshimi kudasai</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>その際はぜひお楽しみください</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kore kara minasama wa kono show no ichibu ni narimasu</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>これから皆様はこの Show の一部になります</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kono deai ni fukaku kansha moushiagete kaimaku</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>この出逢いに深く感謝申し上げて開幕！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>hajimare! koko wa jibun ni kaeru basho</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>はじまれ！　ここは自分に還る場所</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>It begins! This is the place where I can be myself</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>saa atarashii tobira wo hiraite</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>さあ新しいトビラをひらいて</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>tomaru na! genjitsu nante uragitte</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>止まるな！　現実なんて裏切って</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>yume no te wo hiite hashiridase</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>夢の手を引いて走り出せ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kono hi bokura deaieta kara</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>この日ぼくら出逢えたから</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Because we were able to meet today</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>mazariatte show ga umareru</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>混ざりあって Show が生まれる</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>We mixed and the show was born</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>sou sa hajimari wa itsumo koko kara da ne</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>そうさ　はじまりはいつもここからだね</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>That's right, it always starts from here</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kimi ga ite kono show ga uzokidasu no sa</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>キミがいてこの Show が動き出すのさ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Because you're here the show can get going</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Ladies &amp; gents！</romaji>
+      <hiragana>Ladies &amp; gents！</hiragana>
       <kanji>Ladies &amp; gents！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Ladies &amp; gents！</english>
+      <literal>Ladies &amp; gents！</literal>
+      <explained>Ladies &amp; gents！</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Show must go on！</romaji>
+      <hiragana>Show must go on！</hiragana>
       <kanji>Show must go on！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Show must go on！</english>
+      <literal>Show must go on！</literal>
+      <explained>Show must go on！</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>uzokidaseba saigo made kesshite tomaranai</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>動き出せば最後まで決して止まらない</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>We'll keep going to the end</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>jinsei toka maa minna sou da yo ne</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>人生とか　まあみんなそうだよね</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Are you ready？</romaji>
+      <hiragana>Are you ready？</hiragana>
       <kanji>Are you ready？</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Are you ready？</english>
+      <literal>Are you ready？</literal>
+      <explained>Are you ready？</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>koko kara wa omachikane zutto MCZ no taan</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>ここからはお待ちかね　ずっと MCZ のターン！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>It's time for the long awaited turn of MCZ</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>nagare ni mi wo makasetemite goran</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>流れに身をまかせてみてごらん</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>umareta ijou ikineba naranu nante oogesa ka na</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>産まれた以上生きねばならぬ　なんて大袈裟かな？</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>ikiru ijou kyou mo mata otozureru atsui butai</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>生きる以上　今日もまた訪れるアツい舞台！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>As we go on living, we'll arrive at that passionate stage once more</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>youkoso irotoridori no sekai e</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>ようこそ！　色とりどりの世界へ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Welcome to this colorful world</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>fukanou datte kanou ni narisou</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>不可能だって可能になりそう</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>tobikome! otagai toriko ni natte</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>飛びこめ！　おたがい虜になって</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Dive in! Fall in love with one another</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>me ni utsuru subete wo irodore</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>目に映るすべてを彩れ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Color everything that you see in your eyes</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>hora mae wo mukeba kimi ga</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>ほら前を向けばキミが</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Look, if you turn around</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>itekureru kara bokura</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>いてくれるからぼくら</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
-      <kanji>もっと繋いでいけるんだ　まだまだ足りない</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <romaji>motto tsunaide ikerunda madamada tarinai</romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>もっと|繋いで|いけるんだ|まだまだ|足りない</kanji>
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kaimaku no beru nareba hashiri tsuzukero</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>開幕のベル鳴れば　走り続けろ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>When the bell rings to signal the curtain opening, keep on running</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Show must go on！</romaji>
+      <hiragana>Show must go on！</hiragana>
       <kanji>Show must go on！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Show must go on！</english>
+      <literal>Show must go on！</literal>
+      <explained>Show must go on！</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>monogatari wa sarani kakyou e to totsunyuu itashimasu</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>物語はさらに佳境へと　突入いたします</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>saa koko kara kimi no sono te de tobira hirakunda</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>さあここからキミのその手でトビラひらくんだ！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>hajimare!</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>はじまれ！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>It begins!</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>koko wa dare mo ga hitotsu ni nareru basho</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>ここは誰もがひとつになれる場所</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>This is the place where two people can become one</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>dakara tobikonde</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>だから飛び込んで</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>So jump into it</english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>tomaru na! genjitsu nante uragitte</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>止まるな！　現実なんて裏切って</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>yume no te wo hiite hashiridase</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>夢の手を引いて走り出せ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>ano hi bokura deaieta kara</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>あの日ぼくら出逢えたから</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>mazariatte show ga umareru</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>混ざりあって Show が生まれる</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>sou sa hajimari wa itsumo koko kara da ne</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>そうさ　はじまりはいつもここからだね</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>ano hi bokura deaieta kara</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>あの日ぼくら出逢えたから</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>kimi to mezuri aeta kara</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>キミと巡りあえたから</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>aru tsuzuketekita kara</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>歩き続けてきたから</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>hajimarunda</romaji>
+      <hiragana>
+      </hiragana>
       <kanji>はじまるんだ</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Let's begin</english>
+      <literal>let's begin</literal>
+      <explained>hajimaru = begin, hajimerunda invites the person</explained>
     </line>
     <line>
-      <romaji />
-      <hiragana />
+      <romaji>Let's start the show！</romaji>
+      <hiragana>Let's start the show！</hiragana>
       <kanji>Let's start the show！</kanji>
-      <reading />
-      <english />
-      <literal />
-      <explained />
+      <reading>
+      </reading>
+      <english>Let's start the show！</english>
+      <literal>Let's start the show！</literal>
+      <explained>Let's start the show！</explained>
     </line>
   </lines>
 </translation-info>

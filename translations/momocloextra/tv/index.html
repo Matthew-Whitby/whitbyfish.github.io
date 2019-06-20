@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head lang="en">
-      <title>Momoclo Extra</title>
+      <title>Momoclo TV</title>
       <meta charset="UTF-8">
       <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-137823782-1');</script>
       <link rel="stylesheet" href="https://whitbyfish.net/translations/css/momoclocontents.min.css"/>
@@ -10,7 +10,7 @@
       <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}</script>
    </head>
    <body>
-      <div id="menu"><a href="https://whitbyfish.net/">Home</a><a href="https://whitbyfish.net/translations/">Translations</a></div>
+      <div id="menu"><a href="https://whitbyfish.net/">Home</a><a href="https://whitbyfish.net/translations/">Translations</a><a href="https://whitbyfish.net/translations/momocloextra">Momoclo Extra</a></div>
       <div id="topNav" onclick="ScrollToTop()"><a>Top</a></div>
       <b><u>
             <h1>Momoiro Clover Z</h1>
@@ -19,15 +19,10 @@
       <div class="table">
          <table>
             <tr>
-               <th>Live Shows</th>
+               <th>Momoclo Chan DX</th>
             </tr>
             <tr>
                <td><a class="inprogress">Do You Wanna Dance</a></td>
-            </tr>
-         </table>
-         <table>
-            <tr>
-               <th>TV Shows</th>
             </tr>
          </table>
          <table>
@@ -39,5 +34,15 @@
             </tr>
          </table>
       </div>
+      <textarea id="generate"></textarea>
+      <script>
+         let output="";
+         for(m=1;m<=451;m++){
+            output+="<tr>\r\n";
+            output+="<td><a class=\"notdone\">"+m+"</a></td>\r\n";
+            output+="</tr>\r\n"
+         }
+         document.getElementById("generate").innerHTML=output;
+      </script>
    </body>
 </html>
