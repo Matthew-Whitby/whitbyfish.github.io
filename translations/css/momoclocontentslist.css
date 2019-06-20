@@ -48,3 +48,7 @@ h2{
 a{
   font-size: 30px;
 }
+#topNav a{
+   display:block;
+   text-align:center;
+}
