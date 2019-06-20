@@ -10,10 +10,9 @@
       <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 	   <script src="https://music.whitbyfish.net/js/jquery/jquery.inview.min.js"></script>
       <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
-      function ScrollToPos(){pos=this.innerHTML+"pos";
-      y="#"+pos;
-      console.log(y);
-      topVal=$(y).offset().top;
+      function ScrollToPos(pPos){pos="#"+pPos+"pos";
+      console.log(pos);
+      topVal=$(pos).offset().top;
 
       window.scroll({
          top:topVal,
@@ -24,7 +23,7 @@
    </head>
    <body>
       <div id="menu"><a href="https://whitbyfish.net/">Home</a><a href="https://whitbyfish.net/translations/">Translations</a><a href="https://whitbyfish.net/translations/momocloextra">Momoclo Extra</a></div>
-      <div style="orientation:portrait;" id="topNav"><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToPos()">400</a><a onclick="ScrollToPos()">300</a><a onclick="ScrollToPos()">200</a><a onclick="ScrollToPos()">100</a><a onclick="ScrollToPos()">1</a></div>
+      <div style="orientation:portrait;" id="topNav"><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToPos(400)">400</a><a onclick="ScrollToPos(300)">300</a><a onclick="ScrollToPos(200)">200</a><a onclick="ScrollToPos(100)">100</a><a onclick="ScrollToPos(1)">1</a></div>
       <b><u>
             <h1>Momoiro Clover Z</h1>
          </u></b>
