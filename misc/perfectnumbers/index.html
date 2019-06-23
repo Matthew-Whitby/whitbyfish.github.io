@@ -1,0 +1,43 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Perfect Numbers</title>
+   </head>
+   <body>
+      <input type="text" id="in">
+      <button onclick="Calculate()">Calculate</button>
+      <textarea id="output"></textarea>
+      <script>
+      function Calculate(){
+         let n=parseInt(document.getElementById("in").value);
+         let numbers=[];
+         for(i=1;i<n;i++){//loop through 1 to n
+            let factors=[];
+            let half=ceil(i/2);//gets halfway point
+            
+            for(j=1;j<half;j++){//loop through 1 to half current number (to check for factors)
+               if(i%j==0){
+                  factors.push(j);
+
+               }
+
+            }
+            let count=0;
+            for(x=0;x<factors.Length;x++){
+               count+=factors[x];
+            }
+            if(i==count){
+               numbers.push(i);
+            }
+         }
+         
+         output="";
+         for(z=0;z<numbers.Length;z++){
+            output+=z;
+            if(z!=numbers.Length-1)output+=",";
+         }
+         document.getElementById("output").innerHTML=output;
+      }
+      </script>
+   </body>
+</html>
