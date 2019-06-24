@@ -12,17 +12,13 @@
          let n=parseInt(document.getElementById("in").value);
          let numbers=[];//declares output array
          for(i=1;i<n;i++){//loop through 1 to n
-            let factors=[];//declares factors array
-            for(j=1;j<i;j++){//loop through 1 to current number (to check for factors)
+            let factors=0;//declares factors array
+            for(j=1;j<Math.ceil(i/2);j++){//loop through 1 to current number (to check for factors)
                if(i%j==0){//if i is a factor of j
-                  factors.push(j);//add j to factors
+                  factors+=j;//add j to factors
                }
             }
-            let count=0;//declares integer
-            for(x=0;x<factors.length;x++){//loops through factors array
-               count+=factors[x];//adds the factors together
-            }
-            if(i==count){//if i = the factors of i added together
+            if(i==factors){//if i = the factors of i added together
                numbers.push(i);//add i to the output numbers
             }
          }
