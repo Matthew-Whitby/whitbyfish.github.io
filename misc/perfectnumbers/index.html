@@ -13,7 +13,7 @@
          let numbers=[];//declares output array
          for(i=1;i<n;i++){//loop through 1 to n
             let factors=0;//declares factors array
-            for(j=1;j<Math.ceil(i/2);j++){//loop through 1 to current number (to check for factors)
+            for(j=1;j<=Math.ceil(i/2);j++){//loop through 1 to current number (to check for factors)
                if(i%j==0){//if i is a factor of j
                   factors+=j;//add j to factors
                }
