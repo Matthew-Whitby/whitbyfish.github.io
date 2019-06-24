@@ -13,28 +13,23 @@
          let numbers=[];
          for(i=1;i<n;i++){//loop through 1 to n
             let factors=[];
-            let half=ceil(i/2);//gets halfway point
-            
             for(j=1;j<i;j++){//loop through 1 to half current number (to check for factors)
                if(i%j==0){
                   factors.push(j);
-
                }
-
             }
             let count=0;
-            for(x=0;x<factors.Length;x++){
+            for(x=0;x<factors.length;x++){
                count+=factors[x];
             }
             if(i==count){
                numbers.push(i);
             }
          }
-         
          output="";
-         for(z=0;z<numbers.Length;z++){
-            output+=z;
-            if(z!=numbers.Length-1)output+=",";
+         for(z=0;z<numbers.length;z++){
+            output+=numbers[z];
+            if(z!=numbers.length-1)output+=",";
          }
          document.getElementById("output").innerHTML=output;
       }
