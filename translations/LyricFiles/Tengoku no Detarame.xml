@@ -1,6 +1,7 @@
 <translation-info>
   <title>Tengoku no Detarame</title>
-  <Description />
+  <description />
+  <wordListLink />
   <lines>
     <line>
       <romaji>ano hi egaita yume wo kari ni A to shite</romaji>
@@ -41,7 +42,7 @@
       </explained>
     </line>
     <line>
-      <romaji>tashite hiite</romaji>
+      <romaji>tashite hiita</romaji>
       <hiragana>
       </hiragana>
       <kanji>足して|引いた</kanji>
@@ -54,7 +55,7 @@
       </explained>
     </line>
     <line>
-      <romaji>kakete wareta</romaji>
+      <romaji>kaketa wareta</romaji>
       <hiragana>
       </hiragana>
       <kanji>欠けた|割れた</kanji>
@@ -67,8 +68,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>nando mo tashikameta kotae da</romaji>
       <hiragana>
       </hiragana>
       <kanji>何度も確かめた答えだ</kanji>
@@ -81,8 +81,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>machigai nante iwasenai kimi ga boku wo mitsuketekureta koto</romaji>
       <hiragana>
       </hiragana>
       <kanji>「まちがい」なんて言わせないきみがぼくを見つけてくれたこと</kanji>
@@ -95,8 +94,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>umarekawatte mo wakaru you</romaji>
       <hiragana>
       </hiragana>
       <kanji>生まれかわってもわかるよう</kanji>
@@ -109,8 +107,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>boku wo omoi daseru youni</romaji>
       <hiragana>
       </hiragana>
       <kanji>ぼくを思い出せるように</kanji>
@@ -123,8 +120,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>iyani naru hodo mitsumete ne</romaji>
       <hiragana>
       </hiragana>
       <kanji>いやになるほど見つめてね</kanji>
@@ -137,8 +133,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>wasurenaide ne</romaji>
       <hiragana>
       </hiragana>
       <kanji>忘れないでね</kanji>
@@ -163,8 +158,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>kimi to boku no kyori wo C to D to shite</romaji>
       <hiragana>
       </hiragana>
       <kanji>きみ|と|ぼく|の|距離を|(C)|と|(D)|と|して</kanji>
@@ -177,8 +171,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>iko-ru ja heikousen</romaji>
       <hiragana>
       </hiragana>
       <kanji>イコールじゃ平行線</kanji>
@@ -191,8 +184,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>imademo odoreru sa ano eito biito wo</romaji>
       <hiragana>
       </hiragana>
       <kanji>今でも踊れるさあのエイトビートを</kanji>
@@ -205,8 +197,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>bokura wo mata chikadzukete</romaji>
       <hiragana>
       </hiragana>
       <kanji>ぼくらをまた近づけて</kanji>
@@ -219,8 +210,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>kaite keshite</romaji>
       <hiragana>
       </hiragana>
       <kanji>書いて|消して</kanji>
@@ -233,8 +223,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>shin mo orete</romaji>
       <hiragana>
       </hiragana>
       <kanji>芯も折れて</kanji>
@@ -247,8 +236,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>mada kotae ga denakute</romaji>
       <hiragana>
       </hiragana>
       <kanji>まだ答えが出なくて</kanji>
@@ -261,8 +249,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>yabure sou na touanyushi ni</romaji>
       <hiragana>
       </hiragana>
       <kanji>破れそうな答案用紙に</kanji>
@@ -275,8 +262,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>soredemo shoumeisuru kara</romaji>
       <hiragana>
       </hiragana>
       <kanji>それでも証明するから</kanji>
@@ -289,8 +275,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>kimi to mita yume wo</romaji>
       <hiragana>
       </hiragana>
       <kanji>きみと見た夢を</kanji>
@@ -303,8 +288,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>umarekawatte mo wakaru you</romaji>
       <hiragana>
       </hiragana>
       <kanji>生まれかわってもわかるよう</kanji>
@@ -317,8 +301,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>boku wo omoi daseru youni</romaji>
       <hiragana>
       </hiragana>
       <kanji>ぼくを思い出せるように</kanji>
@@ -331,8 +314,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>iyani naru hodo mitsumete ne</romaji>
       <hiragana>
       </hiragana>
       <kanji>いやになるほど見つめてね</kanji>
@@ -345,8 +327,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>wasurenaide ne</romaji>
       <hiragana>
       </hiragana>
       <kanji>忘れないでね</kanji>
@@ -359,8 +340,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>odoru kimi no sugata no subete wo</romaji>
       <hiragana>
       </hiragana>
       <kanji>踊るきみの姿のすべてを</kanji>
@@ -373,8 +353,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>warau kao mo kuchiguse mo</romaji>
       <hiragana>
       </hiragana>
       <kanji>笑う顔も口癖も</kanji>
@@ -387,8 +366,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>oboete umare kawaru kara</romaji>
       <hiragana>
       </hiragana>
       <kanji>覚えて生まれかわるから</kanji>
@@ -401,14 +379,13 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>raise mo yoroshiku</romaji>
       <hiragana>
       </hiragana>
       <kanji>来世もよろしく</kanji>
       <reading>
       </reading>
-      <english>to the future, let's get along</english>
+      <english>to our next life, let's get along</english>
       <literal>
       </literal>
       <explained>
@@ -473,7 +450,7 @@
       </explained>
     </line>
     <line>
-      <romaji>donna kao datte</romaji>
+      <romaji>donna kao dakke</romaji>
       <hiragana>どんな|かお|だっけ</hiragana>
       <kanji>どんな|顔|だっけ</kanji>
       <reading>
@@ -484,7 +461,7 @@
       </explained>
     </line>
     <line>
-      <romaji>donna koe datte</romaji>
+      <romaji>donna koe dakke</romaji>
       <hiragana>どんな|こえ|だっけ</hiragana>
       <kanji>どんな|声|だっけ</kanji>
       <reading>
@@ -495,7 +472,7 @@
       </explained>
     </line>
     <line>
-      <romaji>donna hito datte</romaji>
+      <romaji>donna hito dakke</romaji>
       <hiragana>どんな|ひと|だっけ</hiragana>
       <kanji>どんな|人|だっけ</kanji>
       <reading>
@@ -517,8 +494,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>wasurenai youni wasurenai youni</romaji>
       <hiragana>
       </hiragana>
       <kanji>忘れないように|忘れないように</kanji>
@@ -565,8 +541,7 @@
       </explained>
     </line>
     <line>
-      <romaji>
-      </romaji>
+      <romaji>kawaranaideite</romaji>
       <hiragana>かわらないでいて</hiragana>
       <kanji>かわらないでいて</kanji>
       <reading>
