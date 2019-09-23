@@ -16,6 +16,6 @@ body{margin:0;}
   padding:1px 0;
 }
 .isCurrent{
-  transform: scaleX(1);
+  transform: scaleX(2);
 }
 @media all and(max-width:499px){#side{top:6%;}}
