@@ -8,11 +8,12 @@
   <link rel="shortcut icon" href="https://whitbyfish.net/resources/whitby-icon.ico">
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/momoclocontents.min.css"/>
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/TopMenu.min.css"/>
-  <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}</script>
+  <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
+  function ScrollToYear(year){document.getElementById(year).scrollIntoView();}</script>
 </head>
 <body>
   <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="https://whitbyfish.net/translations">Translations</a></div>
-  <div id="topNav" onclick="ScrollToTop()"><a>Top</a></div>
+  <div id="sideNav"><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToYear(2019)">2019</a><a onclick="ScrollToYear(2018)">2018</a><a onclick="ScrollToYear(2017)">2017</a><a onclick="ScrollToYear(2016)">2016</a><a onclick="ScrollToYear(2015)">2015</a><a onclick="ScrollToYear(2014)">2014</a><a onclick="ScrollToYear(2013)">2013</a><a onclick="ScrollToYear(2012)">2012</a><a onclick="ScrollToYear(2011)">2011</a><a onclick="ScrollToYear(2010)">2010</a><a onclick="ScrollToYear(2009)">2009</a></div>
   <b><u><h1>Momoiro Clover Z</h1></u></b>
   <p>Pink = done, orange = in progress, red = not done</p>
   <div class="year" id="2019">
