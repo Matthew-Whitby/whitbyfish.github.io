@@ -11,4 +11,11 @@ body{margin: 0;}
   background-color:#f1f1f1;
   border-radius:5px;
 }
+#sideNav a{
+  display: block;
+  padding:1px 0;
+}
+#sideNav .isCurrent{
+  transform: scaleX(1);
+}
 @media all and(max-width:499px){#side{top:6%;}}
