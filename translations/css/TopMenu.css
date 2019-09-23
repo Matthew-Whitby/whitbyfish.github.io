@@ -15,7 +15,7 @@ body{margin: 0;}
   display: block;
   padding:1px 0;
 }
-#sideNav .isCurrent{
+.isCurrent{
   transform: scaleX(1);
 }
 @media all and(max-width:499px){#side{top:6%;}}
