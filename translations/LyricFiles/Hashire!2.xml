@@ -4,6 +4,15 @@
   <wordListLink>http://bit.ly/hashirelist</wordListLink>
   <lines>
     <line>
+      <romaji />
+      <hiragana />
+      <kanji />
+      <reading />
+      <english />
+      <literal />
+      <explained />
+    </line>
+    <line>
       <romaji>Egao ga tomaranai</romaji>
       <hiragana>えがお|が|とまらない</hiragana>
       <kanji>笑顔|が|止まらない</kanji>
@@ -11,7 +20,6 @@
       <english>I can't stop smiling</english>
       <literal>smile|←|stop not</literal>
       <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (also if the subject is unknown to the speaker) (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
-      <builder>smile|smile|smile doesn't stop</builder>
     </line>
     <line>
       <romaji>Odoru kokoro tomaranai</romaji>
@@ -19,9 +27,8 @@
       <kanji>踊る|ココロ|止まらない</kanji>
       <reading>k,k</reading>
       <english>My heart won't stop dancing</english>
-      <literal>dancing|heart|stop not</literal>
-      <explained>dancing|heart, can also mean soul|negative form of stop again</explained>
-      <builder>dancing|dancing heart|dancing heart doesn't stop</builder>
+      <literal>pounding|heart|stop not</literal>
+      <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
     </line>
     <line>
       <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
@@ -31,7 +38,22 @@
       <english>and so I start to move towards you</english>
       <literal>start to move|*emphasis*|you|'re|location|←</literal>
       <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
-      <builder>start to move|start to move|start to move ___ you|start to move ____ your|start to move ____ your location|start to move towards your location</builder>
+    </line>
+    <line>
+      <romaji>
+      </romaji>
+      <hiragana>
+      </hiragana>
+      <kanji>
+      </kanji>
+      <reading>
+      </reading>
+      <english>
+      </english>
+      <literal>
+      </literal>
+      <explained>
+      </explained>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -41,7 +63,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>run!|run! run!|run! run! run!</builder>
     </line>
     <line>
       <romaji>Zutto kimi wo onaji densha de miru tabi ni</romaji>
@@ -51,7 +72,6 @@
       <english>I always see you on the same train as me</english>
       <literal>always|you|←|same|train|at|see|journey|on</literal>
       <explained>always|you|wo - marks you as the one being looked at, more generally marks the word before it as the destination of the following action|same|train|de - particle that can be translated as 'at'|see|journey|ni - particle that can be translated as 'on'</explained>
-      <builder>*always*|always ___ *you*|always ___ you|always ___ you *same*|always ___ you same *train*|always ___ you *on* the same train|always *see* you on the same train</builder>
     </line>
     <line>
       <romaji>Istu kara darou?</romaji>
@@ -62,7 +82,6 @@
       <english>I wonder when it began,</english>
       <literal>when|from|wonder</literal>
       <explained>when|from|wonder - as in 'I wonder', means 'think' generally</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>Boku no kokoro no naka de ookiku natteita omoi</romaji>
@@ -72,7 +91,6 @@
       <english>when these feelings inside my heart became so big</english>
       <literal>I|←|heart|←|inside|←|big|became|feelings</literal>
       <explained>I|no - particle meaning possession turning I to my in this case|heart/soul|'no' again. Sentence so far reads "my heart's"|inside|de - at/in (points to location of action)|big/large|form of naru (to become), - tteita = past progressive conjugation of verb (for most -ru verbs)|feelings, can also mean thoughts or love</explained>
-      <builder>1|2|3|4|5|6|7|8|9</builder>
     </line>
     <line>
       <romaji>hanashikakeru koto mo dekinakute itsumo</romaji>
@@ -82,7 +100,6 @@
       <english>unable to ever start a conversation</english>
       <literal>start a conversation|thing|also|unable|always</literal>
       <explained>hanashi - conversation, kakeru - make a call|thing|also/too|to do (dekiru) made negative|always</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>tomodachi to issho ni shabetteru furi de</romaji>
@@ -92,7 +109,6 @@
       <english>I always pretended to talk with my friends</english>
       <literal>friends|with|together|←|talk|pretend|←</literal>
       <explained>friends|with|together|ni as in to|talk|pretend|marks where they were for next line</explained>
-      <builder>1|2|3|4|5|6|7</builder>
     </line>
     <line>
       <romaji>yokome de miteta boku dakedo</romaji>
@@ -102,7 +118,6 @@
       <english>whilst watching you from the corner of my eye</english>
       <literal>glance from corner of eye|←|looked|I|though</literal>
       <explained>glance from corner of eye|points to where they looked from|looked|I|though</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>kidzuita kono kanjou ni</romaji>
@@ -112,7 +127,6 @@
       <english>now that I've noticed these feelings</english>
       <literal>noticed|these|feelings|←</literal>
       <explained>Noticed|these|feelings|points to this phrase in preperation for the next line</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>mou koukai nante shitakunai</romaji>
@@ -122,7 +136,6 @@
       <english>I don't want to regret anything anymore</english>
       <literal>now|regret|things like|don't want to</literal>
       <explained>now, in this case better represented as 'no more'|regret|things like|to do (suru) but negative</explained>
-      <builder>1|2|3|4</builder>
     </line>
     <line>
       <romaji>boku wa boku ni uso tsuite nigetaku mo nai</romaji>
@@ -132,7 +145,6 @@
       <english>I don't want to lie to myself or run away from it</english>
       <literal>I|←|me|←|lie|about|run away|also|not</literal>
       <explained>I|points to I (me)|I (so far, I to I)|points to *I to myself*|lie|about|to run (nigeru) past tense|also|not (also don't want to run away)</explained>
-      <builder>1|2|3|4|5|6|7|8|9</builder>
     </line>
     <line>
       <romaji>afuredashi sou na kimochi wo hitotsu nokorazu</romaji>
@@ -142,7 +154,6 @@
       <english>I'll gather up all my overflowing feelings</english>
       <literal>overflowing|like|←|feelings|←|one|all</literal>
       <explained>overflowing|like|points to overflowing like|feelings|points to overflowing feelings|one|all, as in gather overflowing feelings into one</explained>
-      <builder>1|2|3|4|5|6|7</builder>
     </line>
     <line>
       <romaji>kotoba ni zenbu tsumekomou</romaji>
@@ -152,7 +163,6 @@
       <english>and put them all into words</english>
       <literal>words|←|all|cram</literal>
       <explained>words|points to words|all|cram</explained>
-      <builder>1|2|3|4</builder>
     </line>
     <line>
       <romaji>Egao ga tomaranai</romaji>
@@ -162,7 +172,6 @@
       <english>I can't stop smiling</english>
       <literal>smile|←|stop not</literal>
       <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>Odoru kokoro tomaranai</romaji>
@@ -172,7 +181,6 @@
       <english>My heart won't stop dancing</english>
       <literal>pounding|heart|stop not</literal>
       <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
@@ -182,7 +190,6 @@
       <english>and so I start to move towards you</english>
       <literal>start to move|*emphasis*|you|'re|location|←</literal>
       <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -192,7 +199,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>ima wa mada yuuki ga tarinai!</romaji>
@@ -202,7 +208,6 @@
       <english>Right now I don't have the courage!</english>
       <literal>now|←|yet|courage|←|enough not</literal>
       <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>sukoshi no kikkake ga tarinai!</romaji>
@@ -212,7 +217,6 @@
       <english>There aren't enough little chances</english>
       <literal>little|←|chances|←|enough not</literal>
       <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>ugokidashite boku no karada</romaji>
@@ -222,7 +226,6 @@
       <english>and so I start to move my body</english>
       <literal>start to move|me|←|body</literal>
       <explained>start to move|me|turns me into my (like 's)|body</explained>
-      <builder>1|2|3|4</builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -232,7 +235,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>run!|run!|run!</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>itsudatte fumidasu mae ni</romaji>
@@ -242,7 +244,6 @@
       <english>Before stepping forwards I'm always</english>
       <literal>always|step forward|before|←</literal>
       <explained>always|stepforward|before|points to sentence in preperation for next part</explained>
-      <builder>1|2|3|4</builder>
     </line>
     <line>
       <romaji>iiwake bakkari kangaete</romaji>
@@ -252,7 +253,6 @@
       <english>thinking of excuses</english>
       <literal>excuse|always|think</literal>
       <explained>excuse|always|thinking/making up</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>kekkyoku nannimo dekinakute</romaji>
@@ -262,7 +262,6 @@
       <english>In the end I was unable to do anything</english>
       <literal>in the end|nothing|not able to be done</literal>
       <explained>after all/in the end|nothing|to do (dekiru) not, negative form, *Note - in Japanese double negatives in sentances result in negatives e.g. nothing (not able to be done) ← nothing able to be done (instead of nothing that can't be done)</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>jikan ga sugite</romaji>
@@ -272,7 +271,6 @@
       <english>as time passes by me</english>
       <literal>time|←|passes</literal>
       <explained>time|points to time|to pass (sugiru) progressive conjugation</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>wasureteiku koto ni nareteta</romaji>
@@ -282,7 +280,6 @@
       <english>now so familiar with forgetting,</english>
       <literal>forget about|thing|←|familiarized</literal>
       <explained>forget about|things|points to things forgotten about|get used to (sentence reads as 'getting used to forgetting things'</explained>
-      <builder>1|2|3|4</builder>
     </line>
     <line>
       <romaji>boku no kokoro ga hashiridashita</romaji>
@@ -292,7 +289,6 @@
       <english>my heart begins to race</english>
       <literal>me|←|heart|←|started running</literal>
       <explained>me/I|turns me to my (possessive particle)|heart|points to my heart|form of hashiru (to run), means to start running</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>konna ni hiroi sekai kara sureba</romaji>
@@ -302,7 +298,6 @@
       <english>Compared to this vast world</english>
       <literal>like this|←|vast|world|from|in that case</literal>
       <explained>similar to this|points to similar to this|vast/wide|world|from|in that case (sentence means 'when comparing to this vast world...'</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>boku nante chippoke darou na</romaji>
@@ -312,7 +307,6 @@
       <english>someone like me seems so small</english>
       <literal>me|like|small|seems|*emphasis*</literal>
       <explained>me|like (someone like me)|small|seems|yo is used to emphasize a point and doesn't really have a meaning on it's own</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>demo kimi (h)e no boku no omoi wa</romaji>
@@ -322,7 +316,6 @@
       <english>but my feelings towards you</english>
       <literal>but|you|←|to|me|←|feelings|←</literal>
       <explained>but|you|indicates direction (to you)|indicates possession (my [blank] towards you|me|indicates possession (my)|feelings|points to feelings towards you in preperation for next line</explained>
-      <builder>1|2|3|4|5|6|7|8</builder>
     </line>
     <line>
       <romaji>kono sora yori mo ookii kara</romaji>
@@ -332,7 +325,6 @@
       <english>are far greater than the sky</english>
       <literal>this|sky|than|also|big|since</literal>
       <explained>this|sky|than - means more than (more than this sky)|also|big|because/since (sentence reads 'because they are bigger than the sky'</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>Egao ga tomaranai</romaji>
@@ -342,7 +334,6 @@
       <english>I can't stop smiling</english>
       <literal>smile|←|stop not</literal>
       <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>Odoru kokoro tomaranai</romaji>
@@ -352,7 +343,6 @@
       <english>My heart won't stop dancing</english>
       <literal>pounding|heart|stop not|</literal>
       <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
@@ -362,7 +352,6 @@
       <english>and so I start to move towards you</english>
       <literal>start to move|*emphasis*|you|'re|location|←</literal>
       <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -372,7 +361,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>1|2|3</builder>
     </line>
     <line>
       <romaji>ima wa mada yuuki ga tarinai!</romaji>
@@ -382,7 +370,6 @@
       <english>Right now I don't have the courage!</english>
       <literal>now|←|yet|courage|←|enough not</literal>
       <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>1|2|3|4|5|6</builder>
     </line>
     <line>
       <romaji>sukoshi no kikkake ga tarinai!</romaji>
@@ -392,7 +379,6 @@
       <english>There aren't enough little chances</english>
       <literal>little|←|chances|←|enough not</literal>
       <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>1|2|3|4|5</builder>
     </line>
     <line>
       <romaji>ugokidashite boku no karada</romaji>
@@ -402,8 +388,6 @@
       <english>and so I start to move my body</english>
       <literal>start to move|me|←|body</literal>
       <explained>start to move|me|turns me into my (like 's)|body</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -413,8 +397,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>mattete mo hajimannai</romaji>
@@ -424,8 +406,6 @@
       <english>nothing will start if you wait</english>
       <literal>waiting|←|begin not</literal>
       <explained>to wait (matsu) progressive form|points to waiting|begin (hajimaru) negative, not begin</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>kimi to zenryoku de mukiaitai</romaji>
@@ -435,8 +415,6 @@
       <english>I want to face you with all my strength</english>
       <literal>you|with|all one's power|←|to face</literal>
       <explained>you|with/and|full power/all your strength|with|to face (mukau) -tai version means to want to; want to face</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>onaji kono hoshi ni umarete</romaji>
@@ -446,8 +424,6 @@
       <english>We were born on this same planet</english>
       <literal>same|this|planet|on|born</literal>
       <explained>same|this|planet|on|born</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>onaji kono jidai ni umaretekorete</romaji>
@@ -457,8 +433,6 @@
       <english>We were born in the same period of time</english>
       <literal>same|this|period|on|come to be born</literal>
       <explained>same|this|period of time|on|come to be borm</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>guuzen nante kantan na kotoba de</romaji>
@@ -468,8 +442,6 @@
       <english>words like chance are such simple words</english>
       <literal>chance|things like|simple|←|word|←</literal>
       <explained>chance|things like|simple|points to things like simple chances|words|points to sentence in preperation for next line</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>surechigai hanarete shimau nante</romaji>
@@ -479,8 +451,6 @@
       <english>disagreeing and accidentally distancing ourselves</english>
       <literal>having discrepancies|distance|do accidentally|things like</literal>
       <explained>disagreeing/having differences|distance|accidentally do/without meaning to|things like (sentence reads as having differences and accidentally distancing ourselves because of it)</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>kangaeru dake de mune no oku ga itakute</romaji>
@@ -490,8 +460,6 @@
       <english>just thinking of it hurts my chest</english>
       <literal>think about|only|←|chest|'s|inside|←|painful</literal>
       <explained>thinking about|only|points to thinking about it|chest|chest's|inside|points to inside of chest|painful</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>junsui ni kimi to tsunagatteitai yo ima mo</romaji>
@@ -501,8 +469,6 @@
       <english>I want to get to know the real you, even now</english>
       <literal>genuine|←|you|←|want to be connected to|*emphasis*|now|too</literal>
       <explained>genuine/authentic/real|points to real|you|points to the real you|to be connected/tied together/linked to (tsunagaru) -tai makes it a wish (to want to)|*emphasis*|now|too/also</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>nan nen mo nan juunen mo kono-saki mo mirai mo</romaji>
@@ -512,8 +478,6 @@
       <english>however many years, however many decades, from now unto forever</english>
       <literal>however many|years|too|however many|decades|too|from now|too|future|too</literal>
       <explained>however many|years|too/also|however many|tens of years (decades)|too/also|from now|too/also|future|too/also</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>ichidokiri no jinsei dakara</romaji>
@@ -523,8 +487,6 @@
       <english>because we only have one chance to live</english>
       <literal>one chance|of|life|because</literal>
       <explained>once chance/one shot|of|life|because (sentence reads because there's only one shot at life)</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>kimi no mae ja sunao de itainda</romaji>
@@ -534,8 +496,6 @@
       <english>I want to be honest when I'm with you</english>
       <literal>you|r|front|←|honest|←|want to be</literal>
       <explained>you|your|front|points to your front|honest|points to honest in front of you|want to be</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>soredemo kotae wa dasenai yo</romaji>
@@ -545,8 +505,6 @@
       <english>even so I still can't give you an answer</english>
       <literal>but still|reply|←|give not|*emphasis*</literal>
       <explained>although|reply|points to 'but the reply'|negative of to give/let out|*emphasis*</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>sukoshi no kotoba dasenai yo</romaji>
@@ -556,8 +514,6 @@
       <english>I can't even say the smallest of words</english>
       <literal>small|←|words|give not|*emphasis*</literal>
       <explained>small|points to small|words|negative of to give/let out</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>kimi ga suki</romaji>
@@ -567,8 +523,6 @@
       <english>I love you</english>
       <literal>you|←|like</literal>
       <explained>you|points to you|like (meant as in I love you)</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>sore dake de sekai wo kaeru? kawaru?</romaji>
@@ -578,8 +532,6 @@
       <english>will those words alone change the world, will they?</english>
       <literal>that|alone|←|world|←|change|be changed</literal>
       <explained>that|alone|points to that alone|world|points to [blank] alone the world [blank]|will change?|will it change?</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Egao ga tomaranai</romaji>
@@ -589,8 +541,6 @@
       <english>I can't stop smiling</english>
       <literal>smile|←|stop not</literal>
       <explained>smile|ga - used as a maker for the word before it, similar to wa but with more emphasis on the subject (See Tae Kim's Japanese guide at bottom for more info)|negative form of stop (tomaru=to stop, nai=negative part placed at end)</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Odoru kokoro tomaranai</romaji>
@@ -600,8 +550,6 @@
       <english>My heart won't stop dancing</english>
       <literal>pounding|heart|stop not</literal>
       <explained>pounding - more common use is "dance"|heart, can also mean soul|negative form of stop again</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Ugokidasu yo kimi no moto (h)e</romaji>
@@ -611,8 +559,6 @@
       <english>and so I start to move towards you</english>
       <literal>start to move|*emphasis*|you|'re|location|←</literal>
       <explained>begin to move|yo is a way of directing a statement at another person, like saying "I'm going to move towards you, you know"|you|no - indicates possession, most commonly associated with ('s) on the end of a word|moto - location or origin|e - can also be "he", a particle which marks a location where you or something is going, in this case, marking 'you' as the location they're heading towards</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -622,8 +568,6 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>ima wa mada yuuki ga tarinai!</romaji>
@@ -633,8 +577,6 @@
       <english>Right now I don't have the courage!</english>
       <literal>now|←|yet|courage|←|not enough</literal>
       <explained>now|points to now|yet (not yet)|courage|points at courage (sentence reads at this point it's courage I don't have, with emphasis on courage)|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>sukoshi no kikkake ga tarinai!</romaji>
@@ -644,8 +586,6 @@
       <english>There aren't enough little chances</english>
       <literal>little|←|chances|←|not enough</literal>
       <explained>little/small|points to small|chances|points to small chances|opposite of tariru (to have enough) nai inverts it meaning not enough</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>ugokidashite boku no karada</romaji>
@@ -655,8 +595,6 @@
       <english>and so I start to move my body</english>
       <literal>start to move|me|←|body</literal>
       <explained>start to move|me|turns me into my (like 's)|body</explained>
-      <builder>
-      </builder>
     </line>
     <line>
       <romaji>Hashire! Hashire! Hashire!</romaji>
@@ -666,8 +604,15 @@
       <english>and run! Run! Run!</english>
       <literal>run!|run!|run!</literal>
       <explained>hashire - form of to run (hashiru) exchanging ru to re is the imperative form of the verb, telling someone to run, this is true for most verbs ending in -ru</explained>
-      <builder>
-      </builder>
+    </line>
+    <line>
+      <romaji />
+      <hiragana />
+      <kanji />
+      <reading />
+      <english />
+      <literal />
+      <explained />
     </line>
   </lines>
 </translation-info>

@@ -5,16 +5,14 @@
   <lines>
     <line>
       <romaji>ano hi egaita yume wo kari ni A to shite</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>あの|ひ|えがいた|ゆめ|を|かり|に|A|と|して</hiragana>
       <kanji>あの|日|描いた|夢|を|仮|に|(A)|と|して</kanji>
       <reading>
       </reading>
       <english>If we labelled that short lived dream we formed that day as 'A'</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>that|day|draw/paint|dream|←|temporary|←|A|*quotation marks*|do</literal>
+      <explained>that|day|drawing, painting or sketching, laying out an idea|dream|points to the dream painted out on that day|temporary|puts quotation marks around A|do, as in do the contents of the sentence so far</explained>
+      <builder />
     </line>
     <line>
       <romaji>kono mirai wo B to suru</romaji>
@@ -23,81 +21,70 @@
       <reading>
       </reading>
       <english>Then the future will be 'B'</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>this|future|←|B|*quotation marks*|do</literal>
+      <explained>this|future|marks this future|B|puts quotation marks around B|do everything mentioned in the sentence so far</explained>
+      <builder />
     </line>
     <line>
       <romaji>kami-sama ga iru nara kono A to B to wo iko-ru ni shite onegai</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>かみさま|が|いる|なら|この|A|と|B|と|を|イコール|に|して|おねがい</hiragana>
       <kanji>神様|が|いる|なら|この|(A)|と|(B)|と|を|イコール|に|して|お願い</kanji>
       <reading>
       </reading>
       <english>If there's a god out there, please let 'A' and 'B' become the same</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>god|←|exists|if|this|A|and|B|and|←|equal|←|do|please</literal>
+      <explained>god|points to god|exists|if|this|A|and|B|and|points|equal|</explained>
+      <builder />
     </line>
     <line>
       <romaji>tashite hiita</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>たして|ひいた</hiragana>
       <kanji>足して|引いた</kanji>
       <reading>
       </reading>
       <english>Combine them, draw a line between them</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>combine|draw</literal>
+      <explained>Combine 2 parts into 1|draw a line</explained>
+      <builder />
     </line>
     <line>
       <romaji>kaketa wareta</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>かけた|われた</hiragana>
       <kanji>欠けた|割れた</kanji>
       <reading>
       </reading>
       <english>Then chip at them, break them</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>to be chipped|break</literal>
+      <explained>to be chipped or damaged|break</explained>
+      <builder />
     </line>
     <line>
-      <romaji>nando mo tashikameta kotae da</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>何度も確かめた答えだ</kanji>
+      <romaji>nandomo tashikameta kotae da</romaji>
+      <hiragana>なんども|たしかめた|こたえ|だ</hiragana>
+      <kanji>何度も|確かめた|答え|だ</kanji>
       <reading>
       </reading>
       <english>That's the conclusion I came to every time</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>over and over|check|solution/answer|is</literal>
+      <explained>over and over|make sure/check|solution/answer|is (a short form of desu)</explained>
+      <builder />
     </line>
     <line>
       <romaji>machigai nante iwasenai kimi ga boku wo mitsuketekureta koto</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>「まちがい」なんて言わせないきみがぼくを見つけてくれたこと</kanji>
+      <hiragana>まちがい|なんて|いわせない|きみ|が|ぼく|を|みつけてくれた|こと</hiragana>
+      <kanji>「まちがい」|なんて|言わせない|きみ|が|ぼく|を|見つけてくれた|こと</kanji>
       <reading>
       </reading>
       <english>Don't say that 'it's a mistake' that you managed to find me</english>
-      <literal>
-      </literal>
+      <literal>mistake|like|</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>umarekawatte mo wakaru you</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>生まれかわってもわかるよう</kanji>
+      <hiragana>うまれかわって|も|わかる|よう</hiragana>
+      <kanji>生まれかわって|も|わかる|よう</kanji>
       <reading>
       </reading>
       <english>Even if we're reborn, and can still understand</english>
@@ -105,12 +92,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>boku wo omoi daseru youni</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>ぼくを思い出せるように</kanji>
+      <hiragana>ぼく|を|おもい|だせる|ように</hiragana>
+      <kanji>ぼく|を|思い|出せる|ように</kanji>
       <reading>
       </reading>
       <english>Make me remember once more</english>
@@ -118,12 +105,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>iyani naru hodo mitsumete ne</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>いやになるほど見つめてね</kanji>
+      <hiragana>いやに|なる|ほど|みつめて|ね</hiragana>
+      <kanji>いやに|なる|ほど|見つめて|ね</kanji>
       <reading>
       </reading>
       <english>Watch as we reach our limit</english>
@@ -131,12 +118,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>wasurenaide ne</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>忘れないでね</kanji>
+      <hiragana>わすれないで|ね</hiragana>
+      <kanji>忘れないで|ね</kanji>
       <reading>
       </reading>
       <english>Just don't forget us</english>
@@ -144,6 +131,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>zutto zutto</romaji>
@@ -156,12 +144,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>kimi to boku no kyori wo C to D to shite</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>きみ|と|ぼく|の|距離を|(C)|と|(D)|と|して</kanji>
+      <hiragana>きみ|と|ぼく|の|きょり|を|C|と|D|と|して</hiragana>
+      <kanji>きみ|と|ぼく|の|距離|を|(C)|と|(D)|と|して</kanji>
       <reading>
       </reading>
       <english>Let the distance between you and I be 'C' and 'D'</english>
@@ -169,12 +157,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>iko-ru ja heikousen</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>イコールじゃ平行線</kanji>
+      <hiragana>イコール|じゃ|へいこうせん</hiragana>
+      <kanji>イコール|じゃ|平行線</kanji>
       <reading>
       </reading>
       <english>Like equal, parallel lines</english>
@@ -182,12 +170,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>imademo odoreru sa ano eito biito wo</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>今でも踊れるさあのエイトビートを</kanji>
+      <hiragana>いまでも|おどれる|さ|あの|えいと|ビート|を</hiragana>
+      <kanji>今でも|踊れる|さ|あの|エイト|ビート|を</kanji>
       <reading>
       </reading>
       <english>Even now you can still dance along to that eight beat song</english>
@@ -195,12 +183,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>bokura wo mata chikadzukete</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>ぼくらをまた近づけて</kanji>
+      <hiragana>ぼくら|を|また|ちかづけて</hiragana>
+      <kanji>ぼくら|を|また|近づけて</kanji>
       <reading>
       </reading>
       <english>that'll bring us closer together</english>
@@ -208,11 +196,11 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>kaite keshite</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>かいて|けして</hiragana>
       <kanji>書いて|消して</kanji>
       <reading>
       </reading>
@@ -221,11 +209,11 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>shin mo orete</romaji>
-      <hiragana>
-      </hiragana>
+      <hiragana>しん|も|おれて</hiragana>
       <kanji>芯も折れて</kanji>
       <reading>
       </reading>
@@ -234,12 +222,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>mada kotae ga denakute</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>まだ答えが出なくて</kanji>
+      <hiragana>まだ|こたえ|が|でなくて</hiragana>
+      <kanji>まだ|答え|が|出なくて</kanji>
       <reading>
       </reading>
       <english>Still, I can't give an answer</english>
@@ -247,12 +235,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>yabure sou na touanyushi ni</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>破れそうな答案用紙に</kanji>
+      <hiragana>やぶれ|そう|な|とうあんゆし|に</hiragana>
+      <kanji>破れ|そう|な|答案用紙|に</kanji>
       <reading>
       </reading>
       <english>Tear up the answer sheet</english>
@@ -260,12 +248,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>soredemo shoumeisuru kara</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>それでも証明するから</kanji>
+      <hiragana>それでも|しょうめいする|から</hiragana>
+      <kanji>それでも|証明する|から</kanji>
       <reading>
       </reading>
       <english>Even so, I'll still solve it</english>
@@ -273,12 +261,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>kimi to mita yume wo</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>きみと見た夢を</kanji>
+      <hiragana>きみ|と|みた|ゆめ|を</hiragana>
+      <kanji>きみ|と|見た|夢|を</kanji>
       <reading>
       </reading>
       <english>The dream I saw with you</english>
@@ -286,12 +274,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>umarekawatte mo wakaru you</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>生まれかわってもわかるよう</kanji>
+      <hiragana>うまれかわって|も|わかる|よう</hiragana>
+      <kanji>生まれかわって|も|わかる|よう</kanji>
       <reading>
       </reading>
       <english>Even if we're reborn, and can still understand</english>
@@ -299,12 +287,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>boku wo omoi daseru youni</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>ぼくを思い出せるように</kanji>
+      <hiragana>ぼく|を|おもい|だせる|ように</hiragana>
+      <kanji>ぼく|を|思い|出せる|ように</kanji>
       <reading>
       </reading>
       <english>Make me remember once more</english>
@@ -312,12 +300,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
-      <romaji>iyani naru hodo mitsumete ne</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>いやになるほど見つめてね</kanji>
+      <romaji>iya ni naru hodo mitsumete ne</romaji>
+      <hiragana>いや|に|なる|ほど|みつめて|ね</hiragana>
+      <kanji>いや|に|なる|ほど|見つめて|ね</kanji>
       <reading>
       </reading>
       <english>Watch as we reach our limit</english>
@@ -325,12 +313,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>wasurenaide ne</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>忘れないでね</kanji>
+      <hiragana>わすれないで|ね</hiragana>
+      <kanji>忘れないで|ね</kanji>
       <reading>
       </reading>
       <english>Just don't forget us</english>
@@ -338,12 +326,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>odoru kimi no sugata no subete wo</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>踊るきみの姿のすべてを</kanji>
+      <hiragana>おどる|きみ|の|すがた|の|すべて|を</hiragana>
+      <kanji>踊る|きみ|の|姿|の|すべて|を</kanji>
       <reading>
       </reading>
       <english>The entirety of the your dancing figure</english>
@@ -351,12 +339,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>warau kao mo kuchiguse mo</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>笑う顔も口癖も</kanji>
+      <hiragana>わらう|かお|も|くちぐせ|も</hiragana>
+      <kanji>笑う|顔|も|口癖|も</kanji>
       <reading>
       </reading>
       <english>is laughing, sending the same message as always</english>
@@ -364,12 +352,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>oboete umare kawaru kara</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>覚えて生まれかわるから</kanji>
+      <hiragana>おぼえて|うまれ|かわる|から</hiragana>
+      <kanji>覚えて|生まれ|かわる|から</kanji>
       <reading>
       </reading>
       <english>From the moment I remember being reborn</english>
@@ -377,12 +365,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>raise mo yoroshiku</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>来世もよろしく</kanji>
+      <hiragana>らいせ|も|よろしく</hiragana>
+      <kanji>来世|も|よろしく</kanji>
       <reading>
       </reading>
       <english>to our next life, let's get along</english>
@@ -390,6 +378,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>zutto zutto</romaji>
@@ -402,6 +391,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>nee namae nan dakke</romaji>
@@ -414,6 +404,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>doko de attakke</romaji>
@@ -426,6 +417,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>itsu no koto dakke</romaji>
@@ -437,6 +429,7 @@
       <literal>when|←|thing|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>nani wo shite dakke</romaji>
@@ -448,6 +441,7 @@
       <literal>what|←|doing|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>donna kao dakke</romaji>
@@ -459,6 +453,7 @@
       <literal>what kind of|face|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>donna koe dakke</romaji>
@@ -470,6 +465,7 @@
       <literal>what kind of|voice|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>donna hito dakke</romaji>
@@ -481,6 +477,7 @@
       <literal>what kind of|person|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>doko ga suki dakke</romaji>
@@ -492,12 +489,12 @@
       <literal>where|←|love|was it?</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>wasurenai youni wasurenai youni</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>忘れないように|忘れないように</kanji>
+      <hiragana>わすれない|ように|わすれない|ように</hiragana>
+      <kanji>忘れない|ように|忘れない|ように</kanji>
       <reading>
       </reading>
       <english>I don't want to forget, I don't want to forget</english>
@@ -505,12 +502,12 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>ashita mo aou ne</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>明日も会おうね</kanji>
+      <hiragana>あした|も|あおう|ね</hiragana>
+      <kanji>明日|も|会おう|ね</kanji>
       <reading>
       </reading>
       <english>Let's meet again tomorrow</english>
@@ -518,6 +515,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>yakusoku shiyou ne</romaji>
@@ -528,6 +526,7 @@
       <english>Let's make it a promise</english>
       <literal>promise|make|emphasis</literal>
       <explained>promise|</explained>
+      <builder />
     </line>
     <line>
       <romaji>umarekawatte mo umarekawatte mo</romaji>
@@ -539,6 +538,7 @@
       <literal>even if reborn|also|even if reborn|also</literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>kawaranaideite</romaji>
@@ -551,6 +551,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
     <line>
       <romaji>mitsukete ageru ne</romaji>
@@ -563,6 +564,7 @@
       </literal>
       <explained>
       </explained>
+      <builder />
     </line>
   </lines>
 </translation-info>
