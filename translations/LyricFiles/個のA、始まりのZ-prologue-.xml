@@ -1,0 +1,107 @@
+<translation-info>
+  <title>個のA、始まりのZ-prologue-</title>
+  <description>The short introduction to the album Hakkin no Yoake</description>
+  <wordListLink />
+  <lines>
+    <line>
+      <romaji>nemutte okitara mata hajimeyou</romaji>
+      <hiragana>ねむって|おきたら|また|はじめよう</hiragana>
+      <kanji>眠って|起きたら|また|始めよう</kanji>
+      <reading>
+      </reading>
+      <english>go to sleep, when you wake up, it will all begin once again</english>
+      <literal>go to sleep|when you wake up|again|begin</literal>
+      <explained>go to sleep|when you wake up|again, repeated action|to begin</explained>
+      <builder>*go to sleep*|go to sleep, *when you wake up*|go to sleep, when you wake up, ___ *once again*|go to sleep, when you wake up, *it will all begin* once again</builder>
+    </line>
+    <line>
+      <romaji>yume no naka de mada zzz</romaji>
+      <hiragana>ゆめ|の|なか|で|まだ|zzz</hiragana>
+      <kanji>夢|の|中|で|まだ|Zzz</kanji>
+      <reading>
+      </reading>
+      <english>you're still sleeping within your dreams</english>
+      <literal>dream|←|inside|←|still|zzz</literal>
+      <explained>dream|points to dream|inside|points to inside the dream|still|zzz (sleep, innit)</explained>
+      <builder>*dreams*|dreams|*inside* your deams|inside your dreams|you're *still* ___ inside your dreams|you're still *sleeping* inside your dreams</builder>
+    </line>
+    <line>
+      <romaji>anmari nonbirishiteirarenai</romaji>
+      <hiragana>あんまり|のんびりしていられない</hiragana>
+      <kanji>あんまり|のんびりしていられない</kanji>
+      <reading>
+      </reading>
+      <english>I can't keep being care free</english>
+      <literal>remaining|can't be care free</literal>
+      <explained>remaining|nonbiri = care free, nonbirishite = to be care free (shite is like adding 'to do' to an onomatopoeic word), irarenai makes the phrase nagative</explained>
+      <builder>*keep*|*I can't* keep *being care free*</builder>
+    </line>
+    <line>
+      <romaji>hayaku ikitai demo zzz</romaji>
+      <hiragana>はやく|いきたい|でも|zzz</hiragana>
+      <kanji>早く|いきたい|でも|Zzz</kanji>
+      <reading>
+      </reading>
+      <english>I want to go now, but I'm fast asleep</english>
+      <literal>quickly|want to go|but|zzz</literal>
+      <explained>quickly|want to go (iku = to go, tai = want to)|but|zzz</explained>
+      <builder>*now*|*I want to go* now|I want to go now, *but*|I want to go now, but *I'm fast asleep*</builder>
+    </line>
+    <line>
+      <romaji>takusan keikaku ga arunda</romaji>
+      <hiragana>たくさん|けいかく|が|あるんだ</hiragana>
+      <kanji>たくさん|計画|が|あるんだ</kanji>
+      <reading>
+      </reading>
+      <english>Even though I've got a load of plans</english>
+      <literal>lots|plan|*larr*|have</literal>
+      <explained>lots|plan|points to lots of plans|have = aru, nda adds 'even though' to I have to make 'even though I have'</explained>
+      <builder>*lots of*|lots of *plans*|lots of plans|*even though I've got* lots of plans</builder>
+    </line>
+    <line>
+      <romaji>machikirenai yo</romaji>
+      <hiragana>まちきれない|よ</hiragana>
+      <kanji>待ちきれない|よ</kanji>
+      <reading>
+      </reading>
+      <english>I'm becoming impatient waiting</english>
+      <literal>waiting impatiently|*emphasis*</literal>
+      <explained>waiting impatiently|adds emphasis to the phrase</explained>
+      <builder>*I'm waiting impatiently*|I'm waiting impatiently*!*</builder>
+    </line>
+    <line>
+      <romaji>azukatte mama no ai wo kaesou</romaji>
+      <hiragana>あずかった|まま|の|あい|を|かえそう</hiragana>
+      <kanji>あずかった|まま|の|愛|を|かえそう</kanji>
+      <reading>
+      </reading>
+      <english>????</english>
+      <literal>look after|as it is|*larr*|love|*larr*|return</literal>
+      <explained>??|??|??|??|??|?</explained>
+      <builder>
+      </builder>
+    </line>
+    <line>
+      <romaji>natsukashii basho ni tatou kimi no moto e</romaji>
+      <hiragana>なつかしい|ばしょ|に|たとう|きみ|の|もと|へ</hiragana>
+      <kanji>懐かしい|場所|に|立とう|きみ|の|もと|へ</kanji>
+      <reading>
+      </reading>
+      <english>NOPE</english>
+      <literal>nostalgic|place|*larr*|stand|you|*larr*|location|to</literal>
+      <explained>nostalgic|place|points to nostalgic place|stand|you|points to you|location|points to your location</explained>
+      <builder>??|??|??|??|??|??|//|/</builder>
+    </line>
+    <line>
+      <romaji>deai ou atarashii jibun wo miseyou</romaji>
+      <hiragana>であい|おう|あたらしい|じぶん|を|みせよう</hiragana>
+      <kanji>出逢|おう|あたらしい|自分|を| みせよう</kanji>
+      <reading>
+      </reading>
+      <english>OMG</english>
+      <literal>meet|??|new|self|*larr*|find</literal>
+      <explained>??|??|??|??|??|??</explained>
+      <builder>??|??|??|???|??|??</builder>
+    </line>
+  </lines>
+</translation-info>
