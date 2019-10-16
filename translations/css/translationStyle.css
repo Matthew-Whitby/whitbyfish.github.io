@@ -43,8 +43,8 @@ p{
   padding:14px 0px;
   transition:0.3s;
 }
-.line:hover{background-color:#fff;}
-.section:hover,.tabbtn:hover{background-color:#ddd;}
+.line:hover{background-color:#ddd;}
+.section:hover,.tabbtn:hover{background-color:#ccc;}
 #hide-button{
   position:fixed;
   display:none;
