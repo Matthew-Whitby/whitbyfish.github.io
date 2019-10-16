@@ -187,7 +187,7 @@ function DisplayTextTable(id,value){
 function SetTabBtnWidth(){
   let btns=document.getElementsByClassName("tabbtn").length;
   var style = document.createElement('style');
-  style.innerHTML = ".tabbtn{width:${100/btns}%;}";
+  style.innerHTML = `.tabbtn{width:${100/btns}%;}`;
   document.head.appendChild(style);
 }
 
