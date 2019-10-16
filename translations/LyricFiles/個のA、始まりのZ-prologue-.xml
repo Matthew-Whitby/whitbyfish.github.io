@@ -70,16 +70,15 @@
       <builder>*I'm waiting impatiently*|I'm waiting impatiently*!*</builder>
     </line>
     <line>
-      <romaji>azukatte mama no ai wo kaesou</romaji>
+      <romaji>azukatta mama no ai wo kaesou</romaji>
       <hiragana>あずかった|まま|の|あい|を|かえそう</hiragana>
       <kanji>あずかった|まま|の|愛|を|かえそう</kanji>
       <reading>
       </reading>
-      <english>????</english>
-      <literal>look after|as it is|*larr*|love|*larr*|return</literal>
-      <explained>??|??|??|??|??|?</explained>
-      <builder>
-      </builder>
+      <english>I should return this love that I've recieved</english>
+      <literal>recieve|state/condition|*larr*|love|*larr*|return</literal>
+      <explained>recieve|state/condition|points to the |love|points to the love that was recieved|return</explained>
+      <builder>*recieved*|*this ___ I've* recieved|this *___* I've recieved|this *love* I've recieved|this love I've recieved|*I should return* this love I've recieved</builder>
     </line>
     <line>
       <romaji>natsukashii basho ni tatou kimi no moto e</romaji>
@@ -87,21 +86,21 @@
       <kanji>懐かしい|場所|に|立とう|きみ|の|もと|へ</kanji>
       <reading>
       </reading>
-      <english>NOPE</english>
+      <english>To where you stand, in a familiar place</english>
       <literal>nostalgic|place|*larr*|stand|you|*larr*|location|to</literal>
       <explained>nostalgic|place|points to nostalgic place|stand|you|points to you|location|points to your location</explained>
-      <builder>??|??|??|??|??|??|//|/</builder>
+      <builder>*familiar*|familiar *place*|*in a* familiar place|*stand* in a familiar place|*you* stand in a familiar place|you stand in a familiar place|*where* you stand, in a familiar place|*To* where you stand, in a familiar place</builder>
     </line>
     <line>
-      <romaji>deai ou atarashii jibun wo miseyou</romaji>
-      <hiragana>であい|おう|あたらしい|じぶん|を|みせよう</hiragana>
-      <kanji>出逢|おう|あたらしい|自分|を| みせよう</kanji>
+      <romaji>deaou atarashii jibun wo miseyou</romaji>
+      <hiragana>であおう|あたらしい|じぶん|を|みせよう</hiragana>
+      <kanji>出逢おう|あたらしい|自分|を| みせよう</kanji>
       <reading>
       </reading>
-      <english>OMG</english>
-      <literal>meet|??|new|self|*larr*|find</literal>
-      <explained>??|??|??|??|??|??</explained>
-      <builder>??|??|??|???|??|??</builder>
+      <english>When we meet again, I'll show you my new self</english>
+      <literal>when we meet|new|self|*larr*|show</literal>
+      <explained>presumptive form of to meet|new|self|points to new self|show</explained>
+      <builder>*When we meet again*|when we meet again, *new*|when we meet again, new *self*| when we meet again. *I'll show you my* new self</builder>
     </line>
   </lines>
 </translation-info>
