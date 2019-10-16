@@ -184,4 +184,9 @@ function DisplayTextTable(id,value){
       }
 }
 
+function SetTabBtnWidth(){
+  let btns=document.getElementsByClassName("tabbtn");
+  btns.style.width=('$',100/btns.length);
+}
+
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
