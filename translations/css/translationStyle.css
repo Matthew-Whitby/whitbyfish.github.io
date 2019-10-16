@@ -43,6 +43,7 @@ p{
   padding:14px 0px;
   transition:0.3s;
 }
+.line:hover{background-color:#bbb;}
 .section:hover,.tabbtn:hover{background-color:#ddd;}
 #hide-button{
   position:fixed;
