@@ -16,323 +16,433 @@
     </line>
     <line>
       <romaji>anata no chikara ni naritai</romaji>
-      <hiragana />
-      <kanji>あなたの力になりたい</kanji>
-      <reading />
+      <hiragana>あなた|の|ちから|に|なりたい</hiragana>
+      <kanji>あなた|の|力|に|なりたい</kanji>
+      <reading>
+      </reading>
       <english>I want to become your strength</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>you|r|strength|←|want to become</literal>
+      <explained>you|r (indicates posession)|strength/power|points to your strength|want to become (naru = become, -tai is a suffix which means 'to want to')</explained>
+      <builder>*you*|you*r*|your *strength*|your strength|*I want to become* your strength</builder>
     </line>
     <line>
       <romaji>namida wa hoho wo tsutai</romaji>
-      <hiragana />
-      <kanji>涙は頬を伝い</kanji>
-      <reading />
+      <hiragana>なみだ|は|ほほ|を|つたい</hiragana>
+      <kanji>涙|は|頬|を|伝い</kanji>
+      <reading>
+      </reading>
       <english>Tears run down cheeks</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>tears|←|cheek|←|to go along</literal>
+      <explained>tears|points to tears|cheek|points to tears and cheeks|to go along/ to follow, meaning to run down cheeks</explained>
+      <builder>*tears*|tears|tears ___ *cheeks*|tears *___* cheeks|tears *run down* cheeks</builder>
     </line>
     <line>
       <romaji>hitomi wa akaku moeru</romaji>
-      <hiragana />
-      <kanji>瞳は紅く燃える</kanji>
-      <reading />
+      <hiragana>ひとみ|は|あかく|もえる</hiragana>
+      <kanji>瞳|は|紅く|燃える</kanji>
+      <reading>
+      </reading>
       <english>Eyes burn red</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>eye|←|red and white|burn</literal>
+      <explained>eye|points to eye|represents red and white|to burn</explained>
+      <builder>*eyes*|eyes|eyes ____ *red*|eyes *burn* red</builder>
     </line>
     <line>
       <romaji>inazuma no you ni hageshiku</romaji>
-      <hiragana />
-      <kanji>稲妻のように激しく</kanji>
-      <reading />
+      <hiragana>いなずま|の|よう|に|はげしく</hiragana>
+      <kanji>稲妻|の|よう|に|激しく</kanji>
+      <reading>
+      </reading>
       <english>such as an intense lightning strike</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>lightning|←|likewise|←|violent/intense</literal>
+      <explained>lightning|← (indicates something possessed by the lightning)|likewise/similar|points to the lightning to then say what feature of the lightning it is similar to the eyes burning red|violent/intense</explained>
+      <builder>*someone*|someone*'s*|someone's ___ *love*|someone's *shouting out* love</builder>
     </line>
     <line>
       <romaji>dareka ga ai wo sakebu</romaji>
-      <hiragana />
-      <kanji>誰かが愛を叫ぶ</kanji>
-      <reading />
+      <hiragana>だれか|が|あい|を|さけぶ</hiragana>
+      <kanji>誰か|が|愛|を|叫ぶ</kanji>
+      <reading>
+      </reading>
       <english>Someone's shouting out love</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>someone|←|love|←|shout</literal>
+      <explained>someone|points to someone|love|marks someone and love to then say what that someone is doing with love|shout</explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tatoe donna kurayami demo</romaji>
-      <hiragana />
-      <kanji>例えどんな暗闇でも</kanji>
-      <reading />
+      <hiragana>たとえ|どんな|くらやみ|でも</hiragana>
+      <kanji>例え|どんな|暗闇|でも</kanji>
+      <reading>
+      </reading>
       <english>even if you're in a dark place</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>hitori ja nai yo ne</romaji>
-      <hiragana />
-      <kanji>一人じゃないよね？</kanji>
-      <reading />
+      <hiragana>ひとり|じゃ|ない|よ|ね</hiragana>
+      <kanji>一人|じゃ|ない|よ|ね？</kanji>
+      <reading>
+      </reading>
       <english>You're not alone, you know</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>watashitachi wo terasu moonlight</romaji>
-      <hiragana />
-      <kanji>私達を　照らす　Moonlight</kanji>
-      <reading />
+      <hiragana>わたしたち|を|てらす|moonlight</hiragana>
+      <kanji>私達|を|照らす|Moonlight</kanji>
+      <reading>
+      </reading>
       <english>we are illuminated by the moonlight</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>Onnanoko ni mo yuzurenu kyouji ga aru</romaji>
-      <hiragana />
-      <kanji>嗚呼　女の子にも譲れぬ矜持がある</kanji>
-      <reading />
+      <hiragana>おんなのこ|に|も|ゆずれぬ|きょうじ|が|ある</hiragana>
+      <kanji>嗚呼女の子|に|も|譲れぬ|矜持|が|ある</kanji>
+      <reading>
+      </reading>
       <english>Even girls have a sense of pride they can't give up</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>sore wa oujisama ni unmei nagezu mizukara tatakau ishi</romaji>
-      <hiragana />
-      <kanji>それは　王子様に運命投げず　自ら戦う意志</kanji>
-      <reading />
+      <hiragana>それ|は|おうじさま|に|うんめい|なげず|みずから|たたかう|いし</hiragana>
+      <kanji>それ|は|王子様|に|運命|投げず|自ら|戦う|意志</kanji>
+      <reading>
+      </reading>
       <english>don't leave your fate to the prince, fight with your own strength</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>shiny make up kagayaku yo hoshizora wo atsumete</romaji>
-      <hiragana />
-      <kanji>Shiny Make Up　輝くよ　星空を集めて</kanji>
-      <reading />
+      <hiragana>shiny|make|up|かがやく|よ|ほしぞら|を|あつめて</hiragana>
+      <kanji>Shiny|Make|Up|輝く|よ|星空|を|集めて</kanji>
+      <reading>
+      </reading>
       <english>Shiny make up, we'll shine together under the stars</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tada mamorareru dake no kayowai sonzai ja nai wa</romaji>
-      <hiragana />
-      <kanji>ただ護られるだけの　か弱い存在じゃないわ</kanji>
-      <reading />
+      <hiragana>ただ|まもられる|だけ|の|かよわい|そんざい|じゃ|ない|わ</hiragana>
+      <kanji>ただ|護られる|だけ|の|か弱い|存在|じゃ|ない|わ</kanji>
+      <reading>
+      </reading>
       <english>We're not frail girls who need to be protected</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>kanashimi no nami ni yurare</romaji>
-      <hiragana />
-      <kanji>悲しみの波に揺られ</kanji>
-      <reading />
+      <hiragana>かなしみ|の|なみ|に|ゆられ</hiragana>
+      <kanji>悲しみ|の|波|に|揺られ</kanji>
+      <reading>
+      </reading>
       <english>Swayed by the wave of sadness</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>ikari no hi ni yakarete mo</romaji>
-      <hiragana />
-      <kanji>怒りの焔(ひ)に灼かれても</kanji>
-      <reading />
+      <hiragana>いかり|の|ひ|に|やかれて|も</hiragana>
+      <kanji>怒り|の|焔(ひ)|に|灼かれて|も</kanji>
+      <reading>
+      </reading>
       <english>burnt by the flames of anger</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>inazuma no you ni mabayuku</romaji>
-      <hiragana />
-      <kanji>稲妻のように眩く</kanji>
-      <reading />
+      <hiragana>いなずま|の|よう|に|まばゆく</hiragana>
+      <kanji>稲妻|の|よう|に|眩く</kanji>
+      <reading>
+      </reading>
       <english>as dazzling as lightning</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>towa no ai wo chikau</romaji>
-      <hiragana />
-      <kanji>永遠(とわ)の愛を誓う</kanji>
-      <reading />
+      <hiragana>とわ|の|あい|を|ちかう</hiragana>
+      <kanji>永遠(とわ)|の|愛|を|誓う</kanji>
+      <reading>
+      </reading>
       <english>I swear on the eternity of love</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tatoe ima wa hanaretete mo</romaji>
-      <hiragana />
-      <kanji>例え今は　離れてても</kanji>
-      <reading />
+      <hiragana>たとえ|いま|は|はなれてて|も</hiragana>
+      <kanji>例え|今|は|離れてて|も</kanji>
+      <reading>
+      </reading>
       <english>Even if, right now we're far apart</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>hitori ja nai yo ne</romaji>
-      <hiragana />
-      <kanji>独りじゃないよね？</kanji>
-      <reading />
+      <hiragana>ひとり|じゃ|ない|よ|ね</hiragana>
+      <kanji>独り|じゃ|ない|よ|ね？</kanji>
+      <reading>
+      </reading>
       <english>You're not alone, you know</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>watashitachi wo tsunagu moonlight</romaji>
-      <hiragana />
-      <kanji>私達を　繋ぐ　Moonlight</kanji>
-      <reading />
+      <hiragana>わたしたち|を|つなぐ|moonlight</hiragana>
+      <kanji>私達|を|繋ぐ|Moonlight</kanji>
+      <reading>
+      </reading>
       <english>We're connected by the moonlight</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>onnanoko ni wa muteki no buki ga aru</romaji>
-      <hiragana />
-      <kanji>嗚呼　女の子には無敵の武器がある</kanji>
-      <reading />
+      <hiragana>おんなのこ|に|は|むてき|の|ぶき|が|ある</hiragana>
+      <kanji>嗚呼女の子|に|は|無敵|の|武器|が|ある</kanji>
+      <reading>
+      </reading>
       <english>All girls have an unbeatable weapon</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>sore wa yowasa ni yorisou manazashi to subete ukeireru tsuyo sa</romaji>
-      <hiragana />
-      <kanji>それは　弱さに寄り添う眼差しと　全て受け入れる強さ</kanji>
-      <reading />
+      <hiragana>それ|は|よわさ|に|よりそう|まなざし|と|すべて|うけいれる|つよ|さ</hiragana>
+      <kanji>それ|は|弱さ|に|寄り添う|眼差し|と|全て|受け入れる|強|さ</kanji>
+      <reading>
+      </reading>
       <english>It's the strength to accept your weakness and overcome it</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
-      <romaji>shiny make ep kirameku yo hoshizora ni idakarete</romaji>
-      <hiragana />
-      <kanji>Shiny Make Up　煌めくよ　星空に抱かれて</kanji>
-      <reading />
+      <romaji>shiny make up kirameku yo hoshizora ni idakarete</romaji>
+      <hiragana>shiny|make|up|きらめく|よ|ほしぞら|に|いだかれて</hiragana>
+      <kanji>Shiny|Make|Up|煌めく|よ|星空|に|抱かれて</kanji>
+      <reading>
+      </reading>
       <english>Shiny make up, we'll shine together under the starry sky</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>toki wo koeta kizuna ga watashi ni yuuki wo kureru</romaji>
-      <hiragana />
-      <kanji>時を超えた絆が　私に勇気をくれる</kanji>
-      <reading />
+      <hiragana>とき|を|こえた|きずな|が|わたし|に|ゆうき|を|くれる</hiragana>
+      <kanji>時|を|超えた|絆|が|私|に|勇気|を|くれる</kanji>
+      <reading>
+      </reading>
       <english>Our bond that crosses time and space gives us strength</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>koishikute setsunakute nakitaku naru yo</romaji>
-      <hiragana />
-      <kanji>恋しくて　切なくて　泣きたくなるよ</kanji>
-      <reading />
+      <hiragana>こいしくて|せつなくて|なきたく|なる|よ</hiragana>
+      <kanji>恋しくて|切なくて|泣きたく|なる|よ</kanji>
+      <reading>
+      </reading>
       <english>This love is so painful, it makes me cry</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>aitakute samishikute kake dashi sonna haato</romaji>
-      <hiragana />
-      <kanji>会いたくて　淋しくて　駈け出しそうな恋心</kanji>
-      <reading />
+      <hiragana>あいたくて|さみしくて|かけ|だし|そんな|はーと</hiragana>
+      <kanji>会いたくて|淋しくて|駈け出し|そうな|恋心</kanji>
+      <reading>
+      </reading>
       <english>My heart is lonely and wants to meet you</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>kono hiroi uchuu de nando umarekawattemo</romaji>
-      <hiragana />
-      <kanji>この広い宇宙で　何度生まれ変わっても</kanji>
-      <reading />
+      <hiragana>この|ひろい|うちゅう|で|なんど|うまれかわっても</hiragana>
+      <kanji>この|広い|宇宙|で|何度|生まれ変わっても</kanji>
+      <reading>
+      </reading>
       <english>No matter the amount of times I'm reborn in this vast universe</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>anata ni koi wo suru</romaji>
-      <hiragana />
-      <kanji>あなたに恋をする</kanji>
-      <reading />
+      <hiragana>あなた|に|こい|を|する</hiragana>
+      <kanji>あなた|に|恋|を|する</kanji>
+      <reading>
+      </reading>
       <english>I'll fall in love with you</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>shiny make up habataku yo hoshizora no kanata e</romaji>
-      <hiragana />
-      <kanji>Shiny Make Up　羽ばたくよ　星空の彼方へ</kanji>
-      <reading />
+      <hiragana>shiny|make|up|はばたく|よ|ほしぞら|の|かなた|へ</hiragana>
+      <kanji>Shiny|Make|Up|羽ばたく|よ|星空|の|彼方|へ</kanji>
+      <reading>
+      </reading>
       <english>Shiny make up, we'll fly beyond the starry sky</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tsumi ga mawaru sekai demo mirai wo shinjirareru</romaji>
-      <hiragana />
-      <kanji>罪が廻る世界でも　未来を信じられる</kanji>
-      <reading />
+      <hiragana>つみ|が|まわる|せかい|でも|みらい|を|しんじられる</hiragana>
+      <kanji>罪|が|廻る|世界|でも|未来|を|信じられる</kanji>
+      <reading>
+      </reading>
       <english>Sins may make the world go round buy I'll believe in the future</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>dakara shiny make up tatakau yo hoshizora wo matotte</romaji>
-      <hiragana />
-      <kanji>だからShiny Make Up　戦うよ　星空を纏って</kanji>
-      <reading />
+      <hiragana>だから|shiny|make|up|たたかう|よ|ほしぞら|を|まとって</hiragana>
+      <kanji>だから|Shiny|Make|Up|戦う|よ|星空|を|纏って</kanji>
+      <reading>
+      </reading>
       <english>So shiny make up, we'll fight amongst the stars</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>
+      </builder>
     </line>
     <line>
-      <romaji>atarashi densetsu ga ima koko kara hajimaru</romaji>
-      <hiragana />
-      <kanji>新しい伝説が　今ここから始まる</kanji>
-      <reading />
+      <romaji>atarashii densetsu ga ima koko kara hajimaru</romaji>
+      <hiragana>あたらしい|でんせつ|が|いま|ここ|から|はじまる</hiragana>
+      <kanji>新しい|伝説|が|今|ここ|から|始まる</kanji>
+      <reading>
+      </reading>
       <english>A new legend begins from now</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>
+      </literal>
+      <explained>
+      </explained>
+      <builder>La|La|Pretty|Gurdian|SAILOR|MOON</builder>
     </line>
     <line>
       <romaji>La la pretty guardian sailor moon</romaji>
-      <hiragana />
-      <kanji>La La Pretty Gurdian SAILOR MOON</kanji>
-      <reading />
+      <hiragana>La|la|pretty|guardian|sailor|moon</hiragana>
+      <kanji>La|La|Pretty|Gurdian|SAILOR|MOON</kanji>
+      <reading>
+      </reading>
       <english>La la pretty guardian sailor moon</english>
-      <literal />
-      <explained />
-      <builder />
+      <literal>La|La|Pretty|Gurdian|SAILOR|MOON</literal>
+      <explained>La|La|Pretty|Gurdian|SAILOR|MOON</explained>
+      <builder>La| La| Pretty| Gurdian| SAILOR| MOON</builder>
     </line>
   </lines>
 </translation-info>
