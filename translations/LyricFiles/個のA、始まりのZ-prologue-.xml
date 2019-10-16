@@ -100,7 +100,7 @@
       <english>When we meet again, I'll show you my new self</english>
       <literal>when we meet|new|self|*larr*|show</literal>
       <explained>presumptive form of to meet|new|self|points to new self|show</explained>
-      <builder>*When we meet again*|when we meet again, *new*|when we meet again, new *self*| when we meet again. *I'll show you my* new self</builder>
+      <builder>*When we meet again*|when we meet again, *new*|when we meet again, new *self*|when we meet again, new self| when we meet again. *I'll show you my* new self</builder>
     </line>
   </lines>
 </translation-info>
