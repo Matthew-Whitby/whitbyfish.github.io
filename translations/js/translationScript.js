@@ -195,4 +195,11 @@ function HideDescription(element){
   element.style.display="none";
 }
 
+function ShowDescription(element){
+  let p=element.parentElement.childNodes;
+  for(d=0;d<p.length;d++){
+    if(p[d].classList.contains("description"))p[d].style.display="block";
+  }
+}
+
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
