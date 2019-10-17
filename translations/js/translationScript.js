@@ -198,7 +198,7 @@ function HideDescription(element){
 function ShowDescription(element){
   let p=element.parentElement.childNodes;
   for(d=0;d<p.length;d++){
-    if(p[d].classList.contains("description"))p[d].style.display="block";
+    if(p[d].classList.contains("description")){p[d].style.display="block";break;}
   }
 }
 
