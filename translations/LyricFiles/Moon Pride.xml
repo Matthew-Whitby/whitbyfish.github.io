@@ -67,8 +67,7 @@
       <english>Someone's shouting out love</english>
       <literal>someone|←|love|←|shout</literal>
       <explained>someone|points to someone|love|marks someone and love to then say what that someone is doing with love|shout</explained>
-      <builder>
-      </builder>
+      <builder>*someone*|someone*'s*|someone's *love*|someone's *___* love|someone's *shouting out* love</builder>
     </line>
     <line>
       <romaji>tatoe donna kurayami demo</romaji>
@@ -77,26 +76,20 @@
       <reading>
       </reading>
       <english>even if you're in a dark place</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <literal>for example|what kind of|darkness|even though</literal>
+      <explained>sets up a scenario to consider|no matter what kind of ___|darkness|although/even though, looks to counter being in a dark place</explained>
+      <builder>*even if*|even if *you're in a*|even if you're in a *dark place*|*even if* you're in a dark place</builder>
     </line>
     <line>
-      <romaji>hitori ja nai yo ne</romaji>
-      <hiragana>ひとり|じゃ|ない|よ|ね</hiragana>
-      <kanji>一人|じゃ|ない|よ|ね？</kanji>
+      <romaji>hitori janai yo ne</romaji>
+      <hiragana>ひとり|じゃない|よ|ね</hiragana>
+      <kanji>一人|じゃない|よ|ね？</kanji>
       <reading>
       </reading>
       <english>You're not alone, you know</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <literal>alone|not|*emphasis*|right?</literal>
+      <explained>alone|not, makes statement negative|adds emphasis|right? confirms that you're not alone</explained>
+      <builder>*alone*|*not* alone|*you're* not alone|you're not alone, *you know*</builder>
     </line>
     <line>
       <romaji>watashitachi wo terasu moonlight</romaji>
@@ -105,26 +98,20 @@
       <reading>
       </reading>
       <english>we are illuminated by the moonlight</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <literal>we|←|illuminate|moonlight</literal>
+      <explained>we|points to what is being illuminated|illuminate|moonlight</explained>
+      <builder>*we*|we *are*|we are *illuminated*|we are illuminated by the *moonlight*</builder>
     </line>
     <line>
-      <romaji>Onnanoko ni mo yuzurenu kyouji ga aru</romaji>
-      <hiragana>おんなのこ|に|も|ゆずれぬ|きょうじ|が|ある</hiragana>
-      <kanji>嗚呼女の子|に|も|譲れぬ|矜持|が|ある</kanji>
+      <romaji>aa onnanoko ni mo yuzurenu kyouji ga aru</romaji>
+      <hiragana>ああ|おんなのこ|に|も|ゆずれぬ|きょうじ|が|ある</hiragana>
+      <kanji>嗚呼|女の子|に|も|譲れぬ|矜持|が|ある</kanji>
       <reading>
       </reading>
-      <english>Even girls have a sense of pride they can't give up</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Yeah, even girls have a sense of pride they can't give up</english>
+      <literal>yeah|girls|←|also|can't give up|pride|←|have</literal>
+      <explained>yeah. indeed, that's right: that kind of meaning|girls|points to girls|can't give up|pride|points to a pride that can't be given up|have</explained>
+      <builder>*yeah*|yeah, *girls*|yeah, girls|yeah, *even* girls|yeah, even girls ___ *can't give up*|yeah, even girls *sense of pride* can't give up|yeah, even girls sense of pride *they* can't give up|yeah. even girls *have* a sense of pride they can't give up</builder>
     </line>
     <line>
       <romaji>sore wa oujisama ni unmei nagezu mizukara tatakau ishi</romaji>
@@ -133,12 +120,9 @@
       <reading>
       </reading>
       <english>don't leave your fate to the prince, fight with your own strength</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <literal>that|←|prince|←|fate|throw away|oneself|fight|will</literal>
+      <explained>that|points to that (in reference to the sense of pride from the prev line)|price|fate|throw away|oneself|fight|will</explained>
+      <builder>*references the pride prev mentioned*|*also pride reference*|*prince*|*to the* prince|*fate* to the prince|</builder>
     </line>
     <line>
       <romaji>shiny make up kagayaku yo hoshizora wo atsumete</romaji>
