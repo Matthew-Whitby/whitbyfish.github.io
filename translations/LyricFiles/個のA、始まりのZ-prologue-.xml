@@ -54,7 +54,7 @@
       <reading>
       </reading>
       <english>Even though I've got a load of plans</english>
-      <literal>lots|plan|*larr*|have</literal>
+      <literal>lots|plan|←|have</literal>
       <explained>lots|plan|points to lots of plans|have = aru, nda adds 'even though' to I have to make 'even though I have'</explained>
       <builder>*lots of*|lots of *plans*|lots of plans|*even though I've got* lots of plans</builder>
     </line>
@@ -76,7 +76,7 @@
       <reading>
       </reading>
       <english>I should return this love that I've recieved</english>
-      <literal>recieve|state/condition|*larr*|love|*larr*|return</literal>
+      <literal>recieve|state/condition|←|love|</literal>
       <explained>recieve|state/condition|points to the |love|points to the love that was recieved|return</explained>
       <builder>*recieved*|*this ___ I've* recieved|this *___* I've recieved|this *love* I've recieved|this love I've recieved|*I should return* this love I've recieved</builder>
     </line>
@@ -87,7 +87,7 @@
       <reading>
       </reading>
       <english>To where you stand, in a familiar place</english>
-      <literal>nostalgic|place|*larr*|stand|you|*larr*|location|to</literal>
+      <literal>nostalgic|place|←|stand|you|</literal>
       <explained>nostalgic|place|points to nostalgic place|stand|you|points to you|location|points to your location</explained>
       <builder>*familiar*|familiar *place*|*in a* familiar place|*stand* in a familiar place|*you* stand in a familiar place|you stand in a familiar place|*where* you stand, in a familiar place|*To* where you stand, in a familiar place</builder>
     </line>
@@ -98,7 +98,7 @@
       <reading>
       </reading>
       <english>When we meet again, I'll show you my new self</english>
-      <literal>when we meet|new|self|*larr*|show</literal>
+      <literal>when we meet|new|self|←|show</literal>
       <explained>presumptive form of to meet|new|self|points to new self|show</explained>
       <builder>*When we meet again*|when we meet again, *new*|when we meet again, new *self*|when we meet again, new self| when we meet again. *I'll show you my* new self</builder>
     </line>
