@@ -191,4 +191,8 @@ function SetTabBtnWidth(){
   document.head.appendChild(style);
 }
 
+function HideDescription(element){
+  element.style.display="none";
+}
+
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});}
