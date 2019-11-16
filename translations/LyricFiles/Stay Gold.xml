@@ -5,15 +5,15 @@
   <wordListLink />
   <lines>
     <line>
-      <romaji>why did you cheat?</romaji>
-      <hiragana>why did you cheat?|さえ</hiragana>
+      <romaji>why did you cheat? sae kikenakatta</romaji>
+      <hiragana>why did you cheat?|さえ|きけなかった</hiragana>
       <kanji>Why did you cheat?|さえ|聞けなかった</kanji>
       <reading>
       </reading>
-      <english>Why did you cheat? If you couldn't hear</english>
-      <literal>why did you cheat?|ev</literal>
-      <explained>why did you cheat?</explained>
-      <builder>why did you cheat?</builder>
+      <english>Why did you cheat? Even if you couldn't say it</english>
+      <literal>why did you cheat?|even|can't tell it</literal>
+      <explained>why did you cheat?|even|can't tell it</explained>
+      <builder>*why did you cheat?*|why did you cheat? *Even*|why did you cheat? Even *if you couldn't say it*</builder>
     </line>
     <line>
       <romaji>egao|no|ura|kage|hisondeta</romaji>
@@ -150,149 +150,102 @@
     <line>
       <romaji>Take a chance haruka saki wo egaiteke</romaji>
       <hiragana>Take a chance|はるか|さき|を|えがいてけ</hiragana>
-      <kanji>Take a chance 遥か|先|を|描いてけ</kanji>
+      <kanji>Take a chance|遥か|先|を|描いてけ</kanji>
       <reading>
       </reading>
-      <english>Take a chance, Picture yourself far away in the distance/(alternatively) Take a chance, think far ahead of the game</english>
+      <english>Take a chance, think far ahead of the game</english>
       <literal>Take a chance|far away|ahead|←|picture</literal>
       <explained>Take a chance|far away|ahead|points to far ahead|picture (in your head)</explained>
-      <builder>*Take a chance*|</builder>
+      <builder>*Take a chance*|Take a chance, *far*|Take a chance, far *ahead*|Take a chance, far ahead|Take a chance, *think* far ahead of the game (the game is added from the context of the song)</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>あのとき願った未来　まだ遅くはない</kanji>
+      <romaji>ano toki negatta mirai mada osoku wa nai</romaji>
+      <hiragana>あの|とき|ねがった|みらい|まだ|おそく|は|ない</hiragana>
+      <kanji>あの|とき|願った|未来|まだ|遅く|は|ない</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <english>That future I wished for sill isn't late</english>
+      <literal>that|time|wish|future|still|late|←|not</literal>
+      <explained>that|time|wish|future|still|late|points to late|not</explained>
       <builder>
       </builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>誰かを頼る自分にトドメさせ　明日を撃て</kanji>
+      <romaji>dareka wo tayoru jibun ni todomesase ashita wo ute</romaji>
+      <hiragana>だれか|を|たよる|じぶん|に|トドメさせ|あした|を|うて</hiragana>
+      <kanji>誰か|を|頼る|自分|に|トドメさせ|明日|を|撃て</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>I need someone to rely on to stop myself or tomorrow I'll go on the attack</english>
+      <literal>someone|←|rely on|myself|←|stop|tomorrow|←|attack</literal>
+      <explained>someone|points to someone|rely on|myself|points to myself|stop|tomorrow|points to tomorrow|attack</explained>
+      <builder>*someone*|I need someone *to*|I need someone to *rely on*|I need someone to rely on *myself*|I need someone to rely on *to* myself|I need someone to rely on to *stop myself*|I need someone to rely on to stop myself *tomorrow*|I need someone to rely on to stop myself or tomorrow I'll *go* on the attack</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Stay Gold 君は間違ってなんかない</kanji>
+      <romaji>Stay Gold kimi wa machigatte nante nai</romaji>
+      <hiragana>Stay Gold|きみ|は|まちがって|なんか|ない</hiragana>
+      <kanji>Stay Gold|君|は|間違って|なんか|ない</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Stay Gold, it's not like you to make a mistake</english>
+      <literal>Stay Gold|you|←|made a mistake|things like|not</literal>
+      <explained>Stay Gold|you|points to you|made a mistake|something like (making a mistake)|not</explained>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, you *to*|Stay Gold, you to *make a mistake*|Stay Gold, *it's like* you to make a mistake|Stay Gold, it's *not* like you to make a mistake</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>乱れたこの時代生きろ生きろ</kanji>
+      <romaji>midareta kono jidai ikiro ikiro</romaji>
+      <hiragana>きのう|の|なかま|が|てき|に|かわる|Nowadays</hiragana>
+      <kanji>乱れた|この|時代|生きろ|生きろ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Through this disorderly time, live, live</english>
+      <literal>to be disordered|this|period|live|live</literal>
+      <explained>to be disordered|this|period (of time)|live (as in to live)|live</explained>
+      <builder>*disorderly*|*this* disorderly|this disorderly *time*|Through this disorderly time, *live*|Through this disorderly time, live, *live*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Stay Gold 君を諦めるんじゃない</kanji>
+      <romaji>Stay Gold kimi wo akiramerunjanai</romaji>
+      <hiragana>Stay Gold|きみ|を|あきらめるんじゃない</hiragana>
+      <kanji>Stay Gold|君|を|諦めるんじゃない</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Stay Gold, don't you give up</english>
+      <literal>Stay Gold|you|←|don't give up</literal>
+      <explained>Stay Gold|you|points to you|don't give up</explained>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, *don't* you *give up*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>微かに残った希望　今解き放とう</kanji>
+      <romaji>kasuka ni nokotta kibou ima tokihanatou</romaji>
+      <hiragana>かすか|に|のこった|きぼう|いま|ときはなとう</hiragana>
+      <kanji>微か|に|残った|希望|今|解き放とう</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Don't become weak, unleash your hope now</english>
+      <literal>weak|←|not yet|hope|now|release</literal>
+      <explained>weak/faint/dim|points to weak|not yet|hope|now|release</explained>
+      <builder>*weak*|*become* weak|*don't* become weak|don't become weak, *hope*|don't become weak, hope *now*|don't become weak, *release* your hope now</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
+      <romaji>omoumama ni yuke</romaji>
+      <hiragana>おもうまま|に|ゆけ</hiragana>
       <kanji>思うままにゆけ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Go on as you please</english>
+      <literal>as you wish|←|go on</literal>
+      <explained>as you wish|points to as you wish|go on</explained>
+      <builder>*as you please*|as you please|*go on* as you please</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
+      <romaji>Stay Gold</romaji>
+      <hiragana>Stay Gold</hiragana>
       <kanji>Stay Gold</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Stay Gold</english>
+      <literal>Stay Gold</literal>
+      <explained>Stay Gold</explained>
+      <builder>Stay Gold</builder>
     </line>
   </lines>
 </translation-info>
