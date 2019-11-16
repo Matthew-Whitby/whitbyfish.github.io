@@ -8,7 +8,7 @@ function preload(){
 function setup(){
   let canvas=createCanvas(windowWidth,windowHeight);
   canvas.position(0,0);
-  canvas.style('z-index','-1');
+  canvas.style('z-index','5');
 }
 
 function draw(){
