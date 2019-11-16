@@ -164,11 +164,10 @@
       <kanji>あの|とき|願った|未来|まだ|遅く|は|ない</kanji>
       <reading>
       </reading>
-      <english>That future I wished for sill isn't late</english>
+      <english>The future I wished for then still isn't late</english>
       <literal>that|time|wish|future|still|late|←|not</literal>
       <explained>that|time|wish|future|still|late|points to late|not</explained>
-      <builder>
-      </builder>
+      <builder>*that*|that *then*|that *then*|that *wished* then|that *future* I wished for then|that future I wished for then *still*|that future I wished for then still *late*|that future I wished for then still *is* late|that future I wished for then still *isn't* late</builder>
     </line>
     <line>
       <romaji>dareka wo tayoru jibun ni todomesase ashita wo ute</romaji>
