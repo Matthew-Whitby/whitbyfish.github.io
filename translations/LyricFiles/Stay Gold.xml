@@ -38,189 +38,125 @@
       <builder>*old* (substituted yesterday to old)|old|old *friends*|*your* old friends|your old friends *foes*|your old friends *your* foes|your old friends *are now* your foes|*Nowadays* your old friends are now your foes</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>みきわめる|に|は|いたみ|が|ともなうんだ|Fate</hiragana>
-      <kanji>見極めるには痛みが伴うんだFate</kanji>
+      <romaji>mikiwameru ni wa itami ga tomonaunda Fate</romaji>
+      <hiragana>みきわめる|には|いたみ|が|ともなうんだ|Fate</hiragana>
+      <kanji>見極める|には|痛み|が|伴うんだ|Fate</kanji>
       <reading>
       </reading>
-      <english>This pain is surely</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Surely this pain is bound by fate</english>
+      <literal>to ascertain|←|pain|←|accompany|Fate</literal>
+      <explained>to ascertain|prepares sentence to say what has been made certain|pain|points to pain|accompany|Fate</explained>
+      <builder>*Surely*|Surely *this*|Surely this *pain*|Surely this pain *is*|Surely this pain is *bound*|Surely this pain is bound by *fate*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Stay Gold 君は間違ってなんかない</kanji>
+      <romaji>Stay Gold kimi wa machigatte nante nai</romaji>
+      <hiragana>Stay Gold|きみ|は|まちがって|なんか|ない</hiragana>
+      <kanji>Stay Gold|君|は|間違って|なんか|ない</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Stay Gold, it's not like you to make a mistake</english>
+      <literal>Stay Gold|you|←|made a mistake|things like|not</literal>
+      <explained>Stay Gold|you|points to you|made a mistake|something like (making a mistake)|not</explained>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, you *to*|Stay Gold, you to *make a mistake*|Stay Gold, *it's like* you to make a mistake|Stay Gold, it's *not* like you to make a mistake</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>乱れたこの時代生きろ生きろ</kanji>
+      <romaji>midareta kono jidai ikiro ikiro</romaji>
+      <hiragana>みだれた|この|じだい|いきろ|いきろ</hiragana>
+      <kanji>乱れた|この|時代|生きろ|生きろ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Through this disorderly time, live, live</english>
+      <literal>to be disordered|this|period|live|live</literal>
+      <explained>to be disordered|this|period (of time)|live (as in to live)|live</explained>
+      <builder>*disorderly*|*this* disorderly|this disorderly *time*|Through this disorderly time, *live*|Through this disorderly time, live, *live*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Stay Gold 君を諦めるんじゃない</kanji>
+      <romaji>Stay Gold kimi wo akiramerunjanai</romaji>
+      <hiragana>Stay Gold|きみ|を|あきらめるんじゃない</hiragana>
+      <kanji>Stay Gold|君|を|諦めるんじゃない</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Stay Gold, don't you give up</english>
+      <literal>Stay Gold|you|←|don't give up</literal>
+      <explained>Stay Gold|you|points to you|don't give up</explained>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, *don't* you *give up*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>微かに残った希望　今解き放とう</kanji>
+      <romaji>kasuka ni nokotta kibou ima tokihanatou</romaji>
+      <hiragana>かすか|に|のこった|きぼう|いま|ときはなとう</hiragana>
+      <kanji>微か|に|残った|希望|今|解き放とう</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Don't become weak, unleash your hope now</english>
+      <literal>weak|←|not yet|hope|now|release</literal>
+      <explained>weak/faint/dim|points to weak|not yet|hope|now|release</explained>
+      <builder>*weak*|*become* weak|*don't* become weak|don't become weak, *hope*|don't become weak, hope *now*|don't become weak, *release* your hope now</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>思うままにゆけ</kanji>
+      <romaji>omoumama ni yuke</romaji>
+      <hiragana>おもうまま|に|ゆけ</hiragana>
+      <kanji>思うまま|に|ゆけ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Go on as you please</english>
+      <literal>as you wish|←|go on</literal>
+      <explained>as you wish|points to as you wish|go on</explained>
+      <builder>*as you please*|as you please|*go on* as you please</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>正直者が泣きを見る世界　疼く傷跡</kanji>
+      <romaji>shoujikimono ga naki wo miru sekai uzuku kizuato</romaji>
+      <hiragana>しょうじきもの|が|なき|を|みる|せかい|うずく|きずあと</hiragana>
+      <kanji>正直者|が|泣き|を|見る|世界|疼く|傷跡</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>An honest person would cry as they look at this world. Their scars ache</english>
+      <literal>honest person|←|cry|←|look|world|ache|scar</literal>
+      <explained>honest person|points to honest person|cry|points to honest person crying|look|world|to ache|scar</explained>
+      <builder>*An honest person*|An honest person *would*|An honest person would *cry*|An honest person would cry *as they*|An honest person would cry as they *look at*|An honest person would cry as they look at *this world*|An honest person would cry as they look at this world. *ache*|An honest person would cry as they look at this world. *Their scars* ache</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>何度負けても痛みを信じてSmile again</kanji>
+      <romaji>nando makete mo itami wo shijite Smile again</romaji>
+      <hiragana>なんど|まけて|も|いたみ|を|しんじて|Smile again</hiragana>
+      <kanji>何度|負けて|も|痛み|を|信じて|Smile again</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>No matter how many times you lose, affirm the pain and smile again</english>
+      <literal>however many times|lose|also|pain|←|believe|Smile again</literal>
+      <explained>however many times|lose|also|pain|points to pain|believe|Smile again</explained>
+      <builder>*No matter how many times*|No matter how many times you *lose*|No matter how many times you lose|No matter how many times you lose, *pain*|No matter how many times you lose, *the* pain|No matter how many times you lose, *affirm* the pain|No matter how many times you lose, affirm the pain *and smile again*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Take a chance 奇跡よりも軌跡を</kanji>
+      <romaji>Take a chance kiseki yorimo kiseki wo</romaji>
+      <hiragana>Take a chance|きせき|よりも|きせき|を</hiragana>
+      <kanji>Take a chance|奇跡|よりも|軌跡|を</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Take a chance, instead of miracles, your experience will</english>
+      <literal>Take a chance|miracle|instead of|path one has taken|←</literal>
+      <explained>Take a chance|miracle|instead of|path one has taken/the traces of a person|points to path one has taken</explained>
+      <builder>*Take a chance*|Take a chance, *miracles*|Take a chance, *instead of* miracles|Take a chance, instead of miracles, *your experience*|Take a chance, instead of miracles, your experience *will*</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>まだ見ぬ楽園を探せ探せ</kanji>
+      <romaji>mata minu rakuen wo sagase sagase</romaji>
+      <hiragana>また|みぬ|らくえん|を|さがせ|さがせ</hiragana>
+      <kanji>まだ|見ぬ|楽園|を|探せ|探せ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Search, search for yet another unseen paradise</english>
+      <literal>again|not see|paradise|←|search|search</literal>
+      <explained>again|not see NOTE: this is the verb miru (to see), the nu is an old way of saying nai (not)|paradise|points to another unseen paradise|search|search</explained>
+      <builder>*yet another*|yet another *unseen*|yet another unseen *paradise*|*search* for yet another unseen paradise|Search, search for yet another unseen paradise {Whole sentence: Take a chance, instead of miracles, your experience will search, seach for yet another unseen paradise}</builder>
     </line>
     <line>
-      <romaji>
-      </romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>Take a chance 遥か先を描いてけ</kanji>
+      <romaji>Take a chance haruka saki wo egaiteke</romaji>
+      <hiragana>Take a chance|はるか|さき|を|えがいてけ</hiragana>
+      <kanji>Take a chance 遥か|先|を|描いてけ</kanji>
       <reading>
       </reading>
-      <english>
-      </english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
-      <builder>
-      </builder>
+      <english>Take a chance, Picture yourself far away in the distance/(alternatively) Take a chance, think far ahead of the game</english>
+      <literal>Take a chance|far away|ahead|←|picture</literal>
+      <explained>Take a chance|far away|ahead|points to far ahead|picture (in your head)</explained>
+      <builder>*Take a chance*|</builder>
     </line>
     <line>
       <romaji>
