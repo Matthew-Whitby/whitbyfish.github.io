@@ -13,7 +13,7 @@ function setup(){
 
 function draw(){
   clear();
-  if(random(1)<0.01){
+  if(random(1)<0.005){
     builders.push(new Builder(random(windowWidth),random(windowHeight),random(windowWidth),random(windowHeight),bldrimg));
   }
   for(let i=builders.length-1;i>=0;i--){
