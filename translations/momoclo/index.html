@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/momoclocontents.min.css"/>
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/TopMenu.min.css"/>
   <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
-  function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}function changeDisplay(value){var dones=document.getElementsByClassName("done");var inprogresses=document.getElementsByClassName("inprogress");var notdones=document.getElementsByClassName("notdone");switch(value){case"all":toggleDisplay(dones,true);toggleDisplay(inprogresses,true);toggleDisplay(notdones,true);break;case"complete":toggleDisplay(dones,true);toggleDisplay(inprogresses,false);toggleDisplay(notdones,false);break;case"inprogress":toggleDisplay(dones,false);toggleDisplay(inprogresses,true);toggleDisplay(notdones,false);break;case"notdone":toggleDisplay(dones,false);toggleDisplay(inprogresses,false);toggleDisplay(notdones,true);break;}}function toggleDisplay(array,bool){for(z=0;z<array.length;z++)array[z].style.display=(bool)?"block":"none";}</script>
+  function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}function ChangeDisplay(value){var dones=document.getElementsByClassName("done");var inprogresses=document.getElementsByClassName("inprogress");var notdones=document.getElementsByClassName("notdone");switch(value){case"all":ToggleDisplay(dones,true);ToggleDisplay(inprogresses,true);ToggleDisplay(notdones,true);break;case"complete":ToggleDisplay(dones,true);ToggleDisplay(inprogresses,false);ToggleDisplay(notdones,false);break;case"inprogress":ToggleDisplay(dones,false);ToggleDisplay(inprogresses,true);toggleDisplay(notdones,false);break;case"notdone":ToggleDisplay(dones,false);ToggleDisplay(inprogresses,false);ToggleDisplay(notdones,true);break;}}function ToggleDisplay(array,bool){for(z=0;z<array.length;z++){array[z].style.display=(bool)?"block":"none";CheckTable(array[z])}}function CheckTable(element){var table=element.parentElement;console.log(table);}</script>
 </head>
 <body>
   <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="https://whitbyfish.net/translations">Translations</a></div>
@@ -17,7 +17,7 @@
   <b><u><h1>Momoiro Clover Z</h1></u></b>
   <p>Pink = done, orange = in progress, red = not done</p>
   <div style="text-align: center;">
-  <select onchange="changeDisplay(this.value)">
+  <select onchange="ChangeDisplay(this.value)">
     <option value="all">All</option>
     <option value="complete">Complete</option>
     <option value="inprogress">In Progress</option>
