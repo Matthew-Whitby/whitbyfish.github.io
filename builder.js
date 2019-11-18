@@ -16,17 +16,23 @@ Builder.prototype.checkSettled=function(){
   }
 }
 
-Builder.prototype.update=function(){
+/*Builder.prototype.update=function(){
   this.pos.add(this.vel);
   this.vel.add(this.acc);
   this.acc.mult(0);
   this.checkSettled();
-}
+}*/
 
 Builder.prototype.behaviors=function(){
   let arrive=this.arrive(this.endpos);
   arrive.mult(1);
   this.applyForce(arrive);
+  this.pos.add(this.vel);
+  this.vel.add(this.acc);
+  this.acc.mult(0);
+  this.checkSettled();
+  imageMode(CENTER);
+  image(this.img,this.pos.x,this.pos.y,this.size,this.size);
 }
 
 Builder.prototype.applyForce=function(f){
@@ -34,8 +40,7 @@ Builder.prototype.applyForce=function(f){
 }
 
 Builder.prototype.show=function(){
-  imageMode(CENTER);
-  image(this.img,this.pos.x,this.pos.y,this.size,this.size);
+  
 }
 
 Builder.prototype.arrive=function(endpos){

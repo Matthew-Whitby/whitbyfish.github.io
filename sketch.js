@@ -18,8 +18,8 @@ function draw(){
   }
   for(let i=builders.length-1;i>=0;i--){
     builders[i].behaviors();
-    builders[i].update();
-    builders[i].show();
+    //builders[i].update();
+    //builders[i].show();
     if(builders[i].settled)builders.splice(i,1);
   }
 }
