@@ -1,11 +1,11 @@
-#title,#jp-title{
+.title,#jp-title{
    color: #FF91A4;
 }
 #jp-title{
    margin-top:0;
    text-shadow: -0.1px -0.1px black,0.1px -0.1px black, -0.1px 0.1px black,0.1px 0.1px black;
 }
-#title{
+.title{
    margin-bottom:0;
    text-shadow: -0.25px -0.25px black,0.25px -0.25px black, -0.25px 0.25px black,0.25px 0.25px black;
 }
