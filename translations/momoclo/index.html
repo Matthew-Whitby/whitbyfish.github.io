@@ -24,7 +24,7 @@
       if(DetectVisibleElement(table)){
         if(table.classList.contains("hidden"))table.classList.remove("hidden");
       }else{
-        if(table.classList.contains("hidden"))table.classList.add("hidden");
+        if(!table.classList.contains("hidden"))table.classList.add("hidden");
       }}
       function DetectVisibleElement(element){switch(element.tagName){case"A":if(element.style.display!="none")return true;return false;;break;default:if(element!=null&&element.childNodes!=null&&element.childNodes.length>0){for(var c=0;c<element.childNodes.length;c++)if(DetectVisibleElement(element.childNodes[c]))return true;return false;};break;}}
     </script>
