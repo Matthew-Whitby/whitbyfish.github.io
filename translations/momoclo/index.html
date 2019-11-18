@@ -9,7 +9,23 @@
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/momoclocontents.min.css"/>
   <link rel="stylesheet" href="https://whitbyfish.net/translations/css/TopMenu.min.css"/>
   <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
-  function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}function ChangeDisplay(value){var className;switch(value){case"inprogress":className=".inprogress";break;case"notdone":className=".notdone";break;case"done":className=".done";break;}var x = document.querySelectorAll(className);x.forEach(function(e){e.parentElement.parentElement.classList.add("hidden");});}</script>
+  function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
+  function ChangeDisplay(value){
+    var className;
+    switch(value){
+      case"inprogress":
+      className=".inprogress";
+      break;
+      case"notdone":
+      className=".notdone";
+      break;
+      case"done":
+      className=".done";
+      break;}
+      var x = document.querySelectorAll(className);
+      var y=document.querySelectorAll(!className);
+      y.forEach(function(d){d.parentElement.parentElement.classList.remove("hidden");});
+      x.forEach(function(e){e.parentElement.parentElement.classList.add("hidden");});}</script>
 </head>
 <body>
   <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="https://whitbyfish.net/translations">Translations</a></div>
