@@ -15,6 +15,9 @@ table{
   border: 1px solid #FF91A4;
   border-radius: 5px;
 }
+tr.hidden {
+  display: none;
+}
 #contentBackground{
   background-color: rgba(200,255,200,0.5);
   width: 250px;

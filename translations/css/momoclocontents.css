@@ -17,6 +17,9 @@ table{
 .notdone{
    color: red;
 }
+tr.hidden{
+  display:none;
+}
 .inprogress{
   color:orange;
 }
