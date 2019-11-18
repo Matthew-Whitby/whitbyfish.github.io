@@ -17,7 +17,7 @@ table{
 .notdone{
    color: red;
 }
-tr.hidden,table.hidden{
+tr.hidden,table.hidden,tbody.hidden{
   display:none;
 }
 .inprogress{
