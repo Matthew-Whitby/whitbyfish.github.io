@@ -5,7 +5,7 @@
   <wordListLink />
   <lines>
     <line>
-      <romaji>why did you cheat? sae kikenakatta</romaji>
+      <romaji>[why did you cheat?] sae kikenakatta</romaji>
       <hiragana>why did you cheat?|さえ|きけなかった</hiragana>
       <kanji>Why did you cheat?|さえ|聞けなかった</kanji>
       <reading>
@@ -16,7 +16,7 @@
       <builder>*why did you cheat?*|why did you cheat? *Even*|why did you cheat? Even *if you couldn't say it*</builder>
     </line>
     <line>
-      <romaji>egao|no|ura|kage|hisondeta</romaji>
+      <romaji>egao no ura kage hisondeta</romaji>
       <hiragana>えがお|の|うら|かげ|ひそんでた</hiragana>
       <kanji>笑顔|の|裏|影|潜んでた</kanji>
       <reading>
@@ -38,7 +38,7 @@
       <builder>*old* (substituted yesterday to old)|old|old *friends*|*your* old friends|your old friends *foes*|your old friends *your* foes|your old friends *are now* your foes|*Nowadays* your old friends are now your foes</builder>
     </line>
     <line>
-      <romaji>mikiwameru ni wa itami ga tomonaunda Fate</romaji>
+      <romaji>mikiwameru [ni wa] itami ga tomonaunda Fate</romaji>
       <hiragana>みきわめる|には|いたみ|が|ともなうんだ|Fate</hiragana>
       <kanji>見極める|には|痛み|が|伴うんだ|Fate</kanji>
       <reading>
@@ -49,7 +49,7 @@
       <builder>*Surely*|Surely *this*|Surely this *pain*|Surely this pain *is*|Surely this pain is *bound*|Surely this pain is bound by *fate*</builder>
     </line>
     <line>
-      <romaji>Stay Gold kimi wa machigatte nante nai</romaji>
+      <romaji>[Stay Gold] kimi wa machigatte nante nai</romaji>
       <hiragana>Stay Gold|きみ|は|まちがって|なんか|ない</hiragana>
       <kanji>Stay Gold|君|は|間違って|なんか|ない</kanji>
       <reading>
@@ -71,7 +71,7 @@
       <builder>*disorderly*|*this* disorderly|this disorderly *time*|Through this disorderly time, *live*|Through this disorderly time, live, *live*</builder>
     </line>
     <line>
-      <romaji>Stay Gold kimi wo akiramerunjanai</romaji>
+      <romaji>[Stay Gold] kimi wo akiramerunjanai</romaji>
       <hiragana>Stay Gold|きみ|を|あきらめるんじゃない</hiragana>
       <kanji>Stay Gold|君|を|諦めるんじゃない</kanji>
       <reading>
@@ -115,7 +115,7 @@
       <builder>*An honest person*|An honest person *would*|An honest person would *cry*|An honest person would cry *as they*|An honest person would cry as they *look at*|An honest person would cry as they look at *this world*|An honest person would cry as they look at this world. *ache*|An honest person would cry as they look at this world. *Their scars* ache</builder>
     </line>
     <line>
-      <romaji>nando makete mo itami wo shijite Smile again</romaji>
+      <romaji>nando makete mo itami wo shijite [Smile again]</romaji>
       <hiragana>なんど|まけて|も|いたみ|を|しんじて|Smile again</hiragana>
       <kanji>何度|負けて|も|痛み|を|信じて|Smile again</kanji>
       <reading>
@@ -126,7 +126,7 @@
       <builder>*No matter how many times*|No matter how many times you *lose*|No matter how many times you lose|No matter how many times you lose, *pain*|No matter how many times you lose, *the* pain|No matter how many times you lose, *affirm* the pain|No matter how many times you lose, affirm the pain *and smile again*</builder>
     </line>
     <line>
-      <romaji>Take a chance kiseki yorimo kiseki wo</romaji>
+      <romaji>[Take a chance] kiseki yorimo kiseki wo</romaji>
       <hiragana>Take a chance|きせき|よりも|きせき|を</hiragana>
       <kanji>Take a chance|奇跡|よりも|軌跡|を</kanji>
       <reading>
@@ -148,7 +148,7 @@
       <builder>*yet another*|yet another *unseen*|yet another unseen *paradise*|*search* for yet another unseen paradise|Search, search for yet another unseen paradise {Whole sentence: Take a chance, instead of miracles, your experience will search, seach for yet another unseen paradise}</builder>
     </line>
     <line>
-      <romaji>Take a chance haruka saki wo egaiteke</romaji>
+      <romaji>[Take a chance] haruka saki wo egaiteke</romaji>
       <hiragana>Take a chance|はるか|さき|を|えがいてけ</hiragana>
       <kanji>Take a chance|遥か|先|を|描いてけ</kanji>
       <reading>
@@ -181,7 +181,7 @@
       <builder>*someone*|I need someone *to*|I need someone to *rely on*|I need someone to rely on *myself*|I need someone to rely on *to* myself|I need someone to rely on to *stop myself*|I need someone to rely on to stop myself *tomorrow*|I need someone to rely on to stop myself or tomorrow I'll *go* on the attack</builder>
     </line>
     <line>
-      <romaji>Stay Gold kimi wa machigatte nante nai</romaji>
+      <romaji>[Stay Gold] kimi wa machigatte nante nai</romaji>
       <hiragana>Stay Gold|きみ|は|まちがって|なんか|ない</hiragana>
       <kanji>Stay Gold|君|は|間違って|なんか|ない</kanji>
       <reading>
@@ -203,7 +203,7 @@
       <builder>*disorderly*|*this* disorderly|this disorderly *time*|Through this disorderly time, *live*|Through this disorderly time, live, *live*</builder>
     </line>
     <line>
-      <romaji>Stay Gold kimi wo akiramerunjanai</romaji>
+      <romaji>[Stay Gold] kimi wo akiramerunjanai</romaji>
       <hiragana>Stay Gold|きみ|を|あきらめるんじゃない</hiragana>
       <kanji>Stay Gold|君|を|諦めるんじゃない</kanji>
       <reading>
@@ -227,7 +227,7 @@
     <line>
       <romaji>omoumama ni yuke</romaji>
       <hiragana>おもうまま|に|ゆけ</hiragana>
-      <kanji>思うままにゆけ</kanji>
+      <kanji>思うまま|に|ゆけ</kanji>
       <reading>
       </reading>
       <english>Go on as you please</english>
@@ -236,7 +236,7 @@
       <builder>*as you please*|as you please|*go on* as you please</builder>
     </line>
     <line>
-      <romaji>Stay Gold</romaji>
+      <romaji>[Stay Gold]</romaji>
       <hiragana>Stay Gold</hiragana>
       <kanji>Stay Gold</kanji>
       <reading>
