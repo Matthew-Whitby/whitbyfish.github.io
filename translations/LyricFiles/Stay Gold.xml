@@ -79,7 +79,7 @@
       <english>Stay Gold, don't you give up</english>
       <literal>Stay Gold|you|←|don't give up</literal>
       <explained>Stay Gold|you|points to you|don't give up</explained>
-      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, *don't* you *give up*</builder>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, you|Stay Gold, *don't* you *give up*</builder>
     </line>
     <line>
       <romaji>kasuka ni nokotta kibou ima tokihanatou</romaji>
@@ -145,7 +145,7 @@
       <english>Search, search for yet another unseen paradise</english>
       <literal>again|not see|paradise|←|search|search</literal>
       <explained>again|not see NOTE: this is the verb miru (to see), the nu is an old way of saying nai (not)|paradise|points to another unseen paradise|search|search</explained>
-      <builder>*yet another*|yet another *unseen*|yet another unseen *paradise*|*search* for yet another unseen paradise|Search, search for yet another unseen paradise {Whole sentence: Take a chance, instead of miracles, your experience will search, seach for yet another unseen paradise}</builder>
+      <builder>*yet another*|yet another *unseen*|yet another unseen *paradise*|*for* yet another unseen paradise|*search* for yet another unseen paradise|Search, search for yet another unseen paradise {Whole sentence: Take a chance, instead of miracles, your experience will search, seach for yet another unseen paradise}</builder>
     </line>
     <line>
       <romaji>[Take a chance] haruka saki wo egaiteke</romaji>
@@ -167,7 +167,7 @@
       <english>The future I wished for then still isn't late</english>
       <literal>that|time|wish|future|still|late|←|not</literal>
       <explained>that|time|wish|future|still|late|points to late|not</explained>
-      <builder>*that*|that *then*|that *then*|that *wished* then|that *future* I wished for then|that future I wished for then *still*|that future I wished for then still *late*|that future I wished for then still *is* late|that future I wished for then still *isn't* late</builder>
+      <builder>*that*|that *then*|that *wished* then|that *future* I wished for then|that future I wished for then *still*|that future I wished for then still *late*|that future I wished for then still *is* late|that future I wished for then still *isn't* late</builder>
     </line>
     <line>
       <romaji>dareka wo tayoru jibun ni todomesase ashita wo ute</romaji>
@@ -178,7 +178,7 @@
       <english>I need someone to rely on to stop myself or tomorrow I'll go on the attack</english>
       <literal>someone|←|rely on|myself|←|stop|tomorrow|←|attack</literal>
       <explained>someone|points to someone|rely on|myself|points to myself|stop|tomorrow|points to tomorrow|attack</explained>
-      <builder>*someone*|I need someone *to*|I need someone to *rely on*|I need someone to rely on *myself*|I need someone to rely on *to* myself|I need someone to rely on to *stop myself*|I need someone to rely on to stop myself *tomorrow*|I need someone to rely on to stop myself or tomorrow I'll *go* on the attack</builder>
+      <builder>*someone*|I need someone *to*|I need someone to *rely on*|I need someone to rely on *myself*|I need someone to rely on *to* myself|I need someone to rely on to *stop myself*|I need someone to rely on to stop myself *tomorrow*|I need someone to rely on to stop myself or tomorrow I'll *go*|I need someone to rely on to stop myself or tomorrow I'll go *on the attack*</builder>
     </line>
     <line>
       <romaji>[Stay Gold] kimi wa machigatte nante nai</romaji>
@@ -211,7 +211,7 @@
       <english>Stay Gold, don't you give up</english>
       <literal>Stay Gold|you|←|don't give up</literal>
       <explained>Stay Gold|you|points to you|don't give up</explained>
-      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, *don't* you *give up*</builder>
+      <builder>*Stay Gold*|Stay Gold, *you*|Stay Gold, you|Stay Gold, *don't* you *give up*</builder>
     </line>
     <line>
       <romaji>kasuka ni nokotta kibou ima tokihanatou</romaji>
