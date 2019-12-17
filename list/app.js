@@ -22,17 +22,21 @@ const app=new Vue({
    },
    methods:{
       addItem(){
-         this.items.unshift({
-            id:Date.now(),
-            name:this.newItem,
-            received:false,
-         });
-         console.log(this.addItem);
+         if(this.newItem){
+            this.items.unshift({
+               id:Date.now(),
+               name:this.newItem,
+               received:false,
+            });
+         }
       },
       removeItem(id){
          const removeIndex=this.items.findIndex(item=>item.id===id);
-         console.log(id,removeIndex);
          this.items.splice(removeIndex,1);
+      },
+      toggleReceived(id){
+         const item=this.items.find(item=>item.id===id);
+         item.received=!item.received;
       }
    }
 });
