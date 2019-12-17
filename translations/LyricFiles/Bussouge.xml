@@ -1,5 +1,9 @@
 <translation-info>
   <title>Bussouge</title>
+  <jp-title>INSERT JPTITLE</jp-title>
+  <artist>Momoiro Clover Z</artist>
+  <description />
+  <wordListLink />
   <lines>
     <line>
       <romaji>aoi aoi sora ni</romaji>
@@ -8,23 +12,21 @@
       <reading>
       </reading>
       <english>in the bright blue sky</english>
-      <literal>
-      </literal>
-      <explained>
-      </explained>
+      <literal>blue|blue|sky|in</literal>
+      <explained>blue|blue|sky|particle pointing to the blue sky</explained>
+      <builder>*blue*|*bright* blue|bright blue *sky*|*in the* bright blue sky</builder>
     </line>
     <line>
       <romaji>haibisukasu no hana ga</romaji>
-      <hiragana>
-      </hiragana>
-      <kanji>ハイビスカスの花が</kanji>
+      <hiragana>ハイビスカス|の|はな|が</hiragana>
+      <kanji>ハイビスカス|の|花|が</kanji>
       <reading>
       </reading>
       <english>the hibiscus flower</english>
-      <literal>
-      </literal>
+      <literal>hibiscus|←|flower|←</literal>
       <explained>
       </explained>
+      <builder>*hibiscus*|hibiscus|hibiscus *flower*|*the* hibiscus flower</builder>
     </line>
     <line>
       <romaji>patto saita natsu no asa</romaji>
@@ -38,6 +40,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>kare ga ai ni kuru yo to</romaji>
@@ -51,6 +55,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tsugeta toki chichi wa</romaji>
@@ -64,6 +70,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>sukoshi samashi sou ni waratta</romaji>
@@ -77,6 +85,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>zutto mamori tsuzuketekureta</romaji>
@@ -90,6 +100,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>tou-san tte yondara</romaji>
@@ -103,6 +115,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>namida ga koboreta</romaji>
@@ -116,6 +130,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>shiawase ni naru kara kitto</romaji>
@@ -129,6 +145,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>mi mamori tsuzukete ite ne</romaji>
@@ -142,6 +160,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>derekusakute ima made</romaji>
@@ -155,6 +175,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>ie nakatta keredo</romaji>
@@ -168,6 +190,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>zutto daisuki dakara</romaji>
@@ -181,6 +205,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>aoi aoi sora ni</romaji>
@@ -194,6 +220,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>mashiro na hikoukigumo</romaji>
@@ -207,6 +235,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>yasashiku waratta haha wa</romaji>
@@ -220,6 +250,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>itsumo mikata datta</romaji>
@@ -233,6 +265,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>itsumo shinjitekureta</romaji>
@@ -246,6 +280,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>inochi wo waketekureta hito</romaji>
@@ -259,6 +295,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>takaramono to dakishimetekureta</romaji>
@@ -272,6 +310,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>kaa-san tte yondara</romaji>
@@ -285,6 +325,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>namida ga koboreta</romaji>
@@ -298,6 +340,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>shiawase ni naru kara kitto</romaji>
@@ -311,6 +355,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>itsu demo dakishimete ne</romaji>
@@ -324,6 +370,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>terekusakute ima made</romaji>
@@ -337,6 +385,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>ienakatta keredo</romaji>
@@ -350,6 +400,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>zutto aishiteru kara</romaji>
@@ -363,6 +415,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>inochi wo arigatou</romaji>
@@ -376,6 +430,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>kokoro kara arigatou</romaji>
@@ -389,6 +445,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>chanto tsutaeyouto omoi</romaji>
@@ -402,6 +460,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>donna ni hanareyouto</romaji>
@@ -415,6 +475,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>itsumo omotteru kara</romaji>
@@ -428,6 +490,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>zutto zutto zutto</romaji>
@@ -441,6 +505,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
     <line>
       <romaji>daisuki dakara</romaji>
@@ -454,6 +520,8 @@
       </literal>
       <explained>
       </explained>
+      <builder>
+      </builder>
     </line>
   </lines>
 </translation-info>
