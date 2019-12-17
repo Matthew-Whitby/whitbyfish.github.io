@@ -23,12 +23,11 @@
          <ul>
             <li v-for="{ id, name, received } in items":key="id">
                <div>
-                  <h3 :class="{received:received
-                  }">
+                  <h3 :class="{received:received}">
                      {{name}}
                   </h3>
-                  <button @click="toggleReceived(id)">Mark as Received</button>
-                  <button @click="RemoveItem(id)">Remove Item</button>
+                  <button @click="toggleReceived(id)">Toggle Received</button>
+                  <button @click="removeItem(id)">Remove Item</button>
                </div>
             </li>
          </ul>
