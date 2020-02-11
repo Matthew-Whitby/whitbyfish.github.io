@@ -2,15 +2,11 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>List</title>
       <link rel="stylesheet" href="https://ez-css.now.sh">
-      <style>
-         .received{
-            text-decoration: line-through;
-         }
-      </style>
+      <style>.received{text-decoration:line-through;}</style>
    </head>
    <body>
       <main id="app">
@@ -21,11 +17,9 @@
             <button>Add Item</button>
          </form>
          <ul>
-            <li v-for="{ id, name, received } in items":key="id">
+            <li v-for="{id,name,received}in items":key="id">
                <div>
-                  <h3 :class="{received:received}">
-                     {{name}}
-                  </h3>
+                  <h3 :class="{received:received}">{{name}}</h3>
                   <button @click="toggleReceived(id)">Toggle Received</button>
                   <button @click="removeItem(id)">Remove Item</button>
                </div>

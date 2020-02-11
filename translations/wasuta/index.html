@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Wasuta</title>
+  <meta charset="UTF-8">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137823782-1"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-137823782-1');</script>
+  <link rel="shortcut icon" href="../../resources/whitby_icon.ico">
+  <!--<link rel="stylesheet" href="../css/momoclocontents.min.css"/>-->
+  <link rel="stylesheet" href="../css/TopMenu.min.css"/>
+  <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
+  function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
+  function ChangeDisplay(e){var l=document.getElementsByClassName("done"),n=document.getElementsByClassName("inprogress"),s=document.getElementsByClassName("notdone");switch(e){case"all":ToggleDisplay(l,!0),ToggleDisplay(n,!0),ToggleDisplay(s,!0);break;case"complete":ToggleDisplay(l,!0),ToggleDisplay(n,!1),ToggleDisplay(s,!1);break;case"inprogress":ToggleDisplay(l,!1),ToggleDisplay(n,!0),ToggleDisplay(s,!1);break;case"notdone":ToggleDisplay(l,!1),ToggleDisplay(n,!1),ToggleDisplay(s,!0)}}function ToggleDisplay(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.parentElement.classList.contains("hidden")&&e[z].parentElement.parentElement.classList.remove("hidden"):e[z].parentElement.parentElement.classList.contains("hidden")||e[z].parentElement.parentElement.classList.add("hidden"),CheckTable(e[z])}function CheckTable(e){var l=e.parentElement.parentElement.parentElement.parentElement;DetectVisibleElement(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElement(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElement(e.childNodes[l]))return!0;return!1}}}
+   </script>
+</head>
+<body>
+  <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="../">Translations</a></div>
+  <div id="sideNav"><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToYear(2019,this)">2019</a><a onclick="ScrollToYear(2018,this)">2018</a><a onclick="ScrollToYear(2017,this)">2017</a><a onclick="ScrollToYear(2016,this)">2016</a><a onclick="ScrollToYear(2015,this)">2015</a><a onclick="ScrollToYear(2014,this)">2014</a><a onclick="ScrollToYear(2013,this)">2013</a><a onclick="ScrollToYear(2012,this)">2012</a><a onclick="ScrollToYear(2011,this)">2011</a><a onclick="ScrollToYear(2010,this)">2010</a><a onclick="ScrollToYear(2009,this)">2009</a></div>
+  <b><u><h1>Wasuta</h1></u></b>
+  <p>Pink = done, orange = in progress, red = not done</p>
+  <div style="text-align:center;">
+  <select onchange="ChangeDisplay(this.value)">
+    <option value="all">All</option>
+    <option value="complete">Complete</option>
+    <option value="inprogress">In Progress</option>
+    <option value="notdone">Not Done</option>
+    </select>
+  </div>
+  <div class="year" id="2020">
+
+  </div>
+  <div class="year" id="2019">
+    <div id="staygold" class="table">
+        <table>
+          <tr><th>stay gold</th></tr>
+          <tr><td><a class="done" href="staygold">stay gold</a></td></tr>
+          <tr><td><a class="notdone">HOLIDAY</a></td></tr>
+          <tr><td><a class="notdone">Coconuts -ZZ ver.-</a></td></tr>
+          <tr><td><a class="notdone">Santa san -ZZ ver.-</a></td></tr>
+        </table>
+      </div>
+   </div>
+   <div class="year" id="2018">
+     
+   </div>
+   <div class="year" id="2017">
+     
+   </div>
+   <div class="year" id="2016">
+     <div id="theworldstandard" class="table album">
+        <table>
+           <tr><th>The World Standard</th></tr>
+           <tr><td><a class="notdone">Ultra Miracle-cle Final Ultimate Choco Beam</a></td></tr>
+           <tr><td><a class="notdone">Doki Doki♡today</a></td></tr>
+           <tr><td><a class="notdone">Wonderful World</a></td></tr>
+           <tr><td><a class="notdone">Is There Anyone Beloved to You?</a></td></tr>
+           <tr><td><a class="notdone">Zili Zili Love</a></td></tr>
+           <tr><td><a class="notdone">Lan Lan Era</a></td></tr>
+           <tr><td><a class="notdone">Smiling Halfsies</a></td></tr>
+           <tr><td><a class="notdone">Watermelon Splitting</a></td></tr>
+           <tr><td><a class="notdone">Tiny Tiny</a></td></tr>
+           <tr><td><a class="notdone">Dogs & Cats, In the Bloom of Youth</a></td></tr>
+           <tr><td><a class="notdone">Once Upon a Time</a></td></tr>
+        </table>
+     </div>
+   </div>
+</body>
+</html>
