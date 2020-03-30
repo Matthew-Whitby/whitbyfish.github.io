@@ -1,5 +1,5 @@
 h1,h2,h3,a,img{text-align:center;}
-img{width:100%;}
+img{width:auto;margin-left: 33%;}
 @media(max-width:500px){
    #content{width:50%;margin-left:25%;}
 }
