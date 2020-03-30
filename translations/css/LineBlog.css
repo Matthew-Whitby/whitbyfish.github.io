@@ -4,5 +4,5 @@ h1{font-size:40}
 h2{font-size:35}
 h1,h2,h3,a,img,p{text-align:center;}
 img{max-width:100%;margin-left:auto;margin-right:auto;display:block;}
-.TopImage{margin-bottom:5px;}
+.BottomImage{margin-top:5px;}
 p{font-size:18px;}
