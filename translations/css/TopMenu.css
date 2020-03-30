@@ -5,7 +5,7 @@ body{margin:0;}
 #sideNav,#menu a{cursor:pointer;}
 #sideNav{
   text-align:center;
-  position:fixed;
+  position:absolute;
   top:25%;
   right:5px;
   background-color:#f1f1f1;
