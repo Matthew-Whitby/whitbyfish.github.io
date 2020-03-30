@@ -2,6 +2,6 @@ body{background-image:linear-gradient(#ffd3ff,#fddffd)}
 h1,h2{text-shadow:-.5px -.5px #000,.5px -.5px #000,-.5px .5px #000,.5px .5px #000;color:#ff8095;font-family:Verdana,Geneva,sans-serif}
 h1{font-size:40}
 h2{font-size:35}
-h1,h2,h3,a,img{text-align:center;}
+h1,h2,h3,a,img,p{text-align:center;}
 img{max-width:100%;margin-left:auto;margin-right:auto;display:block;}
 p{font-size:18px;}
