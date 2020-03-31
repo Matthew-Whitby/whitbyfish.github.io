@@ -32,7 +32,7 @@
   <div style="text-align:center;margin-top:10px;">
     <div>
     Year:
-    <select onchange="SelectYear()">
+    <select onchange="SelectYear(this.value)">
       <option value="all">All</option>
       <option value="2020">2020</option>
       <option value="2019">2019</option>
@@ -44,20 +44,20 @@
   </div>
   <div>
     Month:
-    <select onchange="SelectMonth()">
+    <select onchange="SelectMonth(this.value)">
       <option value="all">All</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
+      <option value="january">1</option>
+      <option value="february">2</option>
+      <option value="march">3</option>
+      <option value="april">4</option>
+      <option value="may">5</option>
+      <option value="june">6</option>
+      <option value="july">7</option>
+      <option value="august">8</option>
+      <option value="september">9</option>
+      <option value="october">10</option>
+      <option value="november">11</option>
+      <option value="december">12</option>
     </select>
   </div>
   <div>
