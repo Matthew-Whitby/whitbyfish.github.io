@@ -9,9 +9,9 @@ table{
    width:auto;
    border: 1px solid #FF91A4;
   background-color: rgba(200,255,200,0.502);
-   padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
+   padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 7px;
 }
 .notdone{
    color: red;
