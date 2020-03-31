@@ -31,11 +31,12 @@ th{
   color: #e04bcc;
   font-family: Verdana, Geneva, sans-serif;
 }
-/*td,h1,h2,u,a,text {
+td,h1,h2,u,a,text {
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  color: #ff8095;
+  /*color: #ff8095;*/
+  color: black;
   font-family: Verdana, Geneva, sans-serif;
-}*/
+}
 th{
   border: 1px solid #FF91A4;
   font-size: 30px;
