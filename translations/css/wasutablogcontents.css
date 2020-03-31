@@ -33,8 +33,7 @@ th{
 }
 td,h1,h2,u,a,text {
   text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
-  /*color: #ff8095;*/
-  color: black;
+  color: #ff8095;
   font-family: Verdana, Geneva, sans-serif;
 }
 th{
