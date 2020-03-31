@@ -4,3 +4,8 @@ h1,h2{text-align:center;}
 .miri{background-color:#9966ff;}
 .ririka{background-color:lightblue;}
 .hazuki{background-color:lightyellow;}
+#topBtnSelect{
+   position:absolute;
+   top:5%;
+   right:5px;
+}
