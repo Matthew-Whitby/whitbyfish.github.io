@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137823782-1"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-137823782-1');</script>
-  <link rel="shortcut icon" href="../../resources/whitby_icon.ico">
-  <link rel="stylesheet" href="../css/momoclocontents.min.css"/>
-  <link rel="stylesheet" href="../css/TopMenu.min.css"/>
+  <link rel="shortcut icon" href="../../../resources/whitby_icon.ico">
+  <link rel="stylesheet" href="../../css/momoclocontents.min.css"/>
+  <link rel="stylesheet" href="../../css/TopMenu.min.css"/>
   <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
   function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
   function ChangeDisplay(e){var l=document.getElementsByClassName("done"),n=document.getElementsByClassName("inprogress"),s=document.getElementsByClassName("notdone");switch(e){case"all":ToggleDisplay(l,!0),ToggleDisplay(n,!0),ToggleDisplay(s,!0);break;case"complete":ToggleDisplay(l,!0),ToggleDisplay(n,!1),ToggleDisplay(s,!1);break;case"inprogress":ToggleDisplay(l,!1),ToggleDisplay(n,!0),ToggleDisplay(s,!1);break;case"notdone":ToggleDisplay(l,!1),ToggleDisplay(n,!1),ToggleDisplay(s,!0)}}function ToggleDisplay(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.parentElement.classList.contains("hidden")&&e[z].parentElement.parentElement.classList.remove("hidden"):e[z].parentElement.parentElement.classList.contains("hidden")||e[z].parentElement.parentElement.classList.add("hidden"),CheckTable(e[z])}function CheckTable(e){var l=e.parentElement.parentElement.parentElement.parentElement;DetectVisibleElement(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElement(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElement(e.childNodes[l]))return!0;return!1}}}
@@ -39,22 +39,7 @@
      
    </div>
    <div class="year" id="2016">
-     <div id="theworldstandard" class="table album">
-        <table>
-           <tr><th>The World Standard</th></tr>
-           <tr><td><a class="notdone">Ultra Miracle-cle Final Ultimate Choco Beam</a></td></tr>
-           <tr><td><a class="notdone">Doki Doki♡today</a></td></tr>
-           <tr><td><a class="notdone">Wonderful World</a></td></tr>
-           <tr><td><a class="notdone">Is There Anyone Beloved to You?</a></td></tr>
-           <tr><td><a class="notdone">Zili Zili Love</a></td></tr>
-           <tr><td><a class="notdone">Lan Lan Era</a></td></tr>
-           <tr><td><a class="notdone">Smiling Halfsies</a></td></tr>
-           <tr><td><a class="notdone">Watermelon Splitting</a></td></tr>
-           <tr><td><a class="notdone">Tiny Tiny</a></td></tr>
-           <tr><td><a class="notdone">Dogs & Cats, In the Bloom of Youth</a></td></tr>
-           <tr><td><a class="notdone">Once Upon a Time</a></td></tr>
-        </table>
-     </div>
+     
    </div>
 </body>
 </html>
