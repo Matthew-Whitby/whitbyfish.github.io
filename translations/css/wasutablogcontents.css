@@ -27,12 +27,12 @@ td{
   border-radius: 5px;
 }
 th{
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   color: #e04bcc;
   font-family: Verdana, Geneva, sans-serif;
 }
 td,h1,h2,u,a,text {
-  text-shadow: -0.5px -0.5px black,0.5px -0.5px black, -0.5px 0.5px black,0.5px 0.5px black;
+  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   color: #ff8095;
   font-family: Verdana, Geneva, sans-serif;
 }
