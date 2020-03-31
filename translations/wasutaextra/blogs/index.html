@@ -16,10 +16,10 @@
    </script>
 </head>
 <body>
-  <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="../">Translations</a></div>
-  <div id="sideNav"><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToYear(2020,this)">2020</a><a onclick="ScrollToYear(2019,this)">2019</a><a onclick="ScrollToYear(2018,this)">2018</a><a onclick="ScrollToYear(2017,this)">2017</a><a onclick="ScrollToYear(2016,this)">2016</a><a onclick="ScrollToYear(2015,this)">2015</a></div>
+  <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="../../">Translations</a><a href="../">Wasuta Extra</a></div>
+  <div id="sideNav"><span id="sideNavToggle" style="font-size:15px;" onclick="ToggleSideNav()">Toggle</span><a onclick="ScrollToTop()">Top</a><a onclick="ScrollToYear(2020,this)">2020</a><a onclick="ScrollToYear(2019,this)">2019</a><a onclick="ScrollToYear(2018,this)">2018</a><a onclick="ScrollToYear(2017,this)">2017</a><a onclick="ScrollToYear(2016,this)">2016</a><a onclick="ScrollToYear(2015,this)">2015</a></div>
   <select id="topBtnSelect" onchange="MoveTopBtn(this.value)">
-    <option value="middle">Middle</option>
+    <option selected value="middle">Middle</option>
     <option value="bottom">Bottom</option>
     <option value="top">Top</option>
     <option value="off">Off</option>
@@ -35,6 +35,7 @@
     </select>
   </div>
   <div style="text-align:center;margin-top:10px;">
+    <div>
     Year:
     <select onchange="SelectYear()">
       <option value="all">All</option>
@@ -45,6 +46,8 @@
       <option value="2016">2016</option>
       <option value="2015">2015</option>
     </select>
+  </div>
+  <div>
     Month:
     <select onchange="SelectMonth()">
       <option value="all">All</option>
@@ -61,6 +64,8 @@
       <option value="11">11</option>
       <option value="12">12</option>
     </select>
+  </div>
+  <div>
     Member:
     <select onchange="SelectMember()">
       <option value="all">All</option>
@@ -71,6 +76,7 @@
       <option value="ruka">Mishina Ruka</option>
     </select>
   </div>
+</div>
   <div class="year" id="2020">
     <h2>2020</h2>
     <div class="month december">
