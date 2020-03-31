@@ -11,7 +11,7 @@ function MoveTopBtn(val){
       case "bottom":
          nav.style.display="block";
          let newtop=window.height-nav.style.height;
-         nav.style.top=newtop;
+         nav.style.top=newtop+"px";
          break;
       case "middle":
          nav.style.display="block";
