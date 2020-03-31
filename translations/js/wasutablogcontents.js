@@ -36,22 +36,37 @@ function SelectMonth(val){
    }
 }
 function SelectMember(val){
-   let posts=[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")];
-   let i;
-   for(i=0;i<posts.length;i++){
-      let classes=posts[i].classList;
-      let j,memberClass;
-      for(j=0;j<classes.length;j++){
-         let z;
-         for(z=0;z<memberList.length;z++){
-            if(classes[j]==memberList[z])memberClass=classes[j];
-         }
-      }
-      if(val=="all")posts[i].style.display="table-row";
-      else if(memberClass==val)posts[i].style.display="table-row";
-      else posts[i].style.display="none";
+   let hazukiPosts=GetCL("hazuki");
+   let nanasePosts=GetCL("nanase");
+   let miriPosts=GetCL("miri");
+   let ririkaPosts=GetCL("ririka");
+   let rukaPosts=GetCL("ruka");
+   let allPosts=[...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts,...rukaPosts];
+   switch(val){
+      case "all":
+         ToggleDisplayMem(allPosts,true);
+         break;
+      case"hazuki":
+         ToggleDisplayMem(hazukiPosts,true);
+         ToggleDisplayMem([...nanasePosts,...miriPosts,...ririkaPosts,...rukaPosts],false);
+         break;
+      case"nanase":
+         ToggleDisplayMem(nanasePosts,true);
+         ToggleDisplayMem([...hazukiPosts,...miriPosts,...ririkaPosts,...rukaPosts],false);
+         break;
+      case"miri":
+         ToggleDisplayMem(miriPosts,true);
+         ToggleDisplayMem([...hazukiPosts,...nanasePosts,...ririkaPosts,...rukaPosts],false);
+         break;
+      case"ririka":
+      ToggleDisplayMem(ririkaPosts,true);
+      ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...rukaPosts],false);
+         break;
+      case"ruka":
+      ToggleDisplayMem(rukaPosts,true);
+      ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts],false);
+         break;
    }
 }
-function GetCL(n){
-   return document.getElementsByClassName(n);
-}
+function GetCL(n){return document.getElementsByClassName(n);}
+function ToggleDisplayMem(e,l){for(z=0;z<e.length;z++)l?e[z].classList.contains("hidden")&&e[z].classList.remove("hidden"):e[z].classList.contains("hidden")||e[z].classList.add("hidden"),CheckTableMem(e[z])}function CheckTableMem(e){var l=e.parentElement.parentElement;DetectVisibleElementMem(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElementMem(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElementMem(e.childNodes[l]))return!0;return!1}}}
