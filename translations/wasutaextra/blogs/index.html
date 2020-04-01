@@ -13,7 +13,7 @@
   <script>function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
   function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
   function ChangeDisplay(e){var l=document.getElementsByClassName("done"),n=document.getElementsByClassName("inprogress"),s=document.getElementsByClassName("notdone");switch(e){case"all":ToggleDisplay(l,!0),ToggleDisplay(n,!0),ToggleDisplay(s,!0);break;case"complete":ToggleDisplay(l,!0),ToggleDisplay(n,!1),ToggleDisplay(s,!1);break;case"inprogress":ToggleDisplay(l,!1),ToggleDisplay(n,!0),ToggleDisplay(s,!1);break;case"notdone":ToggleDisplay(l,!1),ToggleDisplay(n,!1),ToggleDisplay(s,!0)}}function ToggleDisplay(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.parentElement.classList.contains("hidden")&&e[z].parentElement.parentElement.classList.remove("hidden"):e[z].parentElement.parentElement.classList.contains("hidden")||e[z].parentElement.parentElement.classList.add("hidden"),CheckTable(e[z])}function CheckTable(e){var l=e.parentElement.parentElement.parentElement.parentElement;DetectVisibleElement(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElement(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElement(e.childNodes[l]))return!0;return!1}}}
-   </script>
+  </script>
 </head>
 <body>
   <div id="menu"><a href="https://whitbyfish.net">Home</a><a href="../../">Translations</a><a href="../">Wasuta Extra</a></div>
@@ -105,10 +105,10 @@
         <tr><th>March</th></tr>
         <tr><td class="nanase"><a class="done" href="hirokawa_nanase_wasuta_shibuya_public_hall/">1042♩ Hirokawa Nanase【Wasuta Shibuya Public Hall!】(2020/3/29 23:59)</a></td></tr>
         <tr><td class="ruka"><a class="done" href="Mishina_Ruka_anniversary_live/">Mishina Ruka 1281 (2020/3/29 12:47)</a></td></tr>
-        <tr><td class="miri"><a class="done" href="Matsuda_Miri_anniversary_blog/">Miriteko、 Wasuta anniversary concert (2020/3/29 11:07)</a></td></tr>
+        <tr><td class="miri"><a class="done" href="Matsuda_Miri_anniversary_blog/">Miriteko、Wasuta anniversary concert (2020/3/29 11:07)</a></td></tr>
         <tr><td class="nanase"><a class="done" href="hirokawa_nanase_wasuta_best/">1041♩ Hirokawa Nanase【Wasuta BEST for sale!㊗️✨】(2020/3/26 10:12)</a></td></tr>
         <tr><td class="nanase"><a class="done" href="hirokawa_nanase_7_days_till_shibuya_public_hall/">1040♩ Hirokawa Nanase【7 days till Shibuya Public Hall!】(2020/3/21 18:00)</a></td></tr>
-        <tr><td class="ririka"><a class="done" href="kodama_ririka_20200320/">Kodama Ririka☺︎ (2020/3/20 19:15)</a></td></tr>
+        <tr><td class="ririka"><a class="done" href="kodama_ririka_20200320/">Kodama Ririka☺︎(2020/3/20 19:15)</a></td></tr>
         <tr><td class="ruka"><a class="done" href="mishina_ruka_1280_20200317/">Mishina Ruka 1280 (2020/3/17 22:14)</a></td></tr>
         <tr><td class="ruka"><a class="done" href="mishina_ruka_1279_20200312/">Mishina Ruka 1279 (2020/3/12 00:03)</a></td></tr>
       </table>
