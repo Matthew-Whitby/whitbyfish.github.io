@@ -62,7 +62,7 @@
   </div>
   <div>
     Member:
-    <select onchange="SelectMember(this.value)">
+    <select id="selectMember" onchange="SelectMember(this.value)">
       <option value="all">All</option>
       <option value="hazuki">Sakamoto Hazuki</option>
       <option value="nanase">Hirokawa Nanase</option>
@@ -552,6 +552,16 @@
       if(yearOptions[x].value==selectedYear){
         yearSelector.selectedIndex=x;
         SelectYear(yearOptions[x].value);
+      }
+    }
+    let selectedMember=getUrlParam('mem','all');
+    if(selectedMember==null)selectedMember="all";
+    let memberSelector=document.getElementById("selectMember");
+    let memberOptions=memberSelector.children;
+    for(x=0;x<memberOptions.length;x++){
+      if(memberOptions[x].value==selectedMember){
+        memberSelector.selectedIndex=x;
+        SelectMember(memberOptions[x].value);
       }
     }
   </script>
