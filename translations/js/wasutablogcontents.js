@@ -83,29 +83,29 @@ function getUrlVars() {
 }
 function MatchMonth(month){
    switch(month){
-      case "january":
+      case"january":
          return 1;
-      case "february":
+      case"february":
          return 2;
-      case "march":
+      case"march":
          return 3;
-      case "april":
+      case"april":
          return 4;
-      case "may":
+      case"may":
          return 5;
-      case "june":
+      case"june":
          return 6;
-      case "july":
+      case"july":
          return 7;
-      case "august":
+      case"august":
          return 8
-      case "september":
+      case"september":
          return 9
-      case "october":
+      case"october":
          return 10;
-      case "november":
+      case"november":
          return 11;
-      case "december":
+      case"december":
          return 12;
    }
 }
