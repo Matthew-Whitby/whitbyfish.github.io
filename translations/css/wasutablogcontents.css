@@ -2,6 +2,11 @@ body{
    background-image:linear-gradient(#ffd3ff,#fddffd);
 }
 h1,table,p{text-align:center;}
+.nanase{background-color:lightgreen;border-radius:5px;}
+.ruka{background-color:lightpink;border-radius:5px;}
+.miri{background-color:#9966ff;border-radius:5px;}
+.ririka{background-color:#7fcef4;border-radius:5px;}
+.hazuki{background-color:#ffe100;border-radius:5px;}
 table{
    margin-left: auto;
    margin-right: auto;
@@ -30,16 +35,14 @@ th{
   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   color: #e04bcc;
   font-family: Verdana, Geneva, sans-serif;
+  border: 1px solid #FF91A4;
+  font-size: 30px;
+  border-radius: 5px;
 }
 td,h1,h2,u,a,text {
   text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
   color: #ff617c;
   font-family: Verdana, Geneva, sans-serif;
-}
-th{
-  border: 1px solid #FF91A4;
-  font-size: 30px;
-  border-radius: 5px;
 }
 h1{
   font-size: 40;
@@ -51,8 +54,3 @@ a{
   font-size: 35px;
 }
 h1,h2{text-align:center;}
-.nanase{background-color:lightgreen;}
-.ruka{background-color:lightpink;}
-.miri{background-color:#9966ff;}
-.ririka{background-color:#7fcef4;}
-.hazuki{background-color:#ffe100;}
