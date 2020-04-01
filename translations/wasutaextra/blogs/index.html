@@ -32,7 +32,7 @@
   <div style="text-align:center;margin-top:10px;">
     <div>
     Year:
-    <select onchange="SelectYear(this.value)">
+    <select id="selectYear" onchange="SelectYear(this.value)">
       <option value="all">All</option>
       <option value="2020">2020</option>
       <option value="2019">2019</option>
@@ -44,7 +44,7 @@
   </div>
   <div>
     Month:
-    <select onchange="SelectMonth(this.value)">
+    <select id="selectMonth" onchange="SelectMonth(this.value)">
       <option value="all">All</option>
       <option value="january">1</option>
       <option value="february">2</option>
@@ -482,5 +482,28 @@
 
      </div>
   </div>
+  <script>
+    var selectedMonth=getUrlParam('m','all');
+    if(selectedMonth==null)selectedMonth="all";
+    let monthSelector=document.getElementById("selectMonth");
+    let monthOptions=monthSelector.children;
+    let x;
+    for(x=0;x<monthOptions.length;x++){
+      if(monthOptions[x].value==selectedMonth){
+        monthSelector.selectedIndex=x;
+        SelectMonth(selectedMonth);
+      }
+    }
+    var selectedYear=getUrlParam('y','all');
+    if(selectedYear==null)selectedYear="all";
+    var yearSelector=document.getElementById("selectYear");
+    var yearOptions=yearSelector.children;
+    for(x=0;x<yearOptions.length;x++){
+      if(yearOptions[x].value==selectedYear){
+        yearSelector.selectedIndex=x;
+        SelectYear(selectedYear);
+      }
+    }
+  </script>
 </body>
 </html>
