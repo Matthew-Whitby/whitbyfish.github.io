@@ -489,9 +489,10 @@
     let monthOptions=monthSelector.children;
     let x;
     for(x=0;x<monthOptions.length;x++){
-      if(monthOptions[x].value==selectedMonth){
+      numMonth=MatchMonth(monthOptions[x].value);
+      if(monthOptions[x].value==selectedMonth||selectedMonth==numMonth){
         monthSelector.selectedIndex=x;
-        SelectMonth(selectedMonth);
+        SelectMonth(monthOptions[x].value);
       }
     }
     var selectedYear=getUrlParam('y','all');
@@ -501,7 +502,7 @@
     for(x=0;x<yearOptions.length;x++){
       if(yearOptions[x].value==selectedYear){
         yearSelector.selectedIndex=x;
-        SelectYear(selectedYear);
+        SelectYear(yearOptions[x].value);
       }
     }
   </script>
