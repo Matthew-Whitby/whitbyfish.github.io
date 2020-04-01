@@ -69,7 +69,7 @@ function SelectMember(val){
    }
 }
 function GetCL(n){return document.getElementsByClassName(n);}
-function ToggleDisplayMem(e,l){for(z=0;z<e.length;z++)l?e[z].classList.contains("hidden")&&e[z].classList.remove("hidden"):e[z].classList.contains("hidden")||e[z].classList.add("hidden"),CheckTableMem(e[z])}function CheckTableMem(e){var l=e.parentElement.parentElement;DetectVisibleElementMem(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElementMem(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElementMem(e.childNodes[l]))return!0;return!1}}}
+function ToggleDisplayMem(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.classList.contains("hidden")&&e[z].parentElement.classList.remove("hidden"):e[z].parentElement.classList.contains("hidden")||e[z].parentElement.classList.add("hidden"),CheckTableMem(e[z])}function CheckTableMem(e){var l=e.parentElement.parentElement.parentElement;DetectVisibleElementMem(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElementMem(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElementMem(e.childNodes[l]))return!0;return!1}}}
 function getUrlParam(parameter,defaultvalue){
    var urlparameter=defaultvalue;
    if(window.location.href.indexOf(parameter)>-1){

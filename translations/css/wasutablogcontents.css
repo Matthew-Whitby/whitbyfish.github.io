@@ -8,18 +8,18 @@ h1,table,p{text-align:center;}
 .ririka{background-color:#7fcef4;border-radius:5px;}
 .hazuki{background-color:#ffe100;border-radius:5px;}
 table{
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 20px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:20px;
    width:auto;
-   border: 1px solid #FF91A4;
-  background-color: rgba(200,255,200,0.502);
-   padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 7px;
+   border:1px solid #FF91A4;
+   background-color:rgba(200,255,200,0.502);
+   padding-top:1px;
+   padding-bottom:1px;
+   border-radius:7px;
 }
 .notdone{
-   color: red;
+   color:red;
 }
 tr.hidden,table.hidden,tbody.hidden{
   display:none;
@@ -28,29 +28,29 @@ tr.hidden,table.hidden,tbody.hidden{
   color:orange;
 }
 td{
-   border: 1px solid #ff8095;
-  border-radius: 5px;
+   border:1px solid #ff8095;
+   border-radius:5px;
 }
 th{
-  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
-  color: #e04bcc;
-  font-family: Verdana, Geneva, sans-serif;
-  border: 1px solid #FF91A4;
-  font-size: 30px;
-  border-radius: 5px;
+  text-shadow:-0.75px -0.75px black,0.75px -0.75px black,-0.75px 0.75px black,0.75px 0.75px black;
+  color:#e04bcc;
+  font-family:Verdana,Geneva,sans-serif;
+  border:1px solid #FF91A4;
+  font-size:30px;
+  border-radius:5px;
 }
-td,h1,h2,u,a,text {
-  text-shadow: -0.75px -0.75px black,0.75px -0.75px black, -0.75px 0.75px black,0.75px 0.75px black;
-  color: #ff617c;
-  font-family: Verdana, Geneva, sans-serif;
+td,h1,h2,u,a,text{
+  text-shadow:-0.75px -0.75px black,0.75px -0.75px black,-0.75px 0.75px black,0.75px 0.75px black;
+  color:#ff617c;
+  font-family:Verdana,Geneva,sans-serif;
 }
 h1{
-  font-size: 40;
+  font-size:40;
 }
 h2{
-  font-size: 35;
+  font-size:35;
 }
 a{
-  font-size: 35px;
+  font-size:35px;
 }
 h1,h2{text-align:center;}
