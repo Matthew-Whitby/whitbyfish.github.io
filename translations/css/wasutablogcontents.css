@@ -18,6 +18,17 @@ table{
    padding-bottom:1px;
    border-radius:7px;
 }
+.year{align-items:flex-start;}
+.yl{
+   position:-webkit-sticky;
+   position:sticky;
+   top:0;
+}
+.yl span{
+   background-color:#ffd3ff;
+   border-radius: 5px;
+   padding:0 5px;
+}
 .notdone{
    color:red;
 }
