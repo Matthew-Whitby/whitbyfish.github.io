@@ -82,3 +82,37 @@ function getUrlVars() {
    return vars;
 }
 function MatchMonth(month){switch(month){case"january":return 1;case"february":return 2;case"march":return 3;case"april":return 4;case"may":return 5;case"june":return 6;case"july":return 7;case"august":return 8;case"september":return 9;case"october":return 10;case"november":return 11;case"december":return 12}}
+function CheckParameters(){
+   let selectedYear=getUrlParam('y','all');
+    if(selectedYear==null)selectedYear="all";
+    let yearSelector=document.getElementById("selectYear");
+    let yearOptions=yearSelector.children;
+    let x;
+    for(x=0;x<yearOptions.length;x++){
+      if(yearOptions[x].value==selectedYear){
+        yearSelector.selectedIndex=x;
+        SelectYear(yearOptions[x].value);
+      }
+    }
+    let selectedMonth=getUrlParam('m','all');
+    if(selectedMonth==null)selectedMonth="all";
+    let monthSelector=document.getElementById("selectMonth");
+    let monthOptions=monthSelector.children;
+    for(x=0;x<monthOptions.length;x++){
+      numMonth=MatchMonth(monthOptions[x].value);
+      if(monthOptions[x].value==selectedMonth||selectedMonth==numMonth){
+        monthSelector.selectedIndex=x;
+        SelectMonth(monthOptions[x].value);
+      }
+    }
+    let selectedMember=getUrlParam('mem','all');
+    if(selectedMember==null)selectedMember="all";
+    let memberSelector=document.getElementById("selectMember");
+    let memberOptions=memberSelector.children;
+    for(x=0;x<memberOptions.length;x++){
+      if(memberOptions[x].value==selectedMember){
+        memberSelector.selectedIndex=x;
+        SelectMember(memberOptions[x].value);
+      }
+    }
+}

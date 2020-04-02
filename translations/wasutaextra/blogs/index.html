@@ -623,39 +623,6 @@
 
      </div>
   </div>
-  <script>
-    let selectedMonth=getUrlParam('m','all');
-    if(selectedMonth==null)selectedMonth="all";
-    let monthSelector=document.getElementById("selectMonth");
-    let monthOptions=monthSelector.children;
-    let x;
-    for(x=0;x<monthOptions.length;x++){
-      numMonth=MatchMonth(monthOptions[x].value);
-      if(monthOptions[x].value==selectedMonth||selectedMonth==numMonth){
-        monthSelector.selectedIndex=x;
-        SelectMonth(monthOptions[x].value);
-      }
-    }
-    let selectedYear=getUrlParam('y','all');
-    if(selectedYear==null)selectedYear="all";
-    let yearSelector=document.getElementById("selectYear");
-    let yearOptions=yearSelector.children;
-    for(x=0;x<yearOptions.length;x++){
-      if(yearOptions[x].value==selectedYear){
-        yearSelector.selectedIndex=x;
-        SelectYear(yearOptions[x].value);
-      }
-    }
-    let selectedMember=getUrlParam('mem','all');
-    if(selectedMember==null)selectedMember="all";
-    let memberSelector=document.getElementById("selectMember");
-    let memberOptions=memberSelector.children;
-    for(x=0;x<memberOptions.length;x++){
-      if(memberOptions[x].value==selectedMember){
-        memberSelector.selectedIndex=x;
-        SelectMember(memberOptions[x].value);
-      }
-    }
-  </script>
+  <script>CheckParameters();</script>
 </body>
 </html>
