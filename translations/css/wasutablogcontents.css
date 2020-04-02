@@ -18,7 +18,7 @@ table{
    padding-bottom:1px;
    border-radius:7px;
 }
-.year{align-items:flex-start;}
+#2020{align-items:flex-start;}
 .yl{
    position:-webkit-sticky;
    position:sticky;
