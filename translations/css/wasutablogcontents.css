@@ -1,6 +1,4 @@
-body{
-   background-image:linear-gradient(#ffd3ff,#fddffd);
-}
+body{background-image:linear-gradient(#ffd3ff,#fddffd);}
 h1,table,p{text-align:center;}
 .nanase{background-color:lightgreen;border-radius:5px;}
 .ruka{background-color:lightpink;border-radius:5px;}
@@ -13,7 +11,7 @@ table{
    margin-bottom:20px;
    width:auto;
    border:1px solid #FF91A4;
-   background-color:rgba(200,255,200,0.502);
+   background-color:#c8ffc880;
    padding-top:1px;
    padding-bottom:1px;
    border-radius:7px;
@@ -29,15 +27,9 @@ table{
    border-radius: 5px;
    padding:0 5px;
 }
-.notdone{
-   color:red;
-}
-tr.hidden,table.hidden,tbody.hidden{
-  display:none;
-}
-.inprogress{
-  color:orange;
-}
+.notdone{color:red;}
+tr.hidden,table.hidden,tbody.hidden{display:none;}
+.inprogress{color:orange;}
 td{
    border:1px solid #ff8095;
    border-radius:5px;
