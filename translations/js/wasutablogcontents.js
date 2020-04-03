@@ -115,8 +115,4 @@ function CheckParameters(){
       }
     }
 }
-function CalculatePercentage(){
-   let numOfPosts=[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;
-   let done=GetCL("done").length;
-   document.getElementById("percentage").innerText=(done/numOfPosts)*100;
-}
+function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length)*100+"% Complete";}
