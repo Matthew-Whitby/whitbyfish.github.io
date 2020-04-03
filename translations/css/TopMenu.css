@@ -10,6 +10,13 @@ body{margin:0;}
   right:5px;
   background-color:#f1f1f1;
   border-radius:5px;
+  z-index:1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 #sideNav a{
   display: block;
@@ -18,6 +25,10 @@ body{margin:0;}
   color: #ff8095;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 25px;
+}
+#sideNav span{
+  display:inline-block;
+  width:100%;
 }
 .isCurrent{
   transform: scaleX(1.1);
