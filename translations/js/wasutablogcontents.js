@@ -41,10 +41,9 @@ function SelectMember(val){
    let miriPosts=GetCL("miri");
    let ririkaPosts=GetCL("ririka");
    let rukaPosts=GetCL("ruka");
-   let allPosts=[...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts,...rukaPosts];
    switch(val){
       case "all":
-         ToggleDisplayMem(allPosts,true);
+         ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts,...rukaPosts],true);
          break;
       case"hazuki":
          ToggleDisplayMem(hazukiPosts,true);
@@ -115,4 +114,9 @@ function CheckParameters(){
         SelectMember(memberOptions[x].value);
       }
     }
+}
+function CalculatePercentage(){
+   let numOfPosts=[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;
+   let done=GetCL("done").length;
+   document.getElementById("percentage").innerText=(done/numOfPosts)*100;
 }
