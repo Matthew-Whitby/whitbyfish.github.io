@@ -22,6 +22,7 @@ table{
    position:sticky;
    top:0;
 }
+#blogCounts span{display:block;}
 .yl span{
    background-color:#ffd3ff;
    border-radius: 5px;
