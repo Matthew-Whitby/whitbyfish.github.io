@@ -10,6 +10,25 @@ function ToggleSideNav(){
       }
    }
 }
+function ResetSelections(){
+   let progress=document.getElementById("selectProgress");
+   let progressc=progress.children;
+   let year=document.getElementById("selectYear");
+   let yearc=year.children;
+   let month=document.getElementById("selectMonth");
+   let monthc=month.children;
+   let member=document.getElementById("selectMember");
+   let memberc=member.children;
+   let i;
+   for(i=0;i<progressc.length;i++)
+      if(progressc[i].value=="all")progress.selectedIndex=i;
+   for(i=0;i<yearc.length;i++)
+      if(yearc[i].value=="all")year.selectedIndex=i;
+   for(i=0;i<monthc.length;i++)
+      if(monthc[i].value=="all")month.selectedIndex=i;
+   for(i=0;i<memberc.length;i++)
+      if(memberc[i].value=="all")member.selectedIndex=i;
+}
 function SelectYear(val){
    let years=GetCL("year");
    let i;
@@ -115,4 +134,4 @@ function CheckParameters(){
       }
     }
 }
-function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length)*100+"% Complete";}
+function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/ /*[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length*/5241)*100+"% Complete";}
