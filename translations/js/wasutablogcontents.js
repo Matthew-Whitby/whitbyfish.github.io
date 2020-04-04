@@ -36,7 +36,6 @@ function ResetSelections(){
       for(i=0;i<memberc.length;i++)
       if(memberc[i].value=="all"){member.selectedIndex=i;SelectMember(memberc[i].value);}
    }
-   
 }
 function SelectYear(val){
    let years=GetCL("year");
@@ -86,12 +85,12 @@ function SelectMember(val){
          ToggleDisplayMem([...hazukiPosts,...nanasePosts,...ririkaPosts,...rukaPosts],false);
          break;
       case"ririka":
-      ToggleDisplayMem(ririkaPosts,true);
-      ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...rukaPosts],false);
+         ToggleDisplayMem(ririkaPosts,true);
+         ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...rukaPosts],false);
          break;
       case"ruka":
-      ToggleDisplayMem(rukaPosts,true);
-      ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts],false);
+         ToggleDisplayMem(rukaPosts,true);
+         ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts],false);
          break;
    }
 }
@@ -143,4 +142,5 @@ function CheckParameters(){
       }
     }
 }
-function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/ /*[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length*/5241)*100+"% Complete";}
+function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/ /*TotalBlogs()*/5241)*100+"% Complete";}
+function TotalBlogs(){return [...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
