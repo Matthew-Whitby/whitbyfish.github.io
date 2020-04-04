@@ -146,6 +146,14 @@ function CheckParameters(){
       }
     }
 }
+function BlogCount(){
+   document.getElementById("totalCount").innerText="Total: "+TotalBlogs();
+   document.getElementById("hazukiCount").innerText="Hazuki: "+GetCL("hazuki").length;
+   document.getElementById("nanaseCount").innerText="Nanase: "+GetCL("nanase").length;
+   document.getElementById("miriCount").innerText="Miri: "+GetCL("miri").length;
+   document.getElementById("ririkaCount").innerText="Ririka: "+GetCL("ririka").length;
+   document.getElementById("rukaCount").innerText="Ruka: "+GetCL("ruka").length;
+}
 function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/5241)*100+"% Complete";}
 function TotalBlogs(){return[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
