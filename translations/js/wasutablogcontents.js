@@ -32,7 +32,7 @@ function ResetSelections(){
       for(i=0;i<monthc.length;i++)
       if(monthc[i].value=="all"){month.selectedIndex=i;SelectMonth(monthc[i].value);}
    }
-   if(memberc[month.selectedIndex].value!="all"){
+   if(memberc[member.selectedIndex].value!="all"){
       for(i=0;i<memberc.length;i++)
       if(memberc[i].value=="all"){member.selectedIndex=i;SelectMember(memberc[i].value);}
    }
