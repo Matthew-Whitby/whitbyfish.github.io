@@ -6,3 +6,4 @@ h1,h2,h3,a,img,p{text-align:center;}
 img{max-width:100%;margin-left:auto;margin-right:auto;display:block;}
 .BottomImage{margin-top:5px;}
 p{font-size:18px;}
+video{max-width:100%;max-height:100%;}
