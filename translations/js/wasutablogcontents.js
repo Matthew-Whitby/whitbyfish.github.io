@@ -142,5 +142,5 @@ function CheckParameters(){
       }
     }
 }
-function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/ /*TotalBlogs()*/5241)*100+"% Complete";}
-function TotalBlogs(){return [...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
+function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/5241)*100+"% Complete";}
+function TotalBlogs(){return[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
