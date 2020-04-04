@@ -11,7 +11,7 @@ body{margin:0;}
   background-color:#f1f1f1;
   border-radius:10px;
   z-index:1;
-  overflow: hidden;
+  overflow:hidden;
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -khtml-user-select:none;
