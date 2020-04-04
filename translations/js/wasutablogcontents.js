@@ -20,14 +20,23 @@ function ResetSelections(){
    let member=document.getElementById("selectMember");
    let memberc=member.children;
    let i;
-   for(i=0;i<progressc.length;i++)
-      if(progressc[i].value=="all")progress.selectedIndex=i;
-   for(i=0;i<yearc.length;i++)
-      if(yearc[i].value=="all")year.selectedIndex=i;
-   for(i=0;i<monthc.length;i++)
-      if(monthc[i].value=="all")month.selectedIndex=i;
-   for(i=0;i<memberc.length;i++)
-      if(memberc[i].value=="all")member.selectedIndex=i;
+   if(progressc[progress.selectedIndex].value!="all"){
+      for(i=0;i<progressc.length;i++)
+      if(progressc[i].value=="all"){progress.selectedIndex=i;ChangeDisplay(progressc[i].value);}
+   }
+   if(yearc[year.selectedIndex].value!="all"){
+      for(i=0;i<yearc.length;i++)
+      if(yearc[i].value=="all"){year.selectedIndex=i;SelectYear(yearc[i].value);}
+   }
+   if(monthc[month.selectedIndex].value!="all"){
+      for(i=0;i<monthc.length;i++)
+      if(monthc[i].value=="all"){month.selectedIndex=i;SelectMonth(monthc[i].value);}
+   }
+   if(memberc[month.selectedIndex].value!="all"){
+      for(i=0;i<memberc.length;i++)
+      if(memberc[i].value=="all"){member.selectedIndex=i;SelectMember(memberc[i].value);}
+   }
+   
 }
 function SelectYear(val){
    let years=GetCL("year");
