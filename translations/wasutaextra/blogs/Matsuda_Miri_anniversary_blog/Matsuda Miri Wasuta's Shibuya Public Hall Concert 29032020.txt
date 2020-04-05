@@ -1,5 +1,5 @@
-title~Wasuta's Shibuya Public Hall Concert
-author~Matsuda Miri
+title~Miriteko、Wasuta's Shibuya Public Hall Concert
+author~miri
 dateTime~29/03/2020 11:07:00
 Good Morning
 
