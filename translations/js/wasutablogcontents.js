@@ -111,7 +111,9 @@ function getUrlVars() {
    var parts=window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(m,key,value){vars[key]=value;});
    return vars;
 }
-function MatchMonth(month){switch(month){case"january":return 1;case"february":return 2;case"march":return 3;case"april":return 4;case"may":return 5;case"june":return 6;case"july":return 7;case"august":return 8;case"september":return 9;case"october":return 10;case"november":return 11;case"december":return 12}}
+function MonthToNum(month){switch(month){case"january":return 1;case"february":return 2;case"march":return 3;case"april":return 4;case"may":return 5;case"june":return 6;case"july":return 7;case"august":return 8;case"september":return 9;case"october":return 10;case"november":return 11;case"december":return 12}}
+function NumToMonth(month){switch(month){case 1:return"january";case 2:return"february";case 3:return"march";case 4:return"april";case 5:return"may";case 6:return"june";case 7:return"july";case 8:return"august";case 9:return"september";case 10:return"october";case 11:return"november";case 12:return"december"}}
+function IsMonth(n){n=n.toLowerCase();if(monthlist.includes(n))return true;return false;}
 function CheckParameters(){
    let selectedYear=getUrlParam('y','all');
     if(selectedYear==null)selectedYear="all";
@@ -129,7 +131,7 @@ function CheckParameters(){
     let monthSelector=document.getElementById("selectMonth");
     let monthOptions=monthSelector.children;
     for(x=0;x<monthOptions.length;x++){
-      numMonth=MatchMonth(monthOptions[x].value);
+      numMonth=MonthToNum(monthOptions[x].value);
       if(monthOptions[x].value==selectedMonth||selectedMonth==numMonth){
         monthSelector.selectedIndex=x;
         SelectMonth(monthOptions[x].value);
@@ -160,3 +162,12 @@ function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=doc
   function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
   function ChangeDisplay(e){var l=document.getElementsByClassName("done"),n=document.getElementsByClassName("inprogress"),s=document.getElementsByClassName("notdone");switch(e){case"all":ToggleDisplay(l,!0),ToggleDisplay(n,!0),ToggleDisplay(s,!0);break;case"complete":ToggleDisplay(l,!0),ToggleDisplay(n,!1),ToggleDisplay(s,!1);break;case"inprogress":ToggleDisplay(l,!1),ToggleDisplay(n,!0),ToggleDisplay(s,!1);break;case"notdone":ToggleDisplay(l,!1),ToggleDisplay(n,!1),ToggleDisplay(s,!0)}}
   function ToggleDisplay(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.parentElement.classList.contains("hidden")&&e[z].parentElement.parentElement.classList.remove("hidden"):e[z].parentElement.parentElement.classList.contains("hidden")||e[z].parentElement.parentElement.classList.add("hidden"),CheckTable(e[z])}function CheckTable(e){var l=e.parentElement.parentElement.parentElement.parentElement;DetectVisibleElement(l)?l.classList.contains("hidden")&&l.classList.remove("hidden"):l.classList.contains("hidden")||l.classList.add("hidden")}function DetectVisibleElement(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("hidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElement(e.childNodes[l]))return!0;return!1}}}
+  function AjaxLoadNext(current){
+   
+  }
+  function AjaxLoadUntil(target){
+
+  }
+  function GetNextMonth(){
+
+  }
