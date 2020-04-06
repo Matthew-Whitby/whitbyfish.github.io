@@ -154,7 +154,7 @@ function BlogCount(){
    document.getElementById("ririkaCount").innerText="Ririka: "+GetCL("ririka").length;
    document.getElementById("rukaCount").innerText="Ruka: "+GetCL("ruka").length;
 }
-function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/5241)*100+"% Complete";}
+function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/5242)*100+"% Complete";}
 function TotalBlogs(){return[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
   function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
