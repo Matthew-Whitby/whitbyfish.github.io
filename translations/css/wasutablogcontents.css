@@ -29,7 +29,7 @@ table{
    padding:0 5px;
 }
 .notdone{color:red;}
-tr.hidden,table.hidden,tbody.hidden{display:none;}
+tr.hidden,table.hidden,tbody.hidden,tr.mHidden,table.mHidden,tbody.mHidden{display:none;}
 .inprogress{color:orange;}
 td{
    border:1px solid #ff8095;
