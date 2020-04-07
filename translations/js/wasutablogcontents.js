@@ -112,7 +112,7 @@ function getUrlVars() {
 }
 function MonthToNum(month){switch(month){case"january":return 1;case"february":return 2;case"march":return 3;case"april":return 4;case"may":return 5;case"june":return 6;case"july":return 7;case"august":return 8;case"september":return 9;case"october":return 10;case"november":return 11;case"december":return 12}}
 function NumToMonth(month){switch(month){case 13:case 1:return"january";case 2:return"february";case 3:return"march";case 4:return"april";case 5:return"may";case 6:return"june";case 7:return"july";case 8:return"august";case 9:return"september";case 10:return"october";case 11:return"november";case 12:return"december";}}
-function IsMonth(n){n=n.toLowerCase();if(monthlist.includes(n))return true;return false;}
+function IsMonth(n){n=n.toLowerCase();return(monthlist.includes(n))?true:false;}
 function CheckParameters(){
    let selectedYear=getUrlParam('y','all');
     if(selectedYear==null)selectedYear="all";
@@ -156,7 +156,7 @@ function BlogCount(){
    document.getElementById("rukaCount").innerText="Ruka: "+GetCL("ruka").length;
 }
 function CalculatePercentage(){document.getElementById("percentage").innerText=(GetCL("done").length/5242)*100+"% Complete";}
-function TotalBlogs(){return[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length;}
+function TotalBlogs(){return[...GetCL("hazuki"),...GetCL("nanase"),...GetCL("miri"),...GetCL("ririka"),...GetCL("ruka")].length}
 function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");}
   function ScrollToYear(year,clicked){var e=document.getElementById(year);e.scrollIntoView({behavior:'smooth'});var v=document.getElementsByClassName("isCurrent");if(v.length>0)v[0].classList.remove("isCurrent");clicked.classList.add("isCurrent");}
   function ChangeDisplay(e){var l=document.getElementsByClassName("done"),n=document.getElementsByClassName("inprogress"),s=document.getElementsByClassName("notdone");switch(e){case"all":ToggleDisplay(l,!0),ToggleDisplay(n,!0),ToggleDisplay(s,!0);break;case"complete":ToggleDisplay(l,!0),ToggleDisplay(n,!1),ToggleDisplay(s,!1);break;case"inprogress":ToggleDisplay(l,!1),ToggleDisplay(n,!0),ToggleDisplay(s,!1);break;case"notdone":ToggleDisplay(l,!1),ToggleDisplay(n,!1),ToggleDisplay(s,!0)}}
@@ -167,6 +167,4 @@ function ScrollToTop(){window.scroll({top:0,left:0,behavior:'smooth'});var v=doc
   function AjaxLoadUntil(target){
 
   }
-  function GetNextMonth(n){
-      return NumToMonth(MonthToNum(n)+1);
-  }
+  function GetNextMonth(n){return NumToMonth(MonthToNum(n)+1)}
