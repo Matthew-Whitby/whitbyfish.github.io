@@ -2,8 +2,7 @@ const monthlist=["january","february","march","april","may","june","july","augus
 const memberList=["hazuki","nanase","miri","ririka","ruka"];
 function ToggleSideNav(){
    let sideNav=document.getElementById("sideNav");
-   let childNodes=sideNav.children;
-   let i;
+   let childNodes=sideNav.children,i;
    for(i=0;i<childNodes.length;i++){
       if(childNodes[i].id!="sideNavToggle"){
          childNodes[i].style.display=(childNodes[i].style.display=="none")?"block":"none";
@@ -31,31 +30,23 @@ function ResetSelections(){
 function ResetSelection(l,c){
    if(c[l.selectedIndex].value!="all"){
       let i;
-      for(i=0;i<c.length;i++)
-      if(c[i].value=="all"){l.selectedIndex=i;return [true,c[i].value];}
+      for(i=0;i<c.length;i++)if(c[i].value=="all"){l.selectedIndex=i;return [true,c[i].value];}
    }return [false];
 }
 function SelectYear(val){
-   let years=GetCL("year");
-   let i;
+   let years=GetCL("year"),i;
    for(i=0;i<years.length;i++){
       if(val=="all")years[i].style.display="initial";
       else if(years[i].id==val)years[i].style.display="initial";
       else years[i].style.display="none";
    }
 }
-function Filter(){
-   let hide=false;
-
-}
 function SelectMonth(val){
-   let months=GetCL("month");
-   let i;
+   let months=GetCL("month"),i;
    for(i=0;i<months.length;i++){
       let classes=months[i].classList;
       let j,monthClass;
       for(j=0;j<classes.length;j++){
-         let z;
          if(IsMonth(classes[j]))monthClass=classes[j];
       }
       if(val=="all")months[i].style.display="initial";
@@ -115,8 +106,7 @@ function CheckParameters(){
    let selectedYear=getUrlParam('y','all');
     if(selectedYear==null)selectedYear="all";
     let yearSelector=document.getElementById("selectYear");
-    let yearOptions=yearSelector.children;
-    let x;
+    let yearOptions=yearSelector.children,x;
     for(x=0;x<yearOptions.length;x++){
       if(yearOptions[x].value==selectedYear){
         yearSelector.selectedIndex=x;
