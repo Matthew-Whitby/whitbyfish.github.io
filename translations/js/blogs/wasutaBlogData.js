@@ -1606,3 +1606,10 @@ function ExtractDate(date){
    return[exDate[1],exDate[2],exDate[3],exDate[4],exDate[5]];
 }
 function capitalizeFirstLetter(string){return string.charAt(0).toUpperCase()+string.slice(1);}
+function AjaxLoadNext(current){
+   
+}
+function AjaxLoadUntil(target){
+
+}
+function GetNextMonth(n){return NumToMonth(MonthToNum(n)+1)}
