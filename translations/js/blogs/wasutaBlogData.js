@@ -1542,9 +1542,17 @@ var data=[
 ];
 
 function GenPage(){
-   let i;
+   let i,root=document.getElementById("container");
    console.log(data.length);
+   ExtractDate(data[0].date);
    for(i=0;i<data.length;i++){
 
    }
+}
+function ExtractDate(date){
+   let year,month,day,hour,min;
+   let rx=/\(([\d])*\/([\d]*)\/([\d]*) ([\d]*):([\d]*)\)/g;
+   let exDate=rx.exec(date);
+   console.log(exDate);
+   
 }
