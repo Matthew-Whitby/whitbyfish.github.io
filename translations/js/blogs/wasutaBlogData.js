@@ -1551,7 +1551,7 @@ function GenPage(){
 }
 function ExtractDate(date){
    let year,month,day,hour,min;
-   let rx=/\(([\d])*\/([\d]*)\/([\d]*) ([\d]*):([\d]*)\)/g;
+   let rx=/\(([\d]*)\/([\d]*)\/([\d]*) ([\d]*):([\d]*)\)/g;
    let exDate=rx.exec(date);
    console.log(exDate);
    
