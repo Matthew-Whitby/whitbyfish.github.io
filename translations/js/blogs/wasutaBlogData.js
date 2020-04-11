@@ -1540,19 +1540,72 @@ var data=[
 {author:"nanase",title:"751♩ Hirokawa Nanase【Looks like it's become May( ੭ ･ᴗ･ )੭🔆】",date:"(17/5/1 22:44)",link:""},
 {author:"nanase",title:"750♩ Hirokawa Nanase【popo！∧( 'Θ' )∧】",date:"(17/5/1 00:03)",link:""}
 ];
-
 function GenPage(){
    let i,root=document.getElementById("container");
-   console.log(data.length);
    ExtractDate(data[0].date);
    for(i=0;i<data.length;i++){
-
+      let datea=ExtractDate(data[i].date);
+      let node=GetParentNode(datea[0],datea[1],root);
+      GenerateRow(node,data[i].date,data[i].author,data[i].title,data[i].link);
    }
 }
+function GenerateRow(node,date,author,title,link){
+   let tr=document.createElement("tr");
+   let td=document.createElement("td");
+   td.classList.add(author);
+   let aTag=document.createElement("a");
+   if(link!=null&&link!=""){
+      if(link=="inprogress")aTag.classList.add(link);
+      else{
+         aTag.classList.add("done");
+         aTag.href=link;
+      }
+   }
+   else aTag.classList.add("notdone");
+   aTag.innerText=title+" "+date;
+   td.appendChild(aTag);
+   tr.appendChild(td);
+   node.appendChild(tr);
+}
+function GetParentNode(year,month,root){
+   let monthtxt=NumToMonth(parseInt(month));
+   let yearNode=document.getElementById("20"+year);
+   if(yearNode==null){
+      yearNode=document.createElement("div");
+      yearNode.classList.add("year");
+      yearNode.id="20"+year;
+      let yearLabel=document.createElement("h2");
+      yearLabel.classList.add("yl");
+      let yearSpan=document.createElement("span");
+      yearSpan.innerText="20"+year;
+      yearLabel.appendChild(yearSpan);
+      yearNode.appendChild(yearLabel);
+      root.appendChild(yearNode);
+   }
+   let monthNode,j,monthNodes=document.getElementsByClassName(monthtxt);
+   for(j=0;j<monthNodes.length;j++){
+      if(monthNodes[j].parentElement.id=="20"+year)monthNode=monthNodes[j];
+   }
+   if(monthNode==null){
+      monthNode=document.createElement("div");
+      monthNode.classList.add("month");
+      monthNode.classList.add(monthtxt);
+      let table=document.createElement("table");
+      let tableRow=document.createElement("tr");
+      let rowHeader=document.createElement("th");
+      rowHeader.innerText=capitalizeFirstLetter(monthtxt);
+      monthNode.appendChild(table);
+      table.appendChild(tableRow);
+      tableRow.appendChild(rowHeader);
+      yearNode.appendChild(monthNode);
+   }
+   return monthNode.childNodes[0];
+}
 function ExtractDate(date){
-   let year,month,day,hour,min;
    let rx=/([\d]*)\/([\d]*)\/([\d]*) ([\d]*):([\d]*)/g;
    let exDate=rx.exec(date);
-   console.log(exDate);
-   
+   return [exDate[1],exDate[2],exDate[3],exDate[4],exDate[5]];
 }
+function capitalizeFirstLetter(string){
+   return string.charAt(0).toUpperCase()+string.slice(1);
+ }
