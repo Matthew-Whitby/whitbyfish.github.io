@@ -1545,13 +1545,13 @@ function GenPage(){
    for(i=0;i<data.length;i++){
       let datea=ExtractDate(data[i].d);
       let node=GetParentNode(datea[0],datea[1],root);
-      GenerateRow(node,data[i].date,data[i].a,data[i].t,data[i].l);
+      GenerateRow(node,data[i].d,data[i].a,data[i].t,data[i].l);
    }
 }
-function GenerateRow(node,date,a,t,link){
+function GenerateRow(node,date,author,title,link){
    let tr=document.createElement("tr");
    let td=document.createElement("td");
-   td.classList.add(a);
+   td.classList.add(author);
    let aTag=document.createElement("a");
    if(link!=null&&link!=""){
       if(link=="inprogress")aTag.classList.add(link);
@@ -1561,7 +1561,7 @@ function GenerateRow(node,date,a,t,link){
       }
    }
    else aTag.classList.add("notdone");
-   aTag.innerText=t+" "+date;
+   aTag.innerText=title+" "+date;
    td.appendChild(aTag);
    tr.appendChild(td);
    node.appendChild(tr);
