@@ -1604,8 +1604,6 @@ function GetParentNode(year,month,root){
 function ExtractDate(date){
    let rx=/([\d]*)\/([\d]*)\/([\d]*) ([\d]*):([\d]*)/g;
    let exDate=rx.exec(date);
-   return [exDate[1],exDate[2],exDate[3],exDate[4],exDate[5]];
+   return[exDate[1],exDate[2],exDate[3],exDate[4],exDate[5]];
 }
-function capitalizeFirstLetter(string){
-   return string.charAt(0).toUpperCase()+string.slice(1);
- }
+function capitalizeFirstLetter(string){return string.charAt(0).toUpperCase()+string.slice(1);}
