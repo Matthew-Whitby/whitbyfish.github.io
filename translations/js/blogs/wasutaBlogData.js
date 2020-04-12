@@ -1606,6 +1606,9 @@ function ExtractDate(date){
    return[exDate[1],exDate[2],exDate[3],exDate[4],exDate[5]];
 }
 function capitalizeFirstLetter(string){return string.charAt(0).toUpperCase()+string.slice(1);}
+function LoadData(){
+   
+}
 function AjaxLoadNext(current){
    
 }

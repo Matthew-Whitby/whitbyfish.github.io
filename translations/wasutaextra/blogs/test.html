@@ -8,7 +8,7 @@
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-137823782-1');</script>
   <script src="../../js/wasutablogcontents.js"></script>
   <script src="../../js/blogs/wasutaBlogData.js"></script>
-  <link rel="shortcut icon" href="../../../resources/whitby_icon.ico">
+  <link async rel="shortcut icon" href="../../../resources/whitby_icon.ico">
   <link rel="stylesheet" href="../../css/wasutablogcontents.css"/>
   <link rel="stylesheet" href="../../css/TopMenu.css"/>
 </head>
@@ -82,6 +82,6 @@
     <span id="rukaCount"></span>
   </div>
   <div id="percentage" style="text-align:center;"></div>
-  <script>GenPage();CheckParameters();CalculatePercentage();BlogCount();</script>
+  <script>GenPage();CheckParameters();CalculatePercentage();BlogCount();window.onscroll=()=>{if((window.innerHeight+window.scrollY)>=document.body.offsetHeight){console.log("HIT BOTTOM");LoadData()}};</script>
 </body>
 </html>
