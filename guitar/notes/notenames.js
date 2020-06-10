@@ -15,6 +15,16 @@ function Setup(){
    display.Draw();
 }
 function SwitchSharps(val){
+   let aSBtn=document.getElementById("ASharpBtn");
+   let cSBtn=document.getElementById("CSharpBtn");
+   let dSBtn=document.getElementById("DSharpBtn");
+   let fSBtn=document.getElementById("FSharpBtn");
+   let gSBtn=document.getElementById("GSharpBtn");
+   aSBtn.innerText=(aSBtn.innerText=="A#")?"Ab":"A#";
+   cSBtn.innerText=(cSBtn.innerText=="C#")?"Cb":"C#";
+   dSBtn.innerText=(dSBtn.innerText=="D#")?"Db":"D#";
+   fSBtn.innerText=(fSBtn.innerText=="F#")?"Fb":"F#";
+   gSBtn.innerText=(gSBtn.innerText=="G#")?"Gb":"G#";
    if(val=="sharp")sharpbool=true;
    else sharpbool=false;
 }
@@ -173,7 +183,6 @@ class Display{
       ctx.stroke();
    }
 }
-
 var Vector=(function(){
    function Vector(pX,pY){
       this.x=pX;
