@@ -18,6 +18,9 @@ function SwitchSharps(val){
    if(val=="sharp")sharpbool=true;
    else sharpbool=false;
 }
+function AnswerClicked(val){
+   quiz.GetQuestion(val);
+}
 class Quiz{
    constructor(){
       this.dict={};
@@ -48,9 +51,9 @@ class Quiz{
       this.flats['Gb']='F#';
       this.flats['Ab']='G#';
    }
-   GetQuestion(){
+   GetQuestion(ans){
       if(document.getElementById("ansBtn").innerText=="Submit"){
-         this.CheckAnswer();
+         this.CheckAnswer(ans);
          document.getElementById("ansBtn").innerText="Next Question";
       }else{
          answerBox.value="";
@@ -60,8 +63,8 @@ class Quiz{
          document.getElementById("ansBtn").innerText="Submit";
       }
    }
-   CheckAnswer(){
-      let ans=answerBox.value;
+   CheckAnswer(ans){
+      if(ans==null||ans=="")ans=answerBox.value;
       if(sharpbool){
          if(ans.toUpperCase()==this.dict[currentQ])response.innerText="CORRECT";
          else response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
