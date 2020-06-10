@@ -46,7 +46,6 @@ class Quiz{
    }
    CheckAnswer(){
       let ans=answerBox.value;
-      console.log(ans.toUpperCase());
       if(ans.toUpperCase()==this.dict[currentQ])response.innerText="CORRECT";
       else response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
    }
@@ -68,7 +67,7 @@ class Display{
          for(let i=0;i<13;i++){
             let fretname=j.toString()+i.toString();
             let yCoord=this.mEdgeVal+(this.mStringGap*(j-1));
-            let xCoord=(this.mFretGap*i);
+            let xCoord=(i==0)?(this.mFretGap*i):(this.mFretGap*i);
             this.fretDict[fretname]=new Vector(xCoord,yCoord);
          }
       }
