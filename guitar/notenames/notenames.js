@@ -1,4 +1,4 @@
-var canvas,ctx,display,quiz,currentQ,answerBox,response;
+var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool;
 function Setup(){
    canvas=document.getElementById("gtneck");
    if(!canvas){alert('Error: Canvas not found');return;}
@@ -9,13 +9,19 @@ function Setup(){
    ctx.translate(200,50);
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
+   sharpbool=true;
    display=new Display(new Vector(200,50),neckHeight,neckWidth);
    quiz=new Quiz();
    display.Draw();
 }
+function SwitchSharps(val){
+   if(val=="sharp")sharpbool=true;
+   else sharpbool=false;
+}
 class Quiz{
    constructor(){
       this.dict={};
+      this.flats={};
       this.FillDict();
    }
    FillDict(){
@@ -31,6 +37,16 @@ class Quiz{
             else cur=0;
          }
       }
+      this.flats['A#']='Bb';
+      this.flats['C#']='Db';
+      this.flats['D#']='Eb';
+      this.flats['F#']='Gb';
+      this.flats['G#']='Ab';
+      this.flats['Bb']='A#';
+      this.flats['Db']='C#';
+      this.flats['Eb']='D#';
+      this.flats['Gb']='F#';
+      this.flats['Ab']='G#';
    }
    GetQuestion(){
       if(document.getElementById("ansBtn").innerText=="Submit"){
@@ -46,8 +62,17 @@ class Quiz{
    }
    CheckAnswer(){
       let ans=answerBox.value;
-      if(ans.toUpperCase()==this.dict[currentQ])response.innerText="CORRECT";
-      else response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
+      if(sharpbool){
+         if(ans.toUpperCase()==this.dict[currentQ])response.innerText="CORRECT";
+         else response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
+      }else{
+         if(ans.toLowerCase()==this.SharpToFlat(this.dict[currentQ]).toLowerCase())response.innerText="CORRECT";
+         else response.innerText="INCORRECT, the correct answer was "+this.SharpToFlat(this.dict[currentQ]);
+      }
+   }
+   SharpToFlat(sharp){
+      if(sharp.length>1)return this.flats[sharp];
+      return sharp;
    }
 }
 
@@ -67,7 +92,7 @@ class Display{
          for(let i=0;i<13;i++){
             let fretname=j.toString()+i.toString();
             let yCoord=this.mEdgeVal+(this.mStringGap*(j-1));
-            let xCoord=(i==0)?(this.mFretGap*i):(this.mFretGap*i);
+            let xCoord=(i==0)?this.mFretGap*i:(this.mFretGap*i)-(this.mFretGap/2);
             this.fretDict[fretname]=new Vector(xCoord,yCoord);
          }
       }
