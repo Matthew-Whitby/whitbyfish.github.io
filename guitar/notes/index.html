@@ -3,7 +3,7 @@
 <head>
   <title>Guitar Notes</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137823782-1"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-137823782-1');</script>
   <link rel="shortcut icon" href="../../resources/whitby_icon.ico">
@@ -15,16 +15,12 @@
 <body style="background-color:#e3e9ec;margin:0;overflow:scroll;">
    <div id="menu"><a href="https://whitbyfish.net">Home</a></div>
    <h1>Note Names</h1>
-   <div><select id="sharpSelector" onchange="SwitchSharps(this.value)">
-      <option selected value="sharp">#</option>
-      <option value="flat">b</option>
-   </select></div>
-   <canvas id="gtneck" width="1100" height="500"></canvas>
+   <div style="text-align:center;"><canvas id="gtneck" width="820" height="130"></canvas></div>
    <div style="text-align:center;">
       <input id="AnswerBox">
       <button id="ansBtn" onclick="quiz.GetQuestion()">Start</button>
    </div>
-   <div id="InputBtns" style="text-align:center;">
+   <div id="InputBtns" style="text-align:center;margin-top:10px;">
       <button id="ABtn" onclick="AnswerClicked(this.innerText)">A</button>
       <button id="ASharpBtn" onclick="AnswerClicked(this.innerText)">A#</button>
       <button id="BBtn" onclick="AnswerClicked(this.innerText)">B</button>
@@ -37,6 +33,10 @@
       <button id="FSharpBtn" onclick="AnswerClicked(this.innerText)">F#</button>
       <button id="GBtn" onclick="AnswerClicked(this.innerText)">G</button>
       <button id="GSharpBtn" onclick="AnswerClicked(this.innerText)">G#</button>
+      <div style="margin-top:10px;"><select id="sharpSelector" onchange="SwitchSharps(this.value)">
+         <option selected value="sharp">#</option>
+         <option value="flat">b</option>
+      </select></div>
    </div>
    <p id="response"></p>
    <script>Setup();</script>

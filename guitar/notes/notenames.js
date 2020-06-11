@@ -6,11 +6,11 @@ function Setup(){
    ctx=canvas.getContext("2d");
    if(!ctx){alert('Error: failed to get context');return;}
    let neckHeight=100,neckWidth=800;
-   ctx.translate(200,50);
+   ctx.translate(10,0);
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
    sharpbool=true;
-   display=new Display(new Vector(200,50),neckHeight,neckWidth);
+   display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    display.Draw();
 }
@@ -39,8 +39,7 @@ class Quiz{
    }
    FillDict(){
       let notes=['A','A#','B','C','C#','D','D#','E','F','F#','G','G#'];
-      let startindex=[7,0,5,10,2,7];
-      startindex.reverse();
+      let startindex=[7,2,10,5,0,7];
       for(let j=1;j<7;j++){
          let cur=startindex[j-1];
          for(let i=0;i<13;i++){
