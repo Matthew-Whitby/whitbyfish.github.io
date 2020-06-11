@@ -84,12 +84,12 @@ class Quiz{
 
 class Display{
    constructor(pPos,pNeckHeight,pNeckWidth){
-      this.mPos=pPos;
-      this.mNeckHeight=pNeckHeight;
-      this.mNeckWidth=pNeckWidth;
-      this.mEdgeVal=(pNeckHeight/7)/2;
-      this.mStringGap=(pNeckHeight-(this.mEdgeVal*2))/5;
-      this.mFretGap=(pNeckWidth/12);
+      this.pos=pPos;
+      this.neckHeight=pNeckHeight;
+      this.neckWidth=pNeckWidth;
+      this.edgeVal=(pNeckHeight/7)/2;
+      this.stringGap=(pNeckHeight-(this.edgeVal*2))/5;
+      this.fretGap=(pNeckWidth/12);
       this.fretDict={};
       this.FillDict();
    }
@@ -97,8 +97,8 @@ class Display{
       for(let j=1;j<7;j++){
          for(let i=0;i<13;i++){
             let fretname=j.toString()+i.toString();
-            let yCoord=this.mEdgeVal+(this.mStringGap*(j-1));
-            let xCoord=(i==0)?this.mFretGap*i:(this.mFretGap*i)-(this.mFretGap/2);
+            let yCoord=this.edgeVal+(this.stringGap*(j-1));
+            let xCoord=(i==0)?this.fretGap*i:(this.fretGap*i)-(this.fretGap/2);
             this.fretDict[fretname]=new Vector(xCoord,yCoord);
          }
       }
@@ -125,9 +125,9 @@ class Display{
    DrawOutline(){
       ctx.beginPath();
       ctx.moveTo(0,0);
-      ctx.lineTo(this.mNeckWidth,0);
-      ctx.lineTo(this.mNeckWidth,this.mNeckHeight);
-      ctx.lineTo(0,this.mNeckHeight);
+      ctx.lineTo(this.neckWidth,0);
+      ctx.lineTo(this.neckWidth,this.neckHeight);
+      ctx.lineTo(0,this.neckHeight);
       ctx.closePath();
       ctx.stroke();
    }
@@ -136,9 +136,9 @@ class Display{
       let xCoord,i;
       for(i=0;i<13;i++){
          ctx.beginPath();
-         xCoord=this.mFretGap*i;
+         xCoord=this.fretGap*i;
          ctx.moveTo(xCoord,0);
-         ctx.lineTo(xCoord,this.mNeckHeight);
+         ctx.lineTo(xCoord,this.neckHeight);
          ctx.closePath();
          ctx.stroke();
       }
@@ -149,24 +149,24 @@ class Display{
       let yCoord,i;
       for(i=0;i<6;i++){
          ctx.beginPath();
-         yCoord=this.mEdgeVal+(this.mStringGap*i);
+         yCoord=this.edgeVal+(this.stringGap*i);
          ctx.moveTo(0,yCoord);
-         ctx.lineTo(this.mNeckWidth,yCoord);
+         ctx.lineTo(this.neckWidth,yCoord);
          ctx.closePath();
          ctx.stroke();
       }
       ctx.strokeStyle='#000000';
    }
    DrawNeckMarkers(){
-      let coords=new Vector(0,this.mNeckHeight/2),i;
+      let coords=new Vector(0,this.neckHeight/2),i;
       for(i=2;i<=8;i+=2){
-         coords.x=(i*this.mFretGap)+(this.mFretGap/2);
+         coords.x=(i*this.fretGap)+(this.fretGap/2);
          this.DrawMarker(coords);
       }
-      coords.x=(11*this.mFretGap)+(this.mFretGap/2);
-      coords.y=this.mNeckHeight*(1/3);
+      coords.x=(11*this.fretGap)+(this.fretGap/2);
+      coords.y=this.neckHeight*(1/3);
       this.DrawMarker(coords);
-      coords.y=this.mNeckHeight*(2/3);
+      coords.y=this.neckHeight*(2/3);
       this.DrawMarker(coords);
    }
    DrawMarker(coords){
