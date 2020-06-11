@@ -9,7 +9,7 @@ function Setup(){
    ctx.translate(10,0);
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
-   sharpbool=true;
+   sharpbool=1;
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    display.Draw();
@@ -20,17 +20,14 @@ function SwitchSharps(val){
    let dSBtn=document.getElementById("DSharpBtn");
    let fSBtn=document.getElementById("FSharpBtn");
    let gSBtn=document.getElementById("GSharpBtn");
-   aSBtn.innerText=(aSBtn.innerText=="A#")?"Ab":"A#";
-   cSBtn.innerText=(cSBtn.innerText=="C#")?"Cb":"C#";
-   dSBtn.innerText=(dSBtn.innerText=="D#")?"Db":"D#";
-   fSBtn.innerText=(fSBtn.innerText=="F#")?"Fb":"F#";
-   gSBtn.innerText=(gSBtn.innerText=="G#")?"Gb":"G#";
-   if(val=="sharp")sharpbool=true;
-   else sharpbool=false;
+   aSBtn.innerText=aSBtn.innerText=="A#"?"Ab":"A#";
+   cSBtn.innerText=cSBtn.innerText=="C#"?"Cb":"C#";
+   dSBtn.innerText=dSBtn.innerText=="D#"?"Db":"D#";
+   fSBtn.innerText=fSBtn.innerText=="F#"?"Fb":"F#";
+   gSBtn.innerText=gSBtn.innerText=="G#"?"Gb":"G#";
+   sharpbool=val=="sharp"?1:0;
 }
-function AnswerClicked(val){
-   quiz.GetQuestion(val);
-}
+function AnswerClicked(val){quiz.GetQuestion(val);}
 class Quiz{
    constructor(){
       this.dict={};
@@ -82,10 +79,7 @@ class Quiz{
          else response.innerText="INCORRECT, the correct answer was "+this.SharpToFlat(this.dict[currentQ]);
       }
    }
-   SharpToFlat(sharp){
-      if(sharp.length>1)return this.flats[sharp];
-      return sharp;
-   }
+   SharpToFlat(sharp){return sharp.length>1?this.flats[sharp]:sharp;}
 }
 
 class Display{
