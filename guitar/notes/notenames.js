@@ -110,7 +110,7 @@ class Display{
       }
    }
    DisplayQuestion(string,fret){
-      ctx.clearRect(-100,0,canvas.width, canvas.height);
+      ctx.clearRect(-50,0,canvas.width+50,canvas.height);
       this.Draw();
       let locator=string.toString()+fret.toString();
       currentQ=locator;
@@ -182,10 +182,9 @@ class Display{
       ctx.stroke();
    }
 }
-var Vector=(function(){
-   function Vector(pX,pY){
+class Vector{
+   constructor(pX,pY){
       this.x=pX;
       this.y=pY;
-   };
-   return Vector;
-})();
+   }
+}
