@@ -23,11 +23,19 @@ function SwitchSharps(val){
    let dSBtn=document.getElementById("DSharpBtn");
    let fSBtn=document.getElementById("FSharpBtn");
    let gSBtn=document.getElementById("GSharpBtn");
-   aSBtn.innerText=aSBtn.innerText=="A#"?"Bb":"A#";
-   cSBtn.innerText=cSBtn.innerText=="C#"?"Db":"C#";
-   dSBtn.innerText=dSBtn.innerText=="D#"?"Eb":"D#";
-   fSBtn.innerText=fSBtn.innerText=="F#"?"Gb":"F#";
-   gSBtn.innerText=gSBtn.innerText=="G#"?"Ab":"G#";
+   if(val=="sharp"){
+      aSBtn.innerText="A#";
+      cSBtn.innerText="C#";
+      dSBtn.innerText="D#";
+      fSBtn.innerText="F#";
+      gSBtn.innerText="G#";
+   }else{
+      aSBtn.innerText="Bb";
+      cSBtn.innerText="Db";
+      dSBtn.innerText="Eb";
+      fSBtn.innerText="Gb";
+      gSBtn.innerText="Ab";
+   }
    sharpbool=val=="sharp"?1:0;
 }
 function SelectString(val){
