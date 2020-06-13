@@ -1,4 +1,4 @@
-var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool;
+var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool,stringNum;
 function Setup(){
    canvas=document.getElementById("gtneck");
    if(!canvas){alert('Error: Canvas not found');return;}
@@ -10,9 +10,12 @@ function Setup(){
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
    sharpbool=1;
+   stringNum=0;
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    display.Draw();
+   SwitchSharps(document.getElementById("sharpSelector").value);
+   SelectString(document.getElementById("stringSelector").value);
 }
 function SwitchSharps(val){
    let aSBtn=document.getElementById("ASharpBtn");
@@ -26,6 +29,10 @@ function SwitchSharps(val){
    fSBtn.innerText=fSBtn.innerText=="F#"?"Fb":"F#";
    gSBtn.innerText=gSBtn.innerText=="G#"?"Gb":"G#";
    sharpbool=val=="sharp"?1:0;
+}
+function SelectString(val){
+   stringNum=parseInt(val);
+   GetQuestion(null,true);
 }
 function AnswerClicked(val){quiz.GetQuestion(val);}
 class Quiz{
@@ -57,13 +64,14 @@ class Quiz{
       this.flats['Gb']='F#';
       this.flats['Ab']='G#';
    }
-   GetQuestion(ans){
-      if(document.getElementById("ansBtn").innerText=="Submit"){
+   GetQuestion(ans,skip){
+      skip=skip===undefined?false:skip;
+      if(document.getElementById("ansBtn").innerText=="Submit"&&!skip){
          this.CheckAnswer(ans);
          document.getElementById("ansBtn").innerText="Next Question";
       }else{
          answerBox.value="";
-         let string=Math.floor((Math.random())*6)+1;
+         let string=stringNum>0?stringNum:Math.floor((Math.random())*6)+1;
          let fret=Math.floor(Math.random()*13);
          display.DisplayQuestion(string,fret);
          document.getElementById("ansBtn").innerText="Submit";
