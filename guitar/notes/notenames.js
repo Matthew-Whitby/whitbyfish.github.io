@@ -50,10 +50,10 @@ class Quiz{
    FillDict(){
       let notes=['A','A#','B','C','C#','D','D#','E','F','F#','G','G#'];
       let startindex=[7,2,10,5,0,7];
-      for(let j=1;j<7;j++){
-         let cur=startindex[j-1];
-         for(let i=0;i<13;i++){
-            let fretname=j.toString()+i.toString();
+      for(let i=1;i<7;i++){
+         let cur=startindex[i-1];
+         for(let j=0;j<13;j++){
+            let fretname=i.toString()+j.toString();
             this.dict[fretname]=notes[cur];
             if(cur<=10)cur++;
             else cur=0;
@@ -118,11 +118,11 @@ class Display{
       this.FillDict();
    }
    FillDict(){
-      for(let j=1;j<7;j++){
-         for(let i=0;i<13;i++){
-            let fretname=j.toString()+i.toString();
-            let yCoord=this.edgeVal+(this.stringGap*(j-1));
-            let xCoord=(i==0)?this.fretGap*i:(this.fretGap*i)-(this.fretGap/2);
+      for(let i=1;i<7;i++){
+         for(let j=0;j<13;j++){
+            let fretname=i.toString()+j.toString();
+            let yCoord=this.edgeVal+(this.stringGap*(i-1));
+            let xCoord=(j==0)?this.fretGap*j:(this.fretGap*j)-(this.fretGap/2);
             this.fretDict[fretname]=new Vector(xCoord,yCoord);
          }
       }
