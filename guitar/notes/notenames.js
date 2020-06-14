@@ -14,7 +14,6 @@ function Setup(){
    stringNum=0;
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
-   display.Draw();
    SwitchSharps(document.getElementById("sharpSelector").value);
    stringNum=parseInt(document.getElementById("sharpSelector").value);
    quiz.GetQuestion();
