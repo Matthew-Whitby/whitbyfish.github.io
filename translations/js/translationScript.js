@@ -94,10 +94,8 @@ function StickKanji(element){
     ShowKanji(stuck[0],true,false);
     stuck[0].classList.remove("stickied");
   }
-  console.log(element);
   ShowKanji(element,true,true);
   element.classList.add("stickied");
-  console.log(element);
 }
 
 function IsStickied(){
