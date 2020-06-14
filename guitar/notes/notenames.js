@@ -1,4 +1,4 @@
-var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool,stringNum;
+var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool,stringNum,ansBtn;
 function Setup(){
    canvas=document.getElementById("gtneck");
    if(!canvas){alert('Error: Canvas not found');return;}
@@ -9,13 +9,15 @@ function Setup(){
    ctx.translate(10,0);
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
+   ansBtn=document.getElementById("ansBtn");
    sharpbool=1;
    stringNum=0;
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    display.Draw();
    SwitchSharps(document.getElementById("sharpSelector").value);
-   SelectString(document.getElementById("stringSelector").value);
+   stringNum=parseInt(document.getElementById("sharpSelector").value);
+   quiz.GetQuestion();
 }
 function SwitchSharps(val){
    let aSBtn=document.getElementById("ASharpBtn");
@@ -38,11 +40,7 @@ function SwitchSharps(val){
    }
    sharpbool=val=="sharp"?1:0;
 }
-function SelectString(val){
-   stringNum=parseInt(val);
-   GetQuestion(null,true);
-}
-function AnswerClicked(val){quiz.GetQuestion(val);}
+function AnswerClicked(val){quiz.CheckAnswer(val);}
 class Quiz{
    constructor(){
       this.dict={};
@@ -72,32 +70,42 @@ class Quiz{
       this.flats['Gb']='F#';
       this.flats['Ab']='G#';
    }
-   GetQuestion(ans,skip){
-      skip=skip===undefined?false:skip;
-      if(document.getElementById("ansBtn").innerText=="Submit"&&!skip){
-         this.CheckAnswer(ans);
-         document.getElementById("ansBtn").innerText="Next Question";
-      }else{
-         answerBox.value="";
-         let string=stringNum>0?stringNum:Math.floor((Math.random())*6)+1;
-         let fret=Math.floor(Math.random()*13);
-         display.DisplayQuestion(string,fret);
-         document.getElementById("ansBtn").innerText="Submit";
-      }
-   }
    CheckAnswer(ans){
       if(ans==null||ans=="")ans=answerBox.value;
-      if(sharpbool){
-         if(ans.toUpperCase()==this.dict[currentQ])response.innerText="CORRECT";
-         else response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
-      }else{
-         if(ans.toLowerCase()==this.SharpToFlat(this.dict[currentQ]).toLowerCase())response.innerText="CORRECT";
-         else response.innerText="INCORRECT, the correct answer was "+this.SharpToFlat(this.dict[currentQ]);
+      if(ansBtn.innerText=="Next Question"){
+         ansBtn.innerText="Submit";
+         response.innerText="";
+         this.GetQuestion();
+         return;
       }
+      if(sharpbool){
+         if(ans.toUpperCase()==this.dict[currentQ]){
+            response.innerText="CORRECT";
+            this.GetQuestion();
+         }
+         else{
+            response.innerText="INCORRECT, the correct answer was "+this.dict[currentQ];
+            ansBtn.innerText="Next Question";
+         }
+      }else{
+         if(ans.toLowerCase()==this.SharpToFlat(this.dict[currentQ]).toLowerCase()){
+            response.innerText="CORRECT";
+            this.GetQuestion();
+         }
+         else{
+            response.innerText="INCORRECT, the correct answer was "+this.SharpToFlat(this.dict[currentQ]);
+            ansBtn.innerText="Next Question";
+         }
+      }
+   }
+   GetQuestion(){
+      answerBox.value="";
+      let string=stringNum>0?stringNum:Math.floor((Math.random())*6)+1;
+      let fret=Math.floor(Math.random()*13);
+      display.DisplayQuestion(string,fret);
    }
    SharpToFlat(sharp){return sharp.length>1?this.flats[sharp]:sharp;}
 }
-
 class Display{
    constructor(pPos,pNeckHeight,pNeckWidth){
       this.pos=pPos;

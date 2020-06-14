@@ -16,11 +16,7 @@
    <div id="menu"><a href="https://whitbyfish.net">Home</a></div>
    <h1>Note Names</h1>
    <div class="mid"><canvas id="gtneck" width="820" height="130"></canvas></div>
-   <div class="mid">
-      <input id="AnswerBox">
-      <button id="ansBtn" onclick="quiz.GetQuestion()">Start</button>
-   </div>
-   <div id="InputBtns" class="mid" style="margin-top:10px;">
+   <div id="InputBtns" class="mid">
       <button id="ABtn" onclick="AnswerClicked(this.innerText)">A</button>
       <button id="ASharpBtn" onclick="AnswerClicked(this.innerText)">A#</button>
       <button id="BBtn" onclick="AnswerClicked(this.innerText)">B</button>
@@ -46,6 +42,10 @@
          <option value="5">5</option>
          <option value="6">6</option>
       </select></div>
+      <div class="mid" style="margin-top:10px;">
+         <input id="AnswerBox">
+         <button id="ansBtn" onclick="quiz.CheckAnswer()">Submit</button>
+      </div>
    </div>
    <p id="response"></p>
    <script>Setup();</script>
