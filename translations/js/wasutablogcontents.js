@@ -134,6 +134,16 @@ function CheckParameters(){
         SelectMember(memberOptions[x].value);
       }
     }
+    let selectedProg=getUrlParam('p','all');
+    if(selectedProg==null)selectedProg="all";
+    let progressSelector=document.getElementById("selectProgress");
+    let progressOptions=progressSelector.children;
+    for(x=0;x<progressOptions.length;x++){
+      if(progressOptions[x].value==selectedProg){
+         progressSelector.selectedIndex=x;
+        ChangeDisplay(progressOptions[x].value);
+      }
+    }
 }
 function BlogCount(){
    document.getElementById("totalCount").innerText="Total: "+TotalBlogs();
