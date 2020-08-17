@@ -55,10 +55,12 @@ function SelectMonth(val){
    }
 }
 function SelectNotOnSite(){
-   let done=GetCL("done");
-   for(i=0;i<done.length;i++){
-      done[i].style.display=done[i].classList.contains("notsite")?"initial":"none";
-   }
+   let done=GetCL("done"),i;
+   for(i=0;i<done.length;i++)done[i].style.display=done[i].classList.contains("notsite")?"initial":"none";
+   let notdone=GetCL("notdone");
+   let inprog=GetCL("inprogress");
+   for(i=0;i<notdone.length;i++)notdone[i].style.display="none";
+   for(i=0;i<inprog.length;i++)inprog[i].style.display="none";
 }
 function SelectMember(val){
    let hazukiPosts=GetCL("hazuki");
