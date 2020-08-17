@@ -54,6 +54,12 @@ function SelectMonth(val){
       else months[i].style.display="none";
    }
 }
+function SelectNotOnSite(){
+   let done=GetCL("done");
+   for(i=0;i<done.length;i++){
+      done[i].style.display=done[i].classList.contains("notsite")?"initial":"none";
+   }
+}
 function SelectMember(val){
    let hazukiPosts=GetCL("hazuki");
    let nanasePosts=GetCL("nanase");
@@ -61,7 +67,7 @@ function SelectMember(val){
    let ririkaPosts=GetCL("ririka");
    let rukaPosts=GetCL("ruka");
    switch(val){
-      case "all":
+      case"all":
          ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts,...rukaPosts],true);
          break;
       case"hazuki":
@@ -144,7 +150,11 @@ function CheckParameters(){
         ChangeDisplay(progressOptions[x].value);
       }
     }
+    let notOnSite=getUrlParam('new','all');
+    if(notOnSite==null)notOnSite="all";
+    if(notOnSite!="all")SelectNotOnSite();
 }
+
 function BlogCount(){
    document.getElementById("totalCount").innerText="Total: "+TotalBlogs();
    document.getElementById("hazukiCount").innerText="Hazuki: "+GetCL("hazuki").length;
