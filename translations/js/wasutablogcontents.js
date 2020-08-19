@@ -45,8 +45,7 @@ function SelectYear(val){
 function SelectMonth(val){
    let months=GetCL("month"),i;
    for(i=0;i<months.length;i++){
-      let classes=months[i].classList;
-      let j,monthClass;
+      let classes=months[i].classList,j,monthClass;
       for(j=0;j<classes.length;j++)
          if(IsMonth(classes[j]))monthClass=classes[j];
       months[i].style.display=(val=="all"||monthClass==val)?"initial":"none";
@@ -146,7 +145,6 @@ function CheckParameters(){
     if(notOnSite==null)notOnSite="all";
     if(notOnSite!="all")SelectNotOnSite();
 }
-
 function BlogCount(){
    document.getElementById("totalCount").innerText="Total: "+TotalBlogs();
    document.getElementById("hazukiCount").innerText="Hazuki: "+GetCL("hazuki").length;
