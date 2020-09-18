@@ -33,9 +33,9 @@ function ResetSelection(l,c){
       for(i=0;i<c.length;i++)
          if(c[i].value=="all"){
             l.selectedIndex=i;
-            return [true,c[i].value];
+            return[true,c[i].value];
          }
-   }return [false];
+   }return[false];
 }
 function SelectYear(val){
    let years=GetCN("year"),i;
@@ -88,16 +88,6 @@ function SelectMember(val){
          ToggleDisplayMem([...hazukiPosts,...nanasePosts,...miriPosts,...ririkaPosts],false);
          break;
    }
-}
-function getUrlParam(parameter,defaultvalue){
-   var urlparameter=defaultvalue;
-   if(window.location.href.indexOf(parameter)>-1)urlparameter=getUrlVars()[parameter];
-   return urlparameter;
-}
-function getUrlVars() {
-   var vars={};
-   window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(m,key,value){vars[key]=value;});
-   return vars;
 }
 function CheckParameters(){
    let selectedYear=getUrlParam('y','all');
@@ -164,3 +154,5 @@ function NumToMonth(month){switch(month){case 13:case 1:return"january";case 2:r
 function IsMonth(n){n=n.toLowerCase();return(monthlist.includes(n))?!0:!1;}
 function GetCN(n){return document.getElementsByClassName(n);}
 function ToggleDisplayMem(e,l){for(z=0;z<e.length;z++)l?e[z].parentElement.classList.contains("mHidden")&&e[z].parentElement.classList.remove("mHidden"):e[z].parentElement.classList.contains("mHidden")||e[z].parentElement.classList.add("mHidden"),CheckTableMem(e[z])}function CheckTableMem(e){var l=e.parentElement.parentElement.parentElement;DetectVisibleElementMem(l)?l.classList.contains("mHidden")&&l.classList.remove("mHidden"):l.classList.contains("mHidden")||l.classList.add("mHidden")}function DetectVisibleElementMem(e){switch(e.tagName){case"TR":return"TH"!=e.childNodes[0].tagName&&!e.classList.contains("mHidden");default:if(null!=e&&null!=e.childNodes&&e.childNodes.length>0){for(var l=0;l<e.childNodes.length;l++)if(DetectVisibleElementMem(e.childNodes[l]))return!0;return!1}}}
+function getUrlVars(){var params={};window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(m,key,value){params[key]=value;});return params;}
+function getUrlParam(parameter,defaultvalue){var urlparameter=defaultvalue;if(window.location.href.indexOf(parameter)>-1)urlparameter=getUrlVars()[parameter];return urlparameter;}
