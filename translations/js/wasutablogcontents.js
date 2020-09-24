@@ -5,7 +5,7 @@ function ToggleSideNav(){
    let childNodes=sideNav.children,i;
    for(i=0;i<childNodes.length;i++){
       if(childNodes[i].id!="sideNavToggle"){
-         childNodes[i].style.display=(childNodes[i].style.display=="none")?"block":"none";
+         childNodes[i].style.display=childNodes[i].style.display==="none"?"block":"none";
       }
    }
 }
