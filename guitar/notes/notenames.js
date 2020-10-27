@@ -41,6 +41,7 @@ function SwitchSharps(val){
 }
 function SelectString(val){
    stringNum=val;
+   quiz.GetQuestion();
 }
 function AnswerClicked(val){quiz.CheckAnswer(val);}
 class Quiz{
