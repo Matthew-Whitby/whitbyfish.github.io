@@ -15,7 +15,7 @@ function Setup(){
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    SwitchSharps(document.getElementById("sharpSelector").value);
-   stringNum=parseInt(document.getElementById("sharpSelector").value);
+   stringNum=parseInt(document.getElementById("stringSelector").value);
    quiz.GetQuestion();
 }
 function SwitchSharps(val){
@@ -38,6 +38,9 @@ function SwitchSharps(val){
       gSBtn.innerText="Ab";
    }
    sharpbool=val=="sharp"?1:0;
+}
+function SelectString(val){
+   stringNum=val;
 }
 function AnswerClicked(val){quiz.CheckAnswer(val);}
 class Quiz{
