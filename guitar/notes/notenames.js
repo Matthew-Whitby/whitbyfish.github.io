@@ -1,4 +1,4 @@
-var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool,stringNum,ansBtn;
+var canvas,ctx,display,quiz,currentQ,answerBox,response,sharpbool=1,stringNum=0,ansBtn;
 function Setup(){
    canvas=document.getElementById("gtneck");
    if(!canvas){alert('Error: Canvas not found');return;}
@@ -10,8 +10,6 @@ function Setup(){
    answerBox=document.getElementById("AnswerBox");
    response=document.getElementById("response");
    ansBtn=document.getElementById("ansBtn");
-   sharpbool=1;
-   stringNum=0;
    display=new Display(new Vector(50,0),neckHeight,neckWidth);
    quiz=new Quiz();
    SwitchSharps(document.getElementById("sharpSelector").value);
